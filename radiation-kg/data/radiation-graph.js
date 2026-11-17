@@ -1026,13 +1026,7 @@ window.KG_GRAPH = {
       "aliases": [
         "颈部CT",
         "甲状腺CT",
-        "颈CT",
-        "CT扫描",
-        "操作规程",
-        "CT scan",
-        "operating procedures",
-        "头颈",
-        "head and neck"
+        "颈CT"
       ],
       "summary": "扫描范围由颅底扫描至胸骨上切迹，上气道扫描范围从鼻腔顶至第 7 颈椎下缘；喉部有效管电流量 150 mAs/层～250 mAs/层、甲状腺与颈部 200 mAs/层。",
       "attrs": [],
@@ -1301,6 +1295,69 @@ window.KG_GRAPH = {
           "cat": "扫描参数"
         },
         {
+          "k": "肺部 CT 检查 · 扫描体位（2）",
+          "v": "肺部 CT 检查：——扫描体位：仰卧位，身体置于床面中间，两臂上举，吸气末屏气扫描；",
+          "quote": "——扫描体位：仰卧位，身体置于床面中间，两臂上举，吸气末屏气扫描；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "肺部 CT 检查 · 扫描范围（2）",
+          "v": "肺部 CT 检查：——扫描范围：胸廓入口至后肋膈角；",
+          "quote": "——扫描范围：胸廓入口至后肋膈角；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "肺部 CT 检查 · 扫描基线（2）",
+          "v": "肺部 CT 检查：——扫描基线：水平线；",
+          "quote": "——扫描基线：水平线；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "肺部 CT 检查 · 扫描条件（2）",
+          "v": "肺部 CT 检查：——扫描条件：120 kV；自动 mA(100 mA～300 mA)；1.0 rot/s；",
+          "quote": "——扫描条件：120 kV；自动 mA(100 mA～300 mA)；1.0 rot/s；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "肺部 CT 检查 · 扫描层厚（2）",
+          "v": "肺部 CT 检查：——扫描层厚：根据具体 CT 机型选择；",
+          "quote": "——扫描层厚：根据具体 CT 机型选择；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "肺部 CT 检查 · 重建层厚（2）",
+          "v": "肺部 CT 检查：——重建层厚：小于 10 mm；",
+          "quote": "——重建层厚：小于 10 mm；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "肺部 CT 检查 · 重建算法（2）",
+          "v": "肺部 CT 检查：——重建算法：标准算法、肺组织算法；",
+          "quote": "——重建算法：标准算法、肺组织算法；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "肺部 CT 检查 · 增强条件",
+          "v": "肺部 CT 检查：——增强条件：注射总量：按每千克体重 300 mg～450 mg 碘计算,注射流率：3 mL/s～4 mL/s,注射后开始扫描时间：20 s～30 s，80 s～120 s延迟扫描，如有特殊情况，酌情处理；",
+          "quote": "——增强条件：注射总量：按每千克体重 300 mg～450 mg 碘计算,注射流率：3 mL/s～4 mL/s,注射后开始扫描时间：20 s～30 s，80 s～120 s延迟扫描，如有特殊情况，酌情处理；",
+          "src": "WS391-2024",
+          "cat": "增强扫描"
+        },
+        {
+          "k": "肺部 CT 检查 · 注意事项",
+          "v": "肺部 CT 检查：——注意事项：对于临床医生所开的增强申请单应在观察平扫图像或取患者的旧 CT 片进行观察后以决定是否还需增加局部的薄层图像；",
+          "quote": "——注意事项：对于临床医生所开的增强申请单应在观察平扫图像或取患者的旧 CT 片进行观察后以决定是否还需增加局部的薄层图像；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
           "k": "肺部 CT 检查 · 层厚",
           "v": "肺部 CT 检查：——层厚：采集层厚 1 mm～0.5 mm；",
           "quote": "——层厚：采集层厚 1 mm～0.5 mm；",
@@ -1318,135 +1375,6 @@ window.KG_GRAPH = {
           "cite": "中华医学会影像技术分会, 中华医学会放射学分会 / CT检查技术专家共识 / 中华放射学杂志 / 2016",
           "grade": "指南与共识",
           "ref": "XT-10"
-        },
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_ChestEnhanced",
-      "name": "胸部 CT 增强扫描",
-      "type": "ChestExam",
-      "graph": "radiation",
-      "tags": [
-        "胸部",
-        "增强",
-        "检查项目"
-      ],
-      "aliases": [
-        "胸部增强CT",
-        "肺增强CT",
-        "CT扫描",
-        "操作规程",
-        "CT scan",
-        "operating procedures",
-        "胸部",
-        "肺部",
-        "chest",
-        "lungs"
-      ],
-      "summary": "管电压 120 kV、自动 mA（100 mA～300 mA）、1.0 rot/s；对比剂按每千克体重 300 mg～450 mg 碘计算，注射流率 3 mL/s～4 mL/s，注射后 20 s～30 s 开始扫描，另有 80 s～120 s 延迟扫描。",
-      "attrs": [],
-      "details": [
-        {
-          "k": "减少增强CT的扫描期相",
-          "v": "推荐在充分了解患儿病情的前提下，鼓励根据临床适应证减少增强CT的扫描期相。",
-          "quote": "推荐在充分了解患儿病情的前提下，鼓励根据临床适应证减少增强CT的扫描期相。",
-          "src": "CN-06",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "腹 / 盆腔 CT 多数情况单期即可",
-          "v": "腹部与盆腔 CT 的绝大多数临床问题，用 **单期** 检查即可回答；多期（平扫、动脉早期 / 晚期、门静脉期、延迟期）只在特定适应证下用于提高异常检出与定性。单纯评估骨性结构或尿路结石一般不需要静脉增强。",
-          "quote": "The majority of clinical questions for abdominal and pelvic CT can be appropriately answered with a single-phase study. Multiple-phase studies, such as unenhanced, early/late arterial, portal venous or delayed-phase scanning, might be required in certain indications for improved detection and characterization of abnormalities, such as characterization of liver or renal lesions, D. detection of active bleeding, etc. Abnormal findings on an unenhanced examination may require further evaluation with IV contrast administration or an alternative imaging study if iodinated contrast medium is contraindicated. Administration of IV contrast is generally not required for the sole assessment of bony structures or urolithiasis.",
-          "src": "EN-10",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "胸部 CT 增强扫描 · 扫描体位",
-          "v": "胸部 CT 增强扫描：——扫描体位：仰卧位，身体置于床面中间，两臂上举，吸气末屏气扫描；",
-          "quote": "——扫描体位：仰卧位，身体置于床面中间，两臂上举，吸气末屏气扫描；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "胸部 CT 增强扫描 · 扫描范围",
-          "v": "胸部 CT 增强扫描：——扫描范围：胸廓入口至后肋膈角；",
-          "quote": "——扫描范围：胸廓入口至后肋膈角；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "胸部 CT 增强扫描 · 扫描基线",
-          "v": "胸部 CT 增强扫描：——扫描基线：水平线；",
-          "quote": "——扫描基线：水平线；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "胸部 CT 增强扫描 · 扫描条件",
-          "v": "胸部 CT 增强扫描：——扫描条件：120 kV；自动 mA(100 mA～300 mA)；1.0 rot/s；",
-          "quote": "——扫描条件：120 kV；自动 mA(100 mA～300 mA)；1.0 rot/s；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "胸部 CT 增强扫描 · 扫描层厚",
-          "v": "胸部 CT 增强扫描：——扫描层厚：根据具体 CT 机型选择；",
-          "quote": "——扫描层厚：根据具体 CT 机型选择；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "胸部 CT 增强扫描 · 重建层厚",
-          "v": "胸部 CT 增强扫描：——重建层厚：小于 10 mm；",
-          "quote": "——重建层厚：小于 10 mm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "胸部 CT 增强扫描 · 重建算法",
-          "v": "胸部 CT 增强扫描：——重建算法：标准算法、肺组织算法；",
-          "quote": "——重建算法：标准算法、肺组织算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "胸部 CT 增强扫描 · 注意事项",
-          "v": "胸部 CT 增强扫描：——注意事项：对于临床医生所开的增强申请单应在观察平扫图像或取患者的旧 CT 片进行观察后以决定是否还需增加局部的薄层图像；",
-          "quote": "——注意事项：对于临床医生所开的增强申请单应在观察平扫图像或取患者的旧 CT 片进行观察后以决定是否还需增加局部的薄层图像；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "共识",
-          "author": "中华医学会儿科学分会影像学组, 中华医学会放射学分会儿科学组",
-          "title": "儿童CT检查辐射剂量标准中国专家共识",
-          "journal": "中华放射学杂志",
-          "year": 2024,
-          "cite": "中华医学会儿科学分会影像学组, 中华医学会放射学分会儿科学组 / 儿童CT检查辐射剂量标准中国专家共识 / 中华放射学杂志 / 2024",
-          "grade": "指南与共识",
-          "ref": "CN-06"
-        },
-        {
-          "type": "指南",
-          "author": "American College of Radiology",
-          "title": "ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d)",
-          "journal": "American College of Radiology Practice Parameters and Technical Standards",
-          "year": 2026,
-          "cite": "American College of Radiology / ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d) / American College of Radiology Practice Parameters and Technical Standards / 2026",
-          "grade": "指南与共识",
-          "ref": "EN-10"
         },
         {
           "type": "推荐",
@@ -2265,6 +2193,13 @@ window.KG_GRAPH = {
           "cat": "扫描参数"
         },
         {
+          "k": "胸部低剂量 CT 检查 · 增强条件",
+          "v": "胸部低剂量 CT 检查：检查前禁食 4 h，不需禁水，签署知情同意书。注射总量：对比剂剂量按每千克体重 300～450 mg碘计算。注射流率：3 mL/s～4 mL/s。注射后开始扫描时间：25 s～30 s。必要时可以延迟扫描，如有特殊情况，酌情处理。检查结束后，观察 20 min，病人无不适方可离开，若病情允许，嘱病人多饮水，以利于对比剂排泄。",
+          "quote": "检查前禁食 4 h，不需禁水，签署知情同意书。注射总量：对比剂剂量按每千克体重 300～450 mg碘计算。注射流率：3 mL/s～4 mL/s。注射后开始扫描时间：25 s～30 s。必要时可以延迟扫描，如有特殊情况，酌情处理。检查结束后，观察 20 min，病人无不适方可离开，若病情允许，嘱病人多饮水，以利于对比剂排泄。",
+          "src": "WS391-2024",
+          "cat": "增强扫描"
+        },
+        {
           "k": "胸部低剂量 CT 检查 · 注意事项",
           "v": "胸部低剂量 CT 检查：对于临床医生所开的增强申请单应在观察平扫图像或取患者的旧 CT 片进行观察后以决定是否还需增加局部的薄层图像。对于多排 CT 采用低剂量技术进行肺部疾病的筛查，发现难定性病灶后建议在病灶层面加扫常规剂量或者高分辨算法扫描，强调薄层扫描，靶扫描，多视窗调节。薄层扫描：层厚 1 mm，常规视野，标准算法重建图像。靶扫描：窄准直与小视野相结合(包括病灶同侧肺和纵隔)。后处理：CT 扫描完成后应进行图像后处理，除常规的横断面、矢状面、冠状面的多平面重组技术外，酌情使用最大密度投影、最小密度投影及容积再现等多种技术进行图像后处理。",
           "quote": "对于临床医生所开的增强申请单应在观察平扫图像或取患者的旧 CT 片进行观察后以决定是否还需增加局部的薄层图像。对于多排 CT 采用低剂量技术进行肺部疾病的筛查，发现难定性病灶后建议在病灶层面加扫常规剂量或者高分辨算法扫描，强调薄层扫描，靶扫描，多视窗调节。薄层扫描：层厚 1 mm，常规视野，标准算法重建图像。靶扫描：窄准直与小视野相结合(包括病灶同侧肺和纵隔)。后处理：CT 扫描完成后应进行图像后处理，除常规的横断面、矢状面、冠状面的多平面重组技术外，酌情使用最大密度投影、最小密度投影及容积再现等多种技术进行图像后处理。",
@@ -2380,13 +2315,6 @@ window.KG_GRAPH = {
           "cat": "扫描参数"
         },
         {
-          "k": "先心病儿童心血管 CT 剂量",
-          "v": "Position Statement 指出：现代多排心血管 CT 能在儿童心率下完成精细的心脏形态成像，并较 MRI 或心导管检查减少镇静需要，其有效剂量可低于 1 mSv。",
-          "quote": "Cardiovascular CT is an increasingly common modality in children with CAHD (51–53). Modern cardiovascular multidetector CT (MDCT) scanner technology delivers detailed cardiac morphological imaging at the fast heart rates of children (51), reduces the need for sedation compared with magnetic resonance (MR) imaging (52) or cardiac catheterization, and can be performed at effective doses of <1 mSv (54–56).",
-          "src": "EN-16",
-          "cat": "特殊人群"
-        },
-        {
           "k": "儿童模体与管电压模式",
           "v": "采用西门子双源Force CT机，以PMMA模体模拟5岁儿童体型，设置Sn150 kV、80 kV/Sn150 kV、90 kV/Sn150 kV、100 kV/Sn150 kV共4种管电压模式",
           "quote": "采用西门子双源Force CT机，以聚甲基丙烯酸甲酯(PMMA)模体模拟5岁儿童体型，设置4种管电压模式(Sn150 kV、80 kV/Sn150 kV、90 kV/Sn150 kV、100 kV/Sn150 kV)，配合覆盖式和包裹式两种屏蔽方式进行扫描。",
@@ -2404,13 +2332,6 @@ window.KG_GRAPH = {
           "k": "儿童CTDIvol降低",
           "v": "与能量积分探测器CT相比，光子计数探测器CT的儿童CTDIvol显著更低（MD=-0.90 mGy），SSDE亦显著更低（MD=-1.35 mGy）",
           "quote": "Compared with EID-CT, PCD-CT showed significantly lower CTDIvol (MD=-0.90 mGy; 95% confidence interval [CI]: -1.74 to -0.06; P=0.036; 95% prediction interval [PI]: -4.06 to 2.26) and significantly lower SSDE (MD=-1.35 mGy; 95% CI: -2.32 to -0.38; P=0.006; PI: -4.63 to 1.92).",
-          "src": "SR-14",
-          "cat": "特殊人群"
-        },
-        {
-          "k": "对比剂用量下降",
-          "v": "两项研究报告在维持客观图像质量的同时对比剂用量减少25%~50%",
-          "quote": "Two studies reported 25-50% reductions in contrast dose while maintaining image quality based on objective metrics.",
           "src": "SR-14",
           "cat": "特殊人群"
         },
@@ -2765,16 +2686,6 @@ window.KG_GRAPH = {
           "ref": "CN-16"
         },
         {
-          "type": "声明",
-          "author": "Hill KD, Frush DP, Han BK, Abbott BG, Armstrong AK, DeKemp RA, Glatz AC, Greenberg SB, Herbert AS, Justino H, Mah D, Mahesh M, Rigsby CK, Slesnick TC, Strauss KJ, Trattner S, Viswanathan MN, Einstein AJ",
-          "title": "Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance",
-          "journal": "JACC: Cardiovascular Imaging",
-          "year": 2017,
-          "cite": "Hill KD, Frush DP, Han BK, Abbott BG, Armstrong AK, DeKemp RA, Glatz AC, Greenberg SB, Herbert AS, Justino H, Mah D, Mahesh M, Rigsby CK, Slesnick TC, Strauss KJ, Trattner S, Viswanathan MN, Einstein AJ / Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance / JACC: Cardiovascular Imaging / 2017",
-          "grade": "声明",
-          "ref": "EN-16"
-        },
-        {
           "type": "推荐",
           "author": "赵彤, 马梓轩, 刘丹丹, 冯泽臣, 张永县, 牛延涛",
           "title": "第三代双源CT能谱纯化技术结合不同屏蔽方式对儿童辐射剂量影响的模体研究",
@@ -2893,25 +2804,11 @@ window.KG_GRAPH = {
           "cat": "扫描参数"
         },
         {
-          "k": "降低管电压的收益",
-          "v": "指南指出：在儿科心脏胸膜 CT 中使用更低的管电压是有益的，因为可获得更高的碘对比噪声比。",
-          "quote": "The use of lower tube voltages is beneficial in pediatric cardiothoracic CT, because it produces a higher iodine contrast-to-noise ratio",
-          "src": "EN-20",
-          "cat": "扫描参数"
-        },
-        {
           "k": "决定采集的曝光参数",
           "v": "IAEA 报告：在多数现代 X 线成像系统中，图像采集由管电压、管电流、曝光时间、管电流时间积与滤过（固有与附加）等关键曝光参数决定。",
           "quote": "In most modern X ray imaging systems, image acquisition is governed by key exposure parameters such as peak tube voltage (kVp), tube current (mA), exposure time (ms), tube current-time product (mAs) and filtration (inherent and added).",
           "src": "EN-22",
           "cat": "扫描参数"
-        },
-        {
-          "k": "80kV剂量参数",
-          "v": "80 kV低剂量低对比CT冠脉造影的CTDIvol为2.08 mGy、DLP为38.8 mGy·cm、有效剂量为0.37 mSv",
-          "quote": "At 80 kV, combined SNR and CNR were 27.1 (95% confidence interval [CI]: 17.85-36.26) and 31.2 (95% CI: 22.21-40.28), respectively, with CTDIvol: 2.08 mGy, DLP: 38.8 mGy·cm, and ED: 0.37 mSv.",
-          "src": "SR-15",
-          "cat": "剂量指标"
         },
         {
           "k": "100kV剂量参数",
@@ -2991,16 +2888,6 @@ window.KG_GRAPH = {
           "cite": "粤港澳大湾区影像技术联盟, 广东省医师协会医学影像技师分会 / 粤港澳大湾区数字X射线骨关节摄影检查技术与防护规范专家共识 / 中华放射医学与防护杂志 / 2024",
           "grade": "指南与共识",
           "ref": "CN-37"
-        },
-        {
-          "type": "指南",
-          "author": "Hong SH, Goo HW, Maeda E, Choo KS, Tsai IC",
-          "title": "Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1",
-          "journal": "Imaging Techniques",
-          "year": 2019,
-          "cite": "Hong SH, Goo HW, Maeda E, Choo KS, Tsai IC / Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1 / Imaging Techniques / 2019",
-          "grade": "指南与共识",
-          "ref": "EN-20"
         },
         {
           "type": "推荐",
@@ -3488,13 +3375,6 @@ window.KG_GRAPH = {
       "attrs": [],
       "details": [
         {
-          "k": "迭代重建可降低儿童CT剂量30%~50%",
-          "v": "迭代重建算法（IR）可降低儿童CT辐射剂量的30%~50%；设备允许时应充分利用 IR 优势，不支持 IR 时应调整扫描参数尽量降低辐射剂量。",
-          "quote": "大量研究表明IR可以降低儿童CT辐射剂量的30%~50%。",
-          "src": "CN-06",
-          "cat": "扫描参数"
-        },
-        {
           "k": "重建层厚与重建间隔",
           "v": "重建层厚≤0.625 mm 可无间隔重建；重建层厚介于 0.625～1.250 mm 之间时，重建间隔≤层厚的80%。",
           "quote": "若重建层厚≤0.625 mm可以无间隔重建，若重建层厚介于0.625～1.250 mm之间，则重建间隔≤层厚的80%",
@@ -3521,13 +3401,6 @@ window.KG_GRAPH = {
           "quote": "PCD-CT also demonstrated significantly higher SNR (SMD=0.42; 95% CI: 0.05 to 0.78; P=0.024; PI: -0.94 to 1.77) and a small significant increase in CNR (SMD=0.34; 95% CI: 0.02 to 0.66; P=0.037; PI: -0.66 to 1.34).",
           "src": "SR-14",
           "cat": "设备防护性能"
-        },
-        {
-          "k": "图像质量保持",
-          "v": "衰减、信噪比与对比噪声比均维持在可接受的诊断范围内，支持低剂量方案的有效性",
-          "quote": "Image parameters such as attenuation, signal-to-noise ratio, and contrast-to-noise ratio remained within acceptable diagnostic limits, supporting the efficacy of low-dose protocols.",
-          "src": "SR-17",
-          "cat": "扫描参数"
         },
         {
           "k": "组合降剂量手段的累积降幅",
@@ -3559,16 +3432,6 @@ window.KG_GRAPH = {
         }
       ],
       "evidence": [
-        {
-          "type": "共识",
-          "author": "中华医学会儿科学分会影像学组, 中华医学会放射学分会儿科学组",
-          "title": "儿童CT检查辐射剂量标准中国专家共识",
-          "journal": "中华放射学杂志",
-          "year": 2024,
-          "cite": "中华医学会儿科学分会影像学组, 中华医学会放射学分会儿科学组 / 儿童CT检查辐射剂量标准中国专家共识 / 中华放射学杂志 / 2024",
-          "grade": "指南与共识",
-          "ref": "CN-06"
-        },
         {
           "type": "共识",
           "author": "中华医学会放射学分会心胸学组",
@@ -3608,16 +3471,6 @@ window.KG_GRAPH = {
           "cite": "Altintas Mese C, Mese I / Radiation dose and objective image quality of photon-counting detector computed tomography in pediatric imaging: a systematic review and meta-analysis / Pediatr Radiol / 2026",
           "grade": "Meta分析",
           "ref": "SR-14"
-        },
-        {
-          "type": "Meta分析",
-          "author": "S S, Pradhan A, Kadavigere R, et al",
-          "title": "Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis",
-          "journal": "J Med Imaging Radiat Sci",
-          "year": 2026,
-          "cite": "S S, Pradhan A, Kadavigere R, et al / Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis / J Med Imaging Radiat Sci / 2026",
-          "grade": "Meta分析",
-          "ref": "SR-17"
         },
         {
           "type": "系统评价",
@@ -3899,13 +3752,6 @@ window.KG_GRAPH = {
           "cat": "剂量指标"
         },
         {
-          "k": "普通 CT 医师可用的剂量量",
-          "v": "SCCT 指南：目前普通 CT 影像医师可用的最佳辐射剂量描述量是 CTDIvol 与 DLP。",
-          "quote": "The best radiation dose descriptors currently available to the average CT imager are CTDIvol and DLP",
-          "src": "EN-19",
-          "cat": "剂量指标"
-        },
-        {
           "k": "CT 的剂量学量",
           "v": "该安全指南指出：CT 的剂量学量为 CT 空气比释动能指数（通常以 mGy 表示，俗称 CTDI）、加权 CT 空气比释动能指数、体积 CT 空气比释动能指数（俗称体积 CTDI）以及 CT 空气比释动能-长度乘积（通常以 mGy·cm 表示，俗称剂量长度乘积）。",
           "quote": "In CT, the dosimetric quantities are (see also Refs [10–12, 173–176]): (a) CT air kerma index, usually in mGy. In many States, the more colloquial term computed tomography dose index (CTDI) is used, and is accepted by the ICRU [12]. (b) Weighted CT air kerma index, usually in mGy, which is the CT air kerma calculated from measurements at the centre and periphery of a standard polymethylmethacrylate CT head or body phantom. As in (a), this quantity is often simply called the weighted CTDI. (c) Volume CT air kerma index, usually in mGy, which takes into account the helical pitch or axial scan spacing. As in (a), this quantity is often simply called volume CTDI.",
@@ -3992,16 +3838,6 @@ window.KG_GRAPH = {
           "cite": "Vañó E, Miller DL, Martin CJ, Rehani MM, Kang K, Rosenstein M, Ortiz-López P, Mattsson S, Padovani R, Rogers A / on behalf of ICRP. Diagnostic reference levels in medical imaging / ICRP Publication 135 / 2017",
           "grade": "指南与共识",
           "ref": "EN-05"
-        },
-        {
-          "type": "指南",
-          "author": "Halliburton SS, Abbara S, Chen MY, Gentry R, Mahesh M, Raff GL, Shaw LJ, Hausleiter J",
-          "title": "Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT",
-          "journal": "Journal of Cardiovascular Computed Tomography",
-          "year": 2011,
-          "cite": "Halliburton SS, Abbara S, Chen MY, Gentry R, Mahesh M, Raff GL, Shaw LJ, Hausleiter J / Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT / Journal of Cardiovascular Computed Tomography / 2011",
-          "grade": "指南与共识",
-          "ref": "EN-19"
         },
         {
           "type": "推荐",
@@ -4210,13 +4046,6 @@ window.KG_GRAPH = {
           "k": "腹部平扫用第50百分位数作标准",
           "v": "腹部平扫的调查结果与胸部平扫相似，推荐以 CHN2022 的50%位数作为腹部平扫的辐射剂量标准。",
           "quote": "所以，推荐以CHN2022的50%位数作为腹部平扫的辐射剂量标准。",
-          "src": "CN-06",
-          "cat": "剂量参考水平"
-        },
-        {
-          "k": "增强CT按75%位数、鼓励前瞻性50%位数研究",
-          "v": "颅脑增强、胸部增强、腹部增强仍推荐以 CHN2022 的75%位数作为辐射剂量标准；胸部增强鼓励以 ACR2022 或 CHN2022 的50%位数作为目标进行前瞻性研究。",
-          "quote": "仍推荐以CHN2022的75%位数作为胸部增强的辐射剂量标准，鼓励以ACR2022或CHN2022的50%位数作为目标进行前瞻性研究。",
           "src": "CN-06",
           "cat": "剂量参考水平"
         },
@@ -5122,13 +4951,6 @@ window.KG_GRAPH = {
           "quote": "Head, brain, cranium 1000 760-1300 1,7 BG, CH, FI, LU, NO AT, BE, DK, FR, IT, PL, SE, SI DE, IE, LT, UK",
           "src": "EN-03",
           "cat": "剂量参考水平"
-        },
-        {
-          "k": "DRL2018新增检查项目",
-          "v": "DRL 2018首次给出我国成年人鼻窦、尿路造影（CTU）、冠状动脉CTA、颅脑CTA、颈部CTA、胸腹部CTA等检查的诊断参考水平。",
-          "quote": "DRL 2018 首次给出了我国成年人鼻窦、尿路造影\n(CTU)、冠状动脉CTA、颅脑CTA、颈部CTA、胸腹部\nCTA 等检查的DRL。",
-          "src": "CN-23",
-          "cat": "剂量参考"
         }
       ],
       "evidence": [
@@ -5151,16 +4973,6 @@ window.KG_GRAPH = {
           "cite": "European Commission / Radiation Protection No. 180: Diagnostic Reference Levels in Thirty-six European Countries, Part 2/2 / Directorate-General for Energy, Directorate D - Nuclear Safety & Fuel Cycle, Unit D3 - Radiation Protection / 2014",
           "grade": "指南与共识",
           "ref": "EN-03"
-        },
-        {
-          "type": "标准",
-          "author": "李润根, 苏蓓蓓, 马妮, 刘颖, 白皓",
-          "title": "我国CT检查成年人辐射剂量诊断参考水平的建立历程及解读",
-          "journal": "中华放射医学与防护杂志",
-          "year": 2020,
-          "cite": "李润根, 苏蓓蓓, 马妮, 刘颖, 白皓 / 我国CT检查成年人辐射剂量诊断参考水平的建立历程及解读 / 中华放射医学与防护杂志 / 2020",
-          "grade": "标准",
-          "ref": "CN-23"
         }
       ]
     },
@@ -5357,13 +5169,6 @@ window.KG_GRAPH = {
           "quote": "For head CT, CTDIvol values ranged from 38.2 to 117.6 mGy, while DLP values ranged from 512 to 1943 mGy·cm across the included studies.",
           "src": "SR-09",
           "cat": "剂量参考水平"
-        },
-        {
-          "k": "头颅 CT 的诊断参考水平",
-          "v": "头颅：25% 位数 CTDIw 40 mGy、DLP 550 mGy·cm；50% 位数 CTDIw 50 mGy、DLP 690 mGy·cm；75% 位数 CTDIw 60 mGy、DLP 860 mGy·cm。",
-          "quote": "头颅 d 40 550 50 690 60 860",
-          "src": "WS637-2018",
-          "cat": "剂量参考水平"
         }
       ],
       "evidence": [
@@ -5396,16 +5201,6 @@ window.KG_GRAPH = {
           "cite": "Bani Yaseen AB, Trapp J, Fontanarosa D / Adult diagnostic reference levels in computed tomography: A systematic review and analysis of regional variability / Eur J Radiol / 2026",
           "grade": "系统评价",
           "ref": "SR-09"
-        },
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2018,
-          "cite": "国家卫生健康委员会 / WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》 / 中华人民共和国卫生行业标准 / 2018",
-          "grade": "推荐",
-          "ref": "WS637-2018"
         }
       ]
     },
@@ -5538,13 +5333,6 @@ window.KG_GRAPH = {
           "cat": "剂量参考水平"
         },
         {
-          "k": "中国成人CT增强扫描的DRL数值",
-          "v": "中国多中心调研数据：胸部与腹部增强扫描的CTDIvol分别为11 mGy、18 mGy，DLP分别为468 mGy·cm、1 787 mGy·cm。",
-          "quote": "中国胸部与腹部增强扫描的CTDIvol分别为11、18 mGy，DLP分别为468、1 787 mGy·cm。",
-          "src": "CN-04",
-          "cat": "剂量参考水平"
-        },
-        {
           "k": "胸部 CT 的诊断参考水平",
           "v": "胸部：25% 位数 CTDIvol 6 mGy、DLP 200 mGy·cm；50% 位数 CTDIvol 8 mGy、DLP 300 mGy·cm；75% 位数 CTDIvol 15 mGy、DLP 470 mGy·cm。",
           "quote": "胸部 6 200 8 300 15 470",
@@ -5562,16 +5350,6 @@ window.KG_GRAPH = {
           "cite": "国家卫生健康委员会 / WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》 / 中华人民共和国卫生行业标准 / 2026",
           "grade": "标准",
           "ref": "CN-01"
-        },
-        {
-          "type": "共识",
-          "author": "中华医学会放射学分会质量管理与安全管理学组",
-          "title": "CT辐射剂量诊断参考水平专家共识",
-          "journal": "中华放射学杂志",
-          "year": 2017,
-          "cite": "中华医学会放射学分会质量管理与安全管理学组 / CT辐射剂量诊断参考水平专家共识 / 中华放射学杂志 / 2017",
-          "grade": "指南与共识",
-          "ref": "CN-04"
         },
         {
           "type": "推荐",
@@ -5776,319 +5554,6 @@ window.KG_GRAPH = {
       ]
     },
     {
-      "id": "DL_Urography",
-      "name": "尿路造影的诊断参考水平",
-      "type": "DRLLevel",
-      "graph": "radiation",
-      "tags": [
-        "剂量参考水平",
-        "尿路造影"
-      ],
-      "aliases": [
-        "尿路造影DRL"
-      ],
-      "summary": "尿路造影：25% 位数 CTDIvol 10 mGy、DLP 870 mGy·cm；50% 位数 CTDIvol 15 mGy、DLP 1780 mGy·cm；75% 位数 CTDIvol 20 mGy、DLP 2620 mGy·cm。",
-      "attrs": [],
-      "details": [
-        {
-          "k": "成人 CT 的诊断参考水平（尿路造影）",
-          "v": "尿路造影：25% 位数 CTDIvol 10 mGy、DLP 870 mGy·cm；50% 位数 CTDIvol 15 mGy、DLP 1780 mGy·cm；75% 位数 CTDIvol 20 mGy、DLP 2620 mGy·cm（表 C.3）。",
-          "quote": "尿路造影 10 870 15 1780 20 2620",
-          "src": "CN-01",
-          "cat": "剂量参考水平"
-        },
-        {
-          "k": "CTU剂量CTDI低DLP高",
-          "v": "尿路造影CTU的CTDIvol仅为20 mGy，但DLP高达2 620 mGy·cm，源于扫描长度大和扫描期相多等因素共同作用。",
-          "quote": "CTU 检查的CTDIvol 仅为20 mGy, 但DLP 高达\n2 620 mGy·cm,是由于扫描长度大和扫描期相多等剂量因\n素共同作用的结果。",
-          "src": "CN-23",
-          "cat": "剂量参考"
-        },
-        {
-          "k": "尿路造影剂量实测值",
-          "v": "尿路造影CTDIvol虽仅为20 mGy，但DLP高达2 620 mGy·cm。",
-          "quote": "尿路造影的CTDI vol 虽然仅为20 mGy，但DLP却高达2 620 mGy·cm。",
-          "src": "XT-13",
-          "cat": "剂量指标"
-        },
-        {
-          "k": "尿路造影的诊断参考水平",
-          "v": "尿路造影：25% 位数 CTDIvol 10 mGy、DLP 870 mGy·cm；50% 位数 CTDIvol 15 mGy、DLP 1780 mGy·cm；75% 位数 CTDIvol 20 mGy、DLP 2620 mGy·cm。",
-          "quote": "尿路造影 10 870 15 1780 20 2620",
-          "src": "WS637-2018",
-          "cat": "剂量参考水平"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "标准",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2026,
-          "cite": "国家卫生健康委员会 / WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》 / 中华人民共和国卫生行业标准 / 2026",
-          "grade": "标准",
-          "ref": "CN-01"
-        },
-        {
-          "type": "标准",
-          "author": "李润根, 苏蓓蓓, 马妮, 刘颖, 白皓",
-          "title": "我国CT检查成年人辐射剂量诊断参考水平的建立历程及解读",
-          "journal": "中华放射医学与防护杂志",
-          "year": 2020,
-          "cite": "李润根, 苏蓓蓓, 马妮, 刘颖, 白皓 / 我国CT检查成年人辐射剂量诊断参考水平的建立历程及解读 / 中华放射医学与防护杂志 / 2020",
-          "grade": "标准",
-          "ref": "CN-23"
-        },
-        {
-          "type": "推荐",
-          "author": "牛延涛, 张永县, 康天良, 鲜军舫",
-          "title": "成年人CT扫描中辐射剂量和诊断参考水平的探讨",
-          "journal": "中华放射医学与防护杂志",
-          "year": 2016,
-          "cite": "牛延涛, 张永县, 康天良, 鲜军舫 / 成年人CT扫描中辐射剂量和诊断参考水平的探讨 / 中华放射医学与防护杂志 / 2016",
-          "grade": "推荐",
-          "ref": "XT-13"
-        },
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2018,
-          "cite": "国家卫生健康委员会 / WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》 / 中华人民共和国卫生行业标准 / 2018",
-          "grade": "推荐",
-          "ref": "WS637-2018"
-        }
-      ]
-    },
-    {
-      "id": "DL_Coronary",
-      "name": "冠脉 CTA 的诊断参考水平",
-      "type": "DRLLevel",
-      "graph": "radiation",
-      "tags": [
-        "剂量参考水平",
-        "冠脉CTA"
-      ],
-      "aliases": [
-        "冠脉CTA DRL"
-      ],
-      "summary": "冠脉CTA：25% 位数 CTDIvol 15 mGy、DLP 210 mGy·cm；50% 位数 CTDIvol 25 mGy、DLP 360 mGy·cm；75% 位数 CTDIvol 40 mGy、DLP 600 mGy·cm；前瞻扫描：25% 位数 CTDIvol 30 mGy、DLP 490 mGy·cm；50% 位数 45 mGy、750 mGy·cm；75% 位数 60 mGy、1030 mGy·cm。",
-      "attrs": [],
-      "details": [
-        {
-          "k": "成人 CT 的诊断参考水平（冠脉CTA（前瞻））",
-          "v": "冠脉CTA（前瞻）：25% 位数 CTDIvol 15 mGy、DLP 210 mGy·cm；50% 位数 CTDIvol 25 mGy、DLP 360 mGy·cm；75% 位数 CTDIvol 40 mGy、DLP 600 mGy·cm（表 C.3）。",
-          "quote": "冠脉CTA（前瞻） 15 210 25 360 40 600",
-          "src": "CN-01",
-          "cat": "剂量参考水平"
-        },
-        {
-          "k": "成人 CT 的诊断参考水平（冠脉CTA（回顾））",
-          "v": "冠脉CTA（回顾）：25% 位数 CTDIvol 30 mGy、DLP 490 mGy·cm；50% 位数 CTDIvol 45 mGy、DLP 750 mGy·cm；75% 位数 CTDIvol 60 mGy、DLP 1030 mGy·cm（表 C.3）。",
-          "quote": "冠脉CTA（回顾） 30 490 45 750 60 1030",
-          "src": "CN-01",
-          "cat": "剂量参考水平"
-        },
-        {
-          "k": "冠脉 CTA 的诊断参考水平（冠脉 CTA（前瞻））",
-          "v": "冠脉 CTA（前瞻）：25% 位数 CTDIvol 15 mGy、DLP 210 mGy·cm；50% 位数 CTDIvol 25 mGy、DLP 360 mGy·cm；75% 位数 CTDIvol 40 mGy、DLP 600 mGy·cm。",
-          "quote": "冠脉CTA（前瞻） 15 210 25 360 40 600",
-          "src": "WS637-2018",
-          "cat": "剂量参考水平"
-        },
-        {
-          "k": "冠脉 CTA 的诊断参考水平（冠脉 CTA（回顾））",
-          "v": "冠脉 CTA（回顾）：25% 位数 CTDIvol 30 mGy、DLP 490 mGy·cm；50% 位数 CTDIvol 45 mGy、DLP 750 mGy·cm；75% 位数 CTDIvol 60 mGy、DLP 1030 mGy·cm。",
-          "quote": "冠脉CTA（回顾） 30 490 45 750 60 1030",
-          "src": "WS637-2018",
-          "cat": "剂量参考水平"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "标准",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2026,
-          "cite": "国家卫生健康委员会 / WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》 / 中华人民共和国卫生行业标准 / 2026",
-          "grade": "标准",
-          "ref": "CN-01"
-        },
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2018,
-          "cite": "国家卫生健康委员会 / WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》 / 中华人民共和国卫生行业标准 / 2018",
-          "grade": "推荐",
-          "ref": "WS637-2018"
-        }
-      ]
-    },
-    {
-      "id": "DL_CerebralCTA",
-      "name": "颅脑 CTA 的诊断参考水平",
-      "type": "DRLLevel",
-      "graph": "radiation",
-      "tags": [
-        "剂量参考水平",
-        "颅脑CTA"
-      ],
-      "aliases": [
-        "颅脑CTA DRL"
-      ],
-      "summary": "颅脑CTA：25% 位数 CTDIvol 15 mGy、DLP 420 mGy·cm；50% 位数 CTDIvol 20 mGy、DLP 710 mGy·cm；75% 位数 CTDIvol 40 mGy、DLP 1390 mGy·cm。",
-      "attrs": [],
-      "details": [
-        {
-          "k": "成人 CT 的诊断参考水平（颅脑CTA）",
-          "v": "颅脑CTA：25% 位数 CTDIvol 15 mGy、DLP 420 mGy·cm；50% 位数 CTDIvol 20 mGy、DLP 710 mGy·cm；75% 位数 CTDIvol 40 mGy、DLP 1390 mGy·cm（表 C.3）。",
-          "quote": "颅脑CTA 15 420 20 710 40 1390",
-          "src": "CN-01",
-          "cat": "剂量参考水平"
-        },
-        {
-          "k": "颅脑 CTA 的诊断参考水平",
-          "v": "颅脑 CTA：25% 位数 CTDIvol 15 mGy、DLP 420 mGy·cm；50% 位数 CTDIvol 20 mGy、DLP 710 mGy·cm；75% 位数 CTDIvol 40 mGy、DLP 1390 mGy·cm。",
-          "quote": "颅脑CTA 15 420 20 710 40 1390",
-          "src": "WS637-2018",
-          "cat": "剂量参考水平"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "标准",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2026,
-          "cite": "国家卫生健康委员会 / WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》 / 中华人民共和国卫生行业标准 / 2026",
-          "grade": "标准",
-          "ref": "CN-01"
-        },
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2018,
-          "cite": "国家卫生健康委员会 / WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》 / 中华人民共和国卫生行业标准 / 2018",
-          "grade": "推荐",
-          "ref": "WS637-2018"
-        }
-      ]
-    },
-    {
-      "id": "DL_NeckCTA",
-      "name": "颈部 CTA 的诊断参考水平",
-      "type": "DRLLevel",
-      "graph": "radiation",
-      "tags": [
-        "剂量参考水平",
-        "颈部CTA"
-      ],
-      "aliases": [
-        "颈部CTA DRL"
-      ],
-      "summary": "颈部CTA：25% 位数 CTDIvol 10 mGy、DLP 390 mGy·cm；50% 位数 CTDIvol 15 mGy、DLP 690 mGy·cm；75% 位数 CTDIvol 30 mGy、DLP 1130 mGy·cm。",
-      "attrs": [],
-      "details": [
-        {
-          "k": "成人 CT 的诊断参考水平（颈部CTA）",
-          "v": "颈部CTA：25% 位数 CTDIvol 10 mGy、DLP 390 mGy·cm；50% 位数 CTDIvol 15 mGy、DLP 690 mGy·cm；75% 位数 CTDIvol 30 mGy、DLP 1130 mGy·cm（表 C.3）。",
-          "quote": "颈部CTA 10 390 15 690 30 1130",
-          "src": "CN-01",
-          "cat": "剂量参考水平"
-        },
-        {
-          "k": "颈部 CTA 的诊断参考水平",
-          "v": "颈部 CTA：25% 位数 CTDIvol 10 mGy、DLP 390 mGy·cm；50% 位数 CTDIvol 15 mGy、DLP 690 mGy·cm；75% 位数 CTDIvol 30 mGy、DLP 1130 mGy·cm。",
-          "quote": "颈部CTA 10 390 15 690 30 1130",
-          "src": "WS637-2018",
-          "cat": "剂量参考水平"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "标准",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2026,
-          "cite": "国家卫生健康委员会 / WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》 / 中华人民共和国卫生行业标准 / 2026",
-          "grade": "标准",
-          "ref": "CN-01"
-        },
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2018,
-          "cite": "国家卫生健康委员会 / WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》 / 中华人民共和国卫生行业标准 / 2018",
-          "grade": "推荐",
-          "ref": "WS637-2018"
-        }
-      ]
-    },
-    {
-      "id": "DL_ThoraxAbdCTA",
-      "name": "胸腹 CTA 的诊断参考水平",
-      "type": "DRLLevel",
-      "graph": "radiation",
-      "tags": [
-        "剂量参考水平",
-        "胸腹CTA"
-      ],
-      "aliases": [
-        "胸腹CTA DRL"
-      ],
-      "summary": "胸腹CTA：25% 位数 CTDIvol 10 mGy、DLP 450 mGy·cm；50% 位数 CTDIvol 15 mGy、DLP 870 mGy·cm；75% 位数 CTDIvol 20 mGy、DLP 1440 mGy·cm。",
-      "attrs": [],
-      "details": [
-        {
-          "k": "成人 CT 的诊断参考水平（胸腹CTA）",
-          "v": "胸腹CTA：25% 位数 CTDIvol 10 mGy、DLP 450 mGy·cm；50% 位数 CTDIvol 15 mGy、DLP 870 mGy·cm；75% 位数 CTDIvol 20 mGy、DLP 1440 mGy·cm（表 C.3）。",
-          "quote": "胸腹CTA 10 450 15 870 20 1440",
-          "src": "CN-01",
-          "cat": "剂量参考水平"
-        },
-        {
-          "k": "胸腹 CTA 的诊断参考水平",
-          "v": "胸腹 CTA：25% 位数 CTDIvol 10 mGy、DLP 450 mGy·cm；50% 位数 CTDIvol 15 mGy、DLP 870 mGy·cm；75% 位数 CTDIvol 20 mGy、DLP 1440 mGy·cm。",
-          "quote": "胸腹CTA 10 450 15 870 20 1440",
-          "src": "WS637-2018",
-          "cat": "剂量参考水平"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "标准",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2026,
-          "cite": "国家卫生健康委员会 / WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》 / 中华人民共和国卫生行业标准 / 2026",
-          "grade": "标准",
-          "ref": "CN-01"
-        },
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2018,
-          "cite": "国家卫生健康委员会 / WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》 / 中华人民共和国卫生行业标准 / 2018",
-          "grade": "推荐",
-          "ref": "WS637-2018"
-        }
-      ]
-    },
-    {
       "id": "SM_PPE",
       "name": "个人防护用品（铅衣、铅围脖、铅帽）",
       "type": "ShieldingMeasure",
@@ -6199,13 +5664,6 @@ window.KG_GRAPH = {
           "v": "欧洲共识：在 CT 情形下，近期多数研究提示剂量降低策略比眼晶体屏蔽更有效。",
           "quote": "However, in the case of CT, most recent studies suggest that dose reduction strategies are more effective than eye shielding",
           "src": "EN-18",
-          "cat": "个人防护"
-        },
-        {
-          "k": "心脏 CT 不推荐乳腺屏蔽",
-          "v": "SCCT 指南：不推荐在心血管 CT 中使用乳腺屏蔽。",
-          "quote": "Use of breast shields is not recommended for cardiovascular CT.",
-          "src": "EN-19",
           "cat": "个人防护"
         },
         {
@@ -6438,16 +5896,6 @@ window.KG_GRAPH = {
           "cite": "Hiles P, Gilligan P, Damilakis J, Briers E, Candela-Juan C, Faj D, Foley S, Frija G, Granata C, de Las Heras Gala H, Pauwels R, Sans Merce M, Simantirakis G, Vano E / European consensus on patient contact shielding / Insights into Imaging / 2021",
           "grade": "指南与共识",
           "ref": "EN-18"
-        },
-        {
-          "type": "指南",
-          "author": "Halliburton SS, Abbara S, Chen MY, Gentry R, Mahesh M, Raff GL, Shaw LJ, Hausleiter J",
-          "title": "Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT",
-          "journal": "Journal of Cardiovascular Computed Tomography",
-          "year": 2011,
-          "cite": "Halliburton SS, Abbara S, Chen MY, Gentry R, Mahesh M, Raff GL, Shaw LJ, Hausleiter J / Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT / Journal of Cardiovascular Computed Tomography / 2011",
-          "grade": "指南与共识",
-          "ref": "EN-19"
         },
         {
           "type": "推荐",
@@ -7211,20 +6659,6 @@ window.KG_GRAPH = {
           "cat": "正当性"
         },
         {
-          "k": "剂量变异靠统一优化",
-          "v": "Position Statement 指出：儿童心血管疾病心血管 CT 辐射剂量目前存在明显变异，可通过普遍应用辐射剂量优化技术加以缩小。",
-          "quote": "In addition, current variability (60) of radiation dose for cardiovascular CT in pediatric cardiovascular disorders could be reduced by universal application of radiation dose optimization techniques.",
-          "src": "EN-16",
-          "cat": "防护最优化"
-        },
-        {
-          "k": "低剂量策略降幅",
-          "v": "减少扫描期相、降低管电压与先进重建技术等低剂量策略可实现20%~72%的剂量下降而不损害诊断效能",
-          "quote": "Low-dose strategies, including phase reduction, low tube voltage, and advanced reconstruction techniques, achieved radiation dose reductions of 20-72% while maintaining diagnostic performance.",
-          "src": "SR-11",
-          "cat": "防护最优化"
-        },
-        {
           "k": "80kV剂量降幅",
           "v": "亚组分析显示80 kV方案降低54%~56%的辐射剂量，而图像质量仅相差5%~15%",
           "quote": "Subgroup analysis showed an 80-kV reduced radiation dose by 54-56% while keeping image quality similar, with 5-15% difference in SNR and CNR values.",
@@ -7384,26 +6818,6 @@ window.KG_GRAPH = {
           "cite": "European Society of Radiology (ESR), European Federation of Radiographer Societies (EFRS) / Patient Safety in Medical Imaging: a joint paper of the European Society of Radiology (ESR) and the European Federation of Radiographer Societies (EFRS) / Insights into Imaging / 2019",
           "grade": "声明",
           "ref": "EN-15"
-        },
-        {
-          "type": "声明",
-          "author": "Hill KD, Frush DP, Han BK, Abbott BG, Armstrong AK, DeKemp RA, Glatz AC, Greenberg SB, Herbert AS, Justino H, Mah D, Mahesh M, Rigsby CK, Slesnick TC, Strauss KJ, Trattner S, Viswanathan MN, Einstein AJ",
-          "title": "Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance",
-          "journal": "JACC: Cardiovascular Imaging",
-          "year": 2017,
-          "cite": "Hill KD, Frush DP, Han BK, Abbott BG, Armstrong AK, DeKemp RA, Glatz AC, Greenberg SB, Herbert AS, Justino H, Mah D, Mahesh M, Rigsby CK, Slesnick TC, Strauss KJ, Trattner S, Viswanathan MN, Einstein AJ / Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance / JACC: Cardiovascular Imaging / 2017",
-          "grade": "声明",
-          "ref": "EN-16"
-        },
-        {
-          "type": "Meta分析",
-          "author": "Shanbhag S, Panakkal NC, Koteshwara P, et al",
-          "title": "Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis",
-          "journal": "BMC Med Imaging",
-          "year": 2026,
-          "cite": "Shanbhag S, Panakkal NC, Koteshwara P, et al / Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis / BMC Med Imaging / 2026",
-          "grade": "Meta分析",
-          "ref": "SR-11"
         },
         {
           "type": "Meta分析",
@@ -7894,13 +7308,6 @@ window.KG_GRAPH = {
       "attrs": [],
       "details": [
         {
-          "k": "缩小照射野与减少增强扫描期相",
-          "v": "严格控制X射线照射野或扫描范围，在满足成像规范和病变显示要求的前提下尽量缩小；增强CT与灌注CT在满足诊断要求前提下尽量减少扫描期相。",
-          "quote": "严格控制 X 射线照射野或扫描范围，满足成像规范和病变显示要求的前提下，尽量缩小照射野或扫描范围。",
-          "src": "CN-01",
-          "cat": "扫描范围"
-        },
-        {
           "k": "严格控制儿童CT扫描野范围",
           "v": "严格控制儿童CT检查扫描野范围，避免邻近扫描野的敏感器官或组织（例如性腺、眼晶状体、乳腺和甲状腺）受到有用线束的直接照射。",
           "quote": "应严格控制儿童CT检查扫描野范围，避免邻近扫描野的敏感器官或组织（例如性腺、眼晶状体、乳腺和甲状腺）受到有用线束的直接照射。",
@@ -7950,13 +7357,6 @@ window.KG_GRAPH = {
           "cat": "操作防护"
         },
         {
-          "k": "扫描范围按需裁剪",
-          "v": "指南要求：儿科心脏胸膜 CT 的扫描范围应恰当裁剪、只包含所需解剖结构，因为辐射剂量与纵向扫描长度成正比。",
-          "quote": "The scan range of pediatric cardiothoracic CT should be adequately tailored to include anatomical structures of interest only; this is because the radiation dose is proportional to the longitudinal scan range.",
-          "src": "EN-20",
-          "cat": "扫描参数"
-        },
-        {
           "k": "避免眼晶体受主束照射",
           "v": "该安全指南指出：应避免使眼晶体处于主射束之内；脑部扫描可通过使用头部托架，有时也可通过倾斜机架来实现。",
           "quote": "Irradiating the lens of the eye within the primary beam should be avoided.",
@@ -7993,16 +7393,6 @@ window.KG_GRAPH = {
         }
       ],
       "evidence": [
-        {
-          "type": "标准",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2026,
-          "cite": "国家卫生健康委员会 / WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》 / 中华人民共和国卫生行业标准 / 2026",
-          "grade": "标准",
-          "ref": "CN-01"
-        },
         {
           "type": "标准",
           "author": "国家卫生健康委员会",
@@ -8062,16 +7452,6 @@ window.KG_GRAPH = {
           "cite": "粤港澳大湾区影像技术联盟, 广东省医师协会医学影像技师分会 / 粤港澳大湾区数字X射线骨关节摄影检查技术与防护规范专家共识 / 中华放射医学与防护杂志 / 2024",
           "grade": "指南与共识",
           "ref": "CN-37"
-        },
-        {
-          "type": "指南",
-          "author": "Hong SH, Goo HW, Maeda E, Choo KS, Tsai IC",
-          "title": "Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1",
-          "journal": "Imaging Techniques",
-          "year": 2019,
-          "cite": "Hong SH, Goo HW, Maeda E, Choo KS, Tsai IC / Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1 / Imaging Techniques / 2019",
-          "grade": "指南与共识",
-          "ref": "EN-20"
         },
         {
           "type": "推荐",
@@ -8189,13 +7569,6 @@ window.KG_GRAPH = {
       "attrs": [],
       "details": [
         {
-          "k": "CTPA胎儿剂量的实测与屏蔽的负效应",
-          "v": "TLD 实测：未使用屏蔽防护的 CT 肺动脉造影（扫描范围为整个胸腔包括肺尖及肺基底）胎儿平均吸收剂量约0.10 mGy；启用屏蔽后因 AEC 代偿使管电流增加、患者有效剂量增加47%，胎儿吸收剂量升至0.12 mGy；改为缩短Z轴扫描长度（颈静脉切迹至膈肌）扫描时胎儿吸收剂量为0.03 mGy（无屏蔽）及0.02 mGy（有屏蔽）。",
-          "quote": "未使用屏蔽防护的CT肺动脉造影(CTPA)扫描(扫描范围为整个胸腔包括肺尖及肺基底)，胎儿平均吸收剂量约为0.10 mGy；而启用屏蔽防护后，屏蔽材料干扰AEC系统，导致管电流代偿性增加，导致患者有效剂量增加47% [ 25 ] ，胎儿吸收剂量升至0.12 mGy；使用缩短Z轴扫描长度方式进行扫描后(扫描范围为颈静脉切迹至膈肌)，胎儿吸收剂量为0.03 mGy (无屏蔽)及0.02 mGy(有屏蔽)，进一步证实了即使在无AEC干扰时，屏蔽对胎儿剂量减少甚微。",
-          "src": "CN-08",
-          "cat": "剂量指标"
-        },
-        {
           "k": "妊娠期常用诊断检查的剂量水平与胸部CT的胎儿受照剂量",
           "v": "常用诊断性辐射检查剂量通常低于 50 mGy；胸部 X 射线胎儿受照 0.000 5~0.01 mGy，胸部 CT 胎儿受照 0.01~0.66 mGy。",
           "quote": "据测试，临床上常用的诊断性辐射性影像学检查方法的剂量通常低于50 mGy，其中常用的胸部X 射线和胸部CT 的胎儿辐射暴露剂量分别为0.000 5~0.01 mGy 和0.01~0.66 mGy（ 表1）[3]。",
@@ -8225,16 +7598,6 @@ window.KG_GRAPH = {
         }
       ],
       "evidence": [
-        {
-          "type": "共识",
-          "author": "中国医师协会医学技师专业委员会, 中华医学会影像技术分会",
-          "title": "胸部CT检查接触屏蔽防护用品规范使用专家共识",
-          "journal": "中华放射医学与防护杂志",
-          "year": 2026,
-          "cite": "中国医师协会医学技师专业委员会, 中华医学会影像技术分会 / 胸部CT检查接触屏蔽防护用品规范使用专家共识 / 中华放射医学与防护杂志 / 2026",
-          "grade": "指南与共识",
-          "ref": "CN-08"
-        },
         {
           "type": "建议",
           "author": "中国医师协会妇产科医师分会母胎医师专业委员会, 中华医学会妇产科学分会产科学组, 中华医学会围产医学分会, 《中华围产医学杂志》编辑委员会",
@@ -8475,13 +7838,6 @@ window.KG_GRAPH = {
           "cat": "防护最优化"
         },
         {
-          "k": "每例须个体化扫描",
-          "v": "Position Statement 要求：对合并心血管疾病儿童的每一次心血管 CT 扫描，都必须结合该患者个体情况与临床指征量身定制。",
-          "quote": "Every cardiovascular CT scan performed in a patient with cardiovascular disorders should be tailored to the individual patient and clinical indication.",
-          "src": "EN-16",
-          "cat": "扫描参数"
-        },
-        {
           "k": "儿童不能用成人协议",
           "v": "该安全指南指出：对儿童应特别注意制定按体型与年龄适配的协议；用成人协议给儿童扫描是不适当的。",
           "quote": "Special attention should be given to developing protocols for children adapted to body size and age [19, 145, 152]. The use of adult protocols for scanning children is inappropriate.",
@@ -8570,16 +7926,6 @@ window.KG_GRAPH = {
           "cite": "国家卫生健康委员会 / 《X射线计算机体层成像儿童诊断参考水平标准》解读 / 国家卫生健康委员会 / 2025",
           "grade": "标准",
           "ref": "CN-19"
-        },
-        {
-          "type": "声明",
-          "author": "Hill KD, Frush DP, Han BK, Abbott BG, Armstrong AK, DeKemp RA, Glatz AC, Greenberg SB, Herbert AS, Justino H, Mah D, Mahesh M, Rigsby CK, Slesnick TC, Strauss KJ, Trattner S, Viswanathan MN, Einstein AJ",
-          "title": "Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance",
-          "journal": "JACC: Cardiovascular Imaging",
-          "year": 2017,
-          "cite": "Hill KD, Frush DP, Han BK, Abbott BG, Armstrong AK, DeKemp RA, Glatz AC, Greenberg SB, Herbert AS, Justino H, Mah D, Mahesh M, Rigsby CK, Slesnick TC, Strauss KJ, Trattner S, Viswanathan MN, Einstein AJ / Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance / JACC: Cardiovascular Imaging / 2017",
-          "grade": "声明",
-          "ref": "EN-16"
         },
         {
           "type": "推荐",
@@ -8790,16 +8136,16 @@ window.KG_GRAPH = {
       "attrs": [],
       "details": [
         {
-          "k": "PP_Management · 4.1.1",
-          "v": "PP_Management：医疗机构应加强放射防护相关知识的普及，提高放射工作人员、临床医护人员的辐射风险基本知识知晓率。",
-          "quote": "医疗机构应加强放射防护相关知识的普及，提高放射工作人员、临床医护人员的辐射风险基本知识知晓率。",
+          "k": "PP_Management · 2",
+          "v": "PP_Management：规范性引用文件下列文件中的内容通过文中的规范性引用而构成本标准必不可少的条款。其中，注日期的引用文件，仅该日期对应的版本适用于本标准；不注日期的引用文件，其最新版本（包括所有的修改单）适用于本标准。GB/T 16137 X射线诊断中受检者器官剂量的估算方法GBZ 130 放射诊断放射防护要求WS 76 医用X射线诊断设备质量控制检测规范WS 519 X射线计算机体层摄影装置质量控制检测规范WS 818 锥形束X射线计算机体层成像（CBCT）设备质量控制检测标准",
+          "quote": "规范性引用文件下列文件中的内容通过文中的规范性引用而构成本标准必不可少的条款。其中，注日期的引用文件，仅该日期对应的版本适用于本标准；不注日期的引用文件，其最新版本（包括所有的修改单）适用于本标准。GB/T 16137 X射线诊断中受检者器官剂量的估算方法GBZ 130 放射诊断放射防护要求WS 76 医用X射线诊断设备质量控制检测规范WS 519 X射线计算机体层摄影装置质量控制检测规范WS 818 锥形束X射线计算机体层成像（CBCT）设备质量控制检测标准",
           "src": "CN-01",
           "cat": "管理要求"
         },
         {
-          "k": "PP_Management · 2",
-          "v": "PP_Management：规范性引用文件下列文件中的内容通过文中的规范性引用而构成本标准必不可少的条款。其中，注日期的引用文件，仅该日期对应的版本适用于本标准；不注日期的引用文件，其最新版本（包括所有的修改单）适用于本标准。GB/T 16137 X射线诊断中受检者器官剂量的估算方法GBZ 130 放射诊断放射防护要求WS 76 医用X射线诊断设备质量控制检测规范WS 519 X射线计算机体层摄影装置质量控制检测规范WS 818 锥形束X射线计算机体层成像（CBCT）设备质量控制检测标准",
-          "quote": "规范性引用文件下列文件中的内容通过文中的规范性引用而构成本标准必不可少的条款。其中，注日期的引用文件，仅该日期对应的版本适用于本标准；不注日期的引用文件，其最新版本（包括所有的修改单）适用于本标准。GB/T 16137 X射线诊断中受检者器官剂量的估算方法GBZ 130 放射诊断放射防护要求WS 76 医用X射线诊断设备质量控制检测规范WS 519 X射线计算机体层摄影装置质量控制检测规范WS 818 锥形束X射线计算机体层成像（CBCT）设备质量控制检测标准",
+          "k": "PP_Management · 4.1.1",
+          "v": "PP_Management：医疗机构应加强放射防护相关知识的普及，提高放射工作人员、临床医护人员的辐射风险基本知识知晓率。",
+          "quote": "医疗机构应加强放射防护相关知识的普及，提高放射工作人员、临床医护人员的辐射风险基本知识知晓率。",
           "src": "CN-01",
           "cat": "管理要求"
         },
@@ -9361,13 +8707,6 @@ window.KG_GRAPH = {
         },
         {
           "k": "纳入研究规模",
-          "v": "从2247条记录中纳入38项研究（26项诊断准确性、12项辐射剂量研究）",
-          "quote": "From 2,247 identified records, 38 studies (26 diagnostic accuracy and 12 radiation dose studies) met the inclusion criteria.",
-          "src": "SR-11",
-          "cat": "质量保证"
-        },
-        {
-          "k": "纳入研究规模",
           "v": "从4146篇文章中筛出11项纳入系统评价，涉及25个临床适应证",
           "quote": "A total of 4146 articles were identified. 410 full texts were examined and 11 studies were included in the systematic review. 25 clinical indications across seven anatomical regions were identified across 11 included studies.",
           "src": "SR-12",
@@ -9379,13 +8718,6 @@ window.KG_GRAPH = {
           "quote": "This review has shown that only few of the African countries (19%) have published studies on paediatric CT DRLs.",
           "src": "SR-13",
           "cat": "特殊人群"
-        },
-        {
-          "k": "纳入研究数",
-          "v": "检索得148条记录，35项研究纳入数据提取，其中11项同时提供辐射剂量、对比剂用量与图像质量数据",
-          "quote": "The search identified 148 records, of which 35 studies were included for data extraction, including 11 that provided complete data on radiation dose, contrast volume, and image quality.",
-          "src": "SR-17",
-          "cat": "质量保证"
         },
         {
           "k": "证据规模",
@@ -9557,16 +8889,6 @@ window.KG_GRAPH = {
           "ref": "EN-13"
         },
         {
-          "type": "Meta分析",
-          "author": "Shanbhag S, Panakkal NC, Koteshwara P, et al",
-          "title": "Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis",
-          "journal": "BMC Med Imaging",
-          "year": 2026,
-          "cite": "Shanbhag S, Panakkal NC, Koteshwara P, et al / Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis / BMC Med Imaging / 2026",
-          "grade": "Meta分析",
-          "ref": "SR-11"
-        },
-        {
           "type": "系统评价",
           "author": "Alim A, Leong SS, Thomas Sudin AEL, et al",
           "title": "Clinical indication-based diagnostic reference levels in CT: a systematic review",
@@ -9585,16 +8907,6 @@ window.KG_GRAPH = {
           "cite": "Gyan E, Subaar C, Edusei G, et al / Paediatric computed tomography diagnostic reference levels in Africa: A systematic review / J Med Radiat Sci / 2025",
           "grade": "系统评价",
           "ref": "SR-13"
-        },
-        {
-          "type": "Meta分析",
-          "author": "S S, Pradhan A, Kadavigere R, et al",
-          "title": "Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis",
-          "journal": "J Med Imaging Radiat Sci",
-          "year": 2026,
-          "cite": "S S, Pradhan A, Kadavigere R, et al / Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis / J Med Imaging Radiat Sci / 2026",
-          "grade": "Meta分析",
-          "ref": "SR-17"
         },
         {
           "type": "系统评价",
@@ -10152,13 +9464,6 @@ window.KG_GRAPH = {
       "attrs": [],
       "details": [
         {
-          "k": "衰减型管电流调制",
-          "v": "指南指出：基于衰减的管电流调制是关键降剂量技术，可在图像质量不受损的前提下使管电流下降约 16%。",
-          "quote": "Attenuation-based tube current modulation is an essential radiation dose reduction technique, which allows approximately 16% reduction of the tube current without degradation of the image quality",
-          "src": "EN-20",
-          "cat": "扫描参数"
-        },
-        {
           "k": "曝光调制类型标签",
           "v": "DICOM 标准把曝光调制类型定义为一个多值标签，用于描述为限制剂量而采取的曝光调制方式。",
           "quote": "A multi-valued label describing the type of exposure modulation used for the purpose of limiting the dose.",
@@ -10181,16 +9486,6 @@ window.KG_GRAPH = {
         }
       ],
       "evidence": [
-        {
-          "type": "指南",
-          "author": "Hong SH, Goo HW, Maeda E, Choo KS, Tsai IC",
-          "title": "Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1",
-          "journal": "Imaging Techniques",
-          "year": 2019,
-          "cite": "Hong SH, Goo HW, Maeda E, Choo KS, Tsai IC / Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1 / Imaging Techniques / 2019",
-          "grade": "指南与共识",
-          "ref": "EN-20"
-        },
         {
           "type": "规范",
           "author": "National Electrical Manufacturers Association (NEMA/MITA)",
@@ -10233,6 +9528,13 @@ window.KG_GRAPH = {
       "attrs": [],
       "details": [
         {
+          "k": "迭代重建可降低儿童CT剂量30%~50%",
+          "v": "迭代重建算法（IR）可降低儿童CT辐射剂量的30%~50%；设备允许时应充分利用 IR 优势，不支持 IR 时应调整扫描参数尽量降低辐射剂量。",
+          "quote": "大量研究表明IR可以降低儿童CT辐射剂量的30%~50%。",
+          "src": "CN-06",
+          "cat": "扫描参数"
+        },
+        {
           "k": "迭代重建使传统指标失效",
           "v": "报告指出：统计与迭代重建（IR）算法用于降低噪声以便降低剂量，但其非线性特征导致分辨率与噪声表现随物体而变，传统的对比噪声比等图像质量指标已不足以代表临床成像性能。",
           "quote": "A prevalent new CT technology uses statistical and iterative reconstruction (IR) algorithms to decrease image noise to facilitate use of decreased radiation dose levels. The nonlinear nature of these algorithms results in object-dependent resolution and noise performances. Thus, traditional image quality metrics, such as contrast-to-noise ratio, have become inadequate indicators of clinical imaging performance.",
@@ -10263,6 +9565,16 @@ window.KG_GRAPH = {
       ],
       "evidence": [
         {
+          "type": "共识",
+          "author": "中华医学会儿科学分会影像学组, 中华医学会放射学分会儿科学组",
+          "title": "儿童CT检查辐射剂量标准中国专家共识",
+          "journal": "中华放射学杂志",
+          "year": 2024,
+          "cite": "中华医学会儿科学分会影像学组, 中华医学会放射学分会儿科学组 / 儿童CT检查辐射剂量标准中国专家共识 / 中华放射学杂志 / 2024",
+          "grade": "指南与共识",
+          "ref": "CN-06"
+        },
+        {
           "type": "推荐",
           "author": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J",
           "title": "Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233",
@@ -10291,46 +9603,6 @@ window.KG_GRAPH = {
           "cite": "Chandran M O, Pendem S, P S P, et al / Influence of deep learning image reconstruction algorithm for reducing radiation dose and image noise compared to iterative reconstruction and filtered back projection for head and chest computed tomography examinations: a systematic review / F1000Res / 2024",
           "grade": "系统评价",
           "ref": "SR-22"
-        }
-      ]
-    },
-    {
-      "id": "SP_Contrast",
-      "name": "对比剂注射方案与扫描期相",
-      "type": "ScanParameter",
-      "graph": "radiation",
-      "tags": [
-        "扫描参数",
-        "增强扫描"
-      ],
-      "aliases": [
-        "对比剂",
-        "增强扫描",
-        "期相",
-        "注射流率",
-        "延迟时间"
-      ],
-      "summary": "对比剂按每千克体重 300 mg～450 mg 碘计算，注射流率 3 mL/s～4 m/s，注射后 20 s～30 s 开始扫描，另有 80 s～120 s 延迟扫描；减少扫描期相、降低管电压与先进重建技术等低剂量策略可实现 20%～72% 的剂量下降而不损害诊断效能。",
-      "attrs": [],
-      "details": [
-        {
-          "k": "胸部 CT 增强扫描 · 增强条件",
-          "v": "胸部 CT 增强扫描：——增强条件：注射总量：按每千克体重 300 mg～450 mg 碘计算,注射流率：3 mL/s～4 mL/s,注射后开始扫描时间：20 s～30 s，80 s～120 s延迟扫描，如有特殊情况，酌情处理；",
-          "quote": "——增强条件：注射总量：按每千克体重 300 mg～450 mg 碘计算,注射流率：3 mL/s～4 mL/s,注射后开始扫描时间：20 s～30 s，80 s～120 s延迟扫描，如有特殊情况，酌情处理；",
-          "src": "WS391-2024",
-          "cat": "增强扫描"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
         }
       ]
     },
@@ -10933,45 +10205,6 @@ window.KG_GRAPH = {
           "cite": "中华医学会影像技术分会专家组（康承欣, 付彬洁, 吕发金, 李真林, 余建明, 雷子乔, 付海鸿, 马新武, 赵雁鸣, 刘杰, 周高峰, 牛延涛, 康庄, 暴云锋, 路青, 尹建东） / 肺癌筛查低剂量CT检查技术规范——专家共识 / 重庆医科大学学报 / 2024",
           "grade": "指南与共识",
           "ref": "CN-15"
-        }
-      ]
-    },
-    {
-      "id": "EX_CardiacCT",
-      "name": "冠脉钙化评分（EBCT）",
-      "type": "ChestExam",
-      "graph": "radiation",
-      "tags": [
-        "胸部",
-        "心脏"
-      ],
-      "aliases": [
-        "冠脉钙化",
-        "EBCT",
-        "钙化评分",
-        "心脏CT"
-      ],
-      "summary": "文献中电子束 CT 钙化评分的有效剂量较低，为 0.7～1.3 mSv，组织剂量为 2.8～4.3 mGy；增强 MDCT 冠脉造影的有效剂量更高（5～15 mSv），接近常规胸部 MDCT 的有效剂量，这些剂量应可通过常规降剂量途径加以降低。",
-      "attrs": [],
-      "details": [
-        {
-          "k": "冠脉钙化 EBCT 的剂量",
-          "v": "IAEA 报告：文献中电子束 CT 钙化评分的有效剂量较低，为 0.7 至 1.3 mSv，组织剂量为 2.8 至 4.3 mGy。",
-          "quote": "Effective dose values reported in the literature for EBCT calcium scoring are relatively low, ranging from 0.7 to 1.3 mSv, with tissue doses from 2.8 to 4.3 mGy (Table 1).",
-          "src": "EN-21",
-          "cat": "剂量指标"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "International Atomic Energy Agency, World Health Organization, International Society of Radiology",
-          "title": "with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT",
-          "journal": "IAEA Safety Reports Series No",
-          "year": 2008,
-          "cite": "International Atomic Energy Agency, World Health Organization, International Society of Radiology / with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT / IAEA Safety Reports Series No / 2008",
-          "grade": "推荐",
-          "ref": "EN-21"
         }
       ]
     },
@@ -12387,20 +11620,6 @@ window.KG_GRAPH = {
           "quote": "当受检者BMI≥21 kg/m²时，扫描范围可从T1棘突上缘至T12棘突下缘；BMI<21 kg/m²时，扫描范围可控制为T1棘突上缘至L1棘突下缘",
           "src": "CN-15",
           "cat": "扫描参数"
-        },
-        {
-          "k": "儿科剂量按体型适配",
-          "v": "指南要求：儿科心脏胸膜 CT 的辐射剂量应严格优化并按体型适配，同时保持诊断图像质量，遵循 ALARA 原则。",
-          "quote": "In order to comply with the As Low As Reasonably Achievable principle, the radiation dose of pediatric cardiothoracic CT should be strictly optimized and adapted to the body size while maintaining the diagnostic image quality",
-          "src": "EN-20",
-          "cat": "防护最优化"
-        },
-        {
-          "k": "按体重适配可降剂量",
-          "v": "IAEA 报告：就心脏 CT 而言，采用按体重适配的多排 CT 方案已被证明可使男性有效剂量降低约 12%、女性降低 25%。",
-          "quote": "For cardiac CT specifically, use of body weight adapted MDCT protocols has been shown to reduce the effective dose by about 12% in males and 25% in females.",
-          "src": "EN-21",
-          "cat": "防护最优化"
         }
       ],
       "evidence": [
@@ -12423,26 +11642,6 @@ window.KG_GRAPH = {
           "cite": "中华医学会影像技术分会专家组（康承欣, 付彬洁, 吕发金, 李真林, 余建明, 雷子乔, 付海鸿, 马新武, 赵雁鸣, 刘杰, 周高峰, 牛延涛, 康庄, 暴云锋, 路青, 尹建东） / 肺癌筛查低剂量CT检查技术规范——专家共识 / 重庆医科大学学报 / 2024",
           "grade": "指南与共识",
           "ref": "CN-15"
-        },
-        {
-          "type": "指南",
-          "author": "Hong SH, Goo HW, Maeda E, Choo KS, Tsai IC",
-          "title": "Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1",
-          "journal": "Imaging Techniques",
-          "year": 2019,
-          "cite": "Hong SH, Goo HW, Maeda E, Choo KS, Tsai IC / Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1 / Imaging Techniques / 2019",
-          "grade": "指南与共识",
-          "ref": "EN-20"
-        },
-        {
-          "type": "推荐",
-          "author": "International Atomic Energy Agency, World Health Organization, International Society of Radiology",
-          "title": "with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT",
-          "journal": "IAEA Safety Reports Series No",
-          "year": 2008,
-          "cite": "International Atomic Energy Agency, World Health Organization, International Society of Radiology / with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT / IAEA Safety Reports Series No / 2008",
-          "grade": "推荐",
-          "ref": "EN-21"
         }
       ]
     },
@@ -12482,45 +11681,6 @@ window.KG_GRAPH = {
           "cite": "International Atomic Energy Agency, Pan American Health Organization, World Health Organization / Radiation Protection and Safety in Medical Uses of Ionizing Radiation / IAEA Specific Safety Guide No. SSG-OP4AS / 2018",
           "grade": "推荐",
           "ref": "EN-27"
-        }
-      ]
-    },
-    {
-      "id": "SP_Phases",
-      "name": "扫描期相的选择",
-      "type": "ScanParameter",
-      "graph": "radiation",
-      "tags": [
-        "扫描参数",
-        "增强扫描"
-      ],
-      "aliases": [
-        "期相",
-        "多期相",
-        "增强期相",
-        "单期"
-      ],
-      "summary": "应根据成像部位、感兴趣器官和病变的增强需求，设定适当的扫描期相；多期相扫描是剂量的大头（多期相扫描的腹部增强 CT、大范围扫描的主动脉 CT 血管造影属于剂量较高的检查项目），腹 / 盆腔 CT 多数情况单期即可，头颈方案单期通常足够。",
-      "attrs": [],
-      "details": [
-        {
-          "k": "胸部低剂量 CT 检查 · 增强条件",
-          "v": "胸部低剂量 CT 检查：检查前禁食 4 h，不需禁水，签署知情同意书。注射总量：对比剂剂量按每千克体重 300～450 mg碘计算。注射流率：3 mL/s～4 mL/s。注射后开始扫描时间：25 s～30 s。必要时可以延迟扫描，如有特殊情况，酌情处理。检查结束后，观察 20 min，病人无不适方可离开，若病情允许，嘱病人多饮水，以利于对比剂排泄。",
-          "quote": "检查前禁食 4 h，不需禁水，签署知情同意书。注射总量：对比剂剂量按每千克体重 300～450 mg碘计算。注射流率：3 mL/s～4 mL/s。注射后开始扫描时间：25 s～30 s。必要时可以延迟扫描，如有特殊情况，酌情处理。检查结束后，观察 20 min，病人无不适方可离开，若病情允许，嘱病人多饮水，以利于对比剂排泄。",
-          "src": "WS391-2024",
-          "cat": "增强扫描"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
         }
       ]
     },
@@ -14173,13 +13333,6 @@ window.KG_GRAPH = {
           "k": "透视与介入检查的防护要求 · 7.2.1",
           "v": "透视与介入检查的防护要求：应尽量避免使用普通荧光透视检查，使用中应避免卧位透视，采用普通荧光屏透视的工作人员在透视前应做好充分的暗适应。",
           "quote": "应尽量避免使用普通荧光透视检查，使用中应避免卧位透视，采用普通荧光屏透视的工作人员在透视前应做好充分的暗适应。",
-          "src": "GBZ130-2020",
-          "cat": "操作防护"
-        },
-        {
-          "k": "透视与介入检查的防护要求 · 7.2.2",
-          "v": "透视与介入检查的防护要求：进行消化道造影检查时，应严格控制照射条件和避免重复照射，对工作人员、受检者都应采取有效的防护措施。",
-          "quote": "进行消化道造影检查时，应严格控制照射条件和避免重复照射，对工作人员、受检者都应采取有效的防护措施。",
           "src": "GBZ130-2020",
           "cat": "操作防护"
         },
@@ -16670,38 +15823,24 @@ window.KG_GRAPH = {
     },
     {
       "id": "W908_Protocol",
-      "name": "成像方案与增强参数的选择",
+      "name": "成像方案与扫描参数的选择",
       "type": "ScanParameter",
       "graph": "radiation",
       "tags": [
         "扫描参数"
       ],
       "aliases": [
-        "成像方案与增强参数的选择"
+        "成像方案与扫描参数的选择"
       ],
       "summary": "WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》的相关条款要点。",
       "attrs": [],
       "details": [
-        {
-          "k": "W908_Protocol · 7.2.2",
-          "v": "W908_Protocol：结合疾病的临床诊疗需求选择适当成像方案，对于特定的敏感人群如儿童、孕妇等应慎重选择成像参数或使用专用的成像方案。增强 CT 扫描和灌注 CT 扫描时，在满足诊断要求前提下尽量减少扫描期相。",
-          "quote": "结合疾病的临床诊疗需求选择适当成像方案，对于特定的敏感人群如儿童、孕妇等应慎重选择成像参数或使用专用的成像方案。增强 CT 扫描和灌注 CT 扫描时，在满足诊断要求前提下尽量减少扫描期相。",
-          "src": "CN-01",
-          "cat": "扫描参数"
-        },
         {
           "k": "W908_Protocol · 7.2.3",
           "v": "W908_Protocol：在满足临床需求的成像质量前提下，合理选择成像参数以尽可能降低辐射剂量。根据受检者成像部位的组织器官特点和病变显示需求，选择适当的剂量调制技术（如自动管电压调制、自动管电流调制、器官剂量调制等，有假关节等大尺寸体内植入金属物时慎重使用）。多期增强 CT 扫描时，可根据不同期相重点关注的解剖结构或病变选择不同的扫描参数，对于噪声水平要求不高的期相可使用较低剂量扫描。严格控制 X 射线照射野或扫描范围，满足成像规范和病变显示要求的前提下，尽量缩小照射野或扫描范围。",
           "quote": "在满足临床需求的成像质量前提下，合理选择成像参数以尽可能降低辐射剂量。根据受检者成像部位的组织器官特点和病变显示需求，选择适当的剂量调制技术（如自动管电压调制、自动管电流调制、器官剂量调制等，有假关节等大尺寸体内植入金属物时慎重使用）。多期增强 CT 扫描时，可根据不同期相重点关注的解剖结构或病变选择不同的扫描参数，对于噪声水平要求不高的期相可使用较低剂量扫描。严格控制 X 射线照射野或扫描范围，满足成像规范和病变显示要求的前提下，尽量缩小照射野或扫描范围。",
           "src": "CN-01",
           "cat": "扫描参数"
-        },
-        {
-          "k": "W908_Protocol · 7.2.4",
-          "v": "W908_Protocol：应根据成像部位、感兴趣器官和病变的增强需求，设定适宜的对比剂注射方案（浓度、速率、用量等），选准成像时机。宜使用低管电压、低对比剂流率等相关技术。",
-          "quote": "应根据成像部位、感兴趣器官和病变的增强需求，设定适宜的对比剂注射方案（浓度、速率、用量等），选准成像时机。宜使用低管电压、低对比剂流率等相关技术。",
-          "src": "CN-01",
-          "cat": "增强扫描"
         },
         {
           "k": "W908_Protocol · 7.2.5",
@@ -16715,13 +15854,6 @@ window.KG_GRAPH = {
           "v": "文件举例说明 CT 检查的典型最优化手段：恰当的扫描长度、扫描序列数、剂量调制以及迭代重建。",
           "quote": "As an example, for CT examinations the use of appropriate scan length, number of scan series, dose modulation, and iterative reconstruction are typical optimisation tools.",
           "src": "EN-15",
-          "cat": "防护最优化"
-        },
-        {
-          "k": "按适应证选方案",
-          "v": "应按临床适应证选择扫描期相方案并采用剂量优化策略，以在维持诊断质量的同时降低辐射暴露",
-          "quote": "Indication-based protocol selection and dose-optimization strategies should be adopted to minimize radiation exposure while maintaining diagnostic quality.",
-          "src": "SR-11",
           "cat": "防护最优化"
         }
       ],
@@ -16745,16 +15877,6 @@ window.KG_GRAPH = {
           "cite": "European Society of Radiology (ESR), European Federation of Radiographer Societies (EFRS) / Patient Safety in Medical Imaging: a joint paper of the European Society of Radiology (ESR) and the European Federation of Radiographer Societies (EFRS) / Insights into Imaging / 2019",
           "grade": "声明",
           "ref": "EN-15"
-        },
-        {
-          "type": "Meta分析",
-          "author": "Shanbhag S, Panakkal NC, Koteshwara P, et al",
-          "title": "Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis",
-          "journal": "BMC Med Imaging",
-          "year": 2026,
-          "cite": "Shanbhag S, Panakkal NC, Koteshwara P, et al / Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis / BMC Med Imaging / 2026",
-          "grade": "Meta分析",
-          "ref": "SR-11"
         }
       ]
     },
@@ -16822,6 +15944,13 @@ window.KG_GRAPH = {
       "attrs": [],
       "details": [
         {
+          "k": "W908_DoseInfo · 8.1.1",
+          "v": "W908_DoseInfo：应在 DICOM 头文件中显示与辐射剂量相关的成像参数（如管电压、管电流、照射野、扫描长度等）及其相关信息。",
+          "quote": "应在 DICOM 头文件中显示与辐射剂量相关的成像参数（如管电压、管电流、照射野、扫描长度等）及其相关信息。",
+          "src": "CN-01",
+          "cat": "剂量指标"
+        },
+        {
           "k": "W908_DoseInfo · 8.1.2",
           "v": "W908_DoseInfo：在硬拷贝或软阅读图像的 4 个边角处，应显示相关的辐射剂量信息，如 kV、mAs、螺距、剂量面积乘积、入射空气比释动能等信息的一种或多种。",
           "quote": "在硬拷贝或软阅读图像的 4 个边角处，应显示相关的辐射剂量信息，如 kV、mAs、螺距、剂量面积乘积、入射空气比释动能等信息的一种或多种。",
@@ -16843,13 +15972,6 @@ window.KG_GRAPH = {
           "cat": "剂量指标"
         },
         {
-          "k": "W908_DoseInfo · 8.1.1",
-          "v": "W908_DoseInfo：应在 DICOM 头文件中显示与辐射剂量相关的成像参数（如管电压、管电流、照射野、扫描长度等）及其相关信息。",
-          "quote": "应在 DICOM 头文件中显示与辐射剂量相关的成像参数（如管电压、管电流、照射野、扫描长度等）及其相关信息。",
-          "src": "CN-01",
-          "cat": "剂量指标"
-        },
-        {
           "k": "须开启剂量报告存储",
           "v": "应开启剂量报告（dose report）功能，把机器自动生成的剂量报告常规存储。",
           "quote": "9.1.1.5 辐射剂量存储 \n应开启剂量报告（dose report）功能，以便将机器自动生成的剂量报告进行常规存储。",
@@ -16862,13 +15984,6 @@ window.KG_GRAPH = {
           "quote": "Automatic radiation exposure monitoring systems, designed to meet local, regional or national needs and standards, have to be disseminated as well as integrated with other healthcare IT systems including electronic health records.",
           "src": "EN-14",
           "cat": "剂量指标"
-        },
-        {
-          "k": "剂量信息须记入病历",
-          "v": "SCCT 指南：建议把剂量信息记入患者病历，并可能很快成为监管要求。",
-          "quote": "Inclusion of dose information in the patient medical record is recommended and may soon be required by regulatory bodies, particularly in the United States.",
-          "src": "EN-19",
-          "cat": "管理要求"
         },
         {
           "k": "云平台可采集的剂量表征量",
@@ -16915,16 +16030,6 @@ window.KG_GRAPH = {
           "cite": "International Atomic Energy Agency (IAEA) jointly with EFOMP, ESR, DITTA, HERCA, Image Gently Alliance, IOMP, ISR, ISRRT, in collaboration with WHO / Joint Position Statement and Call for Action for Strengthening Radiation Protection of Patients Undergoing Recurrent Radiological Imaging Procedures / International Atomic Energy Agency (IAEA) jointly with EFOMP, ESR, DITTA, HERCA, Image Gently Alliance, IOMP, ISR, ISRRT, in collaboration with WHO / 2021",
           "grade": "声明",
           "ref": "EN-14"
-        },
-        {
-          "type": "指南",
-          "author": "Halliburton SS, Abbara S, Chen MY, Gentry R, Mahesh M, Raff GL, Shaw LJ, Hausleiter J",
-          "title": "Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT",
-          "journal": "Journal of Cardiovascular Computed Tomography",
-          "year": 2011,
-          "cite": "Halliburton SS, Abbara S, Chen MY, Gentry R, Mahesh M, Raff GL, Shaw LJ, Hausleiter J / Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT / Journal of Cardiovascular Computed Tomography / 2011",
-          "grade": "指南与共识",
-          "ref": "EN-19"
         },
         {
           "type": "声明",
@@ -17241,6 +16346,20 @@ window.KG_GRAPH = {
           "cat": "剂量参考水平"
         },
         {
+          "k": "W908_DRL3 · 10.1.1.2",
+          "v": "W908_DRL3：所选择的量应易于测量或获得，对可获得的相关量应尽可能记录。",
+          "quote": "所选择的量应易于测量或获得，对可获得的相关量应尽可能记录。",
+          "src": "CN-01",
+          "cat": "剂量参考水平"
+        },
+        {
+          "k": "W908_DRL3 · 10.1.1.3",
+          "v": "W908_DRL3：常规 X 射线摄影推荐使用空气比释动能面积乘积（PKA）或者入射体表空气比释动能（Ka,e）作为诊断参考水平的量；乳腺 X 射线摄影推荐的 DRL 表征量是入射空气比释动能（Ka,i）、Ka,e 或者乳腺平均剂量（AGD）中的一个或多个。透视 DRL 表征量推荐 PKA 和受检者入射参考点空气比释动能（Ka,r），同时推荐对透视时间、电影数量或数字减影血管造影（DSA）图像数量来设定相应的 DRL 值。CT 检查选项包括 CT 剂量指数（CTDIw 或 CTDIvol）和 DLP。DLP 值取整个检查的累积值，CTDIvol 值取每个序列的数值或平均值。条件允许的地区，可将体型特异性剂量估算（",
+          "quote": "常规 X 射线摄影推荐使用空气比释动能面积乘积（PKA）或者入射体表空气比释动能（Ka,e）作为诊断参考水平的量；乳腺 X 射线摄影推荐的 DRL 表征量是入射空气比释动能（Ka,i）、Ka,e 或者乳腺平均剂量（AGD）中的一个或多个。透视 DRL 表征量推荐 PKA 和受检者入射参考点空气比释动能（Ka,r），同时推荐对透视时间、电影数量或数字减影血管造影（DSA）图像数量来设定相应的 DRL 值。CT 检查选项包括 CT 剂量指数（CTDIw 或 CTDIvol）和 DLP。DLP 值取整个检查的累积值，CTDIvol 值取每个序列的数值或平均值。条件允许的地区，可将体型特异性剂量估算（SSDE）作为 DRL 表征量。",
+          "src": "CN-01",
+          "cat": "剂量参考水平"
+        },
+        {
           "k": "W908_DRL3 · 10.1.2.1",
           "v": "W908_DRL3：宜优先为常规开展的、开展频率较高或对受检者剂量较大的放射检查建立 DRL 值。",
           "quote": "宜优先为常规开展的、开展频率较高或对受检者剂量较大的放射检查建立 DRL 值。",
@@ -17328,20 +16447,6 @@ window.KG_GRAPH = {
           "k": "W908_DRL3 · 10.3.3",
           "v": "W908_DRL3：某种放射诊断设备或技术的数量太少而无法确定全国 DRL 值或地方 DRL 值时，可使用典型值。由于医疗机构的临床专科特点和需求，在符合正当性的前提下本机构的放射诊断检查辐射剂量（曝光参数或扫描期相、范围等原因）超出全国 DRL 值或地方 DRL 值时，可设定和使用较高的典型值作为放射实践的参考。",
           "quote": "某种放射诊断设备或技术的数量太少而无法确定全国 DRL 值或地方 DRL 值时，可使用典型值。由于医疗机构的临床专科特点和需求，在符合正当性的前提下本机构的放射诊断检查辐射剂量（曝光参数或扫描期相、范围等原因）超出全国 DRL 值或地方 DRL 值时，可设定和使用较高的典型值作为放射实践的参考。",
-          "src": "CN-01",
-          "cat": "剂量参考水平"
-        },
-        {
-          "k": "W908_DRL3 · 10.1.1.2",
-          "v": "W908_DRL3：所选择的量应易于测量或获得，对可获得的相关量应尽可能记录。",
-          "quote": "所选择的量应易于测量或获得，对可获得的相关量应尽可能记录。",
-          "src": "CN-01",
-          "cat": "剂量参考水平"
-        },
-        {
-          "k": "W908_DRL3 · 10.1.1.3",
-          "v": "W908_DRL3：常规 X 射线摄影推荐使用空气比释动能面积乘积（PKA）或者入射体表空气比释动能（Ka,e）作为诊断参考水平的量；乳腺 X 射线摄影推荐的 DRL 表征量是入射空气比释动能（Ka,i）、Ka,e 或者乳腺平均剂量（AGD）中的一个或多个。透视 DRL 表征量推荐 PKA 和受检者入射参考点空气比释动能（Ka,r），同时推荐对透视时间、电影数量或数字减影血管造影（DSA）图像数量来设定相应的 DRL 值。CT 检查选项包括 CT 剂量指数（CTDIw 或 CTDIvol）和 DLP。DLP 值取整个检查的累积值，CTDIvol 值取每个序列的数值或平均值。条件允许的地区，可将体型特异性剂量估算（",
-          "quote": "常规 X 射线摄影推荐使用空气比释动能面积乘积（PKA）或者入射体表空气比释动能（Ka,e）作为诊断参考水平的量；乳腺 X 射线摄影推荐的 DRL 表征量是入射空气比释动能（Ka,i）、Ka,e 或者乳腺平均剂量（AGD）中的一个或多个。透视 DRL 表征量推荐 PKA 和受检者入射参考点空气比释动能（Ka,r），同时推荐对透视时间、电影数量或数字减影血管造影（DSA）图像数量来设定相应的 DRL 值。CT 检查选项包括 CT 剂量指数（CTDIw 或 CTDIvol）和 DLP。DLP 值取整个检查的累积值，CTDIvol 值取每个序列的数值或平均值。条件允许的地区，可将体型特异性剂量估算（SSDE）作为 DRL 表征量。",
           "src": "CN-01",
           "cat": "剂量参考水平"
         },
@@ -17826,1551 +16931,6 @@ window.KG_GRAPH = {
       ]
     },
     {
-      "id": "EX_NasalBone",
-      "name": "鼻骨 CT 检查",
-      "type": "HeadExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "鼻骨CT"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.2.4.1 鼻骨 的规程要点。——扫描条件：管电压 100 kV～120 kV；有效管电流量 180 mAs/层～250 mAs/层（儿童 140 mAs/层）；准直器宽度 10 mm～40 mm；螺距 0.4～0.6；矩阵至少 512×512；FOV 150 mm～200 mm；；扫描范围：——扫描范围：鼻根至鼻尖；",
-      "attrs": [],
-      "details": [
-        {
-          "k": "鼻骨 CT 检查 · 扫描前准备",
-          "v": "鼻骨 CT 检查：——扫描前准备：去除被检者扫描区域体表所有金属物；",
-          "quote": "——扫描前准备：去除被检者扫描区域体表所有金属物；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "鼻骨 CT 检查 · 扫描体位",
-          "v": "鼻骨 CT 检查：——扫描体位：仰卧位，机架激光定位灯水平线对准外耳孔。嘱受检者稍仰头、闭目，保持眼球静止状态，使定位灯垂直线平行于听眶下线；",
-          "quote": "——扫描体位：仰卧位，机架激光定位灯水平线对准外耳孔。嘱受检者稍仰头、闭目，保持眼球静止状态，使定位灯垂直线平行于听眶下线；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "鼻骨 CT 检查 · 扫描范围",
-          "v": "鼻骨 CT 检查：——扫描范围：鼻根至鼻尖；",
-          "quote": "——扫描范围：鼻根至鼻尖；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "鼻骨 CT 检查 · 扫描基线",
-          "v": "鼻骨 CT 检查：——扫描基线：侧位定位片，以外耳孔为定位片扫描定位点。嘱受检者稍仰头，使定位灯垂直线平行于听眶下线。患者配合不佳时，建议使用设备配有的部分角度扫描功能；",
-          "quote": "——扫描基线：侧位定位片，以外耳孔为定位片扫描定位点。嘱受检者稍仰头，使定位灯垂直线平行于听眶下线。患者配合不佳时，建议使用设备配有的部分角度扫描功能；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "鼻骨 CT 检查 · 扫描方式",
-          "v": "鼻骨 CT 检查：——扫描方式：螺旋扫描；",
-          "quote": "——扫描方式：螺旋扫描；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "鼻骨 CT 检查 · 扫描条件",
-          "v": "鼻骨 CT 检查：——扫描条件：管电压 100 kV～120 kV；有效管电流量 180 mAs/层～250 mAs/层（儿童 140 mAs/层）；准直器宽度 10 mm～40 mm；螺距 0.4～0.6；矩阵至少 512×512；FOV 150 mm～200 mm；",
-          "quote": "——扫描条件：管电压 100 kV～120 kV；有效管电流量 180 mAs/层～250 mAs/层（儿童 140 mAs/层）；准直器宽度 10 mm～40 mm；螺距 0.4～0.6；矩阵至少 512×512；FOV 150 mm～200 mm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "鼻骨 CT 检查 · 重建层厚",
-          "v": "鼻骨 CT 检查：——重建层厚：0.6 mm～0.7 mm(允许的最薄层厚)；层间距为层厚的 50%；",
-          "quote": "——重建层厚：0.6 mm～0.7 mm(允许的最薄层厚)；层间距为层厚的 50%；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "鼻骨 CT 检查 · 重建算法",
-          "v": "鼻骨 CT 检查：——重建算法：骨算法，软组织算法；推荐使用迭代重建算法；",
-          "quote": "——重建算法：骨算法，软组织算法；推荐使用迭代重建算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_PulmonaryArtery",
-      "name": "肺动脉 CT 成像",
-      "type": "ChestExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "肺动脉CT"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.3.2 肺动脉 CT 成像 的规程要点。——层厚：采集层厚；",
-      "attrs": [],
-      "details": [
-        {
-          "k": "肺动脉 CT 成像 · 注射总量",
-          "v": "肺动脉 CT 成像：——注射总量：1.0 mL/kg 体重；",
-          "quote": "——注射总量：1.0 mL/kg 体重；",
-          "src": "WS391-2024",
-          "cat": "增强扫描"
-        },
-        {
-          "k": "肺动脉 CT 成像 · 延迟时间",
-          "v": "肺动脉 CT 成像：——延迟时间：利用对比剂跟踪技术确定；",
-          "quote": "——延迟时间：利用对比剂跟踪技术确定；",
-          "src": "WS391-2024",
-          "cat": "增强扫描"
-        },
-        {
-          "k": "肺动脉 CT 成像 · 扫描层厚",
-          "v": "肺动脉 CT 成像：——扫描层厚：根据具体 CT 机型选择；",
-          "quote": "——扫描层厚：根据具体 CT 机型选择；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "肺动脉 CT 成像 · 层厚",
-          "v": "肺动脉 CT 成像：——层厚：采集层厚；",
-          "quote": "——层厚：采集层厚；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_AorticArch",
-      "name": "胸主动脉 CT 成像",
-      "type": "ChestExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "胸主动脉CT"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.3.3 胸主动脉 CT 成像 的规程要点。——层厚：1 mm（＜2 mm）；",
-      "attrs": [],
-      "details": [
-        {
-          "k": "胸主动脉 CT 成像 · 层厚",
-          "v": "胸主动脉 CT 成像：——层厚：1 mm（＜2 mm）；",
-          "quote": "——层厚：1 mm（＜2 mm）；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_Coronary",
-      "name": "冠状动脉增强 CT",
-      "type": "ChestExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "冠状动脉增强 CT"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.3.4.2 冠状动脉增强扫描 的规程要点。——扫描条件：120 kV, 300 mA～400 mA，层厚 0.5 mm～1 mm；",
-      "attrs": [],
-      "details": [
-        {
-          "k": "心血管 CT 的剂量区间",
-          "v": "SCCT 指南：心血管 CT 的剂量通常落在 0.5 至 30 mSv 区间，单次心血管 CT 操作的终生归因风险非常小。",
-          "quote": "Assuming that cardiovascular CT doses normally fall in the range of 0.5 to 30 mSv, the lifetime attributable risk from a single cardiovascular CT procedure is very small",
-          "src": "EN-19",
-          "cat": "剂量指标"
-        },
-        {
-          "k": "冠脉 CTA 的剂量水平",
-          "v": "IAEA 报告：增强 MDCT 冠脉造影的有效剂量更高（5–15 mSv），接近常规胸部 MDCT 的有效剂量，这些剂量应可通过常规降剂量途径加以降低。",
-          "quote": "Contrast enhanced MDCT for coronary angiography results in a higher effective dose (5–15 mSv) or close to the effective dose from a standard MDCT scan of the chest. These doses should be susceptible to conventional dose reduction approaches.",
-          "src": "EN-21",
-          "cat": "剂量指标"
-        },
-        {
-          "k": "CTPA剂量降幅",
-          "v": "低管电压（≤80 kVp）联合减量对比剂（≤60 ml）与迭代重建，可使CTDIvol和有效剂量降低50%至80%以上",
-          "quote": "Studies consistently demonstrated that protocols using low tube voltage (≤80 kVp) and reduced contrast volume (≤60 ml), particularly when combined with iterative reconstruction techniques (e.g., SAFIRE, iDose4), achieved significant reductions in computed tomography dose index (CTDIvol) and effective dose ranging from 50% to over 80% while preserving diagnostic image quality.",
-          "src": "SR-17",
-          "cat": "剂量指标"
-        },
-        {
-          "k": "冠状动脉增强 CT · 扫描条件",
-          "v": "冠状动脉增强 CT：——扫描条件：120 kV, 300 mA～400 mA，层厚 0.5 mm～1 mm；",
-          "quote": "——扫描条件：120 kV, 300 mA～400 mA，层厚 0.5 mm～1 mm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "指南",
-          "author": "Halliburton SS, Abbara S, Chen MY, Gentry R, Mahesh M, Raff GL, Shaw LJ, Hausleiter J",
-          "title": "Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT",
-          "journal": "Journal of Cardiovascular Computed Tomography",
-          "year": 2011,
-          "cite": "Halliburton SS, Abbara S, Chen MY, Gentry R, Mahesh M, Raff GL, Shaw LJ, Hausleiter J / Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT / Journal of Cardiovascular Computed Tomography / 2011",
-          "grade": "指南与共识",
-          "ref": "EN-19"
-        },
-        {
-          "type": "推荐",
-          "author": "International Atomic Energy Agency, World Health Organization, International Society of Radiology",
-          "title": "with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT",
-          "journal": "IAEA Safety Reports Series No",
-          "year": 2008,
-          "cite": "International Atomic Energy Agency, World Health Organization, International Society of Radiology / with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT / IAEA Safety Reports Series No / 2008",
-          "grade": "推荐",
-          "ref": "EN-21"
-        },
-        {
-          "type": "Meta分析",
-          "author": "S S, Pradhan A, Kadavigere R, et al",
-          "title": "Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis",
-          "journal": "J Med Imaging Radiat Sci",
-          "year": 2026,
-          "cite": "S S, Pradhan A, Kadavigere R, et al / Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis / J Med Imaging Radiat Sci / 2026",
-          "grade": "Meta分析",
-          "ref": "SR-17"
-        },
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_Biliary",
-      "name": "胆管 CT 检查",
-      "type": "AbdoExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "胆管CT"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.4.3 胆管 的规程要点。——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:30 cm～40 cm；；扫描范围：——扫描范围：从右膈面开始扫描至十二指肠水平部；",
-      "attrs": [],
-      "details": [
-        {
-          "k": "胆管 CT 检查 · 扫描前准备",
-          "v": "胆管 CT 检查：——扫描前准备：患者扫描前至少禁食 4 h，扫描前口服清水充盈胃肠道。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
-          "quote": "——扫描前准备：患者扫描前至少禁食 4 h，扫描前口服清水充盈胃肠道。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "胆管 CT 检查 · 扫描体位",
-          "v": "胆管 CT 检查：——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
-          "quote": "——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "胆管 CT 检查 · 扫描范围",
-          "v": "胆管 CT 检查：——扫描范围：从右膈面开始扫描至十二指肠水平部；",
-          "quote": "——扫描范围：从右膈面开始扫描至十二指肠水平部；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "胆管 CT 检查 · 扫描基线",
-          "v": "胆管 CT 检查：——扫描基线：右膈面；",
-          "quote": "——扫描基线：右膈面；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "胆管 CT 检查 · 扫描条件",
-          "v": "胆管 CT 检查：——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:30 cm～40 cm；",
-          "quote": "——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:30 cm～40 cm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "胆管 CT 检查 · 重建层厚",
-          "v": "胆管 CT 检查：——重建层厚：层厚 1 mm～2 mm，间隔 1 mm～2 mm；",
-          "quote": "——重建层厚：层厚 1 mm～2 mm，间隔 1 mm～2 mm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "胆管 CT 检查 · 重建算法",
-          "v": "胆管 CT 检查：——重建算法：标准算法或软组织算法；",
-          "quote": "——重建算法：标准算法或软组织算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "胆管 CT 检查 · 注意事项",
-          "v": "胆管 CT 检查：——注意事项：扫描前先问清其一周内是否做过钡餐检查，如做过应清腹后或排空后再行检查。患者上检查床前，应训练其深呼吸后屏气。嘱患者去除检查部位金属异物；",
-          "quote": "——注意事项：扫描前先问清其一周内是否做过钡餐检查，如做过应清腹后或排空后再行检查。患者上检查床前，应训练其深呼吸后屏气。嘱患者去除检查部位金属异物；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_Kidney",
-      "name": "肾脏 CT 检查",
-      "type": "AbdoExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "肾脏CT"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.4.5 肾脏 的规程要点。——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，30～40 cm；",
-      "attrs": [],
-      "details": [
-        {
-          "k": "肾脏 CT 检查 · 扫描前准备",
-          "v": "肾脏 CT 检查：——扫描前准备：患者扫描前至少禁食 4 h。可以进食的患者扫描前 25 min～45 min 口服清水充盈胃肠道。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
-          "quote": "——扫描前准备：患者扫描前至少禁食 4 h。可以进食的患者扫描前 25 min～45 min 口服清水充盈胃肠道。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "肾脏 CT 检查 · 扫描体位",
-          "v": "肾脏 CT 检查：——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；扫描范围：从肾上极扫描至肾下级；",
-          "quote": "——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；扫描范围：从肾上极扫描至肾下级；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "肾脏 CT 检查 · 扫描基线",
-          "v": "肾脏 CT 检查：——扫描基线：胸 11 椎体；",
-          "quote": "——扫描基线：胸 11 椎体；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "肾脏 CT 检查 · 扫描条件",
-          "v": "肾脏 CT 检查：——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，30～40 cm；",
-          "quote": "——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，30～40 cm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "肾脏 CT 检查 · 重建层厚",
-          "v": "肾脏 CT 检查：——重建层厚：3 mm～5 mm。间隔 3 mm～5 mm；",
-          "quote": "——重建层厚：3 mm～5 mm。间隔 3 mm～5 mm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "肾脏 CT 检查 · 重建算法",
-          "v": "肾脏 CT 检查：——重建算法：标准算法或软组织算法；",
-          "quote": "——重建算法：标准算法或软组织算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "肾脏 CT 检查 · 注意事项",
-          "v": "肾脏 CT 检查：——注意事项：扫描前先问清其一周内是否做过钡餐检查，如做过应清腹后或排空后再行检查。同时 72 h 内不得做过肾盂造影。患者上检查床前，应训练其深呼吸后屏气。去掉身上含有金属的物品。遇有一侧肾缺如患者，须加大扫描范围。对移植肾患者主要行下腹髂区扫描；",
-          "quote": "——注意事项：扫描前先问清其一周内是否做过钡餐检查，如做过应清腹后或排空后再行检查。同时 72 h 内不得做过肾盂造影。患者上检查床前，应训练其深呼吸后屏气。去掉身上含有金属的物品。遇有一侧肾缺如患者，须加大扫描范围。对移植肾患者主要行下腹髂区扫描；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_Urography",
-      "name": "CT 尿路造影",
-      "type": "AbdoExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "CT 尿路造影"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.4.6 CT 尿路造影 的规程要点。——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；；扫描范围：——扫描范围：从肾上极扫至耻骨联合上缘；",
-      "attrs": [],
-      "details": [
-        {
-          "k": "三期CTU剂量水平",
-          "v": "三相CT尿路造影的合并CTDIvol约9 mGy，各研究报道值5~16 mGy",
-          "quote": "Tri-phase CTU demonstrated a pooled CTDIvol of approximately 9 mGy, with reported values ranging from 5 to 16 mGy across studies.",
-          "src": "SR-11",
-          "cat": "剂量指标"
-        },
-        {
-          "k": "CT 尿路造影 · 扫描前准备",
-          "v": "CT 尿路造影：——扫描前准备：患者扫描前至少禁食 4 h。可以进食的患者扫描前让患者口服清水充盈胃肠道，待膀胱完全充盈后扫描。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
-          "quote": "——扫描前准备：患者扫描前至少禁食 4 h。可以进食的患者扫描前让患者口服清水充盈胃肠道，待膀胱完全充盈后扫描。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "CT 尿路造影 · 扫描体位",
-          "v": "CT 尿路造影：——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
-          "quote": "——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "CT 尿路造影 · 扫描范围",
-          "v": "CT 尿路造影：——扫描范围：从肾上极扫至耻骨联合上缘；",
-          "quote": "——扫描范围：从肾上极扫至耻骨联合上缘；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "CT 尿路造影 · 扫描基线",
-          "v": "CT 尿路造影：——扫描基线：肾上极；",
-          "quote": "——扫描基线：肾上极；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "CT 尿路造影 · 扫描条件",
-          "v": "CT 尿路造影：——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
-          "quote": "——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "CT 尿路造影 · 重建层厚",
-          "v": "CT 尿路造影：——重建层厚：层厚：1 mm～3 mm 间隔：1 mm～3 mm；",
-          "quote": "——重建层厚：层厚：1 mm～3 mm 间隔：1 mm～3 mm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "CT 尿路造影 · 重建算法",
-          "v": "CT 尿路造影：——重建算法：标准算法或软组织算法；",
-          "quote": "——重建算法：标准算法或软组织算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "CT 尿路造影 · 注意事项",
-          "v": "CT 尿路造影：——注意事项：扫描前先问清其一周内是否做过钡餐检查，如做过应清腹后或排空后再行检查。同时 72 h 内不得做过肾盂造影。患者上检查床前，应训练其深呼吸后屏气。嘱患者去除检查部位金属异物。",
-          "quote": "——注意事项：扫描前先问清其一周内是否做过钡餐检查，如做过应清腹后或排空后再行检查。同时 72 h 内不得做过肾盂造影。患者上检查床前，应训练其深呼吸后屏气。嘱患者去除检查部位金属异物。",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "Meta分析",
-          "author": "Shanbhag S, Panakkal NC, Koteshwara P, et al",
-          "title": "Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis",
-          "journal": "BMC Med Imaging",
-          "year": 2026,
-          "cite": "Shanbhag S, Panakkal NC, Koteshwara P, et al / Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis / BMC Med Imaging / 2026",
-          "grade": "Meta分析",
-          "ref": "SR-11"
-        },
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_Pelvis",
-      "name": "盆腔 CT 检查",
-      "type": "AbdoExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "盆腔CT"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.4.7 盆腔 的规程要点。——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；；扫描范围：——扫描范围：从耻骨联合下缘扫描至髂嵴水平；",
-      "attrs": [],
-      "details": [
-        {
-          "k": "盆腔 CT 检查 · 扫描前准备",
-          "v": "盆腔 CT 检查：——扫描前准备：患者检查当日以空腹为宜。可以进食的患者扫描前让患者口服清水充盈胃肠道，待膀胱充盈后开始扫描。嘱患者将皮带、外裤等含金属衣服脱掉；",
-          "quote": "——扫描前准备：患者检查当日以空腹为宜。可以进食的患者扫描前让患者口服清水充盈胃肠道，待膀胱充盈后开始扫描。嘱患者将皮带、外裤等含金属衣服脱掉；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "盆腔 CT 检查 · 扫描体位",
-          "v": "盆腔 CT 检查：——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
-          "quote": "——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "盆腔 CT 检查 · 扫描范围",
-          "v": "盆腔 CT 检查：——扫描范围：从耻骨联合下缘扫描至髂嵴水平；",
-          "quote": "——扫描范围：从耻骨联合下缘扫描至髂嵴水平；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "盆腔 CT 检查 · 扫描基线",
-          "v": "盆腔 CT 检查：——扫描基线：耻骨联合下缘或髂嵴水平；",
-          "quote": "——扫描基线：耻骨联合下缘或髂嵴水平；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "盆腔 CT 检查 · 扫描条件",
-          "v": "盆腔 CT 检查：——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
-          "quote": "——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "盆腔 CT 检查 · 重建层厚",
-          "v": "盆腔 CT 检查：——重建层厚：层厚 ≤5 mm，间隔 ≤5 mm；",
-          "quote": "——重建层厚：层厚 ≤5 mm，间隔 ≤5 mm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "盆腔 CT 检查 · 重建算法",
-          "v": "盆腔 CT 检查：——重建算法：标准算法或软组织算法；",
-          "quote": "——重建算法：标准算法或软组织算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "盆腔 CT 检查 · 注意事项",
-          "v": "盆腔 CT 检查：——注意事项：患者喝完清水后、嘱患者只有尿感强烈时才能开始扫描、确保膀胱充盈完全。膀胱镜检当天不行此检查。",
-          "quote": "——注意事项：患者喝完清水后、嘱患者只有尿感强烈时才能开始扫描、确保膀胱充盈完全。膀胱镜检当天不行此检查。",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_Perineum",
-      "name": "会阴部 CT 检查",
-      "type": "AbdoExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "会阴部CT"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.4.8 会阴部 的规程要点。——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；；扫描范围：——扫描范围：从直肠子宫隐窝或直肠膀胱隐凹扫描至病变以下；",
-      "attrs": [],
-      "details": [
-        {
-          "k": "会阴部 CT 检查 · 扫描前准备",
-          "v": "会阴部 CT 检查：——扫描前准备：患者检查当日以空腹为宜。嘱患者将皮带、外裤等含金属衣服脱掉；",
-          "quote": "——扫描前准备：患者检查当日以空腹为宜。嘱患者将皮带、外裤等含金属衣服脱掉；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "会阴部 CT 检查 · 扫描体位",
-          "v": "会阴部 CT 检查：——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
-          "quote": "——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "会阴部 CT 检查 · 扫描范围",
-          "v": "会阴部 CT 检查：——扫描范围：从直肠子宫隐窝或直肠膀胱隐凹扫描至病变以下；",
-          "quote": "——扫描范围：从直肠子宫隐窝或直肠膀胱隐凹扫描至病变以下；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "会阴部 CT 检查 · 扫描基线",
-          "v": "会阴部 CT 检查：——扫描基线：以直肠、子宫陷窝或直肠膀胱陷凹为准参数，和盆腔同；",
-          "quote": "——扫描基线：以直肠、子宫陷窝或直肠膀胱陷凹为准参数，和盆腔同；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "会阴部 CT 检查 · 扫描条件",
-          "v": "会阴部 CT 检查：——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
-          "quote": "——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "会阴部 CT 检查 · 重建层厚",
-          "v": "会阴部 CT 检查：——重建层厚：层厚 3 mm～5 mm，间隔 3 mm～5 mm；",
-          "quote": "——重建层厚：层厚 3 mm～5 mm，间隔 3 mm～5 mm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "会阴部 CT 检查 · 重建算法",
-          "v": "会阴部 CT 检查：——重建算法：标准算法或软组织算法；",
-          "quote": "——重建算法：标准算法或软组织算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_Stomach",
-      "name": "胃 CT 检查",
-      "type": "AbdoExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "胃CT"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.4.9 胃 的规程要点。——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；；扫描范围：——扫描范围：从左膈顶扫描至胃下缘；",
-      "attrs": [],
-      "details": [
-        {
-          "k": "胃 CT 检查 · 扫描前准备",
-          "v": "胃 CT 检查：——扫描前准备：患者扫描前至少禁食 4 h；可以进食的患者扫描前口服产气剂 6 g～9 g 或口服1000 mL～1500 mL 清水。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
-          "quote": "——扫描前准备：患者扫描前至少禁食 4 h；可以进食的患者扫描前口服产气剂 6 g～9 g 或口服1000 mL～1500 mL 清水。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "胃 CT 检查 · 扫描体位",
-          "v": "胃 CT 检查：——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
-          "quote": "——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "胃 CT 检查 · 扫描范围",
-          "v": "胃 CT 检查：——扫描范围：从左膈顶扫描至胃下缘；",
-          "quote": "——扫描范围：从左膈顶扫描至胃下缘；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "胃 CT 检查 · 扫描基线",
-          "v": "胃 CT 检查：——扫描基线：左膈顶；",
-          "quote": "——扫描基线：左膈顶；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "胃 CT 检查 · 扫描条件",
-          "v": "胃 CT 检查：——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
-          "quote": "——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "胃 CT 检查 · 重建层厚",
-          "v": "胃 CT 检查：——重建层厚：层厚 1 mm～3 mm，间隔 1 mm～3 mm；",
-          "quote": "——重建层厚：层厚 1 mm～3 mm，间隔 1 mm～3 mm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "胃 CT 检查 · 重建算法",
-          "v": "胃 CT 检查：——重建算法：标准算法或软组织算法；",
-          "quote": "——重建算法：标准算法或软组织算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_SmallBowel",
-      "name": "小肠 CT 检查",
-      "type": "AbdoExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "小肠CT"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.4.10 小肠 的规程要点。——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；；扫描范围：——扫描范围：从十二指肠水平段扫描至耻骨联合上缘；",
-      "attrs": [],
-      "details": [
-        {
-          "k": "小肠 CT 检查 · 扫描前准备",
-          "v": "小肠 CT 检查：——扫描前准备：可以进食的患者检查前 1d 服用无渣半流食，晚餐后禁食，晚餐后 30min 口服缓泻剂，检查当日早禁食。急诊患者不做任何准备直接平扫及增强检查。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
-          "quote": "——扫描前准备：可以进食的患者检查前 1d 服用无渣半流食，晚餐后禁食，晚餐后 30min 口服缓泻剂，检查当日早禁食。急诊患者不做任何准备直接平扫及增强检查。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "小肠 CT 检查 · 扫描体位",
-          "v": "小肠 CT 检查：——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
-          "quote": "——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "小肠 CT 检查 · 扫描范围",
-          "v": "小肠 CT 检查：——扫描范围：从十二指肠水平段扫描至耻骨联合上缘；",
-          "quote": "——扫描范围：从十二指肠水平段扫描至耻骨联合上缘；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "小肠 CT 检查 · 扫描基线",
-          "v": "小肠 CT 检查：——扫描基线：以十二指肠球部或水平部为准；",
-          "quote": "——扫描基线：以十二指肠球部或水平部为准；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "小肠 CT 检查 · 扫描条件",
-          "v": "小肠 CT 检查：——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
-          "quote": "——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "小肠 CT 检查 · 重建层厚",
-          "v": "小肠 CT 检查：——重建层厚：层厚 3 mm～5 mm，间隔 3 mm～5 mm；",
-          "quote": "——重建层厚：层厚 3 mm～5 mm，间隔 3 mm～5 mm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "小肠 CT 检查 · 重建算法",
-          "v": "小肠 CT 检查：——重建算法：标准算法或软组织算法；",
-          "quote": "——重建算法：标准算法或软组织算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_Colon",
-      "name": "结肠 CT 检查",
-      "type": "AbdoExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "结肠CT"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.4.11 结肠 的规程要点。——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；；扫描范围：——扫描范围：从结肠脾曲上缘扫描至直肠末端；",
-      "attrs": [],
-      "details": [
-        {
-          "k": "结肠 CT 检查 · 扫描前准备",
-          "v": "结肠 CT 检查：——扫描前准备：可以进食的患者检查前 2d 服用无渣半流食，检查前 1d 晚餐后禁食。晚餐后 30min后口服缓泻剂，检查当日早禁食。患者上检查床后，经肛门向结肠内注入空气，以被检查者可以耐受、1000 mL～1500 mL 左右较为合适。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
-          "quote": "——扫描前准备：可以进食的患者检查前 2d 服用无渣半流食，检查前 1d 晚餐后禁食。晚餐后 30min后口服缓泻剂，检查当日早禁食。患者上检查床后，经肛门向结肠内注入空气，以被检查者可以耐受、1000 mL～1500 mL 左右较为合适。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "结肠 CT 检查 · 扫描体位",
-          "v": "结肠 CT 检查：——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
-          "quote": "——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "结肠 CT 检查 · 扫描范围",
-          "v": "结肠 CT 检查：——扫描范围：从结肠脾曲上缘扫描至直肠末端；",
-          "quote": "——扫描范围：从结肠脾曲上缘扫描至直肠末端；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "结肠 CT 检查 · 扫描基线",
-          "v": "结肠 CT 检查：——扫描基线：以结肠脾曲上缘为准；",
-          "quote": "——扫描基线：以结肠脾曲上缘为准；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "结肠 CT 检查 · 扫描条件",
-          "v": "结肠 CT 检查：——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
-          "quote": "——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "结肠 CT 检查 · 重建层厚",
-          "v": "结肠 CT 检查：——重建层厚：层厚 3 mm～5 mm；间隔 3 mm～5 mm；",
-          "quote": "——重建层厚：层厚 3 mm～5 mm；间隔 3 mm～5 mm；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "结肠 CT 检查 · 重建算法",
-          "v": "结肠 CT 检查：——重建算法：标准算法或软组织算法；",
-          "quote": "——重建算法：标准算法或软组织算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "结肠 CT 检查 · 注意事项",
-          "v": "结肠 CT 检查：——注意事项：直肠病变的患者可采取俯卧位扫描。行轴位、冠状位、矢状位多平面重组重，仿真内窥镜重组；",
-          "quote": "——注意事项：直肠病变的患者可采取俯卧位扫描。行轴位、冠状位、矢状位多平面重组重，仿真内窥镜重组；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_AbdominalVessel",
-      "name": "腹部血管 CT 成像",
-      "type": "AbdoExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "腹部血管CT"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.4.12 腹部血管 的规程要点。——扫描条件：采用自动 mA 技术；管电压依据患者 BMI 设置或自动管电压技术，采用迭代重建是可适当降低管电压；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～",
-      "attrs": [],
-      "details": [
-        {
-          "k": "腹部血管 CT 成像 · 扫描前准备",
-          "v": "腹部血管 CT 成像：——扫描前准备：患者检查前至少禁食 4 h，不需禁水,签署知情同意书。可以进食的患者扫描前30 min口服清水 500 mL，30 min 后再口服 500 mL，然后开始扫描。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
-          "quote": "——扫描前准备：患者检查前至少禁食 4 h，不需禁水,签署知情同意书。可以进食的患者扫描前30 min口服清水 500 mL，30 min 后再口服 500 mL，然后开始扫描。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "腹部血管 CT 成像 · 扫描体位",
-          "v": "腹部血管 CT 成像：——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
-          "quote": "——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "腹部血管 CT 成像 · 扫描基线",
-          "v": "腹部血管 CT 成像：——扫描基线：依扫描目的而定；",
-          "quote": "——扫描基线：依扫描目的而定；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "腹部血管 CT 成像 · 扫描条件",
-          "v": "腹部血管 CT 成像：——扫描条件：采用自动 mA 技术；管电压依据患者 BMI 设置或自动管电压技术，采用迭代重建是可适当降低管电压；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～",
-          "quote": "——扫描条件：采用自动 mA 技术；管电压依据患者 BMI 设置或自动管电压技术，采用迭代重建是可适当降低管电压；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_PelvisBone",
-      "name": "骨盆 CT 检查",
-      "type": "LimbExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "骨盆CT"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.5.3 骨盆 CT 检查 的规程要点。扫描范围：——扫描范围：上界在两侧髂嵴连线，下界在坐骨下缘；",
-      "attrs": [],
-      "details": [
-        {
-          "k": "骨盆 CT 检查 · 扫描前准备",
-          "v": "骨盆 CT 检查：——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。",
-          "quote": "——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "骨盆 CT 检查 · 扫描体位",
-          "v": "骨盆 CT 检查：——扫描体位：仰卧位，将需扫描区域置于床面中间；",
-          "quote": "——扫描体位：仰卧位，将需扫描区域置于床面中间；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "骨盆 CT 检查 · 扫描范围",
-          "v": "骨盆 CT 检查：——扫描范围：上界在两侧髂嵴连线，下界在坐骨下缘；",
-          "quote": "——扫描范围：上界在两侧髂嵴连线，下界在坐骨下缘；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "骨盆 CT 检查 · 扫描基线",
-          "v": "骨盆 CT 检查：——扫描基线：平行于两侧髂嵴连线，双侧对称；",
-          "quote": "——扫描基线：平行于两侧髂嵴连线，双侧对称；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "骨盆 CT 检查 · 扫描方式",
-          "v": "骨盆 CT 检查：——扫描方式：横轴位非螺旋连续扫描；",
-          "quote": "——扫描方式：横轴位非螺旋连续扫描；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "骨盆 CT 检查 · 层厚和层间距",
-          "v": "骨盆 CT 检查：——层厚和层间距：≤2.5 mm，连续扫描；",
-          "quote": "——层厚和层间距：≤2.5 mm，连续扫描；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "骨盆 CT 检查 · 重建算法",
-          "v": "骨盆 CT 检查：——重建算法：观察骨组织用骨算法，观察软组织用软组织算法；",
-          "quote": "——重建算法：观察骨组织用骨算法，观察软组织用软组织算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "骨盆 CT 检查 · 扫描前准备（2）",
-          "v": "骨盆 CT 检查：——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。",
-          "quote": "——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "骨盆 CT 检查 · 扫描体位（2）",
-          "v": "骨盆 CT 检查：——扫描体位：仰卧位，将需扫描区域置于床面中间；",
-          "quote": "——扫描体位：仰卧位，将需扫描区域置于床面中间；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "骨盆 CT 检查 · 扫描范围（2）",
-          "v": "骨盆 CT 检查：——扫描范围：上界为两侧髂嵴连线，下界为在坐骨下缘；",
-          "quote": "——扫描范围：上界为两侧髂嵴连线，下界为在坐骨下缘；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "骨盆 CT 检查 · 扫描基线（2）",
-          "v": "骨盆 CT 检查：——扫描基线：平行于两侧髂嵴连线；",
-          "quote": "——扫描基线：平行于两侧髂嵴连线；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "骨盆 CT 检查 · 扫描方式（2）",
-          "v": "骨盆 CT 检查：——扫描方式：螺旋扫描方式，螺距≤1.0；",
-          "quote": "——扫描方式：螺旋扫描方式，螺距≤1.0；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "骨盆 CT 检查 · 重建间隔",
-          "v": "骨盆 CT 检查：——重建间隔：50%；",
-          "quote": "——重建间隔：50%；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "骨盆 CT 检查 · 重建算法（2）",
-          "v": "骨盆 CT 检查：——重建算法：观察骨组织用骨算法，观察软组织用软组织算法；",
-          "quote": "——重建算法：观察骨组织用骨算法，观察软组织用软组织算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_Sacroiliac",
-      "name": "骶髂关节 CT 扫描",
-      "type": "LimbExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "骶髂关节 CT 扫描"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.5.4 骶髂关节 CT 扫描 的规程要点。扫描范围：——扫描范围：上界在双侧骶髂关节上缘连线，下界在双侧骶髂关节下缘连线以下；",
-      "attrs": [],
-      "details": [
-        {
-          "k": "骶髂关节 CT 扫描 · 扫描前准备",
-          "v": "骶髂关节 CT 扫描：——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。",
-          "quote": "——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "骶髂关节 CT 扫描 · 扫描体位",
-          "v": "骶髂关节 CT 扫描：——扫描体位：仰卧位，将需扫描区域置于床面中间；",
-          "quote": "——扫描体位：仰卧位，将需扫描区域置于床面中间；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "骶髂关节 CT 扫描 · 扫描范围",
-          "v": "骶髂关节 CT 扫描：——扫描范围：上界在双侧骶髂关节上缘连线，下界在双侧骶髂关节下缘连线以下；",
-          "quote": "——扫描范围：上界在双侧骶髂关节上缘连线，下界在双侧骶髂关节下缘连线以下；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "骶髂关节 CT 扫描 · 扫描基线",
-          "v": "骶髂关节 CT 扫描：——扫描基线：平行于两侧髂嵴连线；",
-          "quote": "——扫描基线：平行于两侧髂嵴连线；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "骶髂关节 CT 扫描 · 扫描方式",
-          "v": "骶髂关节 CT 扫描：——扫描方式：横轴位非螺旋连续扫描；",
-          "quote": "——扫描方式：横轴位非螺旋连续扫描；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "骶髂关节 CT 扫描 · 层厚和层间距",
-          "v": "骶髂关节 CT 扫描：——层厚和层间距：≤2 mm，连续扫描；",
-          "quote": "——层厚和层间距：≤2 mm，连续扫描；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "骶髂关节 CT 扫描 · 重建算法",
-          "v": "骶髂关节 CT 扫描：——重建算法：骨算法和软组织算法（必要时）；",
-          "quote": "——重建算法：骨算法和软组织算法（必要时）；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "骶髂关节 CT 扫描 · 扫描前准备（2）",
-          "v": "骶髂关节 CT 扫描：——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。",
-          "quote": "——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "骶髂关节 CT 扫描 · 扫描体位（2）",
-          "v": "骶髂关节 CT 扫描：——扫描体位：仰卧位，将需扫描区域置于床面中间，双侧对称；",
-          "quote": "——扫描体位：仰卧位，将需扫描区域置于床面中间，双侧对称；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "骶髂关节 CT 扫描 · 扫描范围（2）",
-          "v": "骶髂关节 CT 扫描：——扫描范围：上界在双侧骶髂关节上缘，下界在双侧骶髂关节下缘连线下方；",
-          "quote": "——扫描范围：上界在双侧骶髂关节上缘，下界在双侧骶髂关节下缘连线下方；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "骶髂关节 CT 扫描 · 扫描基线（2）",
-          "v": "骶髂关节 CT 扫描：——扫描基线：平行于两侧髂嵴连线；",
-          "quote": "——扫描基线：平行于两侧髂嵴连线；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "骶髂关节 CT 扫描 · 扫描方式（2）",
-          "v": "骶髂关节 CT 扫描：——扫描方式：螺旋扫描方式，螺距≤1.0；",
-          "quote": "——扫描方式：螺旋扫描方式，螺距≤1.0；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "骶髂关节 CT 扫描 · 重建间隔",
-          "v": "骶髂关节 CT 扫描：——重建间隔：50%；",
-          "quote": "——重建间隔：50%；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "骶髂关节 CT 扫描 · 重建算法（2）",
-          "v": "骶髂关节 CT 扫描：——重建算法：软组织算法及骨算法；",
-          "quote": "——重建算法：软组织算法及骨算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_LimbArtery",
-      "name": "四肢动脉 CT 成像",
-      "type": "LimbExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "四肢动脉CT"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.5.5 四肢动脉 CT 成像 的规程要点。扫描范围：——扫描范围：双手上举时，由主动脉弓扫描至指尖；双臂置于身体两侧时，上界包全肩部软组织，下界包全手指；",
-      "attrs": [],
-      "details": [
-        {
-          "k": "四肢动脉 CT 成像 · 扫描前准备",
-          "v": "四肢动脉 CT 成像：——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。检查前禁食 4 h，不需禁水，签署知情同意书；",
-          "quote": "——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。检查前禁食 4 h，不需禁水，签署知情同意书；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "四肢动脉 CT 成像 · 扫描体位",
-          "v": "四肢动脉 CT 成像：——扫描体位：仰卧位，双手上举，无法上举者将双臂置于身体两侧，掌心朝上。",
-          "quote": "——扫描体位：仰卧位，双手上举，无法上举者将双臂置于身体两侧，掌心朝上。",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "四肢动脉 CT 成像 · 扫描范围",
-          "v": "四肢动脉 CT 成像：——扫描范围：双手上举时，由主动脉弓扫描至指尖；双臂置于身体两侧时，上界包全肩部软组织，下界包全手指；",
-          "quote": "——扫描范围：双手上举时，由主动脉弓扫描至指尖；双臂置于身体两侧时，上界包全肩部软组织，下界包全手指；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "四肢动脉 CT 成像 · 扫描基线",
-          "v": "四肢动脉 CT 成像：——扫描基线：垂直于目标侧肱骨长轴；",
-          "quote": "——扫描基线：垂直于目标侧肱骨长轴；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "四肢动脉 CT 成像 · 扫描方式",
-          "v": "四肢动脉 CT 成像：——扫描方式：螺旋扫描方式；",
-          "quote": "——扫描方式：螺旋扫描方式；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "四肢动脉 CT 成像 · 重建间隔",
-          "v": "四肢动脉 CT 成像：——重建间隔：50%；",
-          "quote": "——重建间隔：50%；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "四肢动脉 CT 成像 · 重建算法",
-          "v": "四肢动脉 CT 成像：——重建算法：软组织算法或标准算法；",
-          "quote": "——重建算法：软组织算法或标准算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "四肢动脉 CT 成像 · 扫描前准备（2）",
-          "v": "四肢动脉 CT 成像：——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。检查前禁食 4 h，不需禁水，签署知情同意书；",
-          "quote": "——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。检查前禁食 4 h，不需禁水，签署知情同意书；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "四肢动脉 CT 成像 · 扫描体位（2）",
-          "v": "四肢动脉 CT 成像：——扫描体位：仰卧位，将扫描区域尽量置于床面中间；",
-          "quote": "——扫描体位：仰卧位，将扫描区域尽量置于床面中间；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "四肢动脉 CT 成像 · 扫描范围（2）",
-          "v": "四肢动脉 CT 成像：——扫描范围：上界包全髂总动脉分叉，下界包全双侧脚趾；",
-          "quote": "——扫描范围：上界包全髂总动脉分叉，下界包全双侧脚趾；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "四肢动脉 CT 成像 · 扫描基线（2）",
-          "v": "四肢动脉 CT 成像：——扫描基线：垂直于股骨长轴；",
-          "quote": "——扫描基线：垂直于股骨长轴；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "四肢动脉 CT 成像 · 扫描方式（2）",
-          "v": "四肢动脉 CT 成像：——扫描方式：螺旋扫描方式，推荐窄准直器宽度，确保全长扫描时间在 35 s～40 s 左右；",
-          "quote": "——扫描方式：螺旋扫描方式，推荐窄准直器宽度，确保全长扫描时间在 35 s～40 s 左右；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "四肢动脉 CT 成像 · 重建间隔（2）",
-          "v": "四肢动脉 CT 成像：——重建间隔：50%；",
-          "quote": "——重建间隔：50%；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "四肢动脉 CT 成像 · 重建算法（2）",
-          "v": "四肢动脉 CT 成像：——重建算法：软组织算法或标准算法；",
-          "quote": "——重建算法：软组织算法或标准算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_LimbVein",
-      "name": "四肢深静脉 CT 成像",
-      "type": "LimbExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "四肢深静脉CT"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》5.5.6 四肢深静脉 CT 成像 的规程要点。扫描范围：——扫描范围：上界包全肩部软组织，下界包全手指；",
-      "attrs": [],
-      "details": [
-        {
-          "k": "四肢深静脉 CT 成像 · 扫描前准备",
-          "v": "四肢深静脉 CT 成像：——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。检查前禁食 4 h，不需禁水，签署知情同意书。",
-          "quote": "——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。检查前禁食 4 h，不需禁水，签署知情同意书。",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "四肢深静脉 CT 成像 · 扫描体位",
-          "v": "四肢深静脉 CT 成像：——扫描体位：扫描体位：仰卧位，双手上举，无法上举者将双臂置于身体两侧，掌心朝上；",
-          "quote": "——扫描体位：扫描体位：仰卧位，双手上举，无法上举者将双臂置于身体两侧，掌心朝上；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "四肢深静脉 CT 成像 · 扫描范围",
-          "v": "四肢深静脉 CT 成像：——扫描范围：上界包全肩部软组织，下界包全手指；",
-          "quote": "——扫描范围：上界包全肩部软组织，下界包全手指；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "四肢深静脉 CT 成像 · 扫描基线",
-          "v": "四肢深静脉 CT 成像：——扫描基线：垂直于目标侧肱骨长轴；",
-          "quote": "——扫描基线：垂直于目标侧肱骨长轴；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "四肢深静脉 CT 成像 · 扫描方式",
-          "v": "四肢深静脉 CT 成像：——扫描方式：螺旋扫描方式；",
-          "quote": "——扫描方式：螺旋扫描方式；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "四肢深静脉 CT 成像 · 重建间隔",
-          "v": "四肢深静脉 CT 成像：——重建间隔：50%；",
-          "quote": "——重建间隔：50%；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "四肢深静脉 CT 成像 · 重建算法",
-          "v": "四肢深静脉 CT 成像：——重建算法：软组织算法或标准算法；",
-          "quote": "——重建算法：软组织算法或标准算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "四肢深静脉 CT 成像 · 扫描前准备（2）",
-          "v": "四肢深静脉 CT 成像：——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。检查前禁食 4 h，不需禁水，签署知情同意书；",
-          "quote": "——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。检查前禁食 4 h，不需禁水，签署知情同意书；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "四肢深静脉 CT 成像 · 扫描体位（2）",
-          "v": "四肢深静脉 CT 成像：——扫描体位：仰卧位，将需扫描区域尽量置于床面中间；",
-          "quote": "——扫描体位：仰卧位，将需扫描区域尽量置于床面中间；",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "四肢深静脉 CT 成像 · 扫描范围（2）",
-          "v": "四肢深静脉 CT 成像：——扫描范围：上界自两侧髂嵴连线，下界包全双侧脚趾；",
-          "quote": "——扫描范围：上界自两侧髂嵴连线，下界包全双侧脚趾；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "四肢深静脉 CT 成像 · 扫描基线（2）",
-          "v": "四肢深静脉 CT 成像：——扫描基线：垂直于目标股骨长轴；",
-          "quote": "——扫描基线：垂直于目标股骨长轴；",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "四肢深静脉 CT 成像 · 扫描方式（2）",
-          "v": "四肢深静脉 CT 成像：——扫描方式：螺旋扫描方式；",
-          "quote": "——扫描方式：螺旋扫描方式；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "四肢深静脉 CT 成像 · 重建间隔（2）",
-          "v": "四肢深静脉 CT 成像：——重建间隔：50%；",
-          "quote": "——重建间隔：50%；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        },
-        {
-          "k": "四肢深静脉 CT 成像 · 重建算法（2）",
-          "v": "四肢深静脉 CT 成像：——重建算法：软组织算法或标准算法；",
-          "quote": "——重建算法：软组织算法或标准算法；",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
-      "id": "EX_Perfusion",
-      "name": "颅脑血流灌注 CT 检查",
-      "type": "HeadExam",
-      "graph": "radiation",
-      "tags": [
-        "检查项目"
-      ],
-      "aliases": [
-        "颅脑血流灌注CT"
-      ],
-      "summary": "WS/T 391—2024《CT 检查操作规程》附录A 颅脑血流灌注检查 的规程要点。扫描范围：在 CT 平扫基础上，选择数层感兴趣层面或全脑。",
-      "attrs": [],
-      "details": [
-        {
-          "k": "颅脑血流灌注 CT 检查 · 扫描前准备",
-          "v": "颅脑血流灌注 CT 检查：去除被检者扫描区域表面（头颅表面）所有金属物及异物，检查前禁食 4h，不需禁水，需签署知情同意书。",
-          "quote": "去除被检者扫描区域表面（头颅表面）所有金属物及异物，检查前禁食 4h，不需禁水，需签署知情同意书。",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "颅脑血流灌注 CT 检查 · 扫描体位",
-          "v": "颅脑血流灌注 CT 检查：患者仰卧于检查床上，头置于头架中，下颌内收，头颅左右对称。",
-          "quote": "患者仰卧于检查床上，头置于头架中，下颌内收，头颅左右对称。",
-          "src": "WS391-2024",
-          "cat": "操作防护"
-        },
-        {
-          "k": "颅脑血流灌注 CT 检查 · 扫描范围",
-          "v": "颅脑血流灌注 CT 检查：在 CT 平扫基础上，选择数层感兴趣层面或全脑。",
-          "quote": "在 CT 平扫基础上，选择数层感兴趣层面或全脑。",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "颅脑血流灌注 CT 检查 · 扫描基线",
-          "v": "颅脑血流灌注 CT 检查：多选用听眦线（即外眦与外耳道的连线）。",
-          "quote": "多选用听眦线（即外眦与外耳道的连线）。",
-          "src": "WS391-2024",
-          "cat": "扫描范围"
-        },
-        {
-          "k": "颅脑血流灌注 CT 检查 · 扫描方式",
-          "v": "颅脑血流灌注 CT 检查：螺旋扫描方式，螺距≤1.0，或横轴位非螺旋扫描。",
-          "quote": "螺旋扫描方式，螺距≤1.0，或横轴位非螺旋扫描。",
-          "src": "WS391-2024",
-          "cat": "扫描参数"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "国家卫生健康委员会",
-          "title": "WS/T 391—2024《CT 检查操作规程》",
-          "journal": "中华人民共和国卫生行业标准",
-          "year": 2024,
-          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
-          "grade": "推荐",
-          "ref": "WS391-2024"
-        }
-      ]
-    },
-    {
       "id": "DL_DRG",
       "name": "常规 X 射线摄影的诊断参考水平",
       "type": "DRLLevel",
@@ -19792,6 +17352,1045 @@ window.KG_GRAPH = {
           "cite": "国家卫生健康委员会 / GBZ 130—2020《放射诊断放射防护要求》 / 中华人民共和国国家职业卫生标准 / 2020",
           "grade": "标准",
           "ref": "GBZ130-2020"
+        }
+      ]
+    },
+    {
+      "id": "EX_NasalBone",
+      "name": "鼻骨 CT 检查",
+      "type": "HeadExam",
+      "graph": "radiation",
+      "tags": [
+        "检查项目"
+      ],
+      "aliases": [
+        "鼻骨CT"
+      ],
+      "summary": "WS/T 391—2024《CT 检查操作规程》5.2.4.1 鼻骨 的规程要点。——扫描条件：管电压 100 kV～120 kV；有效管电流量 180 mAs/层～250 mAs/层（儿童 140 mAs/层）；准直器宽度 10 mm～40 mm；螺距 0.4～0.6；矩阵至少 512×512；FOV 150 mm～200 mm；；扫描范围：——扫描范围：鼻根至鼻尖；",
+      "attrs": [],
+      "details": [
+        {
+          "k": "鼻骨 CT 检查 · 扫描前准备",
+          "v": "鼻骨 CT 检查：——扫描前准备：去除被检者扫描区域体表所有金属物；",
+          "quote": "——扫描前准备：去除被检者扫描区域体表所有金属物；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "鼻骨 CT 检查 · 扫描体位",
+          "v": "鼻骨 CT 检查：——扫描体位：仰卧位，机架激光定位灯水平线对准外耳孔。嘱受检者稍仰头、闭目，保持眼球静止状态，使定位灯垂直线平行于听眶下线；",
+          "quote": "——扫描体位：仰卧位，机架激光定位灯水平线对准外耳孔。嘱受检者稍仰头、闭目，保持眼球静止状态，使定位灯垂直线平行于听眶下线；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "鼻骨 CT 检查 · 扫描范围",
+          "v": "鼻骨 CT 检查：——扫描范围：鼻根至鼻尖；",
+          "quote": "——扫描范围：鼻根至鼻尖；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "鼻骨 CT 检查 · 扫描基线",
+          "v": "鼻骨 CT 检查：——扫描基线：侧位定位片，以外耳孔为定位片扫描定位点。嘱受检者稍仰头，使定位灯垂直线平行于听眶下线。患者配合不佳时，建议使用设备配有的部分角度扫描功能；",
+          "quote": "——扫描基线：侧位定位片，以外耳孔为定位片扫描定位点。嘱受检者稍仰头，使定位灯垂直线平行于听眶下线。患者配合不佳时，建议使用设备配有的部分角度扫描功能；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "鼻骨 CT 检查 · 扫描方式",
+          "v": "鼻骨 CT 检查：——扫描方式：螺旋扫描；",
+          "quote": "——扫描方式：螺旋扫描；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "鼻骨 CT 检查 · 扫描条件",
+          "v": "鼻骨 CT 检查：——扫描条件：管电压 100 kV～120 kV；有效管电流量 180 mAs/层～250 mAs/层（儿童 140 mAs/层）；准直器宽度 10 mm～40 mm；螺距 0.4～0.6；矩阵至少 512×512；FOV 150 mm～200 mm；",
+          "quote": "——扫描条件：管电压 100 kV～120 kV；有效管电流量 180 mAs/层～250 mAs/层（儿童 140 mAs/层）；准直器宽度 10 mm～40 mm；螺距 0.4～0.6；矩阵至少 512×512；FOV 150 mm～200 mm；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "鼻骨 CT 检查 · 重建层厚",
+          "v": "鼻骨 CT 检查：——重建层厚：0.6 mm～0.7 mm(允许的最薄层厚)；层间距为层厚的 50%；",
+          "quote": "——重建层厚：0.6 mm～0.7 mm(允许的最薄层厚)；层间距为层厚的 50%；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "鼻骨 CT 检查 · 重建算法",
+          "v": "鼻骨 CT 检查：——重建算法：骨算法，软组织算法；推荐使用迭代重建算法；",
+          "quote": "——重建算法：骨算法，软组织算法；推荐使用迭代重建算法；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "国家卫生健康委员会",
+          "title": "WS/T 391—2024《CT 检查操作规程》",
+          "journal": "中华人民共和国卫生行业标准",
+          "year": 2024,
+          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
+          "grade": "推荐",
+          "ref": "WS391-2024"
+        }
+      ]
+    },
+    {
+      "id": "EX_Biliary",
+      "name": "胆管 CT 检查",
+      "type": "AbdoExam",
+      "graph": "radiation",
+      "tags": [
+        "检查项目"
+      ],
+      "aliases": [
+        "胆管CT"
+      ],
+      "summary": "WS/T 391—2024《CT 检查操作规程》5.4.3 胆管 的规程要点。——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:30 cm～40 cm；；扫描范围：——扫描范围：从右膈面开始扫描至十二指肠水平部；",
+      "attrs": [],
+      "details": [
+        {
+          "k": "胆管 CT 检查 · 扫描前准备",
+          "v": "胆管 CT 检查：——扫描前准备：患者扫描前至少禁食 4 h，扫描前口服清水充盈胃肠道。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
+          "quote": "——扫描前准备：患者扫描前至少禁食 4 h，扫描前口服清水充盈胃肠道。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "胆管 CT 检查 · 扫描体位",
+          "v": "胆管 CT 检查：——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
+          "quote": "——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "胆管 CT 检查 · 扫描范围",
+          "v": "胆管 CT 检查：——扫描范围：从右膈面开始扫描至十二指肠水平部；",
+          "quote": "——扫描范围：从右膈面开始扫描至十二指肠水平部；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "胆管 CT 检查 · 扫描基线",
+          "v": "胆管 CT 检查：——扫描基线：右膈面；",
+          "quote": "——扫描基线：右膈面；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "胆管 CT 检查 · 扫描条件",
+          "v": "胆管 CT 检查：——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:30 cm～40 cm；",
+          "quote": "——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:30 cm～40 cm；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "胆管 CT 检查 · 重建层厚",
+          "v": "胆管 CT 检查：——重建层厚：层厚 1 mm～2 mm，间隔 1 mm～2 mm；",
+          "quote": "——重建层厚：层厚 1 mm～2 mm，间隔 1 mm～2 mm；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "胆管 CT 检查 · 重建算法",
+          "v": "胆管 CT 检查：——重建算法：标准算法或软组织算法；",
+          "quote": "——重建算法：标准算法或软组织算法；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "胆管 CT 检查 · 注意事项",
+          "v": "胆管 CT 检查：——注意事项：扫描前先问清其一周内是否做过钡餐检查，如做过应清腹后或排空后再行检查。患者上检查床前，应训练其深呼吸后屏气。嘱患者去除检查部位金属异物；",
+          "quote": "——注意事项：扫描前先问清其一周内是否做过钡餐检查，如做过应清腹后或排空后再行检查。患者上检查床前，应训练其深呼吸后屏气。嘱患者去除检查部位金属异物；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "国家卫生健康委员会",
+          "title": "WS/T 391—2024《CT 检查操作规程》",
+          "journal": "中华人民共和国卫生行业标准",
+          "year": 2024,
+          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
+          "grade": "推荐",
+          "ref": "WS391-2024"
+        }
+      ]
+    },
+    {
+      "id": "EX_Kidney",
+      "name": "肾脏 CT 检查",
+      "type": "AbdoExam",
+      "graph": "radiation",
+      "tags": [
+        "检查项目"
+      ],
+      "aliases": [
+        "肾脏CT"
+      ],
+      "summary": "WS/T 391—2024《CT 检查操作规程》5.4.5 肾脏 的规程要点。——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，30～40 cm；",
+      "attrs": [],
+      "details": [
+        {
+          "k": "肾脏 CT 检查 · 扫描前准备",
+          "v": "肾脏 CT 检查：——扫描前准备：患者扫描前至少禁食 4 h。可以进食的患者扫描前 25 min～45 min 口服清水充盈胃肠道。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
+          "quote": "——扫描前准备：患者扫描前至少禁食 4 h。可以进食的患者扫描前 25 min～45 min 口服清水充盈胃肠道。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "肾脏 CT 检查 · 扫描体位",
+          "v": "肾脏 CT 检查：——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；扫描范围：从肾上极扫描至肾下级；",
+          "quote": "——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；扫描范围：从肾上极扫描至肾下级；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "肾脏 CT 检查 · 扫描基线",
+          "v": "肾脏 CT 检查：——扫描基线：胸 11 椎体；",
+          "quote": "——扫描基线：胸 11 椎体；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "肾脏 CT 检查 · 扫描条件",
+          "v": "肾脏 CT 检查：——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，30～40 cm；",
+          "quote": "——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，30～40 cm；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "肾脏 CT 检查 · 重建层厚",
+          "v": "肾脏 CT 检查：——重建层厚：3 mm～5 mm。间隔 3 mm～5 mm；",
+          "quote": "——重建层厚：3 mm～5 mm。间隔 3 mm～5 mm；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "肾脏 CT 检查 · 重建算法",
+          "v": "肾脏 CT 检查：——重建算法：标准算法或软组织算法；",
+          "quote": "——重建算法：标准算法或软组织算法；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "肾脏 CT 检查 · 注意事项",
+          "v": "肾脏 CT 检查：——注意事项：扫描前先问清其一周内是否做过钡餐检查，如做过应清腹后或排空后再行检查。同时 72 h 内不得做过肾盂造影。患者上检查床前，应训练其深呼吸后屏气。去掉身上含有金属的物品。遇有一侧肾缺如患者，须加大扫描范围。对移植肾患者主要行下腹髂区扫描；",
+          "quote": "——注意事项：扫描前先问清其一周内是否做过钡餐检查，如做过应清腹后或排空后再行检查。同时 72 h 内不得做过肾盂造影。患者上检查床前，应训练其深呼吸后屏气。去掉身上含有金属的物品。遇有一侧肾缺如患者，须加大扫描范围。对移植肾患者主要行下腹髂区扫描；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "国家卫生健康委员会",
+          "title": "WS/T 391—2024《CT 检查操作规程》",
+          "journal": "中华人民共和国卫生行业标准",
+          "year": 2024,
+          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
+          "grade": "推荐",
+          "ref": "WS391-2024"
+        }
+      ]
+    },
+    {
+      "id": "EX_Pelvis",
+      "name": "盆腔 CT 检查",
+      "type": "AbdoExam",
+      "graph": "radiation",
+      "tags": [
+        "检查项目"
+      ],
+      "aliases": [
+        "盆腔CT"
+      ],
+      "summary": "WS/T 391—2024《CT 检查操作规程》5.4.7 盆腔 的规程要点。——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；；扫描范围：——扫描范围：从耻骨联合下缘扫描至髂嵴水平；",
+      "attrs": [],
+      "details": [
+        {
+          "k": "腹 / 盆腔 CT 多数情况单期即可",
+          "v": "腹部与盆腔 CT 的绝大多数临床问题，用 **单期** 检查即可回答；多期（平扫、动脉早期 / 晚期、门静脉期、延迟期）只在特定适应证下用于提高异常检出与定性。单纯评估骨性结构或尿路结石一般不需要静脉增强。",
+          "quote": "The majority of clinical questions for abdominal and pelvic CT can be appropriately answered with a single-phase study. Multiple-phase studies, such as unenhanced, early/late arterial, portal venous or delayed-phase scanning, might be required in certain indications for improved detection and characterization of abnormalities, such as characterization of liver or renal lesions, D. detection of active bleeding, etc. Abnormal findings on an unenhanced examination may require further evaluation with IV contrast administration or an alternative imaging study if iodinated contrast medium is contraindicated. Administration of IV contrast is generally not required for the sole assessment of bony structures or urolithiasis.",
+          "src": "EN-10",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "盆腔 CT 检查 · 扫描前准备",
+          "v": "盆腔 CT 检查：——扫描前准备：患者检查当日以空腹为宜。可以进食的患者扫描前让患者口服清水充盈胃肠道，待膀胱充盈后开始扫描。嘱患者将皮带、外裤等含金属衣服脱掉；",
+          "quote": "——扫描前准备：患者检查当日以空腹为宜。可以进食的患者扫描前让患者口服清水充盈胃肠道，待膀胱充盈后开始扫描。嘱患者将皮带、外裤等含金属衣服脱掉；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "盆腔 CT 检查 · 扫描体位",
+          "v": "盆腔 CT 检查：——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
+          "quote": "——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "盆腔 CT 检查 · 扫描范围",
+          "v": "盆腔 CT 检查：——扫描范围：从耻骨联合下缘扫描至髂嵴水平；",
+          "quote": "——扫描范围：从耻骨联合下缘扫描至髂嵴水平；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "盆腔 CT 检查 · 扫描基线",
+          "v": "盆腔 CT 检查：——扫描基线：耻骨联合下缘或髂嵴水平；",
+          "quote": "——扫描基线：耻骨联合下缘或髂嵴水平；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "盆腔 CT 检查 · 扫描条件",
+          "v": "盆腔 CT 检查：——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
+          "quote": "——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "盆腔 CT 检查 · 重建层厚",
+          "v": "盆腔 CT 检查：——重建层厚：层厚 ≤5 mm，间隔 ≤5 mm；",
+          "quote": "——重建层厚：层厚 ≤5 mm，间隔 ≤5 mm；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "盆腔 CT 检查 · 重建算法",
+          "v": "盆腔 CT 检查：——重建算法：标准算法或软组织算法；",
+          "quote": "——重建算法：标准算法或软组织算法；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "盆腔 CT 检查 · 注意事项",
+          "v": "盆腔 CT 检查：——注意事项：患者喝完清水后、嘱患者只有尿感强烈时才能开始扫描、确保膀胱充盈完全。膀胱镜检当天不行此检查。",
+          "quote": "——注意事项：患者喝完清水后、嘱患者只有尿感强烈时才能开始扫描、确保膀胱充盈完全。膀胱镜检当天不行此检查。",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "指南",
+          "author": "American College of Radiology",
+          "title": "ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d)",
+          "journal": "American College of Radiology Practice Parameters and Technical Standards",
+          "year": 2026,
+          "cite": "American College of Radiology / ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d) / American College of Radiology Practice Parameters and Technical Standards / 2026",
+          "grade": "指南与共识",
+          "ref": "EN-10"
+        },
+        {
+          "type": "推荐",
+          "author": "国家卫生健康委员会",
+          "title": "WS/T 391—2024《CT 检查操作规程》",
+          "journal": "中华人民共和国卫生行业标准",
+          "year": 2024,
+          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
+          "grade": "推荐",
+          "ref": "WS391-2024"
+        }
+      ]
+    },
+    {
+      "id": "EX_Perineum",
+      "name": "会阴部 CT 检查",
+      "type": "AbdoExam",
+      "graph": "radiation",
+      "tags": [
+        "检查项目"
+      ],
+      "aliases": [
+        "会阴部CT"
+      ],
+      "summary": "WS/T 391—2024《CT 检查操作规程》5.4.8 会阴部 的规程要点。——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；；扫描范围：——扫描范围：从直肠子宫隐窝或直肠膀胱隐凹扫描至病变以下；",
+      "attrs": [],
+      "details": [
+        {
+          "k": "会阴部 CT 检查 · 扫描前准备",
+          "v": "会阴部 CT 检查：——扫描前准备：患者检查当日以空腹为宜。嘱患者将皮带、外裤等含金属衣服脱掉；",
+          "quote": "——扫描前准备：患者检查当日以空腹为宜。嘱患者将皮带、外裤等含金属衣服脱掉；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "会阴部 CT 检查 · 扫描体位",
+          "v": "会阴部 CT 检查：——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
+          "quote": "——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "会阴部 CT 检查 · 扫描范围",
+          "v": "会阴部 CT 检查：——扫描范围：从直肠子宫隐窝或直肠膀胱隐凹扫描至病变以下；",
+          "quote": "——扫描范围：从直肠子宫隐窝或直肠膀胱隐凹扫描至病变以下；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "会阴部 CT 检查 · 扫描基线",
+          "v": "会阴部 CT 检查：——扫描基线：以直肠、子宫陷窝或直肠膀胱陷凹为准参数，和盆腔同；",
+          "quote": "——扫描基线：以直肠、子宫陷窝或直肠膀胱陷凹为准参数，和盆腔同；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "会阴部 CT 检查 · 扫描条件",
+          "v": "会阴部 CT 检查：——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
+          "quote": "——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "会阴部 CT 检查 · 重建层厚",
+          "v": "会阴部 CT 检查：——重建层厚：层厚 3 mm～5 mm，间隔 3 mm～5 mm；",
+          "quote": "——重建层厚：层厚 3 mm～5 mm，间隔 3 mm～5 mm；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "会阴部 CT 检查 · 重建算法",
+          "v": "会阴部 CT 检查：——重建算法：标准算法或软组织算法；",
+          "quote": "——重建算法：标准算法或软组织算法；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "国家卫生健康委员会",
+          "title": "WS/T 391—2024《CT 检查操作规程》",
+          "journal": "中华人民共和国卫生行业标准",
+          "year": 2024,
+          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
+          "grade": "推荐",
+          "ref": "WS391-2024"
+        }
+      ]
+    },
+    {
+      "id": "EX_Stomach",
+      "name": "胃 CT 检查",
+      "type": "AbdoExam",
+      "graph": "radiation",
+      "tags": [
+        "检查项目"
+      ],
+      "aliases": [
+        "胃CT"
+      ],
+      "summary": "WS/T 391—2024《CT 检查操作规程》5.4.9 胃 的规程要点。——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；；扫描范围：——扫描范围：从左膈顶扫描至胃下缘；",
+      "attrs": [],
+      "details": [
+        {
+          "k": "胃 CT 检查 · 扫描前准备",
+          "v": "胃 CT 检查：——扫描前准备：患者扫描前至少禁食 4 h；可以进食的患者扫描前口服产气剂 6 g～9 g 或口服1000 mL～1500 mL 清水。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
+          "quote": "——扫描前准备：患者扫描前至少禁食 4 h；可以进食的患者扫描前口服产气剂 6 g～9 g 或口服1000 mL～1500 mL 清水。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "胃 CT 检查 · 扫描体位",
+          "v": "胃 CT 检查：——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
+          "quote": "——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "胃 CT 检查 · 扫描范围",
+          "v": "胃 CT 检查：——扫描范围：从左膈顶扫描至胃下缘；",
+          "quote": "——扫描范围：从左膈顶扫描至胃下缘；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "胃 CT 检查 · 扫描基线",
+          "v": "胃 CT 检查：——扫描基线：左膈顶；",
+          "quote": "——扫描基线：左膈顶；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "胃 CT 检查 · 扫描条件",
+          "v": "胃 CT 检查：——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
+          "quote": "——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "胃 CT 检查 · 重建层厚",
+          "v": "胃 CT 检查：——重建层厚：层厚 1 mm～3 mm，间隔 1 mm～3 mm；",
+          "quote": "——重建层厚：层厚 1 mm～3 mm，间隔 1 mm～3 mm；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "胃 CT 检查 · 重建算法",
+          "v": "胃 CT 检查：——重建算法：标准算法或软组织算法；",
+          "quote": "——重建算法：标准算法或软组织算法；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "国家卫生健康委员会",
+          "title": "WS/T 391—2024《CT 检查操作规程》",
+          "journal": "中华人民共和国卫生行业标准",
+          "year": 2024,
+          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
+          "grade": "推荐",
+          "ref": "WS391-2024"
+        }
+      ]
+    },
+    {
+      "id": "EX_SmallBowel",
+      "name": "小肠 CT 检查",
+      "type": "AbdoExam",
+      "graph": "radiation",
+      "tags": [
+        "检查项目"
+      ],
+      "aliases": [
+        "小肠CT"
+      ],
+      "summary": "WS/T 391—2024《CT 检查操作规程》5.4.10 小肠 的规程要点。——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；；扫描范围：——扫描范围：从十二指肠水平段扫描至耻骨联合上缘；",
+      "attrs": [],
+      "details": [
+        {
+          "k": "小肠 CT 检查 · 扫描前准备",
+          "v": "小肠 CT 检查：——扫描前准备：可以进食的患者检查前 1d 服用无渣半流食，晚餐后禁食，晚餐后 30min 口服缓泻剂，检查当日早禁食。急诊患者不做任何准备直接平扫及增强检查。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
+          "quote": "——扫描前准备：可以进食的患者检查前 1d 服用无渣半流食，晚餐后禁食，晚餐后 30min 口服缓泻剂，检查当日早禁食。急诊患者不做任何准备直接平扫及增强检查。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "小肠 CT 检查 · 扫描体位",
+          "v": "小肠 CT 检查：——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
+          "quote": "——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "小肠 CT 检查 · 扫描范围",
+          "v": "小肠 CT 检查：——扫描范围：从十二指肠水平段扫描至耻骨联合上缘；",
+          "quote": "——扫描范围：从十二指肠水平段扫描至耻骨联合上缘；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "小肠 CT 检查 · 扫描基线",
+          "v": "小肠 CT 检查：——扫描基线：以十二指肠球部或水平部为准；",
+          "quote": "——扫描基线：以十二指肠球部或水平部为准；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "小肠 CT 检查 · 扫描条件",
+          "v": "小肠 CT 检查：——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
+          "quote": "——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "小肠 CT 检查 · 重建层厚",
+          "v": "小肠 CT 检查：——重建层厚：层厚 3 mm～5 mm，间隔 3 mm～5 mm；",
+          "quote": "——重建层厚：层厚 3 mm～5 mm，间隔 3 mm～5 mm；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "小肠 CT 检查 · 重建算法",
+          "v": "小肠 CT 检查：——重建算法：标准算法或软组织算法；",
+          "quote": "——重建算法：标准算法或软组织算法；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "国家卫生健康委员会",
+          "title": "WS/T 391—2024《CT 检查操作规程》",
+          "journal": "中华人民共和国卫生行业标准",
+          "year": 2024,
+          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
+          "grade": "推荐",
+          "ref": "WS391-2024"
+        }
+      ]
+    },
+    {
+      "id": "EX_Colon",
+      "name": "结肠 CT 检查",
+      "type": "AbdoExam",
+      "graph": "radiation",
+      "tags": [
+        "检查项目"
+      ],
+      "aliases": [
+        "结肠CT"
+      ],
+      "summary": "WS/T 391—2024《CT 检查操作规程》5.4.11 结肠 的规程要点。——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；；扫描范围：——扫描范围：从结肠脾曲上缘扫描至直肠末端；",
+      "attrs": [],
+      "details": [
+        {
+          "k": "结肠 CT 检查 · 扫描前准备",
+          "v": "结肠 CT 检查：——扫描前准备：可以进食的患者检查前 2d 服用无渣半流食，检查前 1d 晚餐后禁食。晚餐后 30min后口服缓泻剂，检查当日早禁食。患者上检查床后，经肛门向结肠内注入空气，以被检查者可以耐受、1000 mL～1500 mL 左右较为合适。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
+          "quote": "——扫描前准备：可以进食的患者检查前 2d 服用无渣半流食，检查前 1d 晚餐后禁食。晚餐后 30min后口服缓泻剂，检查当日早禁食。患者上检查床后，经肛门向结肠内注入空气，以被检查者可以耐受、1000 mL～1500 mL 左右较为合适。嘱患者去除检查部位金属异物。训练患者呼吸及屏气；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "结肠 CT 检查 · 扫描体位",
+          "v": "结肠 CT 检查：——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
+          "quote": "——扫描体位：常规仰卧位,头先进，两臂上举抱头,腹部正中矢状面垂直于检查床平面并与检查床长轴的中线重合，侧面定位线对准人体正中冠状面。特殊情况下采用其他体位，如侧卧位及俯卧位；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "结肠 CT 检查 · 扫描范围",
+          "v": "结肠 CT 检查：——扫描范围：从结肠脾曲上缘扫描至直肠末端；",
+          "quote": "——扫描范围：从结肠脾曲上缘扫描至直肠末端；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "结肠 CT 检查 · 扫描基线",
+          "v": "结肠 CT 检查：——扫描基线：以结肠脾曲上缘为准；",
+          "quote": "——扫描基线：以结肠脾曲上缘为准；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "结肠 CT 检查 · 扫描条件",
+          "v": "结肠 CT 检查：——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
+          "quote": "——扫描条件：采用自动 mA 技术；矩阵 512×512；显示野:根据患者体型大小设定，应包全腹部皮肤，30 cm～40 cm；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "结肠 CT 检查 · 重建层厚",
+          "v": "结肠 CT 检查：——重建层厚：层厚 3 mm～5 mm；间隔 3 mm～5 mm；",
+          "quote": "——重建层厚：层厚 3 mm～5 mm；间隔 3 mm～5 mm；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "结肠 CT 检查 · 重建算法",
+          "v": "结肠 CT 检查：——重建算法：标准算法或软组织算法；",
+          "quote": "——重建算法：标准算法或软组织算法；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "结肠 CT 检查 · 注意事项",
+          "v": "结肠 CT 检查：——注意事项：直肠病变的患者可采取俯卧位扫描。行轴位、冠状位、矢状位多平面重组重，仿真内窥镜重组；",
+          "quote": "——注意事项：直肠病变的患者可采取俯卧位扫描。行轴位、冠状位、矢状位多平面重组重，仿真内窥镜重组；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "国家卫生健康委员会",
+          "title": "WS/T 391—2024《CT 检查操作规程》",
+          "journal": "中华人民共和国卫生行业标准",
+          "year": 2024,
+          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
+          "grade": "推荐",
+          "ref": "WS391-2024"
+        }
+      ]
+    },
+    {
+      "id": "EX_PelvisBone",
+      "name": "骨盆 CT 检查",
+      "type": "LimbExam",
+      "graph": "radiation",
+      "tags": [
+        "检查项目"
+      ],
+      "aliases": [
+        "骨盆CT"
+      ],
+      "summary": "WS/T 391—2024《CT 检查操作规程》5.5.3 骨盆 CT 检查 的规程要点。扫描范围：——扫描范围：上界在两侧髂嵴连线，下界在坐骨下缘；",
+      "attrs": [],
+      "details": [
+        {
+          "k": "骨盆 CT 检查 · 扫描前准备",
+          "v": "骨盆 CT 检查：——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。",
+          "quote": "——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "骨盆 CT 检查 · 扫描体位",
+          "v": "骨盆 CT 检查：——扫描体位：仰卧位，将需扫描区域置于床面中间；",
+          "quote": "——扫描体位：仰卧位，将需扫描区域置于床面中间；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "骨盆 CT 检查 · 扫描范围",
+          "v": "骨盆 CT 检查：——扫描范围：上界在两侧髂嵴连线，下界在坐骨下缘；",
+          "quote": "——扫描范围：上界在两侧髂嵴连线，下界在坐骨下缘；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "骨盆 CT 检查 · 扫描基线",
+          "v": "骨盆 CT 检查：——扫描基线：平行于两侧髂嵴连线，双侧对称；",
+          "quote": "——扫描基线：平行于两侧髂嵴连线，双侧对称；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "骨盆 CT 检查 · 扫描方式",
+          "v": "骨盆 CT 检查：——扫描方式：横轴位非螺旋连续扫描；",
+          "quote": "——扫描方式：横轴位非螺旋连续扫描；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "骨盆 CT 检查 · 层厚和层间距",
+          "v": "骨盆 CT 检查：——层厚和层间距：≤2.5 mm，连续扫描；",
+          "quote": "——层厚和层间距：≤2.5 mm，连续扫描；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "骨盆 CT 检查 · 重建算法",
+          "v": "骨盆 CT 检查：——重建算法：观察骨组织用骨算法，观察软组织用软组织算法；",
+          "quote": "——重建算法：观察骨组织用骨算法，观察软组织用软组织算法；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "骨盆 CT 检查 · 扫描前准备（2）",
+          "v": "骨盆 CT 检查：——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。",
+          "quote": "——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "骨盆 CT 检查 · 扫描体位（2）",
+          "v": "骨盆 CT 检查：——扫描体位：仰卧位，将需扫描区域置于床面中间；",
+          "quote": "——扫描体位：仰卧位，将需扫描区域置于床面中间；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "骨盆 CT 检查 · 扫描范围（2）",
+          "v": "骨盆 CT 检查：——扫描范围：上界为两侧髂嵴连线，下界为在坐骨下缘；",
+          "quote": "——扫描范围：上界为两侧髂嵴连线，下界为在坐骨下缘；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "骨盆 CT 检查 · 扫描基线（2）",
+          "v": "骨盆 CT 检查：——扫描基线：平行于两侧髂嵴连线；",
+          "quote": "——扫描基线：平行于两侧髂嵴连线；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "骨盆 CT 检查 · 扫描方式（2）",
+          "v": "骨盆 CT 检查：——扫描方式：螺旋扫描方式，螺距≤1.0；",
+          "quote": "——扫描方式：螺旋扫描方式，螺距≤1.0；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "骨盆 CT 检查 · 重建间隔",
+          "v": "骨盆 CT 检查：——重建间隔：50%；",
+          "quote": "——重建间隔：50%；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "骨盆 CT 检查 · 重建算法（2）",
+          "v": "骨盆 CT 检查：——重建算法：观察骨组织用骨算法，观察软组织用软组织算法；",
+          "quote": "——重建算法：观察骨组织用骨算法，观察软组织用软组织算法；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "国家卫生健康委员会",
+          "title": "WS/T 391—2024《CT 检查操作规程》",
+          "journal": "中华人民共和国卫生行业标准",
+          "year": 2024,
+          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
+          "grade": "推荐",
+          "ref": "WS391-2024"
+        }
+      ]
+    },
+    {
+      "id": "EX_Sacroiliac",
+      "name": "骶髂关节 CT 扫描",
+      "type": "LimbExam",
+      "graph": "radiation",
+      "tags": [
+        "检查项目"
+      ],
+      "aliases": [
+        "骶髂关节 CT 扫描"
+      ],
+      "summary": "WS/T 391—2024《CT 检查操作规程》5.5.4 骶髂关节 CT 扫描 的规程要点。扫描范围：——扫描范围：上界在双侧骶髂关节上缘连线，下界在双侧骶髂关节下缘连线以下；",
+      "attrs": [],
+      "details": [
+        {
+          "k": "骶髂关节 CT 扫描 · 扫描前准备",
+          "v": "骶髂关节 CT 扫描：——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。",
+          "quote": "——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "骶髂关节 CT 扫描 · 扫描体位",
+          "v": "骶髂关节 CT 扫描：——扫描体位：仰卧位，将需扫描区域置于床面中间；",
+          "quote": "——扫描体位：仰卧位，将需扫描区域置于床面中间；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "骶髂关节 CT 扫描 · 扫描范围",
+          "v": "骶髂关节 CT 扫描：——扫描范围：上界在双侧骶髂关节上缘连线，下界在双侧骶髂关节下缘连线以下；",
+          "quote": "——扫描范围：上界在双侧骶髂关节上缘连线，下界在双侧骶髂关节下缘连线以下；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "骶髂关节 CT 扫描 · 扫描基线",
+          "v": "骶髂关节 CT 扫描：——扫描基线：平行于两侧髂嵴连线；",
+          "quote": "——扫描基线：平行于两侧髂嵴连线；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "骶髂关节 CT 扫描 · 扫描方式",
+          "v": "骶髂关节 CT 扫描：——扫描方式：横轴位非螺旋连续扫描；",
+          "quote": "——扫描方式：横轴位非螺旋连续扫描；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "骶髂关节 CT 扫描 · 层厚和层间距",
+          "v": "骶髂关节 CT 扫描：——层厚和层间距：≤2 mm，连续扫描；",
+          "quote": "——层厚和层间距：≤2 mm，连续扫描；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "骶髂关节 CT 扫描 · 重建算法",
+          "v": "骶髂关节 CT 扫描：——重建算法：骨算法和软组织算法（必要时）；",
+          "quote": "——重建算法：骨算法和软组织算法（必要时）；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "骶髂关节 CT 扫描 · 扫描前准备（2）",
+          "v": "骶髂关节 CT 扫描：——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。",
+          "quote": "——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "骶髂关节 CT 扫描 · 扫描体位（2）",
+          "v": "骶髂关节 CT 扫描：——扫描体位：仰卧位，将需扫描区域置于床面中间，双侧对称；",
+          "quote": "——扫描体位：仰卧位，将需扫描区域置于床面中间，双侧对称；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "骶髂关节 CT 扫描 · 扫描范围（2）",
+          "v": "骶髂关节 CT 扫描：——扫描范围：上界在双侧骶髂关节上缘，下界在双侧骶髂关节下缘连线下方；",
+          "quote": "——扫描范围：上界在双侧骶髂关节上缘，下界在双侧骶髂关节下缘连线下方；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "骶髂关节 CT 扫描 · 扫描基线（2）",
+          "v": "骶髂关节 CT 扫描：——扫描基线：平行于两侧髂嵴连线；",
+          "quote": "——扫描基线：平行于两侧髂嵴连线；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "骶髂关节 CT 扫描 · 扫描方式（2）",
+          "v": "骶髂关节 CT 扫描：——扫描方式：螺旋扫描方式，螺距≤1.0；",
+          "quote": "——扫描方式：螺旋扫描方式，螺距≤1.0；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "骶髂关节 CT 扫描 · 重建间隔",
+          "v": "骶髂关节 CT 扫描：——重建间隔：50%；",
+          "quote": "——重建间隔：50%；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "骶髂关节 CT 扫描 · 重建算法（2）",
+          "v": "骶髂关节 CT 扫描：——重建算法：软组织算法及骨算法；",
+          "quote": "——重建算法：软组织算法及骨算法；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "国家卫生健康委员会",
+          "title": "WS/T 391—2024《CT 检查操作规程》",
+          "journal": "中华人民共和国卫生行业标准",
+          "year": 2024,
+          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
+          "grade": "推荐",
+          "ref": "WS391-2024"
+        }
+      ]
+    },
+    {
+      "id": "EX_LimbVein",
+      "name": "四肢深静脉 CT 成像",
+      "type": "LimbExam",
+      "graph": "radiation",
+      "tags": [
+        "检查项目"
+      ],
+      "aliases": [
+        "四肢深静脉CT"
+      ],
+      "summary": "WS/T 391—2024《CT 检查操作规程》5.5.6 四肢深静脉 CT 成像 的规程要点。扫描范围：——扫描范围：上界包全肩部软组织，下界包全手指；",
+      "attrs": [],
+      "details": [
+        {
+          "k": "四肢深静脉 CT 成像 · 扫描前准备",
+          "v": "四肢深静脉 CT 成像：——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。检查前禁食 4 h，不需禁水，签署知情同意书。",
+          "quote": "——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。检查前禁食 4 h，不需禁水，签署知情同意书。",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "四肢深静脉 CT 成像 · 扫描体位",
+          "v": "四肢深静脉 CT 成像：——扫描体位：扫描体位：仰卧位，双手上举，无法上举者将双臂置于身体两侧，掌心朝上；",
+          "quote": "——扫描体位：扫描体位：仰卧位，双手上举，无法上举者将双臂置于身体两侧，掌心朝上；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "四肢深静脉 CT 成像 · 扫描范围",
+          "v": "四肢深静脉 CT 成像：——扫描范围：上界包全肩部软组织，下界包全手指；",
+          "quote": "——扫描范围：上界包全肩部软组织，下界包全手指；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "四肢深静脉 CT 成像 · 扫描基线",
+          "v": "四肢深静脉 CT 成像：——扫描基线：垂直于目标侧肱骨长轴；",
+          "quote": "——扫描基线：垂直于目标侧肱骨长轴；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "四肢深静脉 CT 成像 · 扫描方式",
+          "v": "四肢深静脉 CT 成像：——扫描方式：螺旋扫描方式；",
+          "quote": "——扫描方式：螺旋扫描方式；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "四肢深静脉 CT 成像 · 重建间隔",
+          "v": "四肢深静脉 CT 成像：——重建间隔：50%；",
+          "quote": "——重建间隔：50%；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "四肢深静脉 CT 成像 · 重建算法",
+          "v": "四肢深静脉 CT 成像：——重建算法：软组织算法或标准算法；",
+          "quote": "——重建算法：软组织算法或标准算法；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "四肢深静脉 CT 成像 · 扫描前准备（2）",
+          "v": "四肢深静脉 CT 成像：——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。检查前禁食 4 h，不需禁水，签署知情同意书；",
+          "quote": "——扫描前准备：去除被检者扫描区域体表所有高密度物体包括金属物。检查前禁食 4 h，不需禁水，签署知情同意书；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "四肢深静脉 CT 成像 · 扫描体位（2）",
+          "v": "四肢深静脉 CT 成像：——扫描体位：仰卧位，将需扫描区域尽量置于床面中间；",
+          "quote": "——扫描体位：仰卧位，将需扫描区域尽量置于床面中间；",
+          "src": "WS391-2024",
+          "cat": "操作防护"
+        },
+        {
+          "k": "四肢深静脉 CT 成像 · 扫描范围（2）",
+          "v": "四肢深静脉 CT 成像：——扫描范围：上界自两侧髂嵴连线，下界包全双侧脚趾；",
+          "quote": "——扫描范围：上界自两侧髂嵴连线，下界包全双侧脚趾；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "四肢深静脉 CT 成像 · 扫描基线（2）",
+          "v": "四肢深静脉 CT 成像：——扫描基线：垂直于目标股骨长轴；",
+          "quote": "——扫描基线：垂直于目标股骨长轴；",
+          "src": "WS391-2024",
+          "cat": "扫描范围"
+        },
+        {
+          "k": "四肢深静脉 CT 成像 · 扫描方式（2）",
+          "v": "四肢深静脉 CT 成像：——扫描方式：螺旋扫描方式；",
+          "quote": "——扫描方式：螺旋扫描方式；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "四肢深静脉 CT 成像 · 重建间隔（2）",
+          "v": "四肢深静脉 CT 成像：——重建间隔：50%；",
+          "quote": "——重建间隔：50%；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        },
+        {
+          "k": "四肢深静脉 CT 成像 · 重建算法（2）",
+          "v": "四肢深静脉 CT 成像：——重建算法：软组织算法或标准算法；",
+          "quote": "——重建算法：软组织算法或标准算法；",
+          "src": "WS391-2024",
+          "cat": "扫描参数"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "国家卫生健康委员会",
+          "title": "WS/T 391—2024《CT 检查操作规程》",
+          "journal": "中华人民共和国卫生行业标准",
+          "year": 2024,
+          "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
+          "grade": "推荐",
+          "ref": "WS391-2024"
         }
       ]
     },
@@ -22216,50 +20815,6 @@ window.KG_GRAPH = {
       ]
     },
     {
-      "id": "EN-16",
-      "graph": "radiation",
-      "type": "Reference",
-      "name": "Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance",
-      "tags": [
-        "文献",
-        "声明"
-      ],
-      "aliases": [
-        "Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance"
-      ],
-      "summary": "",
-      "attrs": [
-        {
-          "k": "文献类型",
-          "v": "声明"
-        },
-        {
-          "k": "年份",
-          "v": "2017"
-        },
-        {
-          "k": "核验标识",
-          "v": "10.1016/j.jcmg.2017.04.003（PMID · PMID 28514670"
-        },
-        {
-          "k": "证据等级",
-          "v": "声明"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "声明",
-          "author": "Hill KD, Frush DP, Han BK, Abbott BG, Armstrong AK, DeKemp RA, Glatz AC, Greenberg SB, Herbert AS, Justino H, Mah D, Mahesh M, Rigsby CK, Slesnick TC, Strauss KJ, Trattner S, Viswanathan MN, Einstein AJ",
-          "title": "Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance",
-          "journal": "JACC: Cardiovascular Imaging",
-          "year": 2017,
-          "cite": "Hill KD, Frush DP, Han BK, Abbott BG, Armstrong AK, DeKemp RA, Glatz AC, Greenberg SB, Herbert AS, Justino H, Mah D, Mahesh M, Rigsby CK, Slesnick TC, Strauss KJ, Trattner S, Viswanathan MN, Einstein AJ / Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance / JACC: Cardiovascular Imaging / 2017",
-          "grade": "声明",
-          "ref": "EN-16"
-        }
-      ]
-    },
-    {
       "id": "EN-17",
       "graph": "radiation",
       "type": "Reference",
@@ -22344,138 +20899,6 @@ window.KG_GRAPH = {
           "cite": "Hiles P, Gilligan P, Damilakis J, Briers E, Candela-Juan C, Faj D, Foley S, Frija G, Granata C, de Las Heras Gala H, Pauwels R, Sans Merce M, Simantirakis G, Vano E / European consensus on patient contact shielding / Insights into Imaging / 2021",
           "grade": "指南与共识",
           "ref": "EN-18"
-        }
-      ]
-    },
-    {
-      "id": "EN-19",
-      "graph": "radiation",
-      "type": "Reference",
-      "name": "Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT",
-      "tags": [
-        "文献",
-        "指南"
-      ],
-      "aliases": [
-        "Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT"
-      ],
-      "summary": "",
-      "attrs": [
-        {
-          "k": "文献类型",
-          "v": "指南"
-        },
-        {
-          "k": "年份",
-          "v": "2011"
-        },
-        {
-          "k": "核验标识",
-          "v": "10.1016/j.jcct.2011.06.001（PMID · PMID 21723512"
-        },
-        {
-          "k": "证据等级",
-          "v": "指南与共识"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "指南",
-          "author": "Halliburton SS, Abbara S, Chen MY, Gentry R, Mahesh M, Raff GL, Shaw LJ, Hausleiter J",
-          "title": "Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT",
-          "journal": "Journal of Cardiovascular Computed Tomography",
-          "year": 2011,
-          "cite": "Halliburton SS, Abbara S, Chen MY, Gentry R, Mahesh M, Raff GL, Shaw LJ, Hausleiter J / Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT / Journal of Cardiovascular Computed Tomography / 2011",
-          "grade": "指南与共识",
-          "ref": "EN-19"
-        }
-      ]
-    },
-    {
-      "id": "EN-20",
-      "graph": "radiation",
-      "type": "Reference",
-      "name": "Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1",
-      "tags": [
-        "文献",
-        "指南"
-      ],
-      "aliases": [
-        "Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1"
-      ],
-      "summary": "",
-      "attrs": [
-        {
-          "k": "文献类型",
-          "v": "指南"
-        },
-        {
-          "k": "年份",
-          "v": "2019"
-        },
-        {
-          "k": "核验标识",
-          "v": "10.3348/kjr.2018.0571（PMID · PMID 30672159"
-        },
-        {
-          "k": "证据等级",
-          "v": "指南与共识"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "指南",
-          "author": "Hong SH, Goo HW, Maeda E, Choo KS, Tsai IC",
-          "title": "Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1",
-          "journal": "Imaging Techniques",
-          "year": 2019,
-          "cite": "Hong SH, Goo HW, Maeda E, Choo KS, Tsai IC / Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1 / Imaging Techniques / 2019",
-          "grade": "指南与共识",
-          "ref": "EN-20"
-        }
-      ]
-    },
-    {
-      "id": "EN-21",
-      "graph": "radiation",
-      "type": "Reference",
-      "name": "with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT",
-      "tags": [
-        "文献",
-        "推荐"
-      ],
-      "aliases": [
-        "with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT"
-      ],
-      "summary": "",
-      "attrs": [
-        {
-          "k": "文献类型",
-          "v": "推荐"
-        },
-        {
-          "k": "年份",
-          "v": "2008"
-        },
-        {
-          "k": "核验标识",
-          "v": ""
-        },
-        {
-          "k": "证据等级",
-          "v": "推荐"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "International Atomic Energy Agency, World Health Organization, International Society of Radiology",
-          "title": "with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT",
-          "journal": "IAEA Safety Reports Series No",
-          "year": 2008,
-          "cite": "International Atomic Energy Agency, World Health Organization, International Society of Radiology / with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT / IAEA Safety Reports Series No / 2008",
-          "grade": "推荐",
-          "ref": "EN-21"
         }
       ]
     },
@@ -23844,50 +22267,6 @@ window.KG_GRAPH = {
       ]
     },
     {
-      "id": "SR-11",
-      "graph": "radiation",
-      "type": "Reference",
-      "name": "Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis",
-      "tags": [
-        "文献",
-        "Meta分析"
-      ],
-      "aliases": [
-        "Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis"
-      ],
-      "summary": "",
-      "attrs": [
-        {
-          "k": "文献类型",
-          "v": "Meta分析"
-        },
-        {
-          "k": "年份",
-          "v": "2026"
-        },
-        {
-          "k": "核验标识",
-          "v": "10.1186/s12880-026-02690-9（PMID · PMID 43021107"
-        },
-        {
-          "k": "证据等级",
-          "v": "Meta分析"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "Meta分析",
-          "author": "Shanbhag S, Panakkal NC, Koteshwara P, et al",
-          "title": "Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis",
-          "journal": "BMC Med Imaging",
-          "year": 2026,
-          "cite": "Shanbhag S, Panakkal NC, Koteshwara P, et al / Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis / BMC Med Imaging / 2026",
-          "grade": "Meta分析",
-          "ref": "SR-11"
-        }
-      ]
-    },
-    {
       "id": "SR-12",
       "graph": "radiation",
       "type": "Reference",
@@ -24104,50 +22483,6 @@ window.KG_GRAPH = {
           "cite": "Veltre V, Feher G, Pecoraro C, et al / Ultra-low-dose CT in extremity fracture detection: A systematic review and meta-analysis / Emerg Radiol / 2026",
           "grade": "Meta分析",
           "ref": "SR-16"
-        }
-      ]
-    },
-    {
-      "id": "SR-17",
-      "graph": "radiation",
-      "type": "Reference",
-      "name": "Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis",
-      "tags": [
-        "文献",
-        "Meta分析"
-      ],
-      "aliases": [
-        "Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis"
-      ],
-      "summary": "",
-      "attrs": [
-        {
-          "k": "文献类型",
-          "v": "Meta分析"
-        },
-        {
-          "k": "年份",
-          "v": "2026"
-        },
-        {
-          "k": "核验标识",
-          "v": "10.1016/j.jmir.2025.102140（PMID · PMID 41237681"
-        },
-        {
-          "k": "证据等级",
-          "v": "Meta分析"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "Meta分析",
-          "author": "S S, Pradhan A, Kadavigere R, et al",
-          "title": "Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis",
-          "journal": "J Med Imaging Radiat Sci",
-          "year": 2026,
-          "cite": "S S, Pradhan A, Kadavigere R, et al / Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis / J Med Imaging Radiat Sci / 2026",
-          "grade": "Meta分析",
-          "ref": "SR-17"
         }
       ]
     },
@@ -25605,16 +23940,6 @@ window.KG_GRAPH = {
           "ref": "CN-37"
         },
         {
-          "type": "指南",
-          "author": "Hong SH, Goo HW, Maeda E, Choo KS, Tsai IC",
-          "title": "Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1",
-          "journal": "Imaging Techniques",
-          "year": 2019,
-          "cite": "Hong SH, Goo HW, Maeda E, Choo KS, Tsai IC / Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1 / Imaging Techniques / 2019",
-          "grade": "指南与共识",
-          "ref": "EN-20"
-        },
-        {
           "type": "推荐",
           "author": "Järvinen H, Karoussou A, Kortesniemi T, Loose R, O'Donnell J, Peck S, Perez S, Rehani M, Samei E, Shannoun F, Trianni A, Tsapaki V, Vano E, Vassileva J, Zanca R",
           "title": "Patient Radiation Exposure Monitoring in Medical Imaging",
@@ -25755,16 +24080,6 @@ window.KG_GRAPH = {
           "ref": "WS391-2024"
         },
         {
-          "type": "共识",
-          "author": "中华医学会儿科学分会影像学组, 中华医学会放射学分会儿科学组",
-          "title": "儿童CT检查辐射剂量标准中国专家共识",
-          "journal": "中华放射学杂志",
-          "year": 2024,
-          "cite": "中华医学会儿科学分会影像学组, 中华医学会放射学分会儿科学组 / 儿童CT检查辐射剂量标准中国专家共识 / 中华放射学杂志 / 2024",
-          "grade": "指南与共识",
-          "ref": "CN-06"
-        },
-        {
           "type": "指南",
           "author": "American College of Radiology",
           "title": "ACR-ASNR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Extracranial Head and Neck. Revised 2026 (Resolution 2d)",
@@ -25795,16 +24110,6 @@ window.KG_GRAPH = {
           "ref": "SR-14"
         },
         {
-          "type": "Meta分析",
-          "author": "S S, Pradhan A, Kadavigere R, et al",
-          "title": "Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis",
-          "journal": "J Med Imaging Radiat Sci",
-          "year": 2026,
-          "cite": "S S, Pradhan A, Kadavigere R, et al / Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis / J Med Imaging Radiat Sci / 2026",
-          "grade": "Meta分析",
-          "ref": "SR-17"
-        },
-        {
           "type": "推荐",
           "author": "国家卫生健康委员会",
           "title": "WS/T 831—2024《医用电离辐射放射防护名词术语标准》",
@@ -25833,6 +24138,16 @@ window.KG_GRAPH = {
           "cite": "Hadi YH, Keaney L, England A, et al / Automatic patient centering in computed tomography: a systematic review and meta-analysis / Eur Radiol / 2025",
           "grade": "Meta分析",
           "ref": "SR-20"
+        },
+        {
+          "type": "共识",
+          "author": "中华医学会儿科学分会影像学组, 中华医学会放射学分会儿科学组",
+          "title": "儿童CT检查辐射剂量标准中国专家共识",
+          "journal": "中华放射学杂志",
+          "year": 2024,
+          "cite": "中华医学会儿科学分会影像学组, 中华医学会放射学分会儿科学组 / 儿童CT检查辐射剂量标准中国专家共识 / 中华放射学杂志 / 2024",
+          "grade": "指南与共识",
+          "ref": "CN-06"
         },
         {
           "type": "推荐",
@@ -25903,16 +24218,6 @@ window.KG_GRAPH = {
           "cite": "European Society of Radiology (ESR), European Federation of Radiographer Societies (EFRS) / Patient Safety in Medical Imaging: a joint paper of the European Society of Radiology (ESR) and the European Federation of Radiographer Societies (EFRS) / Insights into Imaging / 2019",
           "grade": "声明",
           "ref": "EN-15"
-        },
-        {
-          "type": "Meta分析",
-          "author": "Shanbhag S, Panakkal NC, Koteshwara P, et al",
-          "title": "Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis",
-          "journal": "BMC Med Imaging",
-          "year": 2026,
-          "cite": "Shanbhag S, Panakkal NC, Koteshwara P, et al / Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis / BMC Med Imaging / 2026",
-          "grade": "Meta分析",
-          "ref": "SR-11"
         }
       ],
       "graph": "radiation"
@@ -26045,16 +24350,6 @@ window.KG_GRAPH = {
           "cite": "Hiles P, Gilligan P, Damilakis J, Briers E, Candela-Juan C, Faj D, Foley S, Frija G, Granata C, de Las Heras Gala H, Pauwels R, Sans Merce M, Simantirakis G, Vano E / European consensus on patient contact shielding / Insights into Imaging / 2021",
           "grade": "指南与共识",
           "ref": "EN-18"
-        },
-        {
-          "type": "指南",
-          "author": "Halliburton SS, Abbara S, Chen MY, Gentry R, Mahesh M, Raff GL, Shaw LJ, Hausleiter J",
-          "title": "Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT",
-          "journal": "Journal of Cardiovascular Computed Tomography",
-          "year": 2011,
-          "cite": "Halliburton SS, Abbara S, Chen MY, Gentry R, Mahesh M, Raff GL, Shaw LJ, Hausleiter J / Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT / Journal of Cardiovascular Computed Tomography / 2011",
-          "grade": "指南与共识",
-          "ref": "EN-19"
         },
         {
           "type": "推荐",
@@ -26519,26 +24814,6 @@ window.KG_GRAPH = {
           "ref": "EN-15"
         },
         {
-          "type": "声明",
-          "author": "Hill KD, Frush DP, Han BK, Abbott BG, Armstrong AK, DeKemp RA, Glatz AC, Greenberg SB, Herbert AS, Justino H, Mah D, Mahesh M, Rigsby CK, Slesnick TC, Strauss KJ, Trattner S, Viswanathan MN, Einstein AJ",
-          "title": "Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance",
-          "journal": "JACC: Cardiovascular Imaging",
-          "year": 2017,
-          "cite": "Hill KD, Frush DP, Han BK, Abbott BG, Armstrong AK, DeKemp RA, Glatz AC, Greenberg SB, Herbert AS, Justino H, Mah D, Mahesh M, Rigsby CK, Slesnick TC, Strauss KJ, Trattner S, Viswanathan MN, Einstein AJ / Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance / JACC: Cardiovascular Imaging / 2017",
-          "grade": "声明",
-          "ref": "EN-16"
-        },
-        {
-          "type": "Meta分析",
-          "author": "Shanbhag S, Panakkal NC, Koteshwara P, et al",
-          "title": "Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis",
-          "journal": "BMC Med Imaging",
-          "year": 2026,
-          "cite": "Shanbhag S, Panakkal NC, Koteshwara P, et al / Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis / BMC Med Imaging / 2026",
-          "grade": "Meta分析",
-          "ref": "SR-11"
-        },
-        {
           "type": "Meta分析",
           "author": "Naik SD, Visakh T, Prakashini K, et al",
           "title": "Assessment of image quality and radiation dose in low-dose, low-contrast computed tomography coronary angiogram: a systematic review and meta-analysis",
@@ -26739,16 +25014,6 @@ window.KG_GRAPH = {
           "ref": "CN-37"
         },
         {
-          "type": "指南",
-          "author": "Hong SH, Goo HW, Maeda E, Choo KS, Tsai IC",
-          "title": "Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1",
-          "journal": "Imaging Techniques",
-          "year": 2019,
-          "cite": "Hong SH, Goo HW, Maeda E, Choo KS, Tsai IC / Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1 / Imaging Techniques / 2019",
-          "grade": "指南与共识",
-          "ref": "EN-20"
-        },
-        {
           "type": "推荐",
           "author": "International Atomic Energy Agency, Pan American Health Organization, World Health Organization",
           "title": "Radiation Protection and Safety in Medical Uses of Ionizing Radiation",
@@ -26777,16 +25042,6 @@ window.KG_GRAPH = {
           "cite": "赵彤, 马梓轩, 刘丹丹, 冯泽臣, 张永县, 牛延涛 / 第三代双源CT能谱纯化技术结合不同屏蔽方式对儿童辐射剂量影响的模体研究 / 中华放射医学与防护杂志 / 2026",
           "grade": "推荐",
           "ref": "XT-34"
-        },
-        {
-          "type": "共识",
-          "author": "中国医师协会医学技师专业委员会, 中华医学会影像技术分会",
-          "title": "胸部CT检查接触屏蔽防护用品规范使用专家共识",
-          "journal": "中华放射医学与防护杂志",
-          "year": 2026,
-          "cite": "中国医师协会医学技师专业委员会, 中华医学会影像技术分会 / 胸部CT检查接触屏蔽防护用品规范使用专家共识 / 中华放射医学与防护杂志 / 2026",
-          "grade": "指南与共识",
-          "ref": "CN-08"
         },
         {
           "type": "共识",
@@ -26969,16 +25224,6 @@ window.KG_GRAPH = {
           "ref": "SR-12"
         },
         {
-          "type": "Meta分析",
-          "author": "S S, Pradhan A, Kadavigere R, et al",
-          "title": "Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis",
-          "journal": "J Med Imaging Radiat Sci",
-          "year": 2026,
-          "cite": "S S, Pradhan A, Kadavigere R, et al / Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis / J Med Imaging Radiat Sci / 2026",
-          "grade": "Meta分析",
-          "ref": "SR-17"
-        },
-        {
           "type": "系统评价",
           "author": "Samara ET, Saltybaeva N, Sans Merce M, et al",
           "title": "Systematic literature review on the benefit of patient protection shielding during medical X-ray imaging: Towards a discontinuation of the current practice",
@@ -27147,16 +25392,6 @@ window.KG_GRAPH = {
           "cite": "中华医学会影像技术分会专家组（康承欣, 付彬洁, 吕发金, 李真林, 余建明, 雷子乔, 付海鸿, 马新武, 赵雁鸣, 刘杰, 周高峰, 牛延涛, 康庄, 暴云锋, 路青, 尹建东） / 肺癌筛查低剂量CT检查技术规范——专家共识 / 重庆医科大学学报 / 2024",
           "grade": "指南与共识",
           "ref": "CN-15"
-        },
-        {
-          "type": "推荐",
-          "author": "International Atomic Energy Agency, World Health Organization, International Society of Radiology",
-          "title": "with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT",
-          "journal": "IAEA Safety Reports Series No",
-          "year": 2008,
-          "cite": "International Atomic Energy Agency, World Health Organization, International Society of Radiology / with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT / IAEA Safety Reports Series No / 2008",
-          "grade": "推荐",
-          "ref": "EN-21"
         },
         {
           "type": "推荐",
@@ -27758,7 +25993,7 @@ window.KG_GRAPH = {
       "aliases": [
         "胸部与肺部检查"
       ],
-      "summary": "收录胸部的 CT 检查规程 —— 肺部常规平扫与增强、胸部低剂量 CT（20 mAs～50 mAs）。低剂量 CT 的适应证与参数是筛查场景的核心。",
+      "summary": "收录胸部的 CT 检查规程 —— 肺部常规平扫、胸部低剂量 CT（20 mAs～50 mAs）。低剂量 CT 的适应证与参数是筛查场景的核心。",
       "attrs": [
         {
           "k": "框架层级",
@@ -27785,26 +26020,6 @@ window.KG_GRAPH = {
           "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
           "grade": "推荐",
           "ref": "WS391-2024"
-        },
-        {
-          "type": "共识",
-          "author": "中华医学会儿科学分会影像学组, 中华医学会放射学分会儿科学组",
-          "title": "儿童CT检查辐射剂量标准中国专家共识",
-          "journal": "中华放射学杂志",
-          "year": 2024,
-          "cite": "中华医学会儿科学分会影像学组, 中华医学会放射学分会儿科学组 / 儿童CT检查辐射剂量标准中国专家共识 / 中华放射学杂志 / 2024",
-          "grade": "指南与共识",
-          "ref": "CN-06"
-        },
-        {
-          "type": "指南",
-          "author": "American College of Radiology",
-          "title": "ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d)",
-          "journal": "American College of Radiology Practice Parameters and Technical Standards",
-          "year": 2026,
-          "cite": "American College of Radiology / ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d) / American College of Radiology Practice Parameters and Technical Standards / 2026",
-          "grade": "指南与共识",
-          "ref": "EN-10"
         },
         {
           "type": "共识",
@@ -27865,36 +26080,6 @@ window.KG_GRAPH = {
           "cite": "中华医学会影像技术分会专家组（康承欣, 付彬洁, 吕发金, 李真林, 余建明, 雷子乔, 付海鸿, 马新武, 赵雁鸣, 刘杰, 周高峰, 牛延涛, 康庄, 暴云锋, 路青, 尹建东） / 肺癌筛查低剂量CT检查技术规范——专家共识 / 重庆医科大学学报 / 2024",
           "grade": "指南与共识",
           "ref": "CN-15"
-        },
-        {
-          "type": "推荐",
-          "author": "International Atomic Energy Agency, World Health Organization, International Society of Radiology",
-          "title": "with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT",
-          "journal": "IAEA Safety Reports Series No",
-          "year": 2008,
-          "cite": "International Atomic Energy Agency, World Health Organization, International Society of Radiology / with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT / IAEA Safety Reports Series No / 2008",
-          "grade": "推荐",
-          "ref": "EN-21"
-        },
-        {
-          "type": "指南",
-          "author": "Halliburton SS, Abbara S, Chen MY, Gentry R, Mahesh M, Raff GL, Shaw LJ, Hausleiter J",
-          "title": "Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT",
-          "journal": "Journal of Cardiovascular Computed Tomography",
-          "year": 2011,
-          "cite": "Halliburton SS, Abbara S, Chen MY, Gentry R, Mahesh M, Raff GL, Shaw LJ, Hausleiter J / Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT / Journal of Cardiovascular Computed Tomography / 2011",
-          "grade": "指南与共识",
-          "ref": "EN-19"
-        },
-        {
-          "type": "Meta分析",
-          "author": "S S, Pradhan A, Kadavigere R, et al",
-          "title": "Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis",
-          "journal": "J Med Imaging Radiat Sci",
-          "year": 2026,
-          "cite": "S S, Pradhan A, Kadavigere R, et al / Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis / J Med Imaging Radiat Sci / 2026",
-          "grade": "Meta分析",
-          "ref": "SR-17"
         }
       ],
       "graph": "radiation"
@@ -27937,16 +26122,6 @@ window.KG_GRAPH = {
           "cite": "国家卫生健康委员会 / WS/T 391—2024《CT 检查操作规程》 / 中华人民共和国卫生行业标准 / 2024",
           "grade": "推荐",
           "ref": "WS391-2024"
-        },
-        {
-          "type": "Meta分析",
-          "author": "Shanbhag S, Panakkal NC, Koteshwara P, et al",
-          "title": "Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis",
-          "journal": "BMC Med Imaging",
-          "year": 2026,
-          "cite": "Shanbhag S, Panakkal NC, Koteshwara P, et al / Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis / BMC Med Imaging / 2026",
-          "grade": "Meta分析",
-          "ref": "SR-11"
         }
       ],
       "graph": "radiation"
@@ -28051,16 +26226,6 @@ window.KG_GRAPH = {
           "cite": "吉林省市场监督管理厅 / DB22/T 3166—2020《儿童胸腹部低剂量CT扫描技术规范》 / 吉林省地方标准 / 2020",
           "grade": "规范",
           "ref": "CN-16"
-        },
-        {
-          "type": "声明",
-          "author": "Hill KD, Frush DP, Han BK, Abbott BG, Armstrong AK, DeKemp RA, Glatz AC, Greenberg SB, Herbert AS, Justino H, Mah D, Mahesh M, Rigsby CK, Slesnick TC, Strauss KJ, Trattner S, Viswanathan MN, Einstein AJ",
-          "title": "Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance",
-          "journal": "JACC: Cardiovascular Imaging",
-          "year": 2017,
-          "cite": "Hill KD, Frush DP, Han BK, Abbott BG, Armstrong AK, DeKemp RA, Glatz AC, Greenberg SB, Herbert AS, Justino H, Mah D, Mahesh M, Rigsby CK, Slesnick TC, Strauss KJ, Trattner S, Viswanathan MN, Einstein AJ / Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance / JACC: Cardiovascular Imaging / 2017",
-          "grade": "声明",
-          "ref": "EN-16"
         },
         {
           "type": "推荐",
@@ -28203,16 +26368,6 @@ window.KG_GRAPH = {
           "cite": "Vañó E, Miller DL, Martin CJ, Rehani MM, Kang K, Rosenstein M, Ortiz-López P, Mattsson S, Padovani R, Rogers A / on behalf of ICRP. Diagnostic reference levels in medical imaging / ICRP Publication 135 / 2017",
           "grade": "指南与共识",
           "ref": "EN-05"
-        },
-        {
-          "type": "指南",
-          "author": "Halliburton SS, Abbara S, Chen MY, Gentry R, Mahesh M, Raff GL, Shaw LJ, Hausleiter J",
-          "title": "Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT",
-          "journal": "Journal of Cardiovascular Computed Tomography",
-          "year": 2011,
-          "cite": "Halliburton SS, Abbara S, Chen MY, Gentry R, Mahesh M, Raff GL, Shaw LJ, Hausleiter J / Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT / Journal of Cardiovascular Computed Tomography / 2011",
-          "grade": "指南与共识",
-          "ref": "EN-19"
         },
         {
           "type": "推荐",
@@ -28857,16 +27012,6 @@ window.KG_GRAPH = {
           "ref": "WS637-2018"
         },
         {
-          "type": "标准",
-          "author": "李润根, 苏蓓蓓, 马妮, 刘颖, 白皓",
-          "title": "我国CT检查成年人辐射剂量诊断参考水平的建立历程及解读",
-          "journal": "中华放射医学与防护杂志",
-          "year": 2020,
-          "cite": "李润根, 苏蓓蓓, 马妮, 刘颖, 白皓 / 我国CT检查成年人辐射剂量诊断参考水平的建立历程及解读 / 中华放射医学与防护杂志 / 2020",
-          "grade": "标准",
-          "ref": "CN-23"
-        },
-        {
           "type": "指南",
           "author": "Khong P-L, Ringertz H, Donoghue V, Frush D, Rehani M, Appelgate K, Sanchez R",
           "title": "on behalf of ICRP. Radiological protection in paediatric diagnostic and interventional radiology",
@@ -28905,6 +27050,16 @@ window.KG_GRAPH = {
           "cite": "Commission Recommendation (Euratom) 2026/403 of 23 February 2026 on the establishment, review and use of diagnostic reference levels for radiodiagnostic examinations and interventional radiology procedures / Official Journal of the European Union, OJ L, 2026/403, 25.2.2026 (C/2026/1015) / Commission Recommendation (Euratom) 2026/403 of 23 February 2026 on the establishment, review and use of diagnostic reference levels for radiodiagnostic examinations and interventional radiology procedures / 2026",
           "grade": "推荐",
           "ref": "EN-26"
+        },
+        {
+          "type": "标准",
+          "author": "李润根, 苏蓓蓓, 马妮, 刘颖, 白皓",
+          "title": "我国CT检查成年人辐射剂量诊断参考水平的建立历程及解读",
+          "journal": "中华放射医学与防护杂志",
+          "year": 2020,
+          "cite": "李润根, 苏蓓蓓, 马妮, 刘颖, 白皓 / 我国CT检查成年人辐射剂量诊断参考水平的建立历程及解读 / 中华放射医学与防护杂志 / 2020",
+          "grade": "标准",
+          "ref": "CN-23"
         },
         {
           "type": "声明",
@@ -29074,12 +27229,6 @@ window.KG_GRAPH = {
     {
       "source": "EX_Lung",
       "target": "SP_Slice",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_ChestEnhanced",
-      "target": "SP_mAs",
       "type": "USES_PARAMETER",
       "label": "采用参数"
     },
@@ -29282,24 +27431,6 @@ window.KG_GRAPH = {
       "label": "属于"
     },
     {
-      "source": "EX_Brain",
-      "target": "DL_Head",
-      "type": "LIMITED_BY",
-      "label": "受限于"
-    },
-    {
-      "source": "EX_Sinus",
-      "target": "DL_Sinus",
-      "type": "LIMITED_BY",
-      "label": "受限于"
-    },
-    {
-      "source": "EX_Pharynx",
-      "target": "DL_Neck",
-      "type": "LIMITED_BY",
-      "label": "受限于"
-    },
-    {
       "source": "EX_Neck",
       "target": "DL_Neck",
       "type": "LIMITED_BY",
@@ -29312,32 +27443,8 @@ window.KG_GRAPH = {
       "label": "受限于"
     },
     {
-      "source": "EX_ChestEnhanced",
-      "target": "DL_Chest",
-      "type": "LIMITED_BY",
-      "label": "受限于"
-    },
-    {
       "source": "EX_LowDoseChest",
       "target": "DL_Chest",
-      "type": "LIMITED_BY",
-      "label": "受限于"
-    },
-    {
-      "source": "EX_PulmonaryArtery",
-      "target": "DL_Chest",
-      "type": "LIMITED_BY",
-      "label": "受限于"
-    },
-    {
-      "source": "EX_AorticArch",
-      "target": "DL_ThoraxAbdCTA",
-      "type": "LIMITED_BY",
-      "label": "受限于"
-    },
-    {
-      "source": "EX_Coronary",
-      "target": "DL_Coronary",
       "type": "LIMITED_BY",
       "label": "受限于"
     },
@@ -29372,12 +27479,6 @@ window.KG_GRAPH = {
       "label": "受限于"
     },
     {
-      "source": "EX_Urography",
-      "target": "DL_Urography",
-      "type": "LIMITED_BY",
-      "label": "受限于"
-    },
-    {
       "source": "EX_Pelvis",
       "target": "DL_Pelvis",
       "type": "LIMITED_BY",
@@ -29398,12 +27499,6 @@ window.KG_GRAPH = {
     {
       "source": "EX_Colon",
       "target": "DL_Abdomen",
-      "type": "LIMITED_BY",
-      "label": "受限于"
-    },
-    {
-      "source": "EX_AbdominalVessel",
-      "target": "DL_ThoraxAbdCTA",
       "type": "LIMITED_BY",
       "label": "受限于"
     },
@@ -29540,18 +27635,6 @@ window.KG_GRAPH = {
       "label": "以…衡量"
     },
     {
-      "source": "EX_ChestEnhanced",
-      "target": "DM_CTDIvol",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "EX_ChestEnhanced",
-      "target": "DM_DLP",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
       "source": "EX_LowDoseChest",
       "target": "DM_CTDIvol",
       "type": "MEASURED_BY",
@@ -29559,42 +27642,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "EX_LowDoseChest",
-      "target": "DM_DLP",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "EX_PulmonaryArtery",
-      "target": "DM_CTDIvol",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "EX_PulmonaryArtery",
-      "target": "DM_DLP",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "EX_AorticArch",
-      "target": "DM_CTDIvol",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "EX_AorticArch",
-      "target": "DM_DLP",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "EX_Coronary",
-      "target": "DM_CTDIvol",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "EX_Coronary",
       "target": "DM_DLP",
       "type": "MEASURED_BY",
       "label": "以…衡量"
@@ -29660,18 +27707,6 @@ window.KG_GRAPH = {
       "label": "以…衡量"
     },
     {
-      "source": "EX_Urography",
-      "target": "DM_CTDIvol",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "EX_Urography",
-      "target": "DM_DLP",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
       "source": "EX_Pelvis",
       "target": "DM_CTDIvol",
       "type": "MEASURED_BY",
@@ -29732,18 +27767,6 @@ window.KG_GRAPH = {
       "label": "以…衡量"
     },
     {
-      "source": "EX_AbdominalVessel",
-      "target": "DM_CTDIvol",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "EX_AbdominalVessel",
-      "target": "DM_DLP",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
       "source": "EX_Spine",
       "target": "DM_CTDIvol",
       "type": "MEASURED_BY",
@@ -29792,18 +27815,6 @@ window.KG_GRAPH = {
       "label": "以…衡量"
     },
     {
-      "source": "EX_LimbArtery",
-      "target": "DM_CTDIvol",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "EX_LimbArtery",
-      "target": "DM_DLP",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
       "source": "EX_LimbVein",
       "target": "DM_CTDIvol",
       "type": "MEASURED_BY",
@@ -29828,18 +27839,6 @@ window.KG_GRAPH = {
       "label": "以…衡量"
     },
     {
-      "source": "EX_Perfusion",
-      "target": "DM_CTDIvol",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "EX_Perfusion",
-      "target": "DM_DLP",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
       "source": "EX_LDCScreen",
       "target": "DM_CTDIvol",
       "type": "MEASURED_BY",
@@ -29847,18 +27846,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "EX_LDCScreen",
-      "target": "DM_DLP",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "EX_CardiacCT",
-      "target": "DM_CTDIvol",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "EX_CardiacCT",
       "target": "DM_DLP",
       "type": "MEASURED_BY",
       "label": "以…衡量"
@@ -30026,24 +28013,6 @@ window.KG_GRAPH = {
       "label": "以…防护"
     },
     {
-      "source": "EX_ChestEnhanced",
-      "target": "SM_Room",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_ChestEnhanced",
-      "target": "SM_PatientShield",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_ChestEnhanced",
-      "target": "SM_PPE",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
       "source": "EX_LowDoseChest",
       "target": "SM_Room",
       "type": "PROTECTED_BY",
@@ -30057,60 +28026,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "EX_LowDoseChest",
-      "target": "SM_PPE",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_PulmonaryArtery",
-      "target": "SM_Room",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_PulmonaryArtery",
-      "target": "SM_PatientShield",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_PulmonaryArtery",
-      "target": "SM_PPE",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_AorticArch",
-      "target": "SM_Room",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_AorticArch",
-      "target": "SM_PatientShield",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_AorticArch",
-      "target": "SM_PPE",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_Coronary",
-      "target": "SM_Room",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_Coronary",
-      "target": "SM_PatientShield",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_Coronary",
       "target": "SM_PPE",
       "type": "PROTECTED_BY",
       "label": "以…防护"
@@ -30206,24 +28121,6 @@ window.KG_GRAPH = {
       "label": "以…防护"
     },
     {
-      "source": "EX_Urography",
-      "target": "SM_Room",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_Urography",
-      "target": "SM_PatientShield",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_Urography",
-      "target": "SM_PPE",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
       "source": "EX_Pelvis",
       "target": "SM_Room",
       "type": "PROTECTED_BY",
@@ -30314,24 +28211,6 @@ window.KG_GRAPH = {
       "label": "以…防护"
     },
     {
-      "source": "EX_AbdominalVessel",
-      "target": "SM_Room",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_AbdominalVessel",
-      "target": "SM_PatientShield",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_AbdominalVessel",
-      "target": "SM_PPE",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
       "source": "EX_Spine",
       "target": "SM_Room",
       "type": "PROTECTED_BY",
@@ -30404,24 +28283,6 @@ window.KG_GRAPH = {
       "label": "以…防护"
     },
     {
-      "source": "EX_LimbArtery",
-      "target": "SM_Room",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_LimbArtery",
-      "target": "SM_PatientShield",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_LimbArtery",
-      "target": "SM_PPE",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
       "source": "EX_LimbVein",
       "target": "SM_Room",
       "type": "PROTECTED_BY",
@@ -30458,24 +28319,6 @@ window.KG_GRAPH = {
       "label": "以…防护"
     },
     {
-      "source": "EX_Perfusion",
-      "target": "SM_Room",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_Perfusion",
-      "target": "SM_PatientShield",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_Perfusion",
-      "target": "SM_PPE",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
       "source": "EX_LDCScreen",
       "target": "SM_Room",
       "type": "PROTECTED_BY",
@@ -30489,24 +28332,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "EX_LDCScreen",
-      "target": "SM_PPE",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_CardiacCT",
-      "target": "SM_Room",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_CardiacCT",
-      "target": "SM_PatientShield",
-      "type": "PROTECTED_BY",
-      "label": "以…防护"
-    },
-    {
-      "source": "EX_CardiacCT",
       "target": "SM_PPE",
       "type": "PROTECTED_BY",
       "label": "以…防护"
@@ -30842,12 +28667,6 @@ window.KG_GRAPH = {
       "label": "属于"
     },
     {
-      "source": "EX_Perfusion",
-      "target": "EX_Brain",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
       "source": "EX_LowDoseChest",
       "target": "EX_Lung",
       "type": "BELONGS_TO",
@@ -30962,66 +28781,6 @@ window.KG_GRAPH = {
       "label": "以…衡量"
     },
     {
-      "source": "DL_Urography",
-      "target": "DM_CTDIvol",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "DL_Urography",
-      "target": "DM_DLP",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "DL_Coronary",
-      "target": "DM_CTDIvol",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "DL_Coronary",
-      "target": "DM_DLP",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "DL_CerebralCTA",
-      "target": "DM_CTDIvol",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "DL_CerebralCTA",
-      "target": "DM_DLP",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "DL_NeckCTA",
-      "target": "DM_CTDIvol",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "DL_NeckCTA",
-      "target": "DM_DLP",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "DL_ThoraxAbdCTA",
-      "target": "DM_CTDIvol",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
-      "source": "DL_ThoraxAbdCTA",
-      "target": "DM_DLP",
-      "type": "MEASURED_BY",
-      "label": "以…衡量"
-    },
-    {
       "source": "DL_PedsHead",
       "target": "DM_CTDIvol",
       "type": "MEASURED_BY",
@@ -31112,31 +28871,7 @@ window.KG_GRAPH = {
       "label": "依据"
     },
     {
-      "source": "EX_ChestEnhanced",
-      "target": "PP_ALARA",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
       "source": "EX_LowDoseChest",
-      "target": "PP_ALARA",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
-      "source": "EX_PulmonaryArtery",
-      "target": "PP_ALARA",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
-      "source": "EX_AorticArch",
-      "target": "PP_ALARA",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
-      "source": "EX_Coronary",
       "target": "PP_ALARA",
       "type": "GOVERNED_BY",
       "label": "依据"
@@ -31172,12 +28907,6 @@ window.KG_GRAPH = {
       "label": "依据"
     },
     {
-      "source": "EX_Urography",
-      "target": "PP_ALARA",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
       "source": "EX_Pelvis",
       "target": "PP_ALARA",
       "type": "GOVERNED_BY",
@@ -31208,12 +28937,6 @@ window.KG_GRAPH = {
       "label": "依据"
     },
     {
-      "source": "EX_AbdominalVessel",
-      "target": "PP_ALARA",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
       "source": "EX_Spine",
       "target": "PP_ALARA",
       "type": "GOVERNED_BY",
@@ -31238,12 +28961,6 @@ window.KG_GRAPH = {
       "label": "依据"
     },
     {
-      "source": "EX_LimbArtery",
-      "target": "PP_ALARA",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
       "source": "EX_LimbVein",
       "target": "PP_ALARA",
       "type": "GOVERNED_BY",
@@ -31256,19 +28973,7 @@ window.KG_GRAPH = {
       "label": "依据"
     },
     {
-      "source": "EX_Perfusion",
-      "target": "PP_ALARA",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
       "source": "EX_LDCScreen",
-      "target": "PP_ALARA",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
-      "source": "EX_CardiacCT",
       "target": "PP_ALARA",
       "type": "GOVERNED_BY",
       "label": "依据"
@@ -31280,168 +28985,6 @@ window.KG_GRAPH = {
       "label": "依据"
     },
     {
-      "source": "EX_Perfusion",
-      "target": "PP_Justification",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
-      "source": "SP_DLIR",
-      "target": "SP_Reconstruction",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "SP_Contrast",
-      "target": "W908_Protocol",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "PP_ImageQuality",
-      "target": "PP_ALARA",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "DM_Phantom",
-      "target": "DM_CTDIw",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "PP_Obese",
-      "target": "PP_ChildMode",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "SP_ScanLength",
-      "target": "PP_Beam",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "SM_ShieldDesign",
-      "target": "SM_Room",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "ST_ScatterDose",
-      "target": "ST_Room",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "ST_State",
-      "target": "ST_QC",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "ST_Stability",
-      "target": "ST_QC",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "SM_PPE_Apron",
-      "target": "SM_PPE",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "SM_PPE_Gonad",
-      "target": "SM_PPE",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "SM_PPE_Screen",
-      "target": "SM_PPE",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "SM_PPE_Child",
-      "target": "SM_PPE",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "SM_Observe",
-      "target": "SM_Room",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "SM_Door",
-      "target": "SM_Room",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "DM_OSLD",
-      "target": "DM_CTDIvol",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "PP_OccLimit",
-      "target": "GBZ_Monitor",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "PP_DoseWearing",
-      "target": "GBZ_Monitor",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "SP_Phases",
-      "target": "W908_Protocol",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "SM_WarningSign",
-      "target": "SM_Room",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "DM_RDMS",
-      "target": "W908_DoseData",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "PP_Sedation",
-      "target": "EX_Pediatric",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "SM_ShieldEvidence",
-      "target": "SM_PPE",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "EX_LDCScreen",
-      "target": "EX_LowDoseChest",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
-      "source": "EX_CardiacCT",
-      "target": "EX_Coronary",
-      "type": "BELONGS_TO",
-      "label": "属于"
-    },
-    {
       "source": "SP_Auto",
       "target": "PP_ALARA",
       "type": "GOVERNED_BY",
@@ -31450,12 +28993,6 @@ window.KG_GRAPH = {
     {
       "source": "SP_DLIR",
       "target": "PP_ALARA",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
-      "source": "SP_Contrast",
-      "target": "PP_Operator",
       "type": "GOVERNED_BY",
       "label": "依据"
     },
@@ -31640,12 +29177,6 @@ window.KG_GRAPH = {
       "label": "依据"
     },
     {
-      "source": "SP_Phases",
-      "target": "PP_ALARA",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
       "source": "SM_WarningSign",
       "target": "ST_Daily",
       "type": "GOVERNED_BY",
@@ -31671,19 +29202,7 @@ window.KG_GRAPH = {
     },
     {
       "source": "EX_LDCScreen",
-      "target": "SP_KV",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_LDCScreen",
       "target": "SP_mAs",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_CardiacCT",
-      "target": "SP_KV",
       "type": "USES_PARAMETER",
       "label": "采用参数"
     },
@@ -31982,18 +29501,6 @@ window.KG_GRAPH = {
       "label": "依据"
     },
     {
-      "source": "EX_ChestEnhanced",
-      "target": "SP_KV",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_ChestEnhanced",
-      "target": "PP_Operator",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
       "source": "EX_LowDoseChest",
       "target": "SP_KV",
       "type": "USES_PARAMETER",
@@ -32001,60 +29508,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "EX_LowDoseChest",
-      "target": "PP_Operator",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
-      "source": "EX_PulmonaryArtery",
-      "target": "SP_KV",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_PulmonaryArtery",
-      "target": "SP_mAs",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_PulmonaryArtery",
-      "target": "PP_Operator",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
-      "source": "EX_AorticArch",
-      "target": "SP_KV",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_AorticArch",
-      "target": "SP_mAs",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_AorticArch",
-      "target": "PP_Operator",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
-      "source": "EX_Coronary",
-      "target": "SP_KV",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_Coronary",
-      "target": "SP_mAs",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_Coronary",
       "target": "PP_Operator",
       "type": "GOVERNED_BY",
       "label": "依据"
@@ -32132,24 +29585,6 @@ window.KG_GRAPH = {
       "label": "依据"
     },
     {
-      "source": "EX_Urography",
-      "target": "SP_KV",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_Urography",
-      "target": "SP_mAs",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_Urography",
-      "target": "PP_Operator",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
       "source": "EX_Pelvis",
       "target": "SP_KV",
       "type": "USES_PARAMETER",
@@ -32240,24 +29675,6 @@ window.KG_GRAPH = {
       "label": "依据"
     },
     {
-      "source": "EX_AbdominalVessel",
-      "target": "SP_KV",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_AbdominalVessel",
-      "target": "SP_mAs",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_AbdominalVessel",
-      "target": "PP_Operator",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
       "source": "EX_Spine",
       "target": "SP_KV",
       "type": "USES_PARAMETER",
@@ -32325,24 +29742,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "EX_Sacroiliac",
-      "target": "PP_Operator",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
-      "source": "EX_LimbArtery",
-      "target": "SP_KV",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_LimbArtery",
-      "target": "SP_mAs",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_LimbArtery",
       "target": "PP_Operator",
       "type": "GOVERNED_BY",
       "label": "依据"
@@ -32372,37 +29771,13 @@ window.KG_GRAPH = {
       "label": "依据"
     },
     {
-      "source": "EX_Perfusion",
+      "source": "EX_LDCScreen",
       "target": "SP_KV",
       "type": "USES_PARAMETER",
       "label": "采用参数"
     },
     {
-      "source": "EX_Perfusion",
-      "target": "SP_mAs",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_Perfusion",
-      "target": "PP_Operator",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
       "source": "EX_LDCScreen",
-      "target": "PP_Operator",
-      "type": "GOVERNED_BY",
-      "label": "依据"
-    },
-    {
-      "source": "EX_CardiacCT",
-      "target": "SP_mAs",
-      "type": "USES_PARAMETER",
-      "label": "采用参数"
-    },
-    {
-      "source": "EX_CardiacCT",
       "target": "PP_Operator",
       "type": "GOVERNED_BY",
       "label": "依据"
@@ -32438,7 +29813,7 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
-      "source": "PP_Beam",
+      "source": "EX_Root",
       "target": "CN-01",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -32564,12 +29939,6 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
-      "source": "EX_Root",
-      "target": "CN-01",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
       "source": "DL_DRG",
       "target": "CN-01",
       "type": "SUPPORTED_BY",
@@ -32624,31 +29993,7 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
-      "source": "DL_Urography",
-      "target": "CN-01",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "DL_Coronary",
-      "target": "CN-01",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "DL_CerebralCTA",
-      "target": "CN-01",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "DL_NeckCTA",
-      "target": "CN-01",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "DL_ThoraxAbdCTA",
+      "source": "DM_SSDE",
       "target": "CN-01",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -32667,12 +30012,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "DL_PedsAbdo",
-      "target": "CN-01",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "DM_SSDE",
       "target": "CN-01",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -32822,12 +30161,6 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
-      "source": "DL_Chest",
-      "target": "CN-04",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
       "source": "SP_KV",
       "target": "CN-05",
       "type": "SUPPORTED_BY",
@@ -32882,13 +30215,7 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
-      "source": "SP_Reconstruction",
-      "target": "CN-06",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "EX_ChestEnhanced",
+      "source": "SP_DLIR",
       "target": "CN-06",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -32949,12 +30276,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "SM_PatientShield",
-      "target": "CN-08",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "PP_Embryo",
       "target": "CN-08",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -33266,7 +30587,7 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
-      "source": "EX_ChestEnhanced",
+      "source": "EX_Pelvis",
       "target": "EN-10",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -34028,19 +31349,7 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
-      "source": "DL_Urography",
-      "target": "CN-23",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
       "source": "DL_Lumbar",
-      "target": "CN-23",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "DM_DRL_Adult",
       "target": "CN-23",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -34388,24 +31697,6 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
-      "source": "EX_Pediatric",
-      "target": "EN-16",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "PP_ChildMode",
-      "target": "EN-16",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "PP_ALARA",
-      "target": "EN-16",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
       "source": "DM_DoseMonitor",
       "target": "EN-17",
       "type": "SUPPORTED_BY",
@@ -34438,72 +31729,6 @@ window.KG_GRAPH = {
     {
       "source": "PP_Embryo",
       "target": "EN-18",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "SM_PPE",
-      "target": "EN-19",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "EX_Coronary",
-      "target": "EN-19",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "W908_DoseInfo",
-      "target": "EN-19",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "DM_CTDIvol",
-      "target": "EN-19",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "PP_Obese",
-      "target": "EN-20",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "SP_Auto",
-      "target": "EN-20",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "PP_Beam",
-      "target": "EN-20",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "SP_KV",
-      "target": "EN-20",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "EX_CardiacCT",
-      "target": "EN-21",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "EX_Coronary",
-      "target": "EN-21",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "PP_Obese",
-      "target": "EN-21",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -35174,30 +32399,6 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
-      "source": "EX_Urography",
-      "target": "SR-11",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "PP_ALARA",
-      "target": "SR-11",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "W908_Protocol",
-      "target": "SR-11",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "PP_Evidence",
-      "target": "SR-11",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
       "source": "W908_DRL3",
       "target": "SR-12",
       "type": "SUPPORTED_BY",
@@ -35272,24 +32473,6 @@ window.KG_GRAPH = {
     {
       "source": "SP_mAs",
       "target": "SR-16",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "EX_Coronary",
-      "target": "SR-17",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "PP_Evidence",
-      "target": "SR-17",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "SP_Reconstruction",
-      "target": "SR-17",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -35463,12 +32646,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "W908_DRL3",
-      "target": "XT-13",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "DL_Urography",
       "target": "XT-13",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -35882,36 +33059,6 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
-      "source": "EX_ChestEnhanced",
-      "target": "WS391-2024",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "SP_Contrast",
-      "target": "WS391-2024",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "EX_PulmonaryArtery",
-      "target": "WS391-2024",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "EX_AorticArch",
-      "target": "WS391-2024",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "EX_Coronary",
-      "target": "WS391-2024",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
       "source": "EX_LiverSpleen",
       "target": "WS391-2024",
       "type": "SUPPORTED_BY",
@@ -35937,12 +33084,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "EX_Kidney",
-      "target": "WS391-2024",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "EX_Urography",
       "target": "WS391-2024",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -35978,12 +33119,6 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
-      "source": "EX_AbdominalVessel",
-      "target": "WS391-2024",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
       "source": "EX_Spine",
       "target": "WS391-2024",
       "type": "SUPPORTED_BY",
@@ -36008,31 +33143,13 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
-      "source": "EX_LimbArtery",
-      "target": "WS391-2024",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
       "source": "EX_LimbVein",
       "target": "WS391-2024",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
     {
-      "source": "EX_Perfusion",
-      "target": "WS391-2024",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
       "source": "EX_LowDoseChest",
-      "target": "WS391-2024",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "SP_Phases",
       "target": "WS391-2024",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -36063,12 +33180,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "DM_DoseMonitor",
-      "target": "WS637-2018",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "DL_Head",
       "target": "WS637-2018",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -36105,36 +33216,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "DL_Lumbar",
-      "target": "WS637-2018",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "DL_Urography",
-      "target": "WS637-2018",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "DL_Coronary",
-      "target": "WS637-2018",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "DL_CerebralCTA",
-      "target": "WS637-2018",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "DL_NeckCTA",
-      "target": "WS637-2018",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "DL_ThoraxAbdCTA",
       "target": "WS637-2018",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -36216,21 +33297,7 @@ window.KG_GRAPH = {
       "role": "framework"
     },
     {
-      "source": "SP_Contrast",
-      "target": "FW_ScanParameter",
-      "type": "BELONGS_TO",
-      "label": "属于",
-      "role": "framework"
-    },
-    {
       "source": "SP_ScanLength",
-      "target": "FW_ScanParameter",
-      "type": "BELONGS_TO",
-      "label": "属于",
-      "role": "framework"
-    },
-    {
-      "source": "SP_Phases",
       "target": "FW_ScanParameter",
       "type": "BELONGS_TO",
       "label": "属于",
@@ -36944,13 +34011,6 @@ window.KG_GRAPH = {
       "role": "framework"
     },
     {
-      "source": "EX_Perfusion",
-      "target": "FW_HeadExam",
-      "type": "BELONGS_TO",
-      "label": "属于",
-      "role": "framework"
-    },
-    {
       "source": "EX_Pharynx",
       "target": "FW_NeckExam",
       "type": "BELONGS_TO",
@@ -36972,13 +34032,6 @@ window.KG_GRAPH = {
       "role": "framework"
     },
     {
-      "source": "EX_ChestEnhanced",
-      "target": "FW_ChestExam",
-      "type": "BELONGS_TO",
-      "label": "属于",
-      "role": "framework"
-    },
-    {
       "source": "EX_LowDoseChest",
       "target": "FW_ChestExam",
       "type": "BELONGS_TO",
@@ -36987,34 +34040,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "EX_LDCScreen",
-      "target": "FW_ChestExam",
-      "type": "BELONGS_TO",
-      "label": "属于",
-      "role": "framework"
-    },
-    {
-      "source": "EX_CardiacCT",
-      "target": "FW_ChestExam",
-      "type": "BELONGS_TO",
-      "label": "属于",
-      "role": "framework"
-    },
-    {
-      "source": "EX_PulmonaryArtery",
-      "target": "FW_ChestExam",
-      "type": "BELONGS_TO",
-      "label": "属于",
-      "role": "framework"
-    },
-    {
-      "source": "EX_AorticArch",
-      "target": "FW_ChestExam",
-      "type": "BELONGS_TO",
-      "label": "属于",
-      "role": "framework"
-    },
-    {
-      "source": "EX_Coronary",
       "target": "FW_ChestExam",
       "type": "BELONGS_TO",
       "label": "属于",
@@ -37056,13 +34081,6 @@ window.KG_GRAPH = {
       "role": "framework"
     },
     {
-      "source": "EX_Urography",
-      "target": "FW_AbdoExam",
-      "type": "BELONGS_TO",
-      "label": "属于",
-      "role": "framework"
-    },
-    {
       "source": "EX_Pelvis",
       "target": "FW_AbdoExam",
       "type": "BELONGS_TO",
@@ -37098,13 +34116,6 @@ window.KG_GRAPH = {
       "role": "framework"
     },
     {
-      "source": "EX_AbdominalVessel",
-      "target": "FW_AbdoExam",
-      "type": "BELONGS_TO",
-      "label": "属于",
-      "role": "framework"
-    },
-    {
       "source": "EX_Spine",
       "target": "FW_LimbExam",
       "type": "BELONGS_TO",
@@ -37127,13 +34138,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "EX_Sacroiliac",
-      "target": "FW_LimbExam",
-      "type": "BELONGS_TO",
-      "label": "属于",
-      "role": "framework"
-    },
-    {
-      "source": "EX_LimbArtery",
       "target": "FW_LimbExam",
       "type": "BELONGS_TO",
       "label": "属于",
@@ -37302,41 +34306,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "DL_Lumbar",
-      "target": "FW_DRLLevel",
-      "type": "BELONGS_TO",
-      "label": "属于",
-      "role": "framework"
-    },
-    {
-      "source": "DL_Urography",
-      "target": "FW_DRLLevel",
-      "type": "BELONGS_TO",
-      "label": "属于",
-      "role": "framework"
-    },
-    {
-      "source": "DL_Coronary",
-      "target": "FW_DRLLevel",
-      "type": "BELONGS_TO",
-      "label": "属于",
-      "role": "framework"
-    },
-    {
-      "source": "DL_CerebralCTA",
-      "target": "FW_DRLLevel",
-      "type": "BELONGS_TO",
-      "label": "属于",
-      "role": "framework"
-    },
-    {
-      "source": "DL_NeckCTA",
-      "target": "FW_DRLLevel",
-      "type": "BELONGS_TO",
-      "label": "属于",
-      "role": "framework"
-    },
-    {
-      "source": "DL_ThoraxAbdCTA",
       "target": "FW_DRLLevel",
       "type": "BELONGS_TO",
       "label": "属于",
@@ -37519,12 +34488,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ScanParameter",
-      "target": "EN-20",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ScanParameter",
       "target": "EN-22",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -37609,12 +34572,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ScanParameter",
-      "target": "CN-06",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ScanParameter",
       "target": "EN-09",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -37633,12 +34590,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ScanParameter",
-      "target": "SR-17",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ScanParameter",
       "target": "XT-35",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -37652,6 +34603,12 @@ window.KG_GRAPH = {
     {
       "source": "FW_ScanParameter",
       "target": "SR-20",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ScanParameter",
+      "target": "CN-06",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -37694,12 +34651,6 @@ window.KG_GRAPH = {
     {
       "source": "FW_ScanParameter",
       "target": "EN-15",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ScanParameter",
-      "target": "SR-11",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -37766,12 +34717,6 @@ window.KG_GRAPH = {
     {
       "source": "FW_ShieldingMeasure",
       "target": "EN-18",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ShieldingMeasure",
-      "target": "EN-19",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -38041,18 +34986,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ProtectionPrinciple",
-      "target": "EN-16",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ProtectionPrinciple",
-      "target": "SR-11",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ProtectionPrinciple",
       "target": "SR-15",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -38173,12 +35106,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ProtectionPrinciple",
-      "target": "EN-20",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ProtectionPrinciple",
       "target": "EN-27",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -38192,12 +35119,6 @@ window.KG_GRAPH = {
     {
       "source": "FW_ProtectionPrinciple",
       "target": "XT-34",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ProtectionPrinciple",
-      "target": "CN-08",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -38311,12 +35232,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ProtectionPrinciple",
-      "target": "SR-17",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ProtectionPrinciple",
       "target": "SR-18",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -38414,12 +35329,6 @@ window.KG_GRAPH = {
     {
       "source": "FW_ProtectionPrinciple",
       "target": "CN-15",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ProtectionPrinciple",
-      "target": "EN-21",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -38749,18 +35658,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ChestExam",
-      "target": "CN-06",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ChestExam",
-      "target": "EN-10",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ChestExam",
       "target": "CN-07",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -38796,24 +35693,6 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
-      "source": "FW_ChestExam",
-      "target": "EN-21",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ChestExam",
-      "target": "EN-19",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ChestExam",
-      "target": "SR-17",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
       "source": "FW_AbdoExam",
       "target": "EN-10",
       "type": "SUPPORTED_BY",
@@ -38822,12 +35701,6 @@ window.KG_GRAPH = {
     {
       "source": "FW_AbdoExam",
       "target": "WS391-2024",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_AbdoExam",
-      "target": "SR-11",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -38864,12 +35737,6 @@ window.KG_GRAPH = {
     {
       "source": "FW_PedsExam",
       "target": "CN-16",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_PedsExam",
-      "target": "EN-16",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -38942,12 +35809,6 @@ window.KG_GRAPH = {
     {
       "source": "FW_DoseIndex",
       "target": "EN-05",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_DoseIndex",
-      "target": "EN-19",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -39325,12 +36186,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_DRLLevel",
-      "target": "CN-23",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_DRLLevel",
       "target": "EN-06",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -39350,6 +36205,12 @@ window.KG_GRAPH = {
     {
       "source": "FW_DRLLevel",
       "target": "EN-26",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_DRLLevel",
+      "target": "CN-23",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },

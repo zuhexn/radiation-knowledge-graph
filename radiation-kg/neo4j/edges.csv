@@ -15,7 +15,6 @@ EX_Neck,NeckExam,颈部 CT 检查,USES_PARAMETER,采用参数,SP_mAs,ScanParamet
 EX_Neck,NeckExam,颈部 CT 检查,USES_PARAMETER,采用参数,SP_Pitch,ScanParameter,螺距设定
 EX_Lung,ChestExam,肺部 CT 检查,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
 EX_Lung,ChestExam,肺部 CT 检查,USES_PARAMETER,采用参数,SP_Slice,ScanParameter,扫描层厚与层间距
-EX_ChestEnhanced,ChestExam,胸部 CT 增强扫描,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
 EX_LiverSpleen,AbdoExam,肝胆脾 CT 检查,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
 EX_Pancreas,AbdoExam,胰腺 CT 检查,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
 EX_Adrenal,AbdoExam,肾上腺 CT 检查,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
@@ -49,27 +48,18 @@ DM_CTDIw,DoseIndex,CTDIw（加权 CT 剂量指数）,BELONGS_TO,属于,DM_CTDIvo
 DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）,BELONGS_TO,属于,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 DM_DRL,DRLLevel,诊断参考水平（DRL）,BELONGS_TO,属于,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
 DM_DoseMonitor,DoseIndex,CT 剂量信息的定期核查,BELONGS_TO,属于,ST_Dose,ShieldingTest,儿童 CT 的剂量管理与机构内参考水平
-EX_Brain,HeadExam,颅脑 CT 检查,LIMITED_BY,受限于,DL_Head,DRLLevel,头颅 CT 的诊断参考水平
-EX_Sinus,HeadExam,鼻窦、颌面及颅底 CT 检查,LIMITED_BY,受限于,DL_Sinus,DRLLevel,鼻窦 CT 的诊断参考水平
-EX_Pharynx,NeckExam,咽喉 CT 检查,LIMITED_BY,受限于,DL_Neck,DRLLevel,颈部 CT 的诊断参考水平
 EX_Neck,NeckExam,颈部 CT 检查,LIMITED_BY,受限于,DL_Neck,DRLLevel,颈部 CT 的诊断参考水平
 EX_Lung,ChestExam,肺部 CT 检查,LIMITED_BY,受限于,DL_Chest,DRLLevel,胸部 CT 的诊断参考水平
-EX_ChestEnhanced,ChestExam,胸部 CT 增强扫描,LIMITED_BY,受限于,DL_Chest,DRLLevel,胸部 CT 的诊断参考水平
 EX_LowDoseChest,ChestExam,胸部低剂量 CT 检查,LIMITED_BY,受限于,DL_Chest,DRLLevel,胸部 CT 的诊断参考水平
-EX_PulmonaryArtery,ChestExam,肺动脉 CT 成像,LIMITED_BY,受限于,DL_Chest,DRLLevel,胸部 CT 的诊断参考水平
-EX_AorticArch,ChestExam,胸主动脉 CT 成像,LIMITED_BY,受限于,DL_ThoraxAbdCTA,DRLLevel,胸腹 CTA 的诊断参考水平
-EX_Coronary,ChestExam,冠状动脉增强 CT,LIMITED_BY,受限于,DL_Coronary,DRLLevel,冠脉 CTA 的诊断参考水平
 EX_LiverSpleen,AbdoExam,肝胆脾 CT 检查,LIMITED_BY,受限于,DL_Abdomen,DRLLevel,腹部 CT 的诊断参考水平
 EX_Pancreas,AbdoExam,胰腺 CT 检查,LIMITED_BY,受限于,DL_Abdomen,DRLLevel,腹部 CT 的诊断参考水平
 EX_Biliary,AbdoExam,胆管 CT 检查,LIMITED_BY,受限于,DL_Abdomen,DRLLevel,腹部 CT 的诊断参考水平
 EX_Adrenal,AbdoExam,肾上腺 CT 检查,LIMITED_BY,受限于,DL_Abdomen,DRLLevel,腹部 CT 的诊断参考水平
 EX_Kidney,AbdoExam,肾脏 CT 检查,LIMITED_BY,受限于,DL_Abdomen,DRLLevel,腹部 CT 的诊断参考水平
-EX_Urography,AbdoExam,CT 尿路造影,LIMITED_BY,受限于,DL_Urography,DRLLevel,尿路造影的诊断参考水平
 EX_Pelvis,AbdoExam,盆腔 CT 检查,LIMITED_BY,受限于,DL_Pelvis,DRLLevel,盆腔 CT 的诊断参考水平
 EX_Stomach,AbdoExam,胃 CT 检查,LIMITED_BY,受限于,DL_Abdomen,DRLLevel,腹部 CT 的诊断参考水平
 EX_SmallBowel,AbdoExam,小肠 CT 检查,LIMITED_BY,受限于,DL_Abdomen,DRLLevel,腹部 CT 的诊断参考水平
 EX_Colon,AbdoExam,结肠 CT 检查,LIMITED_BY,受限于,DL_Abdomen,DRLLevel,腹部 CT 的诊断参考水平
-EX_AbdominalVessel,AbdoExam,腹部血管 CT 成像,LIMITED_BY,受限于,DL_ThoraxAbdCTA,DRLLevel,胸腹 CTA 的诊断参考水平
 EX_Spine,LimbExam,脊柱 CT 检查,LIMITED_BY,受限于,DL_Lumbar,DRLLevel,腰椎 CT 的诊断参考水平
 EX_PelvisBone,LimbExam,骨盆 CT 检查,LIMITED_BY,受限于,DL_Pelvis,DRLLevel,盆腔 CT 的诊断参考水平
 EX_Sacroiliac,LimbExam,骶髂关节 CT 扫描,LIMITED_BY,受限于,DL_Lumbar,DRLLevel,腰椎 CT 的诊断参考水平
@@ -92,16 +82,8 @@ EX_Neck,NeckExam,颈部 CT 检查,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,
 EX_Neck,NeckExam,颈部 CT 检查,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 EX_Lung,ChestExam,肺部 CT 检查,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
 EX_Lung,ChestExam,肺部 CT 检查,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
-EX_ChestEnhanced,ChestExam,胸部 CT 增强扫描,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
-EX_ChestEnhanced,ChestExam,胸部 CT 增强扫描,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 EX_LowDoseChest,ChestExam,胸部低剂量 CT 检查,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
 EX_LowDoseChest,ChestExam,胸部低剂量 CT 检查,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
-EX_PulmonaryArtery,ChestExam,肺动脉 CT 成像,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
-EX_PulmonaryArtery,ChestExam,肺动脉 CT 成像,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
-EX_AorticArch,ChestExam,胸主动脉 CT 成像,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
-EX_AorticArch,ChestExam,胸主动脉 CT 成像,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
-EX_Coronary,ChestExam,冠状动脉增强 CT,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
-EX_Coronary,ChestExam,冠状动脉增强 CT,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 EX_LiverSpleen,AbdoExam,肝胆脾 CT 检查,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
 EX_LiverSpleen,AbdoExam,肝胆脾 CT 检查,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 EX_Pancreas,AbdoExam,胰腺 CT 检查,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
@@ -112,8 +94,6 @@ EX_Adrenal,AbdoExam,肾上腺 CT 检查,MEASURED_BY,以…衡量,DM_CTDIvol,Dose
 EX_Adrenal,AbdoExam,肾上腺 CT 检查,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 EX_Kidney,AbdoExam,肾脏 CT 检查,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
 EX_Kidney,AbdoExam,肾脏 CT 检查,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
-EX_Urography,AbdoExam,CT 尿路造影,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
-EX_Urography,AbdoExam,CT 尿路造影,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 EX_Pelvis,AbdoExam,盆腔 CT 检查,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
 EX_Pelvis,AbdoExam,盆腔 CT 检查,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 EX_Perineum,AbdoExam,会阴部 CT 检查,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
@@ -124,8 +104,6 @@ EX_SmallBowel,AbdoExam,小肠 CT 检查,MEASURED_BY,以…衡量,DM_CTDIvol,Dose
 EX_SmallBowel,AbdoExam,小肠 CT 检查,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 EX_Colon,AbdoExam,结肠 CT 检查,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
 EX_Colon,AbdoExam,结肠 CT 检查,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
-EX_AbdominalVessel,AbdoExam,腹部血管 CT 成像,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
-EX_AbdominalVessel,AbdoExam,腹部血管 CT 成像,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 EX_Spine,LimbExam,脊柱 CT 检查,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
 EX_Spine,LimbExam,脊柱 CT 检查,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 EX_Limb,LimbExam,四肢骨与关节 CT 检查,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
@@ -134,18 +112,12 @@ EX_PelvisBone,LimbExam,骨盆 CT 检查,MEASURED_BY,以…衡量,DM_CTDIvol,Dose
 EX_PelvisBone,LimbExam,骨盆 CT 检查,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 EX_Sacroiliac,LimbExam,骶髂关节 CT 扫描,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
 EX_Sacroiliac,LimbExam,骶髂关节 CT 扫描,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
-EX_LimbArtery,LimbExam,四肢动脉 CT 成像,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
-EX_LimbArtery,LimbExam,四肢动脉 CT 成像,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 EX_LimbVein,LimbExam,四肢深静脉 CT 成像,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
 EX_LimbVein,LimbExam,四肢深静脉 CT 成像,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 EX_Pediatric,PedsExam,儿童 CT 检查,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
 EX_Pediatric,PedsExam,儿童 CT 检查,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
-EX_Perfusion,HeadExam,颅脑血流灌注 CT 检查,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
-EX_Perfusion,HeadExam,颅脑血流灌注 CT 检查,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 EX_LDCScreen,ChestExam,低剂量 CT 肺癌筛查,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
 EX_LDCScreen,ChestExam,低剂量 CT 肺癌筛查,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
-EX_CardiacCT,ChestExam,冠脉钙化评分（EBCT）,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
-EX_CardiacCT,ChestExam,冠脉钙化评分（EBCT）,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 EX_Brain,HeadExam,颅脑 CT 检查,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
 EX_Brain,HeadExam,颅脑 CT 检查,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
 EX_Brain,HeadExam,颅脑 CT 检查,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
@@ -173,21 +145,9 @@ EX_Neck,NeckExam,颈部 CT 检查,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeas
 EX_Lung,ChestExam,肺部 CT 检查,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
 EX_Lung,ChestExam,肺部 CT 检查,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
 EX_Lung,ChestExam,肺部 CT 检查,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
-EX_ChestEnhanced,ChestExam,胸部 CT 增强扫描,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
-EX_ChestEnhanced,ChestExam,胸部 CT 增强扫描,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
-EX_ChestEnhanced,ChestExam,胸部 CT 增强扫描,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
 EX_LowDoseChest,ChestExam,胸部低剂量 CT 检查,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
 EX_LowDoseChest,ChestExam,胸部低剂量 CT 检查,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
 EX_LowDoseChest,ChestExam,胸部低剂量 CT 检查,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
-EX_PulmonaryArtery,ChestExam,肺动脉 CT 成像,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
-EX_PulmonaryArtery,ChestExam,肺动脉 CT 成像,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
-EX_PulmonaryArtery,ChestExam,肺动脉 CT 成像,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
-EX_AorticArch,ChestExam,胸主动脉 CT 成像,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
-EX_AorticArch,ChestExam,胸主动脉 CT 成像,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
-EX_AorticArch,ChestExam,胸主动脉 CT 成像,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
-EX_Coronary,ChestExam,冠状动脉增强 CT,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
-EX_Coronary,ChestExam,冠状动脉增强 CT,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
-EX_Coronary,ChestExam,冠状动脉增强 CT,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
 EX_LiverSpleen,AbdoExam,肝胆脾 CT 检查,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
 EX_LiverSpleen,AbdoExam,肝胆脾 CT 检查,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
 EX_LiverSpleen,AbdoExam,肝胆脾 CT 检查,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
@@ -203,9 +163,6 @@ EX_Adrenal,AbdoExam,肾上腺 CT 检查,PROTECTED_BY,以…防护,SM_PPE,Shieldi
 EX_Kidney,AbdoExam,肾脏 CT 检查,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
 EX_Kidney,AbdoExam,肾脏 CT 检查,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
 EX_Kidney,AbdoExam,肾脏 CT 检查,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
-EX_Urography,AbdoExam,CT 尿路造影,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
-EX_Urography,AbdoExam,CT 尿路造影,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
-EX_Urography,AbdoExam,CT 尿路造影,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
 EX_Pelvis,AbdoExam,盆腔 CT 检查,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
 EX_Pelvis,AbdoExam,盆腔 CT 检查,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
 EX_Pelvis,AbdoExam,盆腔 CT 检查,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
@@ -221,9 +178,6 @@ EX_SmallBowel,AbdoExam,小肠 CT 检查,PROTECTED_BY,以…防护,SM_PPE,Shieldi
 EX_Colon,AbdoExam,结肠 CT 检查,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
 EX_Colon,AbdoExam,结肠 CT 检查,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
 EX_Colon,AbdoExam,结肠 CT 检查,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
-EX_AbdominalVessel,AbdoExam,腹部血管 CT 成像,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
-EX_AbdominalVessel,AbdoExam,腹部血管 CT 成像,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
-EX_AbdominalVessel,AbdoExam,腹部血管 CT 成像,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
 EX_Spine,LimbExam,脊柱 CT 检查,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
 EX_Spine,LimbExam,脊柱 CT 检查,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
 EX_Spine,LimbExam,脊柱 CT 检查,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
@@ -236,24 +190,15 @@ EX_PelvisBone,LimbExam,骨盆 CT 检查,PROTECTED_BY,以…防护,SM_PPE,Shieldi
 EX_Sacroiliac,LimbExam,骶髂关节 CT 扫描,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
 EX_Sacroiliac,LimbExam,骶髂关节 CT 扫描,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
 EX_Sacroiliac,LimbExam,骶髂关节 CT 扫描,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
-EX_LimbArtery,LimbExam,四肢动脉 CT 成像,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
-EX_LimbArtery,LimbExam,四肢动脉 CT 成像,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
-EX_LimbArtery,LimbExam,四肢动脉 CT 成像,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
 EX_LimbVein,LimbExam,四肢深静脉 CT 成像,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
 EX_LimbVein,LimbExam,四肢深静脉 CT 成像,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
 EX_LimbVein,LimbExam,四肢深静脉 CT 成像,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
 EX_Pediatric,PedsExam,儿童 CT 检查,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
 EX_Pediatric,PedsExam,儿童 CT 检查,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
 EX_Pediatric,PedsExam,儿童 CT 检查,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
-EX_Perfusion,HeadExam,颅脑血流灌注 CT 检查,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
-EX_Perfusion,HeadExam,颅脑血流灌注 CT 检查,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
-EX_Perfusion,HeadExam,颅脑血流灌注 CT 检查,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
 EX_LDCScreen,ChestExam,低剂量 CT 肺癌筛查,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
 EX_LDCScreen,ChestExam,低剂量 CT 肺癌筛查,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
 EX_LDCScreen,ChestExam,低剂量 CT 肺癌筛查,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
-EX_CardiacCT,ChestExam,冠脉钙化评分（EBCT）,PROTECTED_BY,以…防护,SM_Room,ShieldingMeasure,机房防护设施
-EX_CardiacCT,ChestExam,冠脉钙化评分（EBCT）,PROTECTED_BY,以…防护,SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽
-EX_CardiacCT,ChestExam,冠脉钙化评分（EBCT）,PROTECTED_BY,以…防护,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
 SP_mAs,ScanParameter,管电流（mAs）设定,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 SP_Slice,ScanParameter,扫描层厚与层间距,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 SP_Pitch,ScanParameter,螺距设定,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
@@ -309,7 +254,6 @@ GBZ_Workplace,ShieldingMeasure,工作场所防护要求,BELONGS_TO,属于,SM_Roo
 GBZ_Glass,ShieldingMeasure,防护玻璃板的要求,BELONGS_TO,属于,SM_Room,ShieldingMeasure,机房防护设施
 GBZ_PPEConfig,ShieldingMeasure,防护用品与辅助防护设施配置要求,BELONGS_TO,属于,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
 DRL_Apply,DRLLevel,诊断参考水平的应用,BELONGS_TO,属于,DM_DRL,DRLLevel,诊断参考水平（DRL）
-EX_Perfusion,HeadExam,颅脑血流灌注 CT 检查,BELONGS_TO,属于,EX_Brain,HeadExam,颅脑 CT 检查
 EX_LowDoseChest,ChestExam,胸部低剂量 CT 检查,BELONGS_TO,属于,EX_Lung,ChestExam,肺部 CT 检查
 EX_Pediatric,PedsExam,儿童 CT 检查,BELONGS_TO,属于,PP_Child,ProtectionPrinciple,儿童检查的正当性判断
 DM_DoseMonitor,DoseIndex,CT 剂量信息的定期核查,GOVERNED_BY,依据,DRL_Apply,DRLLevel,诊断参考水平的应用
@@ -329,16 +273,6 @@ DL_Pelvis,DRLLevel,盆腔 CT 的诊断参考水平,MEASURED_BY,以…衡量,DM_C
 DL_Pelvis,DRLLevel,盆腔 CT 的诊断参考水平,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 DL_Lumbar,DRLLevel,腰椎 CT 的诊断参考水平,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
 DL_Lumbar,DRLLevel,腰椎 CT 的诊断参考水平,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
-DL_Urography,DRLLevel,尿路造影的诊断参考水平,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
-DL_Urography,DRLLevel,尿路造影的诊断参考水平,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
-DL_Coronary,DRLLevel,冠脉 CTA 的诊断参考水平,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
-DL_Coronary,DRLLevel,冠脉 CTA 的诊断参考水平,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
-DL_CerebralCTA,DRLLevel,颅脑 CTA 的诊断参考水平,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
-DL_CerebralCTA,DRLLevel,颅脑 CTA 的诊断参考水平,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
-DL_NeckCTA,DRLLevel,颈部 CTA 的诊断参考水平,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
-DL_NeckCTA,DRLLevel,颈部 CTA 的诊断参考水平,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
-DL_ThoraxAbdCTA,DRLLevel,胸腹 CTA 的诊断参考水平,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
-DL_ThoraxAbdCTA,DRLLevel,胸腹 CTA 的诊断参考水平,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 DL_PedsHead,DRLLevel,儿童头颅 CT 的诊断参考水平,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
 DL_PedsHead,DRLLevel,儿童头颅 CT 的诊断参考水平,MEASURED_BY,以…衡量,DM_DLP,DoseIndex,DLP（剂量长度乘积）
 DL_PedsChest,DRLLevel,儿童胸部 CT 的诊断参考水平,MEASURED_BY,以…衡量,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
@@ -354,64 +288,27 @@ EX_Sinus,HeadExam,鼻窦、颌面及颅底 CT 检查,GOVERNED_BY,依据,PP_ALARA
 EX_Pharynx,NeckExam,咽喉 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_Neck,NeckExam,颈部 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_Lung,ChestExam,肺部 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
-EX_ChestEnhanced,ChestExam,胸部 CT 增强扫描,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_LowDoseChest,ChestExam,胸部低剂量 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
-EX_PulmonaryArtery,ChestExam,肺动脉 CT 成像,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
-EX_AorticArch,ChestExam,胸主动脉 CT 成像,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
-EX_Coronary,ChestExam,冠状动脉增强 CT,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_LiverSpleen,AbdoExam,肝胆脾 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_Pancreas,AbdoExam,胰腺 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_Biliary,AbdoExam,胆管 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_Adrenal,AbdoExam,肾上腺 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_Kidney,AbdoExam,肾脏 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
-EX_Urography,AbdoExam,CT 尿路造影,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_Pelvis,AbdoExam,盆腔 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_Perineum,AbdoExam,会阴部 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_Stomach,AbdoExam,胃 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_SmallBowel,AbdoExam,小肠 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_Colon,AbdoExam,结肠 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
-EX_AbdominalVessel,AbdoExam,腹部血管 CT 成像,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_Spine,LimbExam,脊柱 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_Limb,LimbExam,四肢骨与关节 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_PelvisBone,LimbExam,骨盆 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_Sacroiliac,LimbExam,骶髂关节 CT 扫描,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
-EX_LimbArtery,LimbExam,四肢动脉 CT 成像,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_LimbVein,LimbExam,四肢深静脉 CT 成像,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_Pediatric,PedsExam,儿童 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
-EX_Perfusion,HeadExam,颅脑血流灌注 CT 检查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_LDCScreen,ChestExam,低剂量 CT 肺癌筛查,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
-EX_CardiacCT,ChestExam,冠脉钙化评分（EBCT）,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 EX_Pediatric,PedsExam,儿童 CT 检查,GOVERNED_BY,依据,PP_ChildMode,ProtectionPrinciple,儿童检查模式与参数优化
-EX_Perfusion,HeadExam,颅脑血流灌注 CT 检查,GOVERNED_BY,依据,PP_Justification,ProtectionPrinciple,医疗照射的正当性（净利益原则）
-SP_DLIR,ScanParameter,深度学习重建与迭代重建,BELONGS_TO,属于,SP_Reconstruction,ScanParameter,重建算法与重建层厚
-SP_Contrast,ScanParameter,对比剂注射方案与扫描期相,BELONGS_TO,属于,W908_Protocol,ScanParameter,成像方案与增强参数的选择
-PP_ImageQuality,ProtectionPrinciple,剂量与图像质量的平衡,BELONGS_TO,属于,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
-DM_Phantom,DoseIndex,剂量测量模体与规格,BELONGS_TO,属于,DM_CTDIw,DoseIndex,CTDIw（加权 CT 剂量指数）
-PP_Obese,ProtectionPrinciple,体型与肥胖受检者的剂量优化,BELONGS_TO,属于,PP_ChildMode,ProtectionPrinciple,儿童检查模式与参数优化
-SP_ScanLength,ScanParameter,扫描长度与扫描范围,BELONGS_TO,属于,PP_Beam,ProtectionPrinciple,严格控制照射野范围
-SM_ShieldDesign,ShieldingMeasure,机房屏蔽的设计与预评估,BELONGS_TO,属于,SM_Room,ShieldingMeasure,机房防护设施
-ST_ScatterDose,ShieldingTest,机房散射剂量测量,BELONGS_TO,属于,ST_Room,ShieldingTest,机房防护检测的关注点
-ST_State,ShieldingTest,状态检测,BELONGS_TO,属于,ST_QC,ShieldingTest,CT 装置的质量控制检测
-ST_Stability,ShieldingTest,稳定性检测,BELONGS_TO,属于,ST_QC,ShieldingTest,CT 装置的质量控制检测
-SM_PPE_Apron,ShieldingMeasure,防护围裙与介入防护手套,BELONGS_TO,属于,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
-SM_PPE_Gonad,ShieldingMeasure,甲状腺与性腺的防护用品,BELONGS_TO,属于,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
-SM_PPE_Screen,ShieldingMeasure,移动铅防护屏风,BELONGS_TO,属于,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
-SM_PPE_Child,ShieldingMeasure,儿童受检者的防护用品,BELONGS_TO,属于,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
-SM_Observe,ShieldingMeasure,观察窗与视频对讲装置,BELONGS_TO,属于,SM_Room,ShieldingMeasure,机房防护设施
-SM_Door,ShieldingMeasure,防护门与自动闭门装置,BELONGS_TO,属于,SM_Room,ShieldingMeasure,机房防护设施
-DM_OSLD,DoseIndex,OSLD 个人与环境剂量监测,BELONGS_TO,属于,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
-PP_OccLimit,ProtectionPrinciple,职业照射的剂量限值,BELONGS_TO,属于,GBZ_Monitor,ProtectionPrinciple,个人剂量监测要求
-PP_DoseWearing,ProtectionPrinciple,个人剂量计的配发与佩戴,BELONGS_TO,属于,GBZ_Monitor,ProtectionPrinciple,个人剂量监测要求
-SP_Phases,ScanParameter,扫描期相的选择,BELONGS_TO,属于,W908_Protocol,ScanParameter,成像方案与增强参数的选择
-SM_WarningSign,ShieldingMeasure,电离辐射警告标志与候诊告知,BELONGS_TO,属于,SM_Room,ShieldingMeasure,机房防护设施
-DM_RDMS,DoseIndex,辐射剂量管理系统（RDMS）,BELONGS_TO,属于,W908_DoseData,DoseIndex,受检者剂量数据的统计与异常处置
-PP_Sedation,ProtectionPrinciple,儿童检查的镇静与麻醉,BELONGS_TO,属于,EX_Pediatric,PedsExam,儿童 CT 检查
-SM_ShieldEvidence,ShieldingMeasure,接触屏蔽的适用与争议,BELONGS_TO,属于,SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
-EX_LDCScreen,ChestExam,低剂量 CT 肺癌筛查,BELONGS_TO,属于,EX_LowDoseChest,ChestExam,胸部低剂量 CT 检查
-EX_CardiacCT,ChestExam,冠脉钙化评分（EBCT）,BELONGS_TO,属于,EX_Coronary,ChestExam,冠状动脉增强 CT
 SP_Auto,ScanParameter,自动管电流调制与自动摆位,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 SP_DLIR,ScanParameter,深度学习重建与迭代重建,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
-SP_Contrast,ScanParameter,对比剂注射方案与扫描期相,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
 DM_SSDE,DoseIndex,体型特异性剂量估算（SSDE）,GOVERNED_BY,依据,DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）
 DM_RDMS,DoseIndex,辐射剂量管理系统（RDMS）,GOVERNED_BY,依据,DM_DoseMonitor,DoseIndex,CT 剂量信息的定期核查
 PP_Sedation,ProtectionPrinciple,儿童检查的镇静与麻醉,GOVERNED_BY,依据,PP_ChildMode,ProtectionPrinciple,儿童检查模式与参数优化
@@ -442,14 +339,11 @@ DM_OSLD,DoseIndex,OSLD 个人与环境剂量监测,GOVERNED_BY,依据,PP_OccLimi
 PP_OccLimit,ProtectionPrinciple,职业照射的剂量限值,GOVERNED_BY,依据,PP_Management,ProtectionPrinciple,放射防护管理责任与制度
 PP_DoseWearing,ProtectionPrinciple,个人剂量计的配发与佩戴,GOVERNED_BY,依据,PP_OccLimit,ProtectionPrinciple,职业照射的剂量限值
 PP_Referral,ProtectionPrinciple,申请单与病史质量,GOVERNED_BY,依据,PP_Justification,ProtectionPrinciple,医疗照射的正当性（净利益原则）
-SP_Phases,ScanParameter,扫描期相的选择,GOVERNED_BY,依据,PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）
 SM_WarningSign,ShieldingMeasure,电离辐射警告标志与候诊告知,GOVERNED_BY,依据,ST_Daily,ShieldingTest,每日检查指示灯与闭门装置
 PP_Audit,ProtectionPrinciple,放射防护审计（ESR iGuide 评分）,GOVERNED_BY,依据,PP_Justification,ProtectionPrinciple,医疗照射的正当性（净利益原则）
 SM_ShieldEvidence,ShieldingMeasure,接触屏蔽的适用与争议,GOVERNED_BY,依据,PP_Beam,ProtectionPrinciple,严格控制照射野范围
 EX_LDCScreen,ChestExam,低剂量 CT 肺癌筛查,GOVERNED_BY,依据,PP_Screening,ProtectionPrinciple,筛查性 CT 的正当性与滥用
-EX_LDCScreen,ChestExam,低剂量 CT 肺癌筛查,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
 EX_LDCScreen,ChestExam,低剂量 CT 肺癌筛查,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
-EX_CardiacCT,ChestExam,冠脉钙化评分（EBCT）,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
 SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
 SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽,GOVERNED_BY,依据,PP_Beam,ProtectionPrinciple,严格控制照射野范围
 SM_LeadEquiv,ShieldingMeasure,屏蔽材料与铅当量,GOVERNED_BY,依据,PP_Management,ProtectionPrinciple,放射防护管理责任与制度
@@ -499,19 +393,8 @@ EX_Neck,NeckExam,颈部 CT 检查,USES_PARAMETER,采用参数,SP_KV,ScanParamete
 EX_Neck,NeckExam,颈部 CT 检查,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
 EX_Lung,ChestExam,肺部 CT 检查,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
 EX_Lung,ChestExam,肺部 CT 检查,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
-EX_ChestEnhanced,ChestExam,胸部 CT 增强扫描,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
-EX_ChestEnhanced,ChestExam,胸部 CT 增强扫描,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
 EX_LowDoseChest,ChestExam,胸部低剂量 CT 检查,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
 EX_LowDoseChest,ChestExam,胸部低剂量 CT 检查,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
-EX_PulmonaryArtery,ChestExam,肺动脉 CT 成像,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
-EX_PulmonaryArtery,ChestExam,肺动脉 CT 成像,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
-EX_PulmonaryArtery,ChestExam,肺动脉 CT 成像,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
-EX_AorticArch,ChestExam,胸主动脉 CT 成像,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
-EX_AorticArch,ChestExam,胸主动脉 CT 成像,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
-EX_AorticArch,ChestExam,胸主动脉 CT 成像,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
-EX_Coronary,ChestExam,冠状动脉增强 CT,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
-EX_Coronary,ChestExam,冠状动脉增强 CT,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
-EX_Coronary,ChestExam,冠状动脉增强 CT,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
 EX_LiverSpleen,AbdoExam,肝胆脾 CT 检查,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
 EX_LiverSpleen,AbdoExam,肝胆脾 CT 检查,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
 EX_Pancreas,AbdoExam,胰腺 CT 检查,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
@@ -524,9 +407,6 @@ EX_Adrenal,AbdoExam,肾上腺 CT 检查,GOVERNED_BY,依据,PP_Operator,Protectio
 EX_Kidney,AbdoExam,肾脏 CT 检查,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
 EX_Kidney,AbdoExam,肾脏 CT 检查,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
 EX_Kidney,AbdoExam,肾脏 CT 检查,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
-EX_Urography,AbdoExam,CT 尿路造影,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
-EX_Urography,AbdoExam,CT 尿路造影,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
-EX_Urography,AbdoExam,CT 尿路造影,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
 EX_Pelvis,AbdoExam,盆腔 CT 检查,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
 EX_Pelvis,AbdoExam,盆腔 CT 检查,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
 EX_Pelvis,AbdoExam,盆腔 CT 检查,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
@@ -542,9 +422,6 @@ EX_SmallBowel,AbdoExam,小肠 CT 检查,GOVERNED_BY,依据,PP_Operator,Protectio
 EX_Colon,AbdoExam,结肠 CT 检查,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
 EX_Colon,AbdoExam,结肠 CT 检查,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
 EX_Colon,AbdoExam,结肠 CT 检查,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
-EX_AbdominalVessel,AbdoExam,腹部血管 CT 成像,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
-EX_AbdominalVessel,AbdoExam,腹部血管 CT 成像,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
-EX_AbdominalVessel,AbdoExam,腹部血管 CT 成像,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
 EX_Spine,LimbExam,脊柱 CT 检查,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
 EX_Spine,LimbExam,脊柱 CT 检查,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
 EX_Spine,LimbExam,脊柱 CT 检查,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
@@ -557,25 +434,18 @@ EX_PelvisBone,LimbExam,骨盆 CT 检查,GOVERNED_BY,依据,PP_Operator,Protectio
 EX_Sacroiliac,LimbExam,骶髂关节 CT 扫描,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
 EX_Sacroiliac,LimbExam,骶髂关节 CT 扫描,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
 EX_Sacroiliac,LimbExam,骶髂关节 CT 扫描,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
-EX_LimbArtery,LimbExam,四肢动脉 CT 成像,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
-EX_LimbArtery,LimbExam,四肢动脉 CT 成像,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
-EX_LimbArtery,LimbExam,四肢动脉 CT 成像,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
 EX_LimbVein,LimbExam,四肢深静脉 CT 成像,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
 EX_LimbVein,LimbExam,四肢深静脉 CT 成像,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
 EX_LimbVein,LimbExam,四肢深静脉 CT 成像,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
 EX_Pediatric,PedsExam,儿童 CT 检查,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
-EX_Perfusion,HeadExam,颅脑血流灌注 CT 检查,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
-EX_Perfusion,HeadExam,颅脑血流灌注 CT 检查,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
-EX_Perfusion,HeadExam,颅脑血流灌注 CT 检查,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
+EX_LDCScreen,ChestExam,低剂量 CT 肺癌筛查,USES_PARAMETER,采用参数,SP_KV,ScanParameter,管电压（kV）设定
 EX_LDCScreen,ChestExam,低剂量 CT 肺癌筛查,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
-EX_CardiacCT,ChestExam,冠脉钙化评分（EBCT）,USES_PARAMETER,采用参数,SP_mAs,ScanParameter,管电流（mAs）设定
-EX_CardiacCT,ChestExam,冠脉钙化评分（EBCT）,GOVERNED_BY,依据,PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求
 DM_DRL,DRLLevel,诊断参考水平（DRL）,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 DM_DRL_Adult,DRLLevel,成人 CT 各部位的诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 DM_DRL_Pediatric,DRLLevel,儿童 CT 各部位的诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
-PP_Beam,ProtectionPrinciple,严格控制照射野范围,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
+EX_Root,CTExam,CT 检查辐射防护,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 PP_Management,ProtectionPrinciple,放射防护管理责任与制度,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 PP_Justification,ProtectionPrinciple,医疗照射的正当性（净利益原则）,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 W908_DoseData,DoseIndex,受检者剂量数据的统计与异常处置,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
@@ -591,12 +461,11 @@ W908_Trace,ProtectionPrinciple,设备与成像参数的变更追溯,SUPPORTED_BY
 W908_DeviceAssign,ScanParameter,设备与检查项目的适配,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 W908_PreImage,ProtectionPrinciple,成像前的准备与受检者配合,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 SM_Room,ShieldingMeasure,机房防护设施,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
-W908_Protocol,ScanParameter,成像方案与增强参数的选择,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
+W908_Protocol,ScanParameter,成像方案与扫描参数的选择,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 W908_Recon,ScanParameter,图像重建与后处理参数,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 W908_DoseInfo,DoseIndex,辐射剂量信息的显示与记录,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 W908_OrganDose,DoseIndex,器官剂量与剂量估算,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 W908_DRL3,DRLLevel,全国、地方与机构三级诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
-EX_Root,CTExam,CT 检查辐射防护,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 DL_DRG,DRLLevel,常规 X 射线摄影的诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 DL_Mammo,DRLLevel,乳腺 X 射线摄影的诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 DL_Head,DRLLevel,头颅 CT 的诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
@@ -606,15 +475,10 @@ DL_Chest,DRLLevel,胸部 CT 的诊断参考水平,SUPPORTED_BY,出处,CN-01,Refe
 DL_Abdomen,DRLLevel,腹部 CT 的诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 DL_Pelvis,DRLLevel,盆腔 CT 的诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 DL_Lumbar,DRLLevel,腰椎 CT 的诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
-DL_Urography,DRLLevel,尿路造影的诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
-DL_Coronary,DRLLevel,冠脉 CTA 的诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
-DL_CerebralCTA,DRLLevel,颅脑 CTA 的诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
-DL_NeckCTA,DRLLevel,颈部 CTA 的诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
-DL_ThoraxAbdCTA,DRLLevel,胸腹 CTA 的诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
+DM_SSDE,DoseIndex,体型特异性剂量估算（SSDE）,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 DL_PedsHead,DRLLevel,儿童头颅 CT 的诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 DL_PedsChest,DRLLevel,儿童胸部 CT 的诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 DL_PedsAbdo,DRLLevel,儿童腹部 CT 的诊断参考水平,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
-DM_SSDE,DoseIndex,体型特异性剂量估算（SSDE）,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 PP_Beam,ProtectionPrinciple,严格控制照射野范围,SUPPORTED_BY,出处,CN-02,Reference,WS/T 851—2025《X射线计算机体层成像儿童诊断参考水平标准》
 DM_DRL,DRLLevel,诊断参考水平（DRL）,SUPPORTED_BY,出处,CN-02,Reference,WS/T 851—2025《X射线计算机体层成像儿童诊断参考水平标准》
 DM_DRL_Pediatric,DRLLevel,儿童 CT 各部位的诊断参考水平,SUPPORTED_BY,出处,CN-02,Reference,WS/T 851—2025《X射线计算机体层成像儿童诊断参考水平标准》
@@ -639,7 +503,6 @@ DM_DoseMonitor,DoseIndex,CT 剂量信息的定期核查,SUPPORTED_BY,出处,CN-0
 SP_KV,ScanParameter,管电压（kV）设定,SUPPORTED_BY,出处,CN-04,Reference,CT辐射剂量诊断参考水平专家共识
 SP_Pitch,ScanParameter,螺距设定,SUPPORTED_BY,出处,CN-04,Reference,CT辐射剂量诊断参考水平专家共识
 EX_Sinus,HeadExam,鼻窦、颌面及颅底 CT 检查,SUPPORTED_BY,出处,CN-04,Reference,CT辐射剂量诊断参考水平专家共识
-DL_Chest,DRLLevel,胸部 CT 的诊断参考水平,SUPPORTED_BY,出处,CN-04,Reference,CT辐射剂量诊断参考水平专家共识
 SP_KV,ScanParameter,管电压（kV）设定,SUPPORTED_BY,出处,CN-05,Reference,心血管CT成像辐射剂量优化中国专家共识
 SP_ExposureTime,ScanParameter,曝光时间,SUPPORTED_BY,出处,CN-05,Reference,心血管CT成像辐射剂量优化中国专家共识
 SP_mAs,ScanParameter,管电流（mAs）设定,SUPPORTED_BY,出处,CN-05,Reference,心血管CT成像辐射剂量优化中国专家共识
@@ -649,8 +512,7 @@ PP_Beam,ProtectionPrinciple,严格控制照射野范围,SUPPORTED_BY,出处,CN-0
 PP_Justification,ProtectionPrinciple,医疗照射的正当性（净利益原则）,SUPPORTED_BY,出处,CN-05,Reference,心血管CT成像辐射剂量优化中国专家共识
 DM_DRL_Pediatric,DRLLevel,儿童 CT 各部位的诊断参考水平,SUPPORTED_BY,出处,CN-06,Reference,儿童CT检查辐射剂量标准中国专家共识
 DM_DRL,DRLLevel,诊断参考水平（DRL）,SUPPORTED_BY,出处,CN-06,Reference,儿童CT检查辐射剂量标准中国专家共识
-SP_Reconstruction,ScanParameter,重建算法与重建层厚,SUPPORTED_BY,出处,CN-06,Reference,儿童CT检查辐射剂量标准中国专家共识
-EX_ChestEnhanced,ChestExam,胸部 CT 增强扫描,SUPPORTED_BY,出处,CN-06,Reference,儿童CT检查辐射剂量标准中国专家共识
+SP_DLIR,ScanParameter,深度学习重建与迭代重建,SUPPORTED_BY,出处,CN-06,Reference,儿童CT检查辐射剂量标准中国专家共识
 DM_DoseMonitor,DoseIndex,CT 剂量信息的定期核查,SUPPORTED_BY,出处,CN-06,Reference,儿童CT检查辐射剂量标准中国专家共识
 EX_LowDoseChest,ChestExam,胸部低剂量 CT 检查,SUPPORTED_BY,出处,CN-07,Reference,低剂量螺旋CT肺癌筛查专家共识
 SP_Pitch,ScanParameter,螺距设定,SUPPORTED_BY,出处,CN-07,Reference,低剂量螺旋CT肺癌筛查专家共识
@@ -661,7 +523,6 @@ PP_Justification,ProtectionPrinciple,医疗照射的正当性（净利益原则�
 SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,SUPPORTED_BY,出处,CN-08,Reference,胸部CT检查接触屏蔽防护用品规范使用专家共识
 SM_LeadEquiv,ShieldingMeasure,屏蔽材料与铅当量,SUPPORTED_BY,出处,CN-08,Reference,胸部CT检查接触屏蔽防护用品规范使用专家共识
 SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽,SUPPORTED_BY,出处,CN-08,Reference,胸部CT检查接触屏蔽防护用品规范使用专家共识
-PP_Embryo,ProtectionPrinciple,胚胎与胎儿的照射防护,SUPPORTED_BY,出处,CN-08,Reference,胸部CT检查接触屏蔽防护用品规范使用专家共识
 DM_DoseMonitor,DoseIndex,CT 剂量信息的定期核查,SUPPORTED_BY,出处,CN-08,Reference,胸部CT检查接触屏蔽防护用品规范使用专家共识
 EX_Neck,NeckExam,颈部 CT 检查,SUPPORTED_BY,出处,CN-09,Reference,头颈部CT检查和辐射剂量管理专家共识
 DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）,SUPPORTED_BY,出处,EN-01,Reference,"AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT"
@@ -713,7 +574,7 @@ EX_LiverSpleen,AbdoExam,肝胆脾 CT 检查,SUPPORTED_BY,出处,EN-10,Reference,
 SP_Collimation,ScanParameter,准直器宽度与显示野,SUPPORTED_BY,出处,EN-10,Reference,ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d)
 PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）,SUPPORTED_BY,出处,EN-10,Reference,ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d)
 PP_Beam,ProtectionPrinciple,严格控制照射野范围,SUPPORTED_BY,出处,EN-10,Reference,ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d)
-EX_ChestEnhanced,ChestExam,胸部 CT 增强扫描,SUPPORTED_BY,出处,EN-10,Reference,ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d)
+EX_Pelvis,AbdoExam,盆腔 CT 检查,SUPPORTED_BY,出处,EN-10,Reference,ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d)
 SP_mAs,ScanParameter,管电流（mAs）设定,SUPPORTED_BY,出处,EN-10,Reference,ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d)
 DM_DoseMonitor,DoseIndex,CT 剂量信息的定期核查,SUPPORTED_BY,出处,EN-10,Reference,ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d)
 PP_Management,ProtectionPrinciple,放射防护管理责任与制度,SUPPORTED_BY,出处,EN-10,Reference,ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d)
@@ -840,9 +701,7 @@ ST_QC,ShieldingTest,CT 装置的质量控制检测,SUPPORTED_BY,出处,CN-20,Ref
 DM_Phantom,DoseIndex,剂量测量模体与规格,SUPPORTED_BY,出处,CN-21,Reference,DB41/T 2757—2024《医用直线加速器图像引导CT质量控制规范》
 ST_QC,ShieldingTest,CT 装置的质量控制检测,SUPPORTED_BY,出处,CN-21,Reference,DB41/T 2757—2024《医用直线加速器图像引导CT质量控制规范》
 SM_Room,ShieldingMeasure,机房防护设施,SUPPORTED_BY,出处,CN-22,Reference,DB41/T 2805—2025《医疗机构放射诊疗场所建设指南》
-DL_Urography,DRLLevel,尿路造影的诊断参考水平,SUPPORTED_BY,出处,CN-23,Reference,我国CT检查成年人辐射剂量诊断参考水平的建立历程及解读
 DL_Lumbar,DRLLevel,腰椎 CT 的诊断参考水平,SUPPORTED_BY,出处,CN-23,Reference,我国CT检查成年人辐射剂量诊断参考水平的建立历程及解读
-DM_DRL_Adult,DRLLevel,成人 CT 各部位的诊断参考水平,SUPPORTED_BY,出处,CN-23,Reference,我国CT检查成年人辐射剂量诊断参考水平的建立历程及解读
 DRL_Apply,DRLLevel,诊断参考水平的应用,SUPPORTED_BY,出处,CN-23,Reference,我国CT检查成年人辐射剂量诊断参考水平的建立历程及解读
 PP_Management,ProtectionPrinciple,放射防护管理责任与制度,SUPPORTED_BY,出处,CN-24,Reference,DB32/T 4659.7—2024《医院公共卫生工作规范 第7部分：放射防护》
 PP_ServiceOrg,ProtectionPrinciple,放射卫生技术服务与机构管理,SUPPORTED_BY,出处,CN-24,Reference,DB32/T 4659.7—2024《医院公共卫生工作规范 第7部分：放射防护》
@@ -897,29 +756,15 @@ W908_DoseInfo,DoseIndex,辐射剂量信息的显示与记录,SUPPORTED_BY,出处
 W908_ParamReview,ScanParameter,成像参数的定期回顾与个性化设置,SUPPORTED_BY,出处,EN-14,Reference,Joint Position Statement and Call for Action for Strengthening Radiation Protection of Patients Undergoing Recurrent Radiological Imaging Procedures
 GBZ_Train,ProtectionPrinciple,放射工作人员的培训与岗位要求,SUPPORTED_BY,出处,EN-14,Reference,Joint Position Statement and Call for Action for Strengthening Radiation Protection of Patients Undergoing Recurrent Radiological Imaging Procedures
 PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）,SUPPORTED_BY,出处,EN-15,Reference,Patient Safety in Medical Imaging: a joint paper of the European Society of Radiology (ESR) and the European Federation of Radiographer Societies (EFRS)
-W908_Protocol,ScanParameter,成像方案与增强参数的选择,SUPPORTED_BY,出处,EN-15,Reference,Patient Safety in Medical Imaging: a joint paper of the European Society of Radiology (ESR) and the European Federation of Radiographer Societies (EFRS)
+W908_Protocol,ScanParameter,成像方案与扫描参数的选择,SUPPORTED_BY,出处,EN-15,Reference,Patient Safety in Medical Imaging: a joint paper of the European Society of Radiology (ESR) and the European Federation of Radiographer Societies (EFRS)
 DM_DRL,DRLLevel,诊断参考水平（DRL）,SUPPORTED_BY,出处,EN-15,Reference,Patient Safety in Medical Imaging: a joint paper of the European Society of Radiology (ESR) and the European Federation of Radiographer Societies (EFRS)
 W908_DRL3,DRLLevel,全国、地方与机构三级诊断参考水平,SUPPORTED_BY,出处,EN-15,Reference,Patient Safety in Medical Imaging: a joint paper of the European Society of Radiology (ESR) and the European Federation of Radiographer Societies (EFRS)
-EX_Pediatric,PedsExam,儿童 CT 检查,SUPPORTED_BY,出处,EN-16,Reference,Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance
-PP_ChildMode,ProtectionPrinciple,儿童检查模式与参数优化,SUPPORTED_BY,出处,EN-16,Reference,Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance
-PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）,SUPPORTED_BY,出处,EN-16,Reference,Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance
 DM_DoseMonitor,DoseIndex,CT 剂量信息的定期核查,SUPPORTED_BY,出处,EN-17,Reference,European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement
 W908_DRL3,DRLLevel,全国、地方与机构三级诊断参考水平,SUPPORTED_BY,出处,EN-17,Reference,European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement
 DRL_Apply,DRLLevel,诊断参考水平的应用,SUPPORTED_BY,出处,EN-17,Reference,European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement
 SM_ShieldEvidence,ShieldingMeasure,接触屏蔽的适用与争议,SUPPORTED_BY,出处,EN-18,Reference,European consensus on patient contact shielding
 SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,SUPPORTED_BY,出处,EN-18,Reference,European consensus on patient contact shielding
 PP_Embryo,ProtectionPrinciple,胚胎与胎儿的照射防护,SUPPORTED_BY,出处,EN-18,Reference,European consensus on patient contact shielding
-SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,SUPPORTED_BY,出处,EN-19,Reference,Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT
-EX_Coronary,ChestExam,冠状动脉增强 CT,SUPPORTED_BY,出处,EN-19,Reference,Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT
-W908_DoseInfo,DoseIndex,辐射剂量信息的显示与记录,SUPPORTED_BY,出处,EN-19,Reference,Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT
-DM_CTDIvol,DoseIndex,CTDIvol（容积 CT 剂量指数）,SUPPORTED_BY,出处,EN-19,Reference,Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT
-PP_Obese,ProtectionPrinciple,体型与肥胖受检者的剂量优化,SUPPORTED_BY,出处,EN-20,Reference,Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1
-SP_Auto,ScanParameter,自动管电流调制与自动摆位,SUPPORTED_BY,出处,EN-20,Reference,Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1
-PP_Beam,ProtectionPrinciple,严格控制照射野范围,SUPPORTED_BY,出处,EN-20,Reference,Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1
-SP_KV,ScanParameter,管电压（kV）设定,SUPPORTED_BY,出处,EN-20,Reference,Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1
-EX_CardiacCT,ChestExam,冠脉钙化评分（EBCT）,SUPPORTED_BY,出处,EN-21,Reference,with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT
-EX_Coronary,ChestExam,冠状动脉增强 CT,SUPPORTED_BY,出处,EN-21,Reference,with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT
-PP_Obese,ProtectionPrinciple,体型与肥胖受检者的剂量优化,SUPPORTED_BY,出处,EN-21,Reference,with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT
 W908_DRL3,DRLLevel,全国、地方与机构三级诊断参考水平,SUPPORTED_BY,出处,EN-22,Reference,Patient Radiation Exposure Monitoring in Medical Imaging
 SP_KV,ScanParameter,管电压（kV）设定,SUPPORTED_BY,出处,EN-22,Reference,Patient Radiation Exposure Monitoring in Medical Imaging
 DM_DRL,DRLLevel,诊断参考水平（DRL）,SUPPORTED_BY,出处,EN-22,Reference,Patient Radiation Exposure Monitoring in Medical Imaging
@@ -1031,10 +876,6 @@ SM_ShieldEvidence,ShieldingMeasure,接触屏蔽的适用与争议,SUPPORTED_BY,�
 SM_ShieldDesign,ShieldingMeasure,机房屏蔽的设计与预评估,SUPPORTED_BY,出处,EN-42,Reference,Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic
 PP_ProjectEval,ProtectionPrinciple,放射诊疗项目的职业病危害评价,SUPPORTED_BY,出处,EN-42,Reference,Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic
 GBZ_RoomDose,ShieldingTest,机房屏蔽体外剂量水平,SUPPORTED_BY,出处,EN-42,Reference,Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic
-EX_Urography,AbdoExam,CT 尿路造影,SUPPORTED_BY,出处,SR-11,Reference,"Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis"
-PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）,SUPPORTED_BY,出处,SR-11,Reference,"Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis"
-W908_Protocol,ScanParameter,成像方案与增强参数的选择,SUPPORTED_BY,出处,SR-11,Reference,"Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis"
-PP_Evidence,ProtectionPrinciple,辐射防护证据的判读口径与外推限制,SUPPORTED_BY,出处,SR-11,Reference,"Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis"
 W908_DRL3,DRLLevel,全国、地方与机构三级诊断参考水平,SUPPORTED_BY,出处,SR-12,Reference,Clinical indication-based diagnostic reference levels in CT: a systematic review
 DM_DoseMonitor,DoseIndex,CT 剂量信息的定期核查,SUPPORTED_BY,出处,SR-12,Reference,Clinical indication-based diagnostic reference levels in CT: a systematic review
 PP_Evidence,ProtectionPrinciple,辐射防护证据的判读口径与外推限制,SUPPORTED_BY,出处,SR-12,Reference,Clinical indication-based diagnostic reference levels in CT: a systematic review
@@ -1048,9 +889,6 @@ SP_KV,ScanParameter,管电压（kV）设定,SUPPORTED_BY,出处,SR-15,Reference,
 PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）,SUPPORTED_BY,出处,SR-15,Reference,"Assessment of image quality and radiation dose in low-dose, low-contrast computed tomography coronary angiogram: a systematic review and meta-analysis"
 EX_Limb,LimbExam,四肢骨与关节 CT 检查,SUPPORTED_BY,出处,SR-16,Reference,Ultra-low-dose CT in extremity fracture detection: A systematic review and meta-analysis
 SP_mAs,ScanParameter,管电流（mAs）设定,SUPPORTED_BY,出处,SR-16,Reference,Ultra-low-dose CT in extremity fracture detection: A systematic review and meta-analysis
-EX_Coronary,ChestExam,冠状动脉增强 CT,SUPPORTED_BY,出处,SR-17,Reference,Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis
-PP_Evidence,ProtectionPrinciple,辐射防护证据的判读口径与外推限制,SUPPORTED_BY,出处,SR-17,Reference,Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis
-SP_Reconstruction,ScanParameter,重建算法与重建层厚,SUPPORTED_BY,出处,SR-17,Reference,Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis
 SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,SUPPORTED_BY,出处,SR-18,Reference,Systematic literature review on the benefit of patient protection shielding during medical X-ray imaging: Towards a discontinuation of the current practice
 SM_ShieldEvidence,ShieldingMeasure,接触屏蔽的适用与争议,SUPPORTED_BY,出处,SR-18,Reference,Systematic literature review on the benefit of patient protection shielding during medical X-ray imaging: Towards a discontinuation of the current practice
 PP_Evidence,ProtectionPrinciple,辐射防护证据的判读口径与外推限制,SUPPORTED_BY,出处,SR-18,Reference,Systematic literature review on the benefit of patient protection shielding during medical X-ray imaging: Towards a discontinuation of the current practice
@@ -1080,7 +918,6 @@ W908_DoseData,DoseIndex,受检者剂量数据的统计与异常处置,SUPPORTED_
 W908_DRL3,DRLLevel,全国、地方与机构三级诊断参考水平,SUPPORTED_BY,出处,XT-12,Reference,推进基于医学影像云平台的辐射剂量管理
 DM_DRL,DRLLevel,诊断参考水平（DRL）,SUPPORTED_BY,出处,XT-13,Reference,成年人CT扫描中辐射剂量和诊断参考水平的探讨
 W908_DRL3,DRLLevel,全国、地方与机构三级诊断参考水平,SUPPORTED_BY,出处,XT-13,Reference,成年人CT扫描中辐射剂量和诊断参考水平的探讨
-DL_Urography,DRLLevel,尿路造影的诊断参考水平,SUPPORTED_BY,出处,XT-13,Reference,成年人CT扫描中辐射剂量和诊断参考水平的探讨
 W908_DRL3,DRLLevel,全国、地方与机构三级诊断参考水平,SUPPORTED_BY,出处,XT-14,Reference,本院CT辐射剂量参考水平与警示值的建立及其在胸部CT剂量优化中的运用尝试
 DM_DoseMonitor,DoseIndex,CT 剂量信息的定期核查,SUPPORTED_BY,出处,XT-14,Reference,本院CT辐射剂量参考水平与警示值的建立及其在胸部CT剂量优化中的运用尝试
 PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）,SUPPORTED_BY,出处,XT-14,Reference,本院CT辐射剂量参考水平与警示值的建立及其在胸部CT剂量优化中的运用尝试
@@ -1149,49 +986,33 @@ EX_Sinus,HeadExam,鼻窦、颌面及颅底 CT 检查,SUPPORTED_BY,出处,WS391-2
 EX_Pharynx,NeckExam,咽喉 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_Neck,NeckExam,颈部 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_Lung,ChestExam,肺部 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
-EX_ChestEnhanced,ChestExam,胸部 CT 增强扫描,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
-SP_Contrast,ScanParameter,对比剂注射方案与扫描期相,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
-EX_PulmonaryArtery,ChestExam,肺动脉 CT 成像,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
-EX_AorticArch,ChestExam,胸主动脉 CT 成像,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
-EX_Coronary,ChestExam,冠状动脉增强 CT,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_LiverSpleen,AbdoExam,肝胆脾 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_Pancreas,AbdoExam,胰腺 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_Biliary,AbdoExam,胆管 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_Adrenal,AbdoExam,肾上腺 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_Kidney,AbdoExam,肾脏 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
-EX_Urography,AbdoExam,CT 尿路造影,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_Pelvis,AbdoExam,盆腔 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_Perineum,AbdoExam,会阴部 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_Stomach,AbdoExam,胃 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_SmallBowel,AbdoExam,小肠 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_Colon,AbdoExam,结肠 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
-EX_AbdominalVessel,AbdoExam,腹部血管 CT 成像,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_Spine,LimbExam,脊柱 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_Limb,LimbExam,四肢骨与关节 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_PelvisBone,LimbExam,骨盆 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_Sacroiliac,LimbExam,骶髂关节 CT 扫描,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
-EX_LimbArtery,LimbExam,四肢动脉 CT 成像,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_LimbVein,LimbExam,四肢深静脉 CT 成像,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
-EX_Perfusion,HeadExam,颅脑血流灌注 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_LowDoseChest,ChestExam,胸部低剂量 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
-SP_Phases,ScanParameter,扫描期相的选择,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 EX_Pediatric,PedsExam,儿童 CT 检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 PP_Sedation,ProtectionPrinciple,儿童检查的镇静与麻醉,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 SP_Detector,ScanParameter,探测器排数与过扫描,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 DRL_Apply,DRLLevel,诊断参考水平的应用,SUPPORTED_BY,出处,WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》
 DM_DoseMonitor,DoseIndex,CT 剂量信息的定期核查,SUPPORTED_BY,出处,WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》
-DL_Head,DRLLevel,头颅 CT 的诊断参考水平,SUPPORTED_BY,出处,WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》
 DL_Sinus,DRLLevel,鼻窦 CT 的诊断参考水平,SUPPORTED_BY,出处,WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》
 DL_Neck,DRLLevel,颈部 CT 的诊断参考水平,SUPPORTED_BY,出处,WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》
 DL_Chest,DRLLevel,胸部 CT 的诊断参考水平,SUPPORTED_BY,出处,WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》
 DL_Abdomen,DRLLevel,腹部 CT 的诊断参考水平,SUPPORTED_BY,出处,WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》
 DL_Pelvis,DRLLevel,盆腔 CT 的诊断参考水平,SUPPORTED_BY,出处,WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》
 DL_Lumbar,DRLLevel,腰椎 CT 的诊断参考水平,SUPPORTED_BY,出处,WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》
-DL_Urography,DRLLevel,尿路造影的诊断参考水平,SUPPORTED_BY,出处,WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》
-DL_Coronary,DRLLevel,冠脉 CTA 的诊断参考水平,SUPPORTED_BY,出处,WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》
-DL_CerebralCTA,DRLLevel,颅脑 CTA 的诊断参考水平,SUPPORTED_BY,出处,WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》
-DL_NeckCTA,DRLLevel,颈部 CTA 的诊断参考水平,SUPPORTED_BY,出处,WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》
-DL_ThoraxAbdCTA,DRLLevel,胸腹 CTA 的诊断参考水平,SUPPORTED_BY,出处,WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》
 DM_DRL,DRLLevel,诊断参考水平（DRL）,SUPPORTED_BY,出处,WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》
 SP_KV,ScanParameter,管电压（kV）设定,BELONGS_TO,属于,FW_ScanParameter,ScanParameter,扫描参数
 SP_mAs,ScanParameter,管电流（mAs）设定,BELONGS_TO,属于,FW_ScanParameter,ScanParameter,扫描参数
@@ -1203,12 +1024,10 @@ SP_Reconstruction,ScanParameter,重建算法与重建层厚,BELONGS_TO,属于,FW
 SP_Collimation,ScanParameter,准直器宽度与显示野,BELONGS_TO,属于,FW_ScanParameter,ScanParameter,扫描参数
 SP_Auto,ScanParameter,自动管电流调制与自动摆位,BELONGS_TO,属于,FW_ScanParameter,ScanParameter,扫描参数
 SP_DLIR,ScanParameter,深度学习重建与迭代重建,BELONGS_TO,属于,FW_ScanParameter,ScanParameter,扫描参数
-SP_Contrast,ScanParameter,对比剂注射方案与扫描期相,BELONGS_TO,属于,FW_ScanParameter,ScanParameter,扫描参数
 SP_ScanLength,ScanParameter,扫描长度与扫描范围,BELONGS_TO,属于,FW_ScanParameter,ScanParameter,扫描参数
-SP_Phases,ScanParameter,扫描期相的选择,BELONGS_TO,属于,FW_ScanParameter,ScanParameter,扫描参数
 W908_ParamReview,ScanParameter,成像参数的定期回顾与个性化设置,BELONGS_TO,属于,FW_ScanParameter,ScanParameter,扫描参数
 W908_DeviceAssign,ScanParameter,设备与检查项目的适配,BELONGS_TO,属于,FW_ScanParameter,ScanParameter,扫描参数
-W908_Protocol,ScanParameter,成像方案与增强参数的选择,BELONGS_TO,属于,FW_ScanParameter,ScanParameter,扫描参数
+W908_Protocol,ScanParameter,成像方案与扫描参数的选择,BELONGS_TO,属于,FW_ScanParameter,ScanParameter,扫描参数
 W908_Recon,ScanParameter,图像重建与后处理参数,BELONGS_TO,属于,FW_ScanParameter,ScanParameter,扫描参数
 SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,BELONGS_TO,属于,FW_ShieldingMeasure,ShieldingMeasure,辐射防护措施
 SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽,BELONGS_TO,属于,FW_ShieldingMeasure,ShieldingMeasure,辐射防护措施
@@ -1307,34 +1126,25 @@ EX_OpticCanal,HeadExam,视神经管 CT 检查,BELONGS_TO,属于,FW_HeadExam,Head
 EX_Ear,HeadExam,耳部 CT 检查,BELONGS_TO,属于,FW_HeadExam,HeadExam,头部与五官检查
 EX_Sinus,HeadExam,鼻窦、颌面及颅底 CT 检查,BELONGS_TO,属于,FW_HeadExam,HeadExam,头部与五官检查
 EX_NasalBone,HeadExam,鼻骨 CT 检查,BELONGS_TO,属于,FW_HeadExam,HeadExam,头部与五官检查
-EX_Perfusion,HeadExam,颅脑血流灌注 CT 检查,BELONGS_TO,属于,FW_HeadExam,HeadExam,头部与五官检查
 EX_Pharynx,NeckExam,咽喉 CT 检查,BELONGS_TO,属于,FW_NeckExam,NeckExam,颈部与咽喉检查
 EX_Neck,NeckExam,颈部 CT 检查,BELONGS_TO,属于,FW_NeckExam,NeckExam,颈部与咽喉检查
 EX_Lung,ChestExam,肺部 CT 检查,BELONGS_TO,属于,FW_ChestExam,ChestExam,胸部与肺部检查
-EX_ChestEnhanced,ChestExam,胸部 CT 增强扫描,BELONGS_TO,属于,FW_ChestExam,ChestExam,胸部与肺部检查
 EX_LowDoseChest,ChestExam,胸部低剂量 CT 检查,BELONGS_TO,属于,FW_ChestExam,ChestExam,胸部与肺部检查
 EX_LDCScreen,ChestExam,低剂量 CT 肺癌筛查,BELONGS_TO,属于,FW_ChestExam,ChestExam,胸部与肺部检查
-EX_CardiacCT,ChestExam,冠脉钙化评分（EBCT）,BELONGS_TO,属于,FW_ChestExam,ChestExam,胸部与肺部检查
-EX_PulmonaryArtery,ChestExam,肺动脉 CT 成像,BELONGS_TO,属于,FW_ChestExam,ChestExam,胸部与肺部检查
-EX_AorticArch,ChestExam,胸主动脉 CT 成像,BELONGS_TO,属于,FW_ChestExam,ChestExam,胸部与肺部检查
-EX_Coronary,ChestExam,冠状动脉增强 CT,BELONGS_TO,属于,FW_ChestExam,ChestExam,胸部与肺部检查
 EX_LiverSpleen,AbdoExam,肝胆脾 CT 检查,BELONGS_TO,属于,FW_AbdoExam,AbdoExam,腹部与盆腔检查
 EX_Pancreas,AbdoExam,胰腺 CT 检查,BELONGS_TO,属于,FW_AbdoExam,AbdoExam,腹部与盆腔检查
 EX_Adrenal,AbdoExam,肾上腺 CT 检查,BELONGS_TO,属于,FW_AbdoExam,AbdoExam,腹部与盆腔检查
 EX_Biliary,AbdoExam,胆管 CT 检查,BELONGS_TO,属于,FW_AbdoExam,AbdoExam,腹部与盆腔检查
 EX_Kidney,AbdoExam,肾脏 CT 检查,BELONGS_TO,属于,FW_AbdoExam,AbdoExam,腹部与盆腔检查
-EX_Urography,AbdoExam,CT 尿路造影,BELONGS_TO,属于,FW_AbdoExam,AbdoExam,腹部与盆腔检查
 EX_Pelvis,AbdoExam,盆腔 CT 检查,BELONGS_TO,属于,FW_AbdoExam,AbdoExam,腹部与盆腔检查
 EX_Perineum,AbdoExam,会阴部 CT 检查,BELONGS_TO,属于,FW_AbdoExam,AbdoExam,腹部与盆腔检查
 EX_Stomach,AbdoExam,胃 CT 检查,BELONGS_TO,属于,FW_AbdoExam,AbdoExam,腹部与盆腔检查
 EX_SmallBowel,AbdoExam,小肠 CT 检查,BELONGS_TO,属于,FW_AbdoExam,AbdoExam,腹部与盆腔检查
 EX_Colon,AbdoExam,结肠 CT 检查,BELONGS_TO,属于,FW_AbdoExam,AbdoExam,腹部与盆腔检查
-EX_AbdominalVessel,AbdoExam,腹部血管 CT 成像,BELONGS_TO,属于,FW_AbdoExam,AbdoExam,腹部与盆腔检查
 EX_Spine,LimbExam,脊柱 CT 检查,BELONGS_TO,属于,FW_LimbExam,LimbExam,骨与关节检查
 EX_Limb,LimbExam,四肢骨与关节 CT 检查,BELONGS_TO,属于,FW_LimbExam,LimbExam,骨与关节检查
 EX_PelvisBone,LimbExam,骨盆 CT 检查,BELONGS_TO,属于,FW_LimbExam,LimbExam,骨与关节检查
 EX_Sacroiliac,LimbExam,骶髂关节 CT 扫描,BELONGS_TO,属于,FW_LimbExam,LimbExam,骨与关节检查
-EX_LimbArtery,LimbExam,四肢动脉 CT 成像,BELONGS_TO,属于,FW_LimbExam,LimbExam,骨与关节检查
 EX_LimbVein,LimbExam,四肢深静脉 CT 成像,BELONGS_TO,属于,FW_LimbExam,LimbExam,骨与关节检查
 EX_Pediatric,PedsExam,儿童 CT 检查,BELONGS_TO,属于,FW_PedsExam,PedsExam,儿童 CT
 DM_CTDIw,DoseIndex,CTDIw（加权 CT 剂量指数）,BELONGS_TO,属于,FW_DoseIndex,DoseIndex,剂量指标
@@ -1359,11 +1169,6 @@ DL_Chest,DRLLevel,胸部 CT 的诊断参考水平,BELONGS_TO,属于,FW_DRLLevel,
 DL_Abdomen,DRLLevel,腹部 CT 的诊断参考水平,BELONGS_TO,属于,FW_DRLLevel,DRLLevel,诊断参考水平
 DL_Pelvis,DRLLevel,盆腔 CT 的诊断参考水平,BELONGS_TO,属于,FW_DRLLevel,DRLLevel,诊断参考水平
 DL_Lumbar,DRLLevel,腰椎 CT 的诊断参考水平,BELONGS_TO,属于,FW_DRLLevel,DRLLevel,诊断参考水平
-DL_Urography,DRLLevel,尿路造影的诊断参考水平,BELONGS_TO,属于,FW_DRLLevel,DRLLevel,诊断参考水平
-DL_Coronary,DRLLevel,冠脉 CTA 的诊断参考水平,BELONGS_TO,属于,FW_DRLLevel,DRLLevel,诊断参考水平
-DL_CerebralCTA,DRLLevel,颅脑 CTA 的诊断参考水平,BELONGS_TO,属于,FW_DRLLevel,DRLLevel,诊断参考水平
-DL_NeckCTA,DRLLevel,颈部 CTA 的诊断参考水平,BELONGS_TO,属于,FW_DRLLevel,DRLLevel,诊断参考水平
-DL_ThoraxAbdCTA,DRLLevel,胸腹 CTA 的诊断参考水平,BELONGS_TO,属于,FW_DRLLevel,DRLLevel,诊断参考水平
 DRL_Apply,DRLLevel,诊断参考水平的应用,BELONGS_TO,属于,FW_DRLLevel,DRLLevel,诊断参考水平
 W908_DRL3,DRLLevel,全国、地方与机构三级诊断参考水平,BELONGS_TO,属于,FW_DRLLevel,DRLLevel,诊断参考水平
 DL_PedsHead,DRLLevel,儿童头颅 CT 的诊断参考水平,BELONGS_TO,属于,FW_DRLLevel,DRLLevel,诊断参考水平
@@ -1390,7 +1195,6 @@ FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,EN-01,Reference,
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,EN-12,Reference,Optimisation of radiation dose and image quality in paediatric chest and abdominal CT examinations: A systematic review
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,XT-01,Reference,妊娠期应用辐射性影像学检查的专家建议
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,CN-37,Reference,粤港澳大湾区数字X射线骨关节摄影检查技术与防护规范专家共识
-FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,EN-20,Reference,Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,EN-22,Reference,Patient Radiation Exposure Monitoring in Medical Imaging
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,SR-15,Reference,"Assessment of image quality and radiation dose in low-dose, low-contrast computed tomography coronary angiogram: a systematic review and meta-analysis"
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,EN-08,Reference,ACR-SPR Practice Parameter for Performing and Interpreting Diagnostic Computed Tomography (CT). Revised 2023 (Resolution 9)
@@ -1405,14 +1209,13 @@ FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,CN-15,Reference,
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,CN-32,Reference,DB32/T 3907—2020《放射诊疗工作场所外照射在线监测系统设置规范》
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,XT-30,Reference,环保型柔性医用X射线防护材料研制及其防护性能分析与优化
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
-FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,CN-06,Reference,儿童CT检查辐射剂量标准中国专家共识
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,EN-09,Reference,ACR-ASNR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Extracranial Head and Neck. Revised 2026 (Resolution 2d)
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,XT-03,Reference,双层探测器CT能量成像技术临床操作及质量控制规范
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,SR-14,Reference,Radiation dose and objective image quality of photon-counting detector computed tomography in pediatric imaging: a systematic review and meta-analysis
-FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,SR-17,Reference,Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,XT-35,Reference,WS/T 831—2024《医用电离辐射放射防护名词术语标准》
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,EN-28,Reference,"DICOM PS3.3 Information Object Definitions, C.8.2 CT Modules / C.8.2.1 CT Image Module (Table C.8-3)"
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,SR-20,Reference,Automatic patient centering in computed tomography: a systematic review and meta-analysis
+FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,CN-06,Reference,儿童CT检查辐射剂量标准中国专家共识
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,EN-31,Reference,Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,SR-19,Reference,Effectiveness of AI for Enhancing Computed Tomography Image Quality and Radiation Protection in Radiology: Systematic Review and Meta-Analysis
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,SR-22,Reference,Influence of deep learning image reconstruction algorithm for reducing radiation dose and image noise compared to iterative reconstruction and filtered back projection for head and chest computed tomography examinations: a systematic review
@@ -1420,7 +1223,6 @@ FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,EN-27,Reference,
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,EN-14,Reference,Joint Position Statement and Call for Action for Strengthening Radiation Protection of Patients Undergoing Recurrent Radiological Imaging Procedures
 FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,EN-15,Reference,Patient Safety in Medical Imaging: a joint paper of the European Society of Radiology (ESR) and the European Federation of Radiographer Societies (EFRS)
-FW_ScanParameter,ScanParameter,扫描参数,SUPPORTED_BY,出处,SR-11,Reference,"Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis"
 FW_ShieldingMeasure,ShieldingMeasure,辐射防护措施,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 FW_ShieldingMeasure,ShieldingMeasure,辐射防护措施,SUPPORTED_BY,出处,CN-02,Reference,WS/T 851—2025《X射线计算机体层成像儿童诊断参考水平标准》
 FW_ShieldingMeasure,ShieldingMeasure,辐射防护措施,SUPPORTED_BY,出处,CN-08,Reference,胸部CT检查接触屏蔽防护用品规范使用专家共识
@@ -1432,7 +1234,6 @@ FW_ShieldingMeasure,ShieldingMeasure,辐射防护措施,SUPPORTED_BY,出处,CN-2
 FW_ShieldingMeasure,ShieldingMeasure,辐射防护措施,SUPPORTED_BY,出处,CN-26,Reference,DB22/T 2063—2014《放射诊疗工作人员职业病危害控制指南》
 FW_ShieldingMeasure,ShieldingMeasure,辐射防护措施,SUPPORTED_BY,出处,CN-35,Reference,DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》
 FW_ShieldingMeasure,ShieldingMeasure,辐射防护措施,SUPPORTED_BY,出处,EN-18,Reference,European consensus on patient contact shielding
-FW_ShieldingMeasure,ShieldingMeasure,辐射防护措施,SUPPORTED_BY,出处,EN-19,Reference,Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT
 FW_ShieldingMeasure,ShieldingMeasure,辐射防护措施,SUPPORTED_BY,出处,XT-25,Reference,新型冠状病毒肺炎CT方舱剂量检测与防护分析
 FW_ShieldingMeasure,ShieldingMeasure,辐射防护措施,SUPPORTED_BY,出处,XT-26,Reference,X射线铅防护服检测方法研究进展
 FW_ShieldingMeasure,ShieldingMeasure,辐射防护措施,SUPPORTED_BY,出处,XT-30,Reference,环保型柔性医用X射线防护材料研制及其防护性能分析与优化
@@ -1477,8 +1278,6 @@ FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,�
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,CN-12,Reference,中国肺癌低剂量CT筛查指南（2025年版）
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,CN-17,Reference,WS/T 874—2025《乡镇卫生院和社区卫生服务中心CT常见检查操作标准》
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,EN-15,Reference,Patient Safety in Medical Imaging: a joint paper of the European Society of Radiology (ESR) and the European Federation of Radiographer Societies (EFRS)
-FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,EN-16,Reference,Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance
-FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,SR-11,Reference,"Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis"
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,SR-15,Reference,"Assessment of image quality and radiation dose in low-dose, low-contrast computed tomography coronary angiogram: a systematic review and meta-analysis"
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,XT-14,Reference,本院CT辐射剂量参考水平与警示值的建立及其在胸部CT剂量优化中的运用尝试
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,XT-21,Reference,"Diagnostic Radiographers' Application of the Radiation Protection Principles of Justification, Optimisation and Dose Limits in Mpumalanga Province, South Africa"
@@ -1499,11 +1298,9 @@ FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,�
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,XT-30,Reference,环保型柔性医用X射线防护材料研制及其防护性能分析与优化
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,EN-08,Reference,ACR-SPR Practice Parameter for Performing and Interpreting Diagnostic Computed Tomography (CT). Revised 2023 (Resolution 9)
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,CN-37,Reference,粤港澳大湾区数字X射线骨关节摄影检查技术与防护规范专家共识
-FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,EN-20,Reference,Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group. User-Friendly Vendor-Specific Guideline for Pediatric Cardiothoracic Computed Tomography Provided by the Asian Society of Cardiovascular Imaging Congenital Heart Disease Study Group: Part 1
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,EN-27,Reference,Radiation Protection and Safety in Medical Uses of Ionizing Radiation
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,XT-33,Reference,铅单巾放置位置对自动管电流调制技术CT胸部扫描辐射剂量及性腺辐射剂量影响的体模研究
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,XT-34,Reference,第三代双源CT能谱纯化技术结合不同屏蔽方式对儿童辐射剂量影响的模体研究
-FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,CN-08,Reference,胸部CT检查接触屏蔽防护用品规范使用专家共识
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,EN-18,Reference,European consensus on patient contact shielding
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,EN-06,Reference,on behalf of ICRP. Radiological protection in paediatric diagnostic and interventional radiology
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,CN-14,Reference,医学放射成像诊断参考水平三标准深度解读
@@ -1522,7 +1319,6 @@ FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,�
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,XT-05,Reference,移动式X射线计算机体层摄影设备质量控制监测规范
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,EN-29,Reference,AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,SR-12,Reference,Clinical indication-based diagnostic reference levels in CT: a systematic review
-FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,SR-17,Reference,Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,SR-18,Reference,Systematic literature review on the benefit of patient protection shielding during medical X-ray imaging: Towards a discontinuation of the current practice
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,SR-19,Reference,Effectiveness of AI for Enhancing Computed Tomography Image Quality and Radiation Protection in Radiology: Systematic Review and Meta-Analysis
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,SR-21,Reference,RADIATION DOSE MANAGEMENT SYSTEM IN COMPUTED TOMOGRAPHY PROCEDURES: A SYSTEMATIC REVIEW
@@ -1540,7 +1336,6 @@ FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,�
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,XT-29,Reference,放射诊断检查受检者接触屏蔽的研究现状与展望
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,EN-31,Reference,Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,CN-15,Reference,肺癌筛查低剂量CT检查技术规范——专家共识
-FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,EN-21,Reference,with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,EN-36,Reference,Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,XT-19,Reference,Real-time occupational radiation dosimetry in anesthesiology personnel during fluoroscopy-guided interventions: a single-center descriptive and exploratory study
 FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,SUPPORTED_BY,出处,XT-20,Reference,Radiation Monitoring Using Personal Dosimeter Devices in Terms of Long-Term Compliance and Creating a Culture of Safety
@@ -1595,27 +1390,20 @@ FW_NeckExam,NeckExam,颈部与咽喉检查,SUPPORTED_BY,出处,CN-09,Reference,�
 FW_NeckExam,NeckExam,颈部与咽喉检查,SUPPORTED_BY,出处,EN-09,Reference,ACR-ASNR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Extracranial Head and Neck. Revised 2026 (Resolution 2d)
 FW_ChestExam,ChestExam,胸部与肺部检查,SUPPORTED_BY,出处,XT-10,Reference,CT检查技术专家共识
 FW_ChestExam,ChestExam,胸部与肺部检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
-FW_ChestExam,ChestExam,胸部与肺部检查,SUPPORTED_BY,出处,CN-06,Reference,儿童CT检查辐射剂量标准中国专家共识
-FW_ChestExam,ChestExam,胸部与肺部检查,SUPPORTED_BY,出处,EN-10,Reference,ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d)
 FW_ChestExam,ChestExam,胸部与肺部检查,SUPPORTED_BY,出处,CN-07,Reference,低剂量螺旋CT肺癌筛查专家共识
 FW_ChestExam,ChestExam,胸部与肺部检查,SUPPORTED_BY,出处,CN-13,Reference,DB11/T 2504—2025《医学放射成像辐射剂量成年人参考水平》
 FW_ChestExam,ChestExam,胸部与肺部检查,SUPPORTED_BY,出处,CN-17,Reference,WS/T 874—2025《乡镇卫生院和社区卫生服务中心CT常见检查操作标准》
 FW_ChestExam,ChestExam,胸部与肺部检查,SUPPORTED_BY,出处,SR-02,Reference,低剂量螺旋CT应用于高危人群早期肺癌筛查的荟萃分析
 FW_ChestExam,ChestExam,胸部与肺部检查,SUPPORTED_BY,出处,CN-12,Reference,中国肺癌低剂量CT筛查指南（2025年版）
 FW_ChestExam,ChestExam,胸部与肺部检查,SUPPORTED_BY,出处,CN-15,Reference,肺癌筛查低剂量CT检查技术规范——专家共识
-FW_ChestExam,ChestExam,胸部与肺部检查,SUPPORTED_BY,出处,EN-21,Reference,with contributions from ICRP. Radiation Protection in Newer Medical Imaging Techniques: Cardiac CT
-FW_ChestExam,ChestExam,胸部与肺部检查,SUPPORTED_BY,出处,EN-19,Reference,Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT
-FW_ChestExam,ChestExam,胸部与肺部检查,SUPPORTED_BY,出处,SR-17,Reference,Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis
 FW_AbdoExam,AbdoExam,腹部与盆腔检查,SUPPORTED_BY,出处,EN-10,Reference,ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d)
 FW_AbdoExam,AbdoExam,腹部与盆腔检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
-FW_AbdoExam,AbdoExam,腹部与盆腔检查,SUPPORTED_BY,出处,SR-11,Reference,"Diagnostic accuracy of single-, tri-, and four-phasic CT urography and radiation dose assessment: a systematic review and meta-analysis"
 FW_LimbExam,LimbExam,骨与关节检查,SUPPORTED_BY,出处,WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》
 FW_LimbExam,LimbExam,骨与关节检查,SUPPORTED_BY,出处,SR-16,Reference,Ultra-low-dose CT in extremity fracture detection: A systematic review and meta-analysis
 FW_PedsExam,PedsExam,儿童 CT,SUPPORTED_BY,出处,EN-04,Reference,Radiation Protection No. 185: European Guidelines on Diagnostic Reference Levels for Paediatric Imaging
 FW_PedsExam,PedsExam,儿童 CT,SUPPORTED_BY,出处,EN-06,Reference,on behalf of ICRP. Radiological protection in paediatric diagnostic and interventional radiology
 FW_PedsExam,PedsExam,儿童 CT,SUPPORTED_BY,出处,EN-08,Reference,ACR-SPR Practice Parameter for Performing and Interpreting Diagnostic Computed Tomography (CT). Revised 2023 (Resolution 9)
 FW_PedsExam,PedsExam,儿童 CT,SUPPORTED_BY,出处,CN-16,Reference,DB22/T 3166—2020《儿童胸腹部低剂量CT扫描技术规范》
-FW_PedsExam,PedsExam,儿童 CT,SUPPORTED_BY,出处,EN-16,Reference,Image Gently Alliance. Radiation Safety in Children With Congenital and Acquired Heart Disease: A Scientific Position Statement on Multimodality Dose Optimization From the Image Gently Alliance
 FW_PedsExam,PedsExam,儿童 CT,SUPPORTED_BY,出处,XT-34,Reference,第三代双源CT能谱纯化技术结合不同屏蔽方式对儿童辐射剂量影响的模体研究
 FW_PedsExam,PedsExam,儿童 CT,SUPPORTED_BY,出处,EN-41,Reference,Bismuth Shielding in Head Computed Tomography—Still Necessary? J Clin Med
 FW_PedsExam,PedsExam,儿童 CT,SUPPORTED_BY,出处,SR-14,Reference,Radiation dose and objective image quality of photon-counting detector computed tomography in pediatric imaging: a systematic review and meta-analysis
@@ -1628,7 +1416,6 @@ FW_DoseIndex,DoseIndex,剂量指标,SUPPORTED_BY,出处,CN-13,Reference,DB11/T 2
 FW_DoseIndex,DoseIndex,剂量指标,SUPPORTED_BY,出处,EN-23,Reference,White paper on radiation protection by the European Society of Radiology
 FW_DoseIndex,DoseIndex,剂量指标,SUPPORTED_BY,出处,CN-01,Reference,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》
 FW_DoseIndex,DoseIndex,剂量指标,SUPPORTED_BY,出处,EN-05,Reference,on behalf of ICRP. Diagnostic reference levels in medical imaging
-FW_DoseIndex,DoseIndex,剂量指标,SUPPORTED_BY,出处,EN-19,Reference,Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT
 FW_DoseIndex,DoseIndex,剂量指标,SUPPORTED_BY,出处,EN-27,Reference,Radiation Protection and Safety in Medical Uses of Ionizing Radiation
 FW_DoseIndex,DoseIndex,剂量指标,SUPPORTED_BY,出处,EN-28,Reference,"DICOM PS3.3 Information Object Definitions, C.8.2 CT Modules / C.8.2.1 CT Image Module (Table C.8-3)"
 FW_DoseIndex,DoseIndex,剂量指标,SUPPORTED_BY,出处,XT-25,Reference,新型冠状病毒肺炎CT方舱剂量检测与防护分析
@@ -1691,11 +1478,11 @@ FW_DRLLevel,DRLLevel,诊断参考水平,SUPPORTED_BY,出处,EN-23,Reference,Whit
 FW_DRLLevel,DRLLevel,诊断参考水平,SUPPORTED_BY,出处,XT-13,Reference,成年人CT扫描中辐射剂量和诊断参考水平的探讨
 FW_DRLLevel,DRLLevel,诊断参考水平,SUPPORTED_BY,出处,SR-09,Reference,Adult diagnostic reference levels in computed tomography: A systematic review and analysis of regional variability
 FW_DRLLevel,DRLLevel,诊断参考水平,SUPPORTED_BY,出处,WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》
-FW_DRLLevel,DRLLevel,诊断参考水平,SUPPORTED_BY,出处,CN-23,Reference,我国CT检查成年人辐射剂量诊断参考水平的建立历程及解读
 FW_DRLLevel,DRLLevel,诊断参考水平,SUPPORTED_BY,出处,EN-06,Reference,on behalf of ICRP. Radiological protection in paediatric diagnostic and interventional radiology
 FW_DRLLevel,DRLLevel,诊断参考水平,SUPPORTED_BY,出处,CN-14,Reference,医学放射成像诊断参考水平三标准深度解读
 FW_DRLLevel,DRLLevel,诊断参考水平,SUPPORTED_BY,出处,CN-19,Reference,《X射线计算机体层成像儿童诊断参考水平标准》解读
 FW_DRLLevel,DRLLevel,诊断参考水平,SUPPORTED_BY,出处,EN-26,Reference,"Official Journal of the European Union, OJ L, 2026/403, 25.2.2026 (C/2026/1015)"
+FW_DRLLevel,DRLLevel,诊断参考水平,SUPPORTED_BY,出处,CN-23,Reference,我国CT检查成年人辐射剂量诊断参考水平的建立历程及解读
 FW_DRLLevel,DRLLevel,诊断参考水平,SUPPORTED_BY,出处,EN-17,Reference,European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement
 FW_DRLLevel,DRLLevel,诊断参考水平,SUPPORTED_BY,出处,CN-17,Reference,WS/T 874—2025《乡镇卫生院和社区卫生服务中心CT常见检查操作标准》
 FW_DRLLevel,DRLLevel,诊断参考水平,SUPPORTED_BY,出处,EN-25,Reference,Radiation Protection No. 195: European Study on Clinical Diagnostic Reference Levels for X-ray Medical Imaging
