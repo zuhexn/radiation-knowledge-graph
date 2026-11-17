@@ -429,8 +429,6 @@ ProtectionPrinciple,放射诊疗项目的职业病危害评价,依据,Protection
 ShieldingTest,X 射线防护用品的检测方法,依据,ProtectionPrinciple,X 射线设备操作的防护安全要求
 ShieldingMeasure,新型柔性防护材料,依据,ProtectionPrinciple,X 射线设备操作的防护安全要求
 ShieldingMeasure,铅单巾与自动管电流调制的相互影响,依据,ProtectionPrinciple,X 射线设备操作的防护安全要求
-ProtectionPrinciple,介入放射学的皮肤损伤防护,依据,ProtectionPrinciple,X 射线设备操作的防护安全要求
-ProtectionPrinciple,介入诊疗医务人员的辐射防护,依据,ProtectionPrinciple,X 射线设备操作的防护安全要求
 DoseIndex,放射工作人员的生物剂量学监测,依据,ProtectionPrinciple,职业照射的剂量限值
 ShieldingMeasure,骨关节 X 射线摄影的防护,依据,ProtectionPrinciple,X 射线设备操作的防护安全要求
 ShieldingTest,稳定性检测,依据,ProtectionPrinciple,放射防护管理责任与制度
@@ -471,8 +469,6 @@ ShieldingTest,场所外照射在线监测,属于,ShieldingTest,机房防护检�
 ShieldingTest,X 射线防护用品的检测方法,属于,ShieldingTest,CT 装置的质量控制检测
 ShieldingMeasure,新型柔性防护材料,属于,ShieldingMeasure,屏蔽材料与铅当量
 ShieldingMeasure,铅单巾与自动管电流调制的相互影响,属于,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）
-ProtectionPrinciple,介入放射学的皮肤损伤防护,属于,ProtectionPrinciple,介入放射学操作的防护安全要求
-ProtectionPrinciple,介入诊疗医务人员的辐射防护,属于,ProtectionPrinciple,介入放射学操作的防护安全要求
 DoseIndex,放射工作人员的生物剂量学监测,属于,ProtectionPrinciple,个人剂量监测要求
 ShieldingMeasure,骨关节 X 射线摄影的防护,属于,ShieldingMeasure,机房防护设施
 DoseIndex,CTDIw（加权 CT 剂量指数）,属于,DRLLevel,诊断参考水平（DRL）
@@ -871,16 +867,6 @@ ProtectionPrinciple,筛查性 CT 的正当性与滥用,出处,Reference,GBZ 98�
 ProtectionPrinciple,个人剂量监测要求,出处,Reference,GBZ 98—2020《放射工作人员健康要求及监护规范》
 ProtectionPrinciple,放射诊疗项目的职业病危害评价,出处,Reference,DB22/T 3050—2019《放射诊疗建设项目放射性职业病危害评价规范》
 ShieldingMeasure,工作场所防护要求,出处,Reference,DB22/T 3050—2019《放射诊疗建设项目放射性职业病危害评价规范》
-ShieldingTest,CT 装置的质量控制检测,出处,Reference,DB12/T 1005—2020《数字减影血管造影机X射线设备质量控制检测规范》
-ProtectionPrinciple,放射防护管理责任与制度,出处,Reference,DB12/T 1005—2020《数字减影血管造影机X射线设备质量控制检测规范》
-ScanParameter,准直器宽度与显示野,出处,Reference,DB12/T 1005—2020《数字减影血管造影机X射线设备质量控制检测规范》
-ProtectionPrinciple,放射工作人员的职业健康检查,出处,Reference,DB32/T 3906—2020《介入放射学和临床核医学放射工作人员职业健康检查规范》
-ProtectionPrinciple,放射防护管理责任与制度,出处,Reference,DB52/T 1781—2024《介入诊疗医务人员辐射防护规范》
-ProtectionPrinciple,放射工作人员的培训与岗位要求,出处,Reference,DB52/T 1781—2024《介入诊疗医务人员辐射防护规范》
-ShieldingTest,机房防护设施的检测周期,出处,Reference,DB52/T 1781—2024《介入诊疗医务人员辐射防护规范》
-DoseIndex,CT 剂量信息的定期核查,出处,Reference,DB52/T 1781—2024《介入诊疗医务人员辐射防护规范》
-ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,出处,Reference,DB52/T 1781—2024《介入诊疗医务人员辐射防护规范》
-ShieldingMeasure,防护围裙与介入防护手套,出处,Reference,DB52/T 1781—2024《介入诊疗医务人员辐射防护规范》
 ShieldingMeasure,工作场所防护要求,出处,Reference,DB32/T 3907—2020《放射诊疗工作场所外照射在线监测系统设置规范》
 ShieldingTest,机房屏蔽体外剂量水平,出处,Reference,DB32/T 3907—2020《放射诊疗工作场所外照射在线监测系统设置规范》
 ShieldingTest,场所外照射在线监测,出处,Reference,DB32/T 3907—2020《放射诊疗工作场所外照射在线监测系统设置规范》
@@ -980,15 +966,6 @@ ProtectionPrinciple,优先选用非 X 射线检查方法,出处,Reference,环保
 ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,出处,Reference,环保型柔性医用X射线防护材料研制及其防护性能分析与优化
 ShieldingMeasure,新型柔性防护材料,出处,Reference,环保型柔性医用X射线防护材料研制及其防护性能分析与优化
 ScanParameter,探测器排数与过扫描,出处,Reference,环保型柔性医用X射线防护材料研制及其防护性能分析与优化
-ProtectionPrinciple,介入放射学操作的防护安全要求,出处,Reference,北京地区介入放射诊疗资源与防护状况调查与分析
-ProtectionPrinciple,放射防护管理责任与制度,出处,Reference,北京地区介入放射诊疗资源与防护状况调查与分析
-ProtectionPrinciple,介入诊疗医务人员的辐射防护,出处,Reference,北京地区介入放射诊疗资源与防护状况调查与分析
-ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,出处,Reference,北京地区介入放射诊疗资源与防护状况调查与分析
-DRLLevel,诊断参考水平的应用,出处,Reference,一台引起放射性皮肤损伤的介入放射学设备检测结果调查与分析
-ProtectionPrinciple,介入放射学的皮肤损伤防护,出处,Reference,一台引起放射性皮肤损伤的介入放射学设备检测结果调查与分析
-ProtectionPrinciple,介入诊疗医务人员的辐射防护,出处,Reference,一台引起放射性皮肤损伤的介入放射学设备检测结果调查与分析
-ProtectionPrinciple,X 射线设备操作的防护安全要求,出处,Reference,一台引起放射性皮肤损伤的介入放射学设备检测结果调查与分析
-ScanParameter,曝光时间,出处,Reference,一台引起放射性皮肤损伤的介入放射学设备检测结果调查与分析
 ShieldingMeasure,铅单巾与自动管电流调制的相互影响,出处,Reference,铅单巾放置位置对自动管电流调制技术CT胸部扫描辐射剂量及性腺辐射剂量影响的体模研究
 ProtectionPrinciple,严格控制照射野范围,出处,Reference,铅单巾放置位置对自动管电流调制技术CT胸部扫描辐射剂量及性腺辐射剂量影响的体模研究
 ScanParameter,管电流（mAs）设定,出处,Reference,铅单巾放置位置对自动管电流调制技术CT胸部扫描辐射剂量及性腺辐射剂量影响的体模研究
@@ -1274,8 +1251,6 @@ ProtectionPrinciple,放射防护审计（ESR iGuide 评分）,属于,ProtectionP
 ProtectionPrinciple,放射工作人员的职业健康检查,属于,ProtectionPrinciple,防护原则与要求
 ProtectionPrinciple,放射卫生技术服务与机构管理,属于,ProtectionPrinciple,防护原则与要求
 ProtectionPrinciple,放射诊疗项目的职业病危害评价,属于,ProtectionPrinciple,防护原则与要求
-ProtectionPrinciple,介入放射学的皮肤损伤防护,属于,ProtectionPrinciple,防护原则与要求
-ProtectionPrinciple,介入诊疗医务人员的辐射防护,属于,ProtectionPrinciple,防护原则与要求
 ProtectionPrinciple,剂量与图像质量的平衡,属于,ProtectionPrinciple,防护原则与要求
 ProtectionPrinciple,体型与肥胖受检者的剂量优化,属于,ProtectionPrinciple,防护原则与要求
 ProtectionPrinciple,职业照射的剂量限值,属于,ProtectionPrinciple,防护原则与要求
@@ -1430,13 +1405,11 @@ ScanParameter,扫描参数,出处,Reference,肺癌筛查低剂量CT检查技术�
 ScanParameter,扫描参数,出处,Reference,DB32/T 3907—2020《放射诊疗工作场所外照射在线监测系统设置规范》
 ScanParameter,扫描参数,出处,Reference,环保型柔性医用X射线防护材料研制及其防护性能分析与优化
 ScanParameter,扫描参数,出处,Reference,WS/T 391—2024《CT 检查操作规程》
-ScanParameter,扫描参数,出处,Reference,一台引起放射性皮肤损伤的介入放射学设备检测结果调查与分析
 ScanParameter,扫描参数,出处,Reference,儿童CT检查辐射剂量标准中国专家共识
 ScanParameter,扫描参数,出处,Reference,ACR-ASNR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Extracranial Head and Neck. Revised 2026 (Resolution 2d)
 ScanParameter,扫描参数,出处,Reference,双层探测器CT能量成像技术临床操作及质量控制规范
 ScanParameter,扫描参数,出处,Reference,Radiation dose and objective image quality of photon-counting detector computed tomography in pediatric imaging: a systematic review and meta-analysis
 ScanParameter,扫描参数,出处,Reference,Reduction of radiation dose and contrast volume in CT pulmonary angiography: A systematic review and meta-analysis
-ScanParameter,扫描参数,出处,Reference,DB12/T 1005—2020《数字减影血管造影机X射线设备质量控制检测规范》
 ScanParameter,扫描参数,出处,Reference,WS/T 831—2024《医用电离辐射放射防护名词术语标准》
 ScanParameter,扫描参数,出处,Reference,"DICOM PS3.3 Information Object Definitions, C.8.2 CT Modules / C.8.2.1 CT Image Module (Table C.8-3)"
 ScanParameter,扫描参数,出处,Reference,Automatic patient centering in computed tomography: a systematic review and meta-analysis
@@ -1457,14 +1430,12 @@ ShieldingMeasure,辐射防护措施,出处,Reference,肺癌筛查低剂量CT检�
 ShieldingMeasure,辐射防护措施,出处,Reference,WS/T 874—2025《乡镇卫生院和社区卫生服务中心CT常见检查操作标准》
 ShieldingMeasure,辐射防护措施,出处,Reference,DB32/T 4659.7—2024《医院公共卫生工作规范 第7部分：放射防护》
 ShieldingMeasure,辐射防护措施,出处,Reference,DB22/T 2063—2014《放射诊疗工作人员职业病危害控制指南》
-ShieldingMeasure,辐射防护措施,出处,Reference,DB52/T 1781—2024《介入诊疗医务人员辐射防护规范》
 ShieldingMeasure,辐射防护措施,出处,Reference,DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》
 ShieldingMeasure,辐射防护措施,出处,Reference,European consensus on patient contact shielding
 ShieldingMeasure,辐射防护措施,出处,Reference,Society of Cardiovascular Computed Tomography. SCCT guidelines on radiation dose and dose-optimization strategies in cardiovascular CT
 ShieldingMeasure,辐射防护措施,出处,Reference,新型冠状病毒肺炎CT方舱剂量检测与防护分析
 ShieldingMeasure,辐射防护措施,出处,Reference,X射线铅防护服检测方法研究进展
 ShieldingMeasure,辐射防护措施,出处,Reference,环保型柔性医用X射线防护材料研制及其防护性能分析与优化
-ShieldingMeasure,辐射防护措施,出处,Reference,北京地区介入放射诊疗资源与防护状况调查与分析
 ShieldingMeasure,辐射防护措施,出处,Reference,Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays
 ShieldingMeasure,辐射防护措施,出处,Reference,Systematic literature review on the benefit of patient protection shielding during medical X-ray imaging: Towards a discontinuation of the current practice
 ShieldingMeasure,辐射防护措施,出处,Reference,《CT方舱放射防护要求》团体标准解读
@@ -1540,18 +1511,14 @@ ProtectionPrinciple,防护原则与要求,出处,Reference,DB22/T 3166—2020《
 ProtectionPrinciple,防护原则与要求,出处,Reference,《X射线计算机体层成像儿童诊断参考水平标准》解读
 ProtectionPrinciple,防护原则与要求,出处,Reference,Paediatric computed tomography diagnostic reference levels in Africa: A systematic review
 ProtectionPrinciple,防护原则与要求,出处,Reference,Systematic Review and Meta-Analysis of Radiation Dose Reduction Studies in Pediatric Head CT
-ProtectionPrinciple,防护原则与要求,出处,Reference,一台引起放射性皮肤损伤的介入放射学设备检测结果调查与分析
 ProtectionPrinciple,防护原则与要求,出处,Reference,Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment
 ProtectionPrinciple,防护原则与要求,出处,Reference,Radiation Protection No. 185: European Guidelines on Diagnostic Reference Levels for Paediatric Imaging
 ProtectionPrinciple,防护原则与要求,出处,Reference,on behalf of ICRP. Diagnostic reference levels in medical imaging
 ProtectionPrinciple,防护原则与要求,出处,Reference,双层探测器CT能量成像技术临床操作及质量控制规范
 ProtectionPrinciple,防护原则与要求,出处,Reference,DB32/T 4659.7—2024《医院公共卫生工作规范 第7部分：放射防护》
 ProtectionPrinciple,防护原则与要求,出处,Reference,DB22/T 2063—2014《放射诊疗工作人员职业病危害控制指南》
-ProtectionPrinciple,防护原则与要求,出处,Reference,DB12/T 1005—2020《数字减影血管造影机X射线设备质量控制检测规范》
-ProtectionPrinciple,防护原则与要求,出处,Reference,DB52/T 1781—2024《介入诊疗医务人员辐射防护规范》
 ProtectionPrinciple,防护原则与要求,出处,Reference,DB45/T 2701—2023《放射性同位素与射线装置安全和防护状况年度评估报告编制指南》
 ProtectionPrinciple,防护原则与要求,出处,Reference,White paper on radiation protection by the European Society of Radiology
-ProtectionPrinciple,防护原则与要求,出处,Reference,北京地区介入放射诊疗资源与防护状况调查与分析
 ProtectionPrinciple,防护原则与要求,出处,Reference,移动式X射线计算机体层摄影设备质量控制监测规范
 ProtectionPrinciple,防护原则与要求,出处,Reference,AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment
 ProtectionPrinciple,防护原则与要求,出处,Reference,Clinical indication-based diagnostic reference levels in CT: a systematic review
@@ -1566,7 +1533,6 @@ ProtectionPrinciple,防护原则与要求,出处,Reference,Adult diagnostic refe
 ProtectionPrinciple,防护原则与要求,出处,Reference,WS/T 391—2024《CT 检查操作规程》
 ProtectionPrinciple,防护原则与要求,出处,Reference,GBZ 98—2020《放射工作人员健康要求及监护规范》
 ProtectionPrinciple,防护原则与要求,出处,Reference,European co-ordinated action on improving justification of computed tomography: Results and Recommendations from a First-Time Multi-National Study on CT Justification in the EU
-ProtectionPrinciple,防护原则与要求,出处,Reference,DB32/T 3906—2020《介入放射学和临床核医学放射工作人员职业健康检查规范》
 ProtectionPrinciple,防护原则与要求,出处,Reference,WS 76—2020《医用X射线诊断设备质量控制检测规范》
 ProtectionPrinciple,防护原则与要求,出处,Reference,DB4401/T 260—2024《放射卫生技术服务管理规范》
 ProtectionPrinciple,防护原则与要求,出处,Reference,DB22/T 3050—2019《放射诊疗建设项目放射性职业病危害评价规范》
@@ -1590,7 +1556,6 @@ ShieldingTest,防护检测,出处,Reference,新型冠状病毒肺炎CT方舱剂�
 ShieldingTest,防护检测,出处,Reference,WS 76—2020《医用X射线诊断设备质量控制检测规范》
 ShieldingTest,防护检测,出处,Reference,WS/T 837—2024《正电子发射及X射线计算机断层成像（PET/CT）系统性能保障技术指南》
 ShieldingTest,防护检测,出处,Reference,DB22/T 2063—2014《放射诊疗工作人员职业病危害控制指南》
-ShieldingTest,防护检测,出处,Reference,DB52/T 1781—2024《介入诊疗医务人员辐射防护规范》
 ShieldingTest,防护检测,出处,Reference,DB32/T 4659.7—2024《医院公共卫生工作规范 第7部分：放射防护》
 ShieldingTest,防护检测,出处,Reference,AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment
 ShieldingTest,防护检测,出处,Reference,"AAPM Task Group 111: The Future of CT Dosimetry. Comprehensive Methodology for the Evaluation of Radiation Dose in X-Ray Computed Tomography: A New Measurement Paradigm Based on a Unified Theory for Axial, Helical, Fan-Beam, and Cone-Beam Scanning With or Without Longitudinal Translation of the Patient Table"
@@ -1617,7 +1582,6 @@ ShieldingTest,防护检测,出处,Reference,WS/T 908—2026《放射诊断实践
 ShieldingTest,防护检测,出处,Reference,WS/T 851—2025《X射线计算机体层成像儿童诊断参考水平标准》
 ShieldingTest,防护检测,出处,Reference,WS 818—2023《锥形束X射线计算机体层成像（CBCT）设备质量控制检测标准》
 ShieldingTest,防护检测,出处,Reference,DB41/T 2757—2024《医用直线加速器图像引导CT质量控制规范》
-ShieldingTest,防护检测,出处,Reference,DB12/T 1005—2020《数字减影血管造影机X射线设备质量控制检测规范》
 ShieldingTest,防护检测,出处,Reference,Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233
 ShieldingTest,防护检测,出处,Reference,Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays
 ShieldingTest,防护检测,出处,Reference,Medical electrical equipment - Part 2-44: Particular requirements for the basic safety and essential performance of X-ray equipment for computed tomography
@@ -1686,7 +1650,6 @@ DoseIndex,剂量指标,出处,Reference,ACR-SPR Practice Parameter for Performin
 DoseIndex,剂量指标,出处,Reference,ACR-SABI-SAR-SPR Practice Parameter for the Performance of Computed Tomography (CT) of the Abdomen and Computed Tomography (CT) of the Pelvis. Revised 2026 (Resolution 2d)
 DoseIndex,剂量指标,出处,Reference,医学放射成像诊断参考水平三标准深度解读
 DoseIndex,剂量指标,出处,Reference,DB32/T 4659.7—2024《医院公共卫生工作规范 第7部分：放射防护》
-DoseIndex,剂量指标,出处,Reference,DB52/T 1781—2024《介入诊疗医务人员辐射防护规范》
 DoseIndex,剂量指标,出处,Reference,DB45/T 2701—2023《放射性同位素与射线装置安全和防护状况年度评估报告编制指南》
 DoseIndex,剂量指标,出处,Reference,European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement
 DoseIndex,剂量指标,出处,Reference,Clinical indication-based diagnostic reference levels in CT: a systematic review
@@ -1734,7 +1697,6 @@ DRLLevel,诊断参考水平,出处,Reference,医学放射成像诊断参考水�
 DRLLevel,诊断参考水平,出处,Reference,《X射线计算机体层成像儿童诊断参考水平标准》解读
 DRLLevel,诊断参考水平,出处,Reference,"Official Journal of the European Union, OJ L, 2026/403, 25.2.2026 (C/2026/1015)"
 DRLLevel,诊断参考水平,出处,Reference,European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement
-DRLLevel,诊断参考水平,出处,Reference,一台引起放射性皮肤损伤的介入放射学设备检测结果调查与分析
 DRLLevel,诊断参考水平,出处,Reference,WS/T 874—2025《乡镇卫生院和社区卫生服务中心CT常见检查操作标准》
 DRLLevel,诊断参考水平,出处,Reference,Radiation Protection No. 195: European Study on Clinical Diagnostic Reference Levels for X-ray Medical Imaging
 DRLLevel,诊断参考水平,出处,Reference,Clinical indication-based diagnostic reference levels in CT: a systematic review
