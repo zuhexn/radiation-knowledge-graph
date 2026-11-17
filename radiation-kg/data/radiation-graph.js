@@ -2394,6 +2394,13 @@ window.KG_GRAPH = {
           "cat": "特殊人群"
         },
         {
+          "k": "儿童CT的辐射暴露占比",
+          "v": "综述指出：CT 在儿科放射中约占基于辐射的影像检查的 10%，但却占儿童辐射暴露的 40–60%。",
+          "quote": "CT scans in pediatric radiology account for about 10% of the radiation-based imaging modalities. However, they are responsible for about 40–60% of the radiation exposure in children",
+          "src": "EN-41",
+          "cat": "特殊人群"
+        },
+        {
           "k": "儿童CTDIvol降低",
           "v": "与能量积分探测器CT相比，光子计数探测器CT的儿童CTDIvol显著更低（MD=-0.90 mGy），SSDE亦显著更低（MD=-1.35 mGy）",
           "quote": "Compared with EID-CT, PCD-CT showed significantly lower CTDIvol (MD=-0.90 mGy; 95% confidence interval [CI]: -1.74 to -0.06; P=0.036; 95% prediction interval [PI]: -4.06 to 2.26) and significantly lower SSDE (MD=-1.35 mGy; 95% CI: -2.32 to -0.38; P=0.006; PI: -4.63 to 1.92).",
@@ -2776,6 +2783,16 @@ window.KG_GRAPH = {
           "cite": "赵彤, 马梓轩, 刘丹丹, 冯泽臣, 张永县, 牛延涛 / 第三代双源CT能谱纯化技术结合不同屏蔽方式对儿童辐射剂量影响的模体研究 / 中华放射医学与防护杂志 / 2026",
           "grade": "推荐",
           "ref": "XT-34"
+        },
+        {
+          "type": "建议",
+          "author": "Di Rosso E, Weissensteiner S, Hasenburger G, Riccabona M, Kubo T, Wang J, Duan X, Christner JA",
+          "title": "Bismuth Shielding in Head Computed Tomography—Still Necessary? J Clin Med",
+          "journal": "2023;13(1):1043",
+          "year": 2023,
+          "cite": "Di Rosso E, Weissensteiner S, Hasenburger G, Riccabona M, Kubo T, Wang J, Duan X, Christner JA / Bismuth Shielding in Head Computed Tomography—Still Necessary? J Clin Med / 2023;13(1):1043 / 2023",
+          "grade": "建议",
+          "ref": "EN-41"
         },
         {
           "type": "Meta分析",
@@ -3951,6 +3968,20 @@ window.KG_GRAPH = {
           "cat": "扫描参数"
         },
         {
+          "k": "显示CTDIvol准确度",
+          "v": "须测试显示的 CTDIvol 与实际 CTDIvol 是否一致。",
+          "quote": "Displayed CTDIvol accuracy: To ensure the displayed CTDIvol is similar to the actual CTDIvol",
+          "src": "EN-31",
+          "cat": "设备防护性能"
+        },
+        {
+          "k": "定位像剂量须测量",
+          "v": "定位片（localizer）的辐射剂量属于辐射输出性能测试内容，须加以测量。",
+          "quote": "CT localizer radiograph dose: To measure the exposure from the localizer radiograph",
+          "src": "EN-31",
+          "cat": "设备防护性能"
+        },
+        {
           "k": "儿童脑CT单次眼晶体剂量区间",
           "v": "各研究报道的每次检查平均眼晶体剂量为 3.1~79.9 mGy；晶体落入主射束时剂量明显更高（原文表述为 tenfold，即高出一个数量级）。",
           "quote": "Across studies, mean lens doses ranged from 3.1 mGy to 79.9 milligray (mGy) per scan, with higher values consistently observed when the eyes were included in the primary beam. Notably, Harbron et al. reported a tenfold increase in lens dose when the lens was within the scan field compared to when it was excluded.",
@@ -4045,6 +4076,16 @@ window.KG_GRAPH = {
           "cite": "赵彤, 马梓轩, 刘丹丹, 冯泽臣, 张永县, 牛延涛 / 第三代双源CT能谱纯化技术结合不同屏蔽方式对儿童辐射剂量影响的模体研究 / 中华放射医学与防护杂志 / 2026",
           "grade": "推荐",
           "ref": "XT-34"
+        },
+        {
+          "type": "推荐",
+          "author": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J",
+          "title": "Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233",
+          "journal": "AAPM Report No",
+          "year": 2019,
+          "cite": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J / Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233 / AAPM Report No / 2019",
+          "grade": "推荐",
+          "ref": "EN-31"
         },
         {
           "type": "系统评价",
@@ -6296,6 +6337,13 @@ window.KG_GRAPH = {
           "cat": "个人防护"
         },
         {
+          "k": "防护用品种类",
+          "v": "对需要在曝光时留在室内的操作，防护用品包括铅衣、甲状腺防护、护目镜与手套；是否需要这些防护装置应由辐射防护负责人（RPO）确定。",
+          "quote": "For procedures requiring staff to be inside the room during exposure, protective equipment includes lead aprons, thyroid protectors, protective eye wear and gloves. The need for these protective devices should be established by the RPO.",
+          "src": "EN-36",
+          "cat": "个人防护"
+        },
+        {
           "k": "屏蔽剂量收益极小",
           "v": "系统评价显示患者屏蔽带来的剂量节约相当有限，却存在明显的剂量相关与非剂量相关不良影响",
           "quote": "The evaluation of the systematic literature review of recent studies and reports shows that dose savings are rather minimal while significant dose- and non-dose-related detrimental effects are present.",
@@ -6522,6 +6570,16 @@ window.KG_GRAPH = {
           "cite": "李宝欣, 李亚京, 于磊, 朱会兰, 马永忠 / 北京地区介入放射诊疗资源与防护状况调查与分析 / 中华放射医学与防护杂志 / 2022",
           "grade": "推荐",
           "ref": "XT-31"
+        },
+        {
+          "type": "推荐",
+          "author": "International Atomic Energy Agency",
+          "title": "Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays",
+          "journal": "IAEA Safety Reports Series No",
+          "year": 2006,
+          "cite": "International Atomic Energy Agency / Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays / IAEA Safety Reports Series No / 2006",
+          "grade": "推荐",
+          "ref": "EN-36"
         },
         {
           "type": "系统评价",
@@ -6870,6 +6928,13 @@ window.KG_GRAPH = {
           "quote": "4.1 应具有与放射防护工作相适应的场所、设备、检测仪器及防护设施。",
           "src": "CN-24",
           "cat": "管理要求"
+        },
+        {
+          "k": "控制台设防护屏障",
+          "v": "应在控制台处设置防护屏障，使工作人员在控制台处无需穿戴防护服。",
+          "quote": "A protective barrier should be placed at the control console to shield staff, who should not need to wear protective clothing while at the console.",
+          "src": "EN-36",
+          "cat": "机房防护"
         }
       ],
       "evidence": [
@@ -6952,6 +7017,16 @@ window.KG_GRAPH = {
           "cite": "江苏省市场监督管理局 / DB32/T 4659.7—2024《医院公共卫生工作规范 第7部分：放射防护》 / 江苏省地方标准 / 2024",
           "grade": "推荐",
           "ref": "CN-24"
+        },
+        {
+          "type": "推荐",
+          "author": "International Atomic Energy Agency",
+          "title": "Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays",
+          "journal": "IAEA Safety Reports Series No",
+          "year": 2006,
+          "cite": "International Atomic Energy Agency / Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays / IAEA Safety Reports Series No / 2006",
+          "grade": "推荐",
+          "ref": "EN-36"
         }
       ]
     },
@@ -7015,6 +7090,13 @@ window.KG_GRAPH = {
           "quote": "4.1.1 按表1 所列测量条件检测不同类型X 射线设备的受检者入射体表空气比释动能率典型值。检测 时，将尺寸为30 cm×30 cm×20 cm 的水模放置在剂量仪探头和影像接收器之间。 注：此项检测应尽量使用不带附加屏蔽材料的剂量仪探头，如果使用带屏蔽材料的剂量仪探头，应避开AEC的检测 区域，并对测量结果进行反散射修正。",
           "src": "CN-25",
           "cat": "防护检测"
+        },
+        {
+          "k": "0.511MeV透射因子",
+          "v": "报告给出 0.511 MeV 能量下铅、钢和混凝土的透射因子表与曲线，可用于屏障厚度估算。",
+          "quote": "Tables and graphs of estimated transmission factors for lead, steel, and concrete at 0.511 MeV are also included.",
+          "src": "EN-32",
+          "cat": "机房防护"
         },
         {
           "k": "防护材料测定适用范围",
@@ -7095,6 +7177,16 @@ window.KG_GRAPH = {
           "cite": "国家卫生健康委员会 / WS 76—2020《医用X射线诊断设备质量控制检测规范》 / 中华人民共和国卫生行业标准（强制性） / 2020",
           "grade": "标准",
           "ref": "CN-25"
+        },
+        {
+          "type": "推荐",
+          "author": "Madsen MT, Anderson JA, Halama JR, Kleck J, Simpkin DJ, Votaw JR, Wendt RE III, Williams LE, Yester MV",
+          "title": "AAPM Nuclear Medicine Subcommittee Task Group 108. AAPM Task Group 108: PET and PET/CT Shielding Requirements",
+          "journal": "AAPM Report No",
+          "year": 2006,
+          "cite": "Madsen MT, Anderson JA, Halama JR, Kleck J, Simpkin DJ, Votaw JR, Wendt RE III, Williams LE, Yester MV / AAPM Nuclear Medicine Subcommittee Task Group 108. AAPM Task Group 108: PET and PET/CT Shielding Requirements / AAPM Report No / 2006",
+          "grade": "推荐",
+          "ref": "EN-32"
         },
         {
           "type": "推荐",
@@ -8735,6 +8827,13 @@ window.KG_GRAPH = {
           "quote": "一般规律是电影模式大于透视模式，高剂量率模式大于普通剂量模式",
           "src": "XT-32",
           "cat": "设备防护性能"
+        },
+        {
+          "k": "操作者站位与培训要求",
+          "v": "报告强调操作移动 CT 的临床人员须接受辐射安全培训，内容包括正确就位前方铅帘、固定后方屏蔽盖，以及重申时间、距离、屏蔽三项基本防护原则。",
+          "quote": "This training should include proper techniques for positioning the frontal lead curtain on the patient, securing the back cover, and reiterating the essential radiation protection principles of time, distance, and shielding.",
+          "src": "EN-38",
+          "cat": "操作防护"
         }
       ],
       "evidence": [
@@ -8767,6 +8866,16 @@ window.KG_GRAPH = {
           "cite": "张冰洁, 王建伟, 毛喻萱, 贾天合, 王轩, 刘彤桢, 徐辉, 岳保荣 / 一台引起放射性皮肤损伤的介入放射学设备检测结果调查与分析 / 中华放射医学与防护杂志 / 2024",
           "grade": "推荐",
           "ref": "XT-32"
+        },
+        {
+          "type": "建议",
+          "author": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K",
+          "title": "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment",
+          "journal": "Br J Radiol",
+          "year": 2026,
+          "cite": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K / Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment / Br J Radiol / 2026",
+          "grade": "建议",
+          "ref": "EN-38"
         }
       ]
     },
@@ -9287,6 +9396,34 @@ window.KG_GRAPH = {
           "quote": "移动式X 射线透视机的焦皮距应≥30cm。",
           "src": "CN-35",
           "cat": "操作防护"
+        },
+        {
+          "k": "移动X线机操作距离",
+          "v": "对移动式或便携式 X 线机，放射技师在曝光时必须能站在距 X 线管/射线束至少 6 英尺处，以尽量减少到达其身上的散射辐射；通常靠给曝光开关接至少 6 英尺长的软线来实现。",
+          "quote": "For a mobile/portable x-ray unit, the radiographer must be able to stand at least 6 feet away from the x-ray tube/beam during the actual exposure to minimize any scattered radiation reaching him/her. This normally is accomplished by attaching the exposure switch to the unit with at least a six foot long cord.",
+          "src": "EN-29",
+          "cat": "操作防护"
+        },
+        {
+          "k": "移动CT自带屏蔽配置",
+          "v": "移动式头部 CT（SOMATOM On.site）标配两项关键辐射防护特性：覆盖机架开口前方的可折叠 0.5 mm 铅帘，以及覆盖机架后方的可拆卸 1 mm 铅屏蔽。",
+          "quote": "Two key radiation protection features are included as standard with the On.site scanner. These are a foldable 0.5-mm lead curtain designed to cover the front of the gantry opening during scanning and a detachable 1-mm lead shield that covers its back",
+          "src": "EN-38",
+          "cat": "机房防护"
+        },
+        {
+          "k": "屏蔽件检验标准",
+          "v": "上述前后屏蔽件由 MAVIG GmbH 制造，并按国际电工委员会标准 IEC 61331-1 进行检验。",
+          "quote": "Both components are manufactured by MAVIG GmbH and have been tested in accordance with the International Electrotechnical Commission (IEC) standard 61331-1.",
+          "src": "EN-38",
+          "cat": "设备防护性能"
+        },
+        {
+          "k": "可免穿个人防护用品",
+          "v": "研究认为：使用覆盖机架开口的集成屏蔽后，在一定条件下 NICU 内的头部 CT 检查可不使用铅衣等个人防护用品。",
+          "quote": "The low exposure measured with the integrated radiation shielding covering the gantry opening suggests that, under certain conditions, head CT examinations in the NICU can be performed without requiring personal protective equipment such as aprons.",
+          "src": "EN-38",
+          "cat": "个人防护"
         }
       ],
       "evidence": [
@@ -9319,6 +9456,26 @@ window.KG_GRAPH = {
           "cite": "天津市市场和质量监督管理委员会 / DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》 / 天津市地方标准 / 2018",
           "grade": "推荐",
           "ref": "CN-35"
+        },
+        {
+          "type": "推荐",
+          "author": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL",
+          "title": "AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment",
+          "journal": "AAPM Report No",
+          "year": 1988,
+          "cite": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL / AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment / AAPM Report No / 1988",
+          "grade": "推荐",
+          "ref": "EN-29"
+        },
+        {
+          "type": "建议",
+          "author": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K",
+          "title": "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment",
+          "journal": "Br J Radiol",
+          "year": 2026,
+          "cite": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K / Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment / Br J Radiol / 2026",
+          "grade": "建议",
+          "ref": "EN-38"
         }
       ]
     },
@@ -9939,6 +10096,13 @@ window.KG_GRAPH = {
           "quote": "5.2.4 应按照WS 76、WS 519、WS 674 等质控检测标准的时限、频次要求定期组织对放射诊疗工作场所 和设备进行稳定性监测、放射防护检测、监测和检查：确定各类放射诊疗岗位的个人剂量管理限值和管理 目标值，避免额外的职业照射。",
           "src": "CN-24",
           "cat": "防护检测"
+        },
+        {
+          "k": "室内散射测量频次",
+          "v": "室内杂散与散射辐射测量应每年进行一次，并按操作者位置（台前、台头端、台足端、台后、监护设备处、控制室与观察窗后）布点。",
+          "quote": "IV-3. IN-ROOM SCATTERED RADIATION MEASUREMENT (annually)",
+          "src": "EN-29",
+          "cat": "防护检测"
         }
       ],
       "evidence": [
@@ -9991,6 +10155,16 @@ window.KG_GRAPH = {
           "cite": "江苏省市场监督管理局 / DB32/T 4659.7—2024《医院公共卫生工作规范 第7部分：放射防护》 / 江苏省地方标准 / 2024",
           "grade": "推荐",
           "ref": "CN-24"
+        },
+        {
+          "type": "推荐",
+          "author": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL",
+          "title": "AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment",
+          "journal": "AAPM Report No",
+          "year": 1988,
+          "cite": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL / AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment / AAPM Report No / 1988",
+          "grade": "推荐",
+          "ref": "EN-29"
         }
       ]
     },
@@ -10243,6 +10417,13 @@ window.KG_GRAPH = {
       "attrs": [],
       "details": [
         {
+          "k": "迭代重建使传统指标失效",
+          "v": "报告指出：统计与迭代重建（IR）算法用于降低噪声以便降低剂量，但其非线性特征导致分辨率与噪声表现随物体而变，传统的对比噪声比等图像质量指标已不足以代表临床成像性能。",
+          "quote": "A prevalent new CT technology uses statistical and iterative reconstruction (IR) algorithms to decrease image noise to facilitate use of decreased radiation dose levels. The nonlinear nature of these algorithms results in object-dependent resolution and noise performances. Thus, traditional image quality metrics, such as contrast-to-noise ratio, have become inadequate indicators of clinical imaging performance.",
+          "src": "EN-31",
+          "cat": "设备防护性能"
+        },
+        {
           "k": "AI提升图像质量",
           "v": "基于AI的CT干预显著改善图像质量（MD 0.70，95% CI 0.43~0.96）",
           "quote": "Results indicated that AI-based interventions significantly improved image quality (mean difference 0.70, 95% CI 0.43-0.96; P<.001)",
@@ -10265,6 +10446,16 @@ window.KG_GRAPH = {
         }
       ],
       "evidence": [
+        {
+          "type": "推荐",
+          "author": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J",
+          "title": "Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233",
+          "journal": "AAPM Report No",
+          "year": 2019,
+          "cite": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J / Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233 / AAPM Report No / 2019",
+          "grade": "推荐",
+          "ref": "EN-31"
+        },
         {
           "type": "Meta分析",
           "author": "Zhang S, Zhu Z, Yu Z, et al",
@@ -10724,6 +10915,55 @@ window.KG_GRAPH = {
           "cat": "机房防护"
         },
         {
+          "k": "接触屏蔽的剂量降低幅度",
+          "v": "综述指出：把屏蔽置于放射敏感器官之上，可使所受辐射减少 30–50%。",
+          "quote": "By placing the shield over radiosensitive organs, the radiation exposition can be reduced by 30–50%",
+          "src": "EN-41",
+          "cat": "个人防护"
+        },
+        {
+          "k": "接触屏蔽的首见描述",
+          "v": "铋屏蔽最早由 Hopper 等于 1997 年描述，是在面内覆盖于体表的铋质放射防护材料制成的贴身护具，用于降低表浅器官的辐射暴露。",
+          "quote": "Bismuth shielding was first described by Hopper et al. in 1997 as the use of an in-plane overlying bismuth radioprotective material manufactured into form-fitting garments, which reduces radiation exposure to superficial organs",
+          "src": "EN-41",
+          "cat": "设备防护性能"
+        },
+        {
+          "k": "欧洲共识建议停止常规屏蔽",
+          "v": "综述指出：2021 年 ICRP 发布欧洲患者接触屏蔽共识，建议在包括眼晶状体在内的大多数身体部位停止使用屏蔽。",
+          "quote": "However, in 2021 the International Commission on Radiological Protection (IRCP) released the European Consensus on patient contact shielding, in which it is recommended to discontinue shielding in most body areas including the eye lenses",
+          "src": "EN-41",
+          "cat": "个人防护"
+        },
+        {
+          "k": "屏蔽的四类争议点",
+          "v": "与屏蔽相关的主要顾虑包括：图像质量下降、干扰其他降剂量系统，以及与操作者相关的问题（屏蔽放置不当、感染控制）和与患者相关的问题（患者不适、检查中移动）。",
+          "quote": "The main concerns related to shielding are a reduction in image quality and interference with other dose reduction systems, as well as factors related to the operator (inappropriate placement of the shield, infection control) and the patient (patient discomfort, movement during the examination).",
+          "src": "EN-41",
+          "cat": "个人防护"
+        },
+        {
+          "k": "更有效的替代手段",
+          "v": "综述指出：按 ICRP 的观点，还有其他更有效的降剂量方法，既能降低剂量又能改善图像一致性，例如自动曝光控制系统。",
+          "quote": "According to the IRCP, there are other, more effective dose-saving methods that reduce the dose while improving the image consistency, e.g., automatic exposure control systems",
+          "src": "EN-41",
+          "cat": "防护最优化"
+        },
+        {
+          "k": "铋屏蔽的适用结论",
+          "v": "研究结论认为：在使用现代多排 CT（MDCT）扫描仪的临床实践中，铋屏蔽仍可能有价值；与其他降剂量方法（如自动曝光控制 AEC 和基于机架的管电流调制 OBTCM）联合使用时尤其有用。",
+          "quote": "The results of this study suggest that bismuth shielding can be beneficial in clinical practice using up-to-date MDCT scanners. Bismuth shielding has proven useful, especially in combination with other dose reduction methods, such as AEC and OBTCM.",
+          "src": "EN-41",
+          "cat": "防护最优化"
+        },
+        {
+          "k": "屏蔽增加眶区噪声",
+          "v": "研究结果：铋屏蔽会增加眶区图像噪声，但在屏蔽与眼睛之间放置泡沫塑料可显著降低该噪声；颅内图像噪声不受屏蔽影响，而这一点对脑部诊断至关重要。",
+          "quote": "BS leads to an increase in the image noise in the orbital region, which can be significantly decreased by the placement of plastic foam between the shield and the eyes. Shielding had no effect on image noise intracranially, which is crucial for brain diagnostics.",
+          "src": "EN-41",
+          "cat": "设备防护性能"
+        },
+        {
           "k": "建议停用常规屏蔽",
           "v": "在所有检查模态和各类患者中，常规使用患者防护屏蔽可以安全地取消",
           "quote": "Consequently, the routine usage of patient protection shielding in medical X-ray imaging can be safely discontinued for all modalities and patient groups.",
@@ -10801,6 +11041,16 @@ window.KG_GRAPH = {
           "cite": "国家卫生健康委员会 / WS/T 831—2024《医用电离辐射放射防护名词术语标准》 / 中华人民共和国卫生行业标准（推荐性） / 2024",
           "grade": "推荐",
           "ref": "XT-35"
+        },
+        {
+          "type": "建议",
+          "author": "Di Rosso E, Weissensteiner S, Hasenburger G, Riccabona M, Kubo T, Wang J, Duan X, Christner JA",
+          "title": "Bismuth Shielding in Head Computed Tomography—Still Necessary? J Clin Med",
+          "journal": "2023;13(1):1043",
+          "year": 2023,
+          "cite": "Di Rosso E, Weissensteiner S, Hasenburger G, Riccabona M, Kubo T, Wang J, Duan X, Christner JA / Bismuth Shielding in Head Computed Tomography—Still Necessary? J Clin Med / 2023;13(1):1043 / 2023",
+          "grade": "建议",
+          "ref": "EN-41"
         },
         {
           "type": "系统评价",
@@ -11359,6 +11609,41 @@ window.KG_GRAPH = {
           "quote": "评价异常及事故情况的处理措施对拟开展项目的适用性及其有效性。",
           "src": "CN-28",
           "cat": "防护检测"
+        },
+        {
+          "k": "集装箱部署的选址要求",
+          "v": "方舱 CT 的部署位置必须兼顾医院感染控制与辐射防护两方面的人员通行要求；方舱 CT 应尽可能设置在开阔区域。",
+          "quote": "The location where the container CT is deployed must be chosen considering the requirements of personnel movement based on hospital infection control and radiation protection. The container CT should be placed in an open area as much as possible.",
+          "src": "EN-42",
+          "cat": "机房防护"
+        },
+        {
+          "k": "改装机房不满足屏蔽要求",
+          "v": "在由体育场、学校、会展中心等民用建筑改建的方舱医院中，没有可用空间能满足安装 CT 扫描仪所需的屏蔽与辐射防护标准；而常规新建或改造一间 CT 屏蔽室通常至少需要一个月。",
+          "quote": "However, at makeshift hospitals that were converted from civil building facilities such as stadiums, schools, and exhibition halls, no space was available that could meet the shielding and radiation protection standards necessary to install CT scanners.",
+          "src": "EN-42",
+          "cat": "机房防护"
+        },
+        {
+          "k": "方舱CT装机规模",
+          "v": "自新冠疫情暴发以来，中国已在方舱医院和普通医院安装了 140 多台集装箱 CT，方舱 CT 起到了模块化急诊影像科的作用。",
+          "quote": "To date, more than 140 container CTs have been installed at makeshift hospitals and regular hospitals in China since the COVID-19 outbreak.",
+          "src": "EN-42",
+          "cat": "机房防护"
+        },
+        {
+          "k": "方舱CT的设备选型",
+          "v": "方舱 CT 对 CT 类型无特殊要求，已装机者为中国现役的多排螺旋 CT，出于经济原因未安装双源 CT 或能谱 CT。",
+          "quote": "Multi-slice spiral CT systems are included in the currently installed CT containers in China; no dual-source CT or energy spectrum CT systems are installed, potentially due to economic reasons.",
+          "src": "EN-42",
+          "cat": "机房防护"
+        },
+        {
+          "k": "模块化快速组装",
+          "v": "集装箱 CT 用箱式房（预制或工业建筑）模块化拼接，构件在工厂预处理后，可拆卸铅屏蔽间能在现场 2–3 天内快速组装完毕。",
+          "quote": "Container CTs were modularly spliced using a box house, which is also known as a prefabricated or industrial building. By pre-processing the components at the factory, the detachable lead shielding room could be rapidly assembled at the site within 2–3 days.",
+          "src": "EN-42",
+          "cat": "机房防护"
         }
       ],
       "evidence": [
@@ -11371,6 +11656,16 @@ window.KG_GRAPH = {
           "cite": "吉林省市场监督管理厅 / DB22/T 3050—2019《放射诊疗建设项目放射性职业病危害评价规范》 / 吉林省市场监督管理厅 / 2019",
           "grade": "推荐",
           "ref": "CN-28"
+        },
+        {
+          "type": "建议",
+          "author": "Huang Z, Zhao S, Leng Q, Hu S, Li Z, Song B",
+          "title": "Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic",
+          "journal": "Diagn Interv Radiol",
+          "year": 2021,
+          "cite": "Huang Z, Zhao S, Leng Q, Hu S, Li Z, Song B / Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic / Diagn Interv Radiol / 2021",
+          "grade": "建议",
+          "ref": "EN-42"
         }
       ]
     },
@@ -11938,6 +12233,27 @@ window.KG_GRAPH = {
           "quote": "5.1.5 组织落实放射诊疗建设项目（新建、扩建、改建、技术改造和技术引进）职业病危害放射防护预评 价、控制效果评价和放射诊疗许可工作；委托有资质的放射卫生技术服务机构进行放射诊疗工作场所防 护设施和设备的竣工验收、质量控制、稳定性检测、防护性能检测和评价。",
           "src": "CN-24",
           "cat": "防护检测"
+        },
+        {
+          "k": "新建机房三级测量",
+          "v": "新建机房须在施工期间和竣工后做完整测量：施工期目视检查屏蔽完整性、安装设备前用合适的放射性核素做相对测量以探测屏障空隙、安装设备后用该 X 线机做机房外杂散辐射水平的定量测量。",
+          "quote": "If the facility is new, a complete survey of the facility during and after the construction should be done. This includes visual inspections of shielding integrity during the construction of the room barriers, relative measurements to detect any voids in the barrier with an appropriate radioisotope prior to installation of the radiographic equipment; and quantitative measurements of stray radiation levels outside the room after installation of the radiographic equipment.",
+          "src": "EN-29",
+          "cat": "机房防护"
+        },
+        {
+          "k": "移动机与机房屏蔽的验收",
+          "v": "验收测试须确认：若为移动式 X 线机已为操作人员配备个人防护器材；若为固定安装，则机房已按主管机构批准的屏蔽设计完成屏蔽，并由有资质的医学（或卫生）物理师完成安装后屏蔽验证。",
+          "quote": "there are personal protective devices provided for operators if the unit is a mobile x-ray system, or that the room in which the device has been installed has been properly shielded as confirmed by an approved shielding plan from the appropriate regulatory authority and that post-installation verification of installed shielding has been performed by a qualified medical (or health) physicist.",
+          "src": "EN-30",
+          "cat": "机房防护"
+        },
+        {
+          "k": "验收中的辐射安全核查",
+          "v": "作为验收测试的一部分，医学物理师应核实场地满足与 X 线设备使用相关的全部辐射安全法规要求，包括使用区张贴要求的告示、设备已在主管机构注册、设备上有必需的警示标签、X 线管壳漏射辐射可接受等。",
+          "quote": "As part of the acceptance testing, the medical physicist should take the opportunity to confirm that the site has met all radiation safety regulatory requirements related to the use of the X-ray equipment such as:",
+          "src": "EN-30",
+          "cat": "防护检测"
         }
       ],
       "evidence": [
@@ -11990,6 +12306,26 @@ window.KG_GRAPH = {
           "cite": "江苏省市场监督管理局 / DB32/T 4659.7—2024《医院公共卫生工作规范 第7部分：放射防护》 / 江苏省地方标准 / 2024",
           "grade": "推荐",
           "ref": "CN-24"
+        },
+        {
+          "type": "推荐",
+          "author": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL",
+          "title": "AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment",
+          "journal": "AAPM Report No",
+          "year": 1988,
+          "cite": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL / AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment / AAPM Report No / 1988",
+          "grade": "推荐",
+          "ref": "EN-29"
+        },
+        {
+          "type": "推荐",
+          "author": "Gauntt DM, Ranger NT, Willis CE, et al",
+          "title": "Acceptance Testing and Quality Control of Digital Radiographic Imaging Systems: The Report of AAPM Task Group 150",
+          "journal": "AAPM Report No",
+          "year": 2024,
+          "cite": "Gauntt DM, Ranger NT, Willis CE, et al / Acceptance Testing and Quality Control of Digital Radiographic Imaging Systems: The Report of AAPM Task Group 150 / AAPM Report No / 2024",
+          "grade": "推荐",
+          "ref": "EN-30"
         }
       ]
     },
@@ -12235,6 +12571,13 @@ window.KG_GRAPH = {
           "quote": "4.7.1.1 检测中采用尺寸为30 cm×30 cm×20 cm 的标准水模。",
           "src": "CN-25",
           "cat": "防护检测"
+        },
+        {
+          "k": "散射测量体模规格",
+          "v": "室内散射测量应在主射线束中放置水、塑料或压制木材制成的散射体模，成人腹部模拟约 30 cm×30 cm×25 cm（宽×长×厚），成人头部约 15 cm×19 cm×15 cm；铝或铜不可用作散射材料。",
+          "quote": "A water, plastic, or pressed wood scattering phantom should be placed in the primary beam. It should be approximately 30 cm x 30 cm x 25 cm (width x length x thickness) to simulate an average adult abdomen. Suitable sizes should be employed to simulate other parts of the body, eg. 15 cm x 19 cm x 15 cm for an adult head. Aluminum or Copper are unacceptable as scattering materials.",
+          "src": "EN-29",
+          "cat": "防护检测"
         }
       ],
       "evidence": [
@@ -12287,6 +12630,16 @@ window.KG_GRAPH = {
           "cite": "国家卫生健康委员会 / WS 76—2020《医用X射线诊断设备质量控制检测规范》 / 中华人民共和国卫生行业标准（强制性） / 2020",
           "grade": "标准",
           "ref": "CN-25"
+        },
+        {
+          "type": "推荐",
+          "author": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL",
+          "title": "AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment",
+          "journal": "AAPM Report No",
+          "year": 1988,
+          "cite": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL / AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment / AAPM Report No / 1988",
+          "grade": "推荐",
+          "ref": "EN-29"
         }
       ]
     },
@@ -12326,6 +12679,13 @@ window.KG_GRAPH = {
           "quote": "在图像质量方面，72.41%的研究认为使用铋屏蔽后图像质量可以接受，27.59%的研究认为对图像质量有负面影响。同时，研究发现图像噪声主要集中在屏蔽物正下方1 ~ 2 cm的位置",
           "src": "XT-29",
           "cat": "防护最优化"
+        },
+        {
+          "k": "用任务相关指标评价图像",
+          "v": "由于新型 CT 技术在临床使用中不断增多，应采用更贴近临床成像任务预测能力的任务相关指标来评价图像质量。",
+          "quote": "In light of the availability and increasing clinical use of new CT technologies, it is particularly important to assess image quality using task-specific metrics that are more relevant to predicting the performance of a CT system and protocols for clinical imaging tasks.",
+          "src": "EN-31",
+          "cat": "质量保证"
         }
       ],
       "evidence": [
@@ -12358,6 +12718,16 @@ window.KG_GRAPH = {
           "cite": "刘丹丹, 张永县, 马梓轩, 刘毅安, 赵彤, 张童心, 徐辉, 孙全富, 牛延涛 / 放射诊断检查受检者接触屏蔽的研究现状与展望 / 中华放射医学与防护杂志 / 2025",
           "grade": "推荐",
           "ref": "XT-29"
+        },
+        {
+          "type": "推荐",
+          "author": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J",
+          "title": "Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233",
+          "journal": "AAPM Report No",
+          "year": 2019,
+          "cite": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J / Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233 / AAPM Report No / 2019",
+          "grade": "推荐",
+          "ref": "EN-31"
         }
       ]
     },
@@ -12553,6 +12923,13 @@ window.KG_GRAPH = {
           "quote": "机房门外应有电离辐射警告标志；机房门上方应有醒目的工作状态指示灯，灯箱上应设置如 “射线有害、灯亮勿入”的可视警示语句；候诊区应设置放射防护注意事项告知栏。",
           "src": "GBZ130-2020",
           "cat": "机房防护"
+        },
+        {
+          "k": "CT机房入口警示灯",
+          "v": "凡使用透视或 CT 设备的房间，入口处应设警示灯，X 射线束加能时点亮。",
+          "quote": "A warning light should be placed at the entrance to any room where fluoroscopy or computed tomography (CT) equipment is in use. The light should be illuminated when the X ray beam is energized.",
+          "src": "EN-36",
+          "cat": "机房防护"
         }
       ],
       "evidence": [
@@ -12565,6 +12942,16 @@ window.KG_GRAPH = {
           "cite": "国家卫生健康委员会 / GBZ 130—2020《放射诊断放射防护要求》 / 中华人民共和国国家职业卫生标准 / 2020",
           "grade": "标准",
           "ref": "GBZ130-2020"
+        },
+        {
+          "type": "推荐",
+          "author": "International Atomic Energy Agency",
+          "title": "Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays",
+          "journal": "IAEA Safety Reports Series No",
+          "year": 2006,
+          "cite": "International Atomic Energy Agency / Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays / IAEA Safety Reports Series No / 2006",
+          "grade": "推荐",
+          "ref": "EN-36"
         }
       ]
     },
@@ -12629,6 +13016,195 @@ window.KG_GRAPH = {
           "cat": "机房防护"
         },
         {
+          "k": "屏障厚度取决于五要素",
+          "v": "机房屏障所需屏蔽厚度取决于五项因素：屏障材料类型、X 线束在房间内的指向、设备工作量、房间尺寸与设备布局，以及相邻区域的占用程度。",
+          "quote": "(b) Orientation of the x-ray beam in the room, (c) Workload of the x-ray unit, (d) Size of the room and the equipment layout, and (e) Degree of occupancy in the adjoining areas.",
+          "src": "EN-29",
+          "cat": "机房防护"
+        },
+        {
+          "k": "触发屏障重新评价的情形",
+          "v": "出现下列任一情况应重新评价机房屏障：找不到有资质专家出具的既往屏障认证记录；既往认证不完整；无法确定自上次认证以来设备、其运行方式或房间屏障未发生改变。",
+          "quote": "Any one of the following conditions should cause a new barrier evaluation to be Initiated. (a) Records of previous room barrier certification by a qualified expert as defined by NCRP Report No. 49 cannot be found (Reference #17) (b) Previous room barrier certification is incomplete. (c) It cannot be established with certainty that changes in equipment, its operation, or the room barriers have not been made since the last barrier certification.",
+          "src": "EN-29",
+          "cat": "防护检测"
+        },
+        {
+          "k": "PET光子能量更高",
+          "v": "报告指出：PET 与 PET/CT 机房的屏蔽有特殊困难——正电子湮灭产生的 0.511 MeV 光子能量远高于其他诊断辐射。",
+          "quote": "The shielding of positron emission tomography (PET) and PET/CT (computed tomography) facilities presents special challenges. The 0.511 MeV annihilation photons associated with positron decay are much higher energy than other diagnostic radiations.",
+          "src": "EN-32",
+          "cat": "机房防护"
+        },
+        {
+          "k": "地面顶板也需屏蔽",
+          "v": "由于光子能量高，屏蔽可能不仅限于相邻墙面，地板和天花板同样需要屏障屏蔽。",
+          "quote": "As a result, barrier shielding may be required in floors and ceilings as well as adjacent walls.",
+          "src": "EN-32",
+          "cat": "机房防护"
+        },
+        {
+          "k": "患者成为活体放射源",
+          "v": "放射性药物给药后患者本身成为放射源，因此必须考虑受检者在候诊/检查全过程中持续存在的照射时间。",
+          "quote": "Since the patient becomes the radioactive source after the radiopharmaceutical has been administered, one has to consider the entire time that the subject remains in the clinic.",
+          "src": "EN-32",
+          "cat": "机房防护"
+        },
+        {
+          "k": "给出屏蔽估算方法",
+          "v": "报告给出了估算 PET 与 PET/CT 设施屏蔽需求的方法，并给出受控区与非受控区的屏障计算示例。",
+          "quote": "In this report we present methods for estimating the shielding requirements for PET and PET/CT facilities.",
+          "src": "EN-32",
+          "cat": "机房防护"
+        },
+        {
+          "k": "受控非受控区屏障算例",
+          "v": "报告的屏障计算示例分别针对受控区与非受控区给出。",
+          "quote": "Examples of barrier calculations are presented for controlled and noncontrolled areas.",
+          "src": "EN-32",
+          "cat": "机房防护"
+        },
+        {
+          "k": "非受控区达标成本高",
+          "v": "报告指出：满足非受控区的法规限值可能代价高昂，须由设备供应商、建筑师与有资质的医学物理师共同精心规划，才能在保持辐射安全标准的前提下做出经济可行的设计。",
+          "quote": "Meeting the regulatory limits for uncontrolled areas can be an expensive proposition. Careful planning with the equipment vendor, facility architect, and a qualified medical physicist is necessary to produce a cost effective design while maintaining radiation safety standards.",
+          "src": "EN-32",
+          "cat": "机房防护"
+        },
+        {
+          "k": "以氟18为主要核素",
+          "v": "报告汇总了临床常用 PET 核素的物理特性，但主要篇幅针对氟-18。",
+          "quote": "Information about the physical properties of the most commonly used clinical PET radionuclides is summarized, although the report primarily refers to fluorine-18.",
+          "src": "EN-32",
+          "cat": "机房防护"
+        },
+        {
+          "k": "147的目的与定位",
+          "v": "NCRP 报告 147（2004）给出医学影像 X 射线设施结构屏蔽的设计与安装建议与技术信息，其目的是把职工与公众所受辐射暴露限制在可接受水平。",
+          "quote": "Report No. 147 (2004) presents recommendations and technical information related to the design and installation of structural shielding for facilities that use x rays for medical imaging. The purpose of structural shielding is to limit radiation exposure to employees and members of the public.",
+          "src": "EN-34",
+          "cat": "机房防护"
+        },
+        {
+          "k": "屏蔽材料与厚度计算因素",
+          "v": "报告讨论了选择适当屏蔽材料以及计算屏障厚度时需要考虑的各种因素。",
+          "quote": "NCRP Report No. 147 includes a discussion of the various factors to be considered in the selection of appropriate shielding materials and in the calculation of barrier thicknesses.",
+          "src": "EN-34",
+          "cat": "机房防护"
+        },
+        {
+          "k": "屏蔽目标与剂量限值",
+          "v": "报告阐述辐射屏蔽基本原理，讨论 X 射线成像设施内及邻近受控区与非受控区的屏蔽设计目标，并界定这些目标与 NCRP 对辐射工作人员和公众有效剂量限值之间的关系。",
+          "quote": "The Report presents the fundamentals of radiation shielding, discusses shielding design goals for controlled and uncontrolled areas in or near x-ray imaging facilities and defines the relationship of these goals to the NCRP effective dose limits for radiation workers and members of the public.",
+          "src": "EN-34",
+          "cat": "机房防护"
+        },
+        {
+          "k": "推荐屏蔽设计方法学",
+          "v": "报告详细讨论了针对 X 射线成像设施的推荐屏蔽设计方法学，并提供大量屏蔽数据与各类 X 射线成像设施的屏蔽计算示例。",
+          "quote": "The Report includes a detailed discussion of the recommended shielding design methodology for x-ray imaging facilities and provides an extensive collection of shielding data and sample shielding calculations for various types of x-ray imaging facilities.",
+          "src": "EN-34",
+          "cat": "机房防护"
+        },
+        {
+          "k": "取代1976年49号报告",
+          "v": "报告的信息取代了 NCRP 报告 49（1976 年 9 月发布）《用于 X 射线与最高 10 MeV 伽马射线医学用途的结构屏蔽设计与评价》中关于此类设施的建议。",
+          "quote": "The information supersedes the recommendations that address such facilities in NCRP Report No. 49, Structural Shielding Design and Evaluation for Medical Use of X Rays and Gamma Rays of Energies Up to 10 MeV, which was issued in September 1976.",
+          "src": "EN-34",
+          "cat": "机房防护"
+        },
+        {
+          "k": "报告的目标读者",
+          "v": "报告主要面向专门从事辐射防护的人员，同时对负责规划新建 X 射线影像设施的建筑师、医院管理者等也具参考价值。",
+          "quote": "The Report is mainly intended for those individuals who specialize in radiation protection. However, it will also be of interest to architects, hospital administrators and related professionals concerned with the planning of new facilities that use x rays for medical imaging.",
+          "src": "EN-34",
+          "cat": "管理要求"
+        },
+        {
+          "k": "安全特性在设计阶段确定",
+          "v": "报告指出：安全特性最好在设施设计阶段（X 射线机房及相关房间）就纳入；减少剂量的时间、距离、屏蔽三要素可在设计中组合优化防护。",
+          "quote": "Provisions for the incorporation of safety features are best made at the facility design stage (X ray rooms and other related rooms). The three factors relevant to dose reduction (time, distance and shielding) can be combined in the design to optimize protection.",
+          "src": "EN-36",
+          "cat": "机房防护"
+        },
+        {
+          "k": "屏蔽计算三要素",
+          "v": "无屏蔽时接受的剂量，用查表的工作量（每周各射线品质如 kV 与滤过对应的 mA·min）、查表的使用因子（该方向发射辐射占总量的比例）和查表的占用因子（因停留时间而实际受照的比例）计算；次级屏障的使用因子恒为一，因为散射与漏射是全方位、全时间发射的。",
+          "quote": "Doses that would be received without shielding are calculated by using tabulated workload values (mAmin per week for the most relevant beam qualities, i.e. kV and filtration), tabulated 'use factors' for a given beam direction (fraction of the total amount of radiation emitted in that direction) and tabulated 'occupancy factors' (fraction of the total exposure that will actually affect individuals at a place, by virtue of the time permanence in that place). For secondary barriers, the 'use factor' is always unity, since scatter and leakage radiation is propagated in all directions all the time.",
+          "src": "EN-36",
+          "cat": "机房防护"
+        },
+        {
+          "k": "ICRP33保守折减提示",
+          "v": "使用剂量约束做屏蔽计算时，应考虑 ICRP 33 号出版物的提示：实际个体剂量值只有用作屏蔽设计参数的有效剂量的 1/10（当量剂量）到 1/30。",
+          "quote": "consideration should be given to the remark made in ICRP Publication 33, that actual dose values to individuals are 1/10 (for equivalent dose) to 1/30 of dose values of effective dose",
+          "src": "EN-36",
+          "cat": "机房防护"
+        },
+        {
+          "k": "装机前须做辐射安全预评估",
+          "v": "在医疗机构安装新 X 射线设备之前，必须先做辐射安全预评估，确保工作人员与公众所受剂量低于国际辐射安全要求规定的剂量约束；结构屏蔽须在原始施工阶段就正确设计与安装，事后的整改或改造代价高昂。",
+          "quote": "Prior to the installation of new X-ray equipment in medical institutions, a pre-evaluation of radiation safety must be performed to ensure that the radiation doses delivered to workers and the public are below the dose constraints imposed by international radiation safety requirements. It is important to ensure that structural radiation shielding is properly designed and installed during the original construction process, because corrections or modifications performed after the construction of the facilities are expensive",
+          "src": "EN-40",
+          "cat": "机房防护"
+        },
+        {
+          "k": "NCRP49与147沿革",
+          "v": "美国 NCRP 推荐采用 1976 年发布的报告 49 所述屏蔽计算方法，该方法在 2004 年的报告 147 中作了修订。",
+          "quote": "The National Council on Radiation Protection and Measurements (NCRP) in the United States recommends the shielding calculation method described in Report No. 49 [ 4 ], published in 1976, which was revised in Report No. 147 in 2004.",
+          "src": "EN-40",
+          "cat": "机房防护"
+        },
+        {
+          "k": "机架方向自屏蔽折减因子",
+          "v": "研究实测：机架方向最小折减因子为 0.082；不同厂商扫描器内部结构差异会改变屏蔽比，但本研究涉及四家厂商 18 台扫描器，机架方向可预期至少有 0.1 的折减因子。",
+          "quote": "In the gantry direction, the minimum reduction factor was 0.082. Differences in the internal structure of scanners built by different manufacturers might cause changes in the shielding ratio; however, in the present study, which involved 18 scanners from four manufacturers, we can expect a reduction factor of at least 0.1 in the gantry direction.",
+          "src": "EN-40",
+          "cat": "机房防护"
+        },
+        {
+          "k": "床方向自屏蔽折减因子",
+          "v": "研究实测：床方向最小屏蔽效应为 0.355；床方向自屏蔽比还取决于受检者与受检部位，但在本研究条件下，床面高度可预期至少有 0.4 的剂量折减因子。",
+          "quote": "Furthermore, in the couch direction, a minimum shielding effect of 0.355 was observed. Although the ratio associated with self-shielding in the couch direction also depends on the subjects and the examined part of the body, in the present study, a dose reduction factor of at least 0.4 can be expected in the couch direction at the bed level.",
+          "src": "EN-40",
+          "cat": "机房防护"
+        },
+        {
+          "k": "NCRP-DLP法低估",
+          "v": "用 NCRP-DLP 法评估的剂量比 JC 法更接近实测值，但在屏蔽较弱的机架与受检者方向上，有 3.4%（3/88）的实测剂量被低估。",
+          "quote": "However, 3.4% (3/88) of the measured doses were underestimated in the directions from the gantry and subject that had less shielding.",
+          "src": "EN-40",
+          "cat": "机房防护"
+        },
+        {
+          "k": "头颅检查计算需特别留意",
+          "v": "结合本研究与既往研究结果，报告建议对头颅检查的屏蔽计算给予特别关注。",
+          "quote": "Based on these results including the present results and those of [ 8 ], particular attention is recommended for calculations performed for head examinations.",
+          "src": "EN-40",
+          "cat": "机房防护"
+        },
+        {
+          "k": "散射因子须偏保守取值",
+          "v": "作者认为，为避免低估，空气比释能散射因子 κ 应保守地偏向安全一侧取值。",
+          "quote": "the authors believe that the air kerma scatter factor κ should, conservatively, be set on the side of safety to avoid underestimation.",
+          "src": "EN-40",
+          "cat": "机房防护"
+        },
+        {
+          "k": "方舱CT的构成",
+          "v": "方舱 CT 由三部分组成：可拆卸的铅屏蔽房间及辅助设备、CT 系统和信息系统。",
+          "quote": "A container CT comprises three parts: a detachable lead shielding room and ancillary equipment, a CT system, and an information system. The detailed descriptions of those three parts are listed in the following text.",
+          "src": "EN-42",
+          "cat": "机房防护"
+        },
+        {
+          "k": "铅屏蔽间尺寸与铅层厚度",
+          "v": "标准集装箱 CT 的可拆卸铅屏蔽间墙面由通常厚 4 mm 的铅板构成，扫描室与操作室之间的铅玻璃也是 4 mm 厚；整体屏蔽方案在扫描室周围采用高密度铅作全面防护。",
+          "quote": "The walls comprise lead plates that are generally 4 mm thick. The lead glass between the scanning room and operation room is also 4 mm thick. The shielding scheme uses high-density lead for comprehensive protection around the scanning room.",
+          "src": "EN-42",
+          "cat": "机房防护"
+        },
+        {
           "k": "方舱CT屏蔽体厚度要求",
           "v": "方舱CT机房四周屏蔽体的屏蔽厚度应不小于4 mmPb，底板和顶板应不小于2 mmPb。",
           "quote": "机房四周屏蔽体的屏蔽厚度应不小于4mmPb，底板和顶板应不小于 2 mmPb。",
@@ -12639,14 +13215,14 @@ window.KG_GRAPH = {
           "k": "机房屏蔽须前置预评估",
           "v": "新装 X 射线设备前必须做辐射安全预评估，确保工作人员和公众所受剂量低于国际安全要求的剂量约束；结构屏蔽要在土建阶段一次设计安装到位，建成后返工代价高昂。",
           "quote": "Prior to the installation of new X-ray equipment in medical institutions, a pre-evaluation of radiation safety must be performed to ensure that the radiation doses delivered to workers and the public are below the dose constraints imposed by international radiation safety requirements. It is important to ensure that structural radiation shielding is properly designed and installed during the original construction process, because corrections or modifications performed after the construction of the facilities are expensive",
-          "src": "XT-16",
+          "src": "EN-40",
           "cat": "机房防护"
         },
         {
           "k": "散射因子与常数取值",
           "v": "NCRP-DLP 法用 k_head=9×10⁻⁵ cm、k_body=3×10⁻⁴ cm 两个空气比释动能散射因子和 1.2 的常数，分别计算头/体部检查的有效剂量后相加。",
           "quote": "The air kerma scatter factors, k head (9 × 10−5 cm) and k body (3 × 10−4 cm), and a constant of 1.2 were used, as recommended by the NCRP. k head and k body show the percentage of the amount of scattered radiation at a distance 1 m from the scattering body; the proportion as given in per unit DLP in the NCRP-DLP method utilizes Eqs. (1) and (2), respectively.",
-          "src": "XT-16",
+          "src": "EN-40",
           "cat": "机房防护"
         }
       ],
@@ -12683,6 +13259,66 @@ window.KG_GRAPH = {
         },
         {
           "type": "推荐",
+          "author": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL",
+          "title": "AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment",
+          "journal": "AAPM Report No",
+          "year": 1988,
+          "cite": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL / AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment / AAPM Report No / 1988",
+          "grade": "推荐",
+          "ref": "EN-29"
+        },
+        {
+          "type": "推荐",
+          "author": "Madsen MT, Anderson JA, Halama JR, Kleck J, Simpkin DJ, Votaw JR, Wendt RE III, Williams LE, Yester MV",
+          "title": "AAPM Nuclear Medicine Subcommittee Task Group 108. AAPM Task Group 108: PET and PET/CT Shielding Requirements",
+          "journal": "AAPM Report No",
+          "year": 2006,
+          "cite": "Madsen MT, Anderson JA, Halama JR, Kleck J, Simpkin DJ, Votaw JR, Wendt RE III, Williams LE, Yester MV / AAPM Nuclear Medicine Subcommittee Task Group 108. AAPM Task Group 108: PET and PET/CT Shielding Requirements / AAPM Report No / 2006",
+          "grade": "推荐",
+          "ref": "EN-32"
+        },
+        {
+          "type": "推荐",
+          "author": "National Council on Radiation Protection and Measurements",
+          "title": "Structural Shielding Design for Medical X-Ray Imaging Facilities",
+          "journal": "NCRP Report No",
+          "year": 2004,
+          "cite": "National Council on Radiation Protection and Measurements / Structural Shielding Design for Medical X-Ray Imaging Facilities / NCRP Report No / 2004",
+          "grade": "推荐",
+          "ref": "EN-34"
+        },
+        {
+          "type": "推荐",
+          "author": "International Atomic Energy Agency",
+          "title": "Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays",
+          "journal": "IAEA Safety Reports Series No",
+          "year": 2006,
+          "cite": "International Atomic Energy Agency / Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays / IAEA Safety Reports Series No / 2006",
+          "grade": "推荐",
+          "ref": "EN-36"
+        },
+        {
+          "type": "建议",
+          "author": "Watanabe JW, Causer DA, McCollough CH, Zink FE, Narita Y, Ishigaki H, Akiyama Y, Satou Y",
+          "title": "A new shielding calculation method for X-ray computed tomography regarding scattered radiation",
+          "journal": "Radiol Phys Technol",
+          "year": 2017,
+          "cite": "Watanabe JW, Causer DA, McCollough CH, Zink FE, Narita Y, Ishigaki H, Akiyama Y, Satou Y / A new shielding calculation method for X-ray computed tomography regarding scattered radiation / Radiol Phys Technol / 2017",
+          "grade": "建议",
+          "ref": "EN-40"
+        },
+        {
+          "type": "建议",
+          "author": "Huang Z, Zhao S, Leng Q, Hu S, Li Z, Song B",
+          "title": "Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic",
+          "journal": "Diagn Interv Radiol",
+          "year": 2021,
+          "cite": "Huang Z, Zhao S, Leng Q, Hu S, Li Z, Song B / Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic / Diagn Interv Radiol / 2021",
+          "grade": "建议",
+          "ref": "EN-42"
+        },
+        {
+          "type": "推荐",
           "author": "中国卫生监督协会",
           "title": "《CT方舱放射防护要求》团体标准解读",
           "journal": "中国卫生监督协会",
@@ -12690,16 +13326,6 @@ window.KG_GRAPH = {
           "cite": "中国卫生监督协会 / 《CT方舱放射防护要求》团体标准解读 / 中国卫生监督协会 / 2020",
           "grade": "推荐",
           "ref": "XT-08"
-        },
-        {
-          "type": "推荐",
-          "author": "Watanabe H, Noto K, Shohji T, Ogawa Y, Fujibuchi T, Yamaguchi I, Hiraki H, et al",
-          "title": "A new shielding calculation method for X-ray computed tomography regarding scattered radiation",
-          "journal": "Radiol Phys Technol",
-          "year": 2017,
-          "cite": "Watanabe H, Noto K, Shohji T, Ogawa Y, Fujibuchi T, Yamaguchi I, Hiraki H, et al / A new shielding calculation method for X-ray computed tomography regarding scattered radiation / Radiol Phys Technol / 2017",
-          "grade": "推荐",
-          "ref": "XT-16"
         }
       ]
     },
@@ -12730,6 +13356,104 @@ window.KG_GRAPH = {
           "cat": "机房防护"
         },
         {
+          "k": "漏射辐射限值",
+          "v": "AAPM 报告规定：X 线管壳漏射测量时，在距焦点 1 m 处取 100 cm² 面积的平均读数，归一化到最大连续工作管电流与最大（或最大允许）管电压后，1 小时内不得超过 100 mR；该 100 cm² 区域的任一线度不得超过 20 cm。",
+          "quote": "The average reading over 100 square centimeters at 1 meter should not exceed 100 mR in one hour, normalized to the maximum current for continuous operation at the maximum (or the maximum allowable) tube potential. No linear dimension of the 100 square cm area should be greater than 20 cm",
+          "src": "EN-29",
+          "cat": "防护检测"
+        },
+        {
+          "k": "漏射辐射法规定限值",
+          "v": "按美国联邦法规，X 线源任一方向 1 m 处的漏射辐射不得超过 0.88 mGy/h，实测值还应符合制造商的推荐值。",
+          "quote": "As per CFR, the leakage radiation at 1 m in any direction from the x-ray source shall not exceed 0.88 mGy/h, and the measured value should be as per manufacturer recommendations.",
+          "src": "EN-30",
+          "cat": "防护检测"
+        },
+        {
+          "k": "漏射测量前封堵出射窗",
+          "v": "测漏射辐射时须在准直器出射窗上放置 3–4 mm 厚铅板，并把光束收束到尽可能小。",
+          "quote": "Place a 3–4 mm lead sheet on the exit window of the collimator and collimate the beam to the smallest possible size.",
+          "src": "EN-30",
+          "cat": "防护检测"
+        },
+        {
+          "k": "漏射测量测距要求",
+          "v": "剂量计须放在距 X 线管壳上标注的焦点 1 m 处进行漏射测量。",
+          "quote": "Place the dosimeter at 1 m from the focal spot location marked on the x-ray tube housing.",
+          "src": "EN-30",
+          "cat": "防护检测"
+        },
+        {
+          "k": "焦点定位带来的偏差",
+          "v": "由于 X 线管插入件与管壳内阳极的精确位置未知，用于判定漏射辐射是否合规的 1 m 距离测量可能存在偏差；超标时应请制造商介入维修。",
+          "quote": "The exact location of the focal spot and anode within the x-ray tube insert and housing is not known. So, the 1 m distance measurements to measure leakage radiation compliance may be different.",
+          "src": "EN-30",
+          "cat": "防护检测"
+        },
+        {
+          "k": "环境剂量低于探测限",
+          "v": "NICU 内布设的环境剂量计（OSL 面积剂量计，最低可探测水平 0.05 mSv）无一超限，即环境剂量当量低于 0.05 mSv；佩戴在防护眼镜上的眼晶状体 TLD 也均低于其 0.1 mSv 最低可探测水平。",
+          "quote": "None of the area dosimeters installed in the NICU registered doses that exceeded their minimum detectable level, meaning that the ambient dose equivalent remained below 0.05 mSv. The eye lens dosimeters worn by the staff showed a similar result, as none of the measured doses exceeded the minimum detectable level of 0.1 mSv.",
+          "src": "EN-38",
+          "cat": "防护检测"
+        },
+        {
+          "k": "巡测仪的普及困难",
+          "v": "研究指出：商用巡测仪虽便携、实用、便于定期校准而被广泛用于漏射监测与日常安全检查，但在科研、教学与资源受限场景中难以广泛部署——其成本高、可扩展性有限、自动数据记录能力受限，妨碍在同一时段多临床点位反复测量的应用。",
+          "quote": "Survey meters are widely used for leakage monitoring and routine safety checks because they are portable, practical, and suitable for periodic calibration.",
+          "src": "EN-39",
+          "cat": "防护检测"
+        },
+        {
+          "k": "低成本GM系统的定位",
+          "v": "结合 Arduino 平台与盖革-穆勒（GM）管的低成本开源辐射测量系统引起越来越多关注。",
+          "quote": "Low-cost, open-source radiation measurement systems combining Arduino-based platforms with Geiger–Müller (GM) tubes have therefore attracted increasing interest.",
+          "src": "EN-39",
+          "cat": "防护检测"
+        },
+        {
+          "k": "CT散射测量条件",
+          "v": "CT 散射测量使用 Aquilion Lightning 80 扫描仪（Canon Medical Systems），管电压 120 kV，管电流 15、20、25、30、35、40、45 mA。",
+          "quote": "CT scatter measurements were obtained using an Aquilion Lightning 80 scanner (Canon Medical Systems) operated at 120 kV and tube currents of 15, 20, 25, 30, 35, 40, and 45 mA.",
+          "src": "EN-39",
+          "cat": "防护检测"
+        },
+        {
+          "k": "测量距离与布点",
+          "v": "ABG 系统与参考巡测仪置于患者足端方向、距机架孔口 1 m 与 2 m 两处，两个探测器对准同一方向。",
+          "quote": "The ABG system and reference meter were positioned in the patient-feet direction at distances of 1 and 2 m from the bore entrance",
+          "src": "EN-39",
+          "cat": "防护检测"
+        },
+        {
+          "k": "校准因子取值",
+          "v": "初始 CT 散射比对采用通用校准因子 133 CPM/µSv/h，该值取自两米处的零截距校准估计，因该条件下更稳定、平均偏差接近零。",
+          "quote": "A common CF of 133 CPM per µSv/h was applied in the initial CT scatter comparison.",
+          "src": "EN-39",
+          "cat": "防护检测"
+        },
+        {
+          "k": "不同距离的平均偏差",
+          "v": "在 CT 散射比对中，ABG 系统相对校准巡测仪在 1 m 处平均偏差为 −13.21 µSv/h，在 2 m 处为 −0.66 µSv/h，2 m 处误差离散度更低。",
+          "quote": "Mean bias was −13.21 µSv/h at 1 m and −0.66 µSv/h at 2 m, with lower error dispersion at 2 m",
+          "src": "EN-39",
+          "cat": "防护检测"
+        },
+        {
+          "k": "高计数率与迷宫的局限",
+          "v": "研究结论指出：在所评估的临床辐射环境中，应用条件特异的校准因子后 ABG 系统的剂量率估计相对校准参考巡测仪的平均偏差较小，低到中等剂量率条件下尤为明显；但高计数率的 CT 测量出现系统性低响应，深迷宫（迷宫的远端）测量在偏差校正后精密度仍较低。",
+          "quote": "high-count-rate CT measurements showed systematic under-response, and deep-maze measurements showed lower precision despite bias correction.",
+          "src": "EN-39",
+          "cat": "防护检测"
+        },
+        {
+          "k": "不能替代法规级巡测仪",
+          "v": "研究建议：ABG 系统应作为漏射与散射监测、重复点位监测和辐射安全支持的补充工具进一步评估，而不是法规级巡测仪的替代品；可建立把预定校准因子对应到具体测量场景、并在预期高计数率时用标准巡测仪交叉验证的部署框架。",
+          "quote": "These findings support further evaluation of the ABG system as a supplementary tool for leakage and scatter surveillance, repeated point monitoring, and radiation-safety support under comparable conditions, rather than as a replacement for a regulatory-grade survey meter.",
+          "src": "EN-39",
+          "cat": "防护检测"
+        },
+        {
           "k": "机房外表面周围剂量当量率",
           "v": "常用工作条件下，距机房屏蔽体外表面0.3 m处的周围剂量当量率应不大于2.5 μSv/h。",
           "quote": "常用工作条件下，距机房屏蔽体外表面 0.3m 处的周围剂量当量率应不大于 2.5 μSv/h。",
@@ -12740,7 +13464,7 @@ window.KG_GRAPH = {
           "k": "机房墙面布点实测散射剂量",
           "v": "用 288 枚 OSLD 贴在临床 CT 检查室的墙面上、距地 1 m 高度处连续测一周以取得散射剂量；OSLD 含塑料、铝、铜三种滤过片和开放窗，既用于职业照射测量也用于环境剂量测量，能量依赖与线性度误差在 10% 以内。",
           "quote": "For one week in December 2013, 288 optically stimulated luminescence dosimeters (OSLDs) [13] (Nagase Landauer Co., Ltd., Ibaraki, Japan) were attached to the walls of clinical CT application rooms at a height of 1 m to measure the scattered doses. These dosimeters, often used for occupational exposure measurements and ambient dose measurements, comprise three filters such as plastic, aluminum, and copper and also have an open window. They can evaluate ambient doses using the absorption ratios of four elements and exhibit good accuracy for measurements of the energy dependency and linearity in a diagnostic field, with errors below 10%.",
-          "src": "XT-16",
+          "src": "EN-40",
           "cat": "防护检测"
         },
         {
@@ -12820,6 +13544,46 @@ window.KG_GRAPH = {
         },
         {
           "type": "推荐",
+          "author": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL",
+          "title": "AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment",
+          "journal": "AAPM Report No",
+          "year": 1988,
+          "cite": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL / AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment / AAPM Report No / 1988",
+          "grade": "推荐",
+          "ref": "EN-29"
+        },
+        {
+          "type": "推荐",
+          "author": "Gauntt DM, Ranger NT, Willis CE, et al",
+          "title": "Acceptance Testing and Quality Control of Digital Radiographic Imaging Systems: The Report of AAPM Task Group 150",
+          "journal": "AAPM Report No",
+          "year": 2024,
+          "cite": "Gauntt DM, Ranger NT, Willis CE, et al / Acceptance Testing and Quality Control of Digital Radiographic Imaging Systems: The Report of AAPM Task Group 150 / AAPM Report No / 2024",
+          "grade": "推荐",
+          "ref": "EN-30"
+        },
+        {
+          "type": "建议",
+          "author": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K",
+          "title": "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment",
+          "journal": "Br J Radiol",
+          "year": 2026,
+          "cite": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K / Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment / Br J Radiol / 2026",
+          "grade": "建议",
+          "ref": "EN-38"
+        },
+        {
+          "type": "建议",
+          "author": "Choi J, Rim CH, Kim H, Lee W",
+          "title": "Application of a low-cost Geiger-Müller monitoring system for clinical radiation environments",
+          "journal": "J Appl Clin Med Phys",
+          "year": 2026,
+          "cite": "Choi J, Rim CH, Kim H, Lee W / Application of a low-cost Geiger-Müller monitoring system for clinical radiation environments / J Appl Clin Med Phys / 2026",
+          "grade": "建议",
+          "ref": "EN-39"
+        },
+        {
+          "type": "推荐",
           "author": "中国卫生监督协会",
           "title": "《CT方舱放射防护要求》团体标准解读",
           "journal": "中国卫生监督协会",
@@ -12829,14 +13593,14 @@ window.KG_GRAPH = {
           "ref": "XT-08"
         },
         {
-          "type": "推荐",
-          "author": "Watanabe H, Noto K, Shohji T, Ogawa Y, Fujibuchi T, Yamaguchi I, Hiraki H, et al",
+          "type": "建议",
+          "author": "Watanabe JW, Causer DA, McCollough CH, Zink FE, Narita Y, Ishigaki H, Akiyama Y, Satou Y",
           "title": "A new shielding calculation method for X-ray computed tomography regarding scattered radiation",
           "journal": "Radiol Phys Technol",
           "year": 2017,
-          "cite": "Watanabe H, Noto K, Shohji T, Ogawa Y, Fujibuchi T, Yamaguchi I, Hiraki H, et al / A new shielding calculation method for X-ray computed tomography regarding scattered radiation / Radiol Phys Technol / 2017",
-          "grade": "推荐",
-          "ref": "XT-16"
+          "cite": "Watanabe JW, Causer DA, McCollough CH, Zink FE, Narita Y, Ishigaki H, Akiyama Y, Satou Y / A new shielding calculation method for X-ray computed tomography regarding scattered radiation / Radiol Phys Technol / 2017",
+          "grade": "建议",
+          "ref": "EN-40"
         },
         {
           "type": "推荐",
@@ -12889,10 +13653,66 @@ window.KG_GRAPH = {
       "attrs": [],
       "details": [
         {
+          "k": "TLD与OSLD的定位",
+          "v": "热释光剂量计（TLD）和光致发光剂量计（OSLD）是医学物理中点剂量测量实用、准确、精确的工具。",
+          "quote": "Thermoluminescent dosimeters (TLD) and optically stimulated luminescent dosimeters (OSLD) are practical, accurate, and precise tools for point dosimetry in medical physics applications.",
+          "src": "EN-33",
+          "cat": "个人防护"
+        },
+        {
+          "k": "TG191的委托范围",
+          "v": "TG 191 的任务是阐明临床环境下实用且最优的发光剂量测量方法学。",
+          "quote": "The charges of Task Group 191 were to detail the methodologies for practical and optimal luminescence dosimetry in a clinical setting.",
+          "src": "EN-33",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "材料特性与局限须评审",
+          "v": "任务之一是评审 TLD/OSLD 材料的种类及其各自特性与局限。",
+          "quote": "(1) to review the variety of TLD/OSLD materials available, including features and limitations of each;",
+          "src": "EN-33",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "不严谨流程带来不确定度",
+          "v": "任务之二为阐明用发光探测器获得准确精密剂量的最佳步骤，并评估流程不够严谨时所引入的不确定度。",
+          "quote": "(2) to outline the optimal steps to achieve accurate and precise dosimetry with luminescent detectors and to evaluate the uncertainty induced when less rigorous procedures are used;",
+          "src": "EN-33",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "发光剂量计使用共识",
+          "v": "任务之三是为临床实践中发光剂量计的最优使用制定共识指南；任务之四是针对混合光子/中子场剂量测量、粒子束剂量测量与皮肤剂量测量等特殊医学用途制定指南。",
+          "quote": "(3) to develop consensus guidelines on the optimal use of luminescent dosimeters for clinical practice; and (4) to develop guidelines for special medically relevant uses of TLDs/OSLDs such as mixed photon/neutron field dosimetry, particle beam dosimetry, and skin dosimetry.",
+          "src": "EN-33",
+          "cat": "个人防护"
+        },
+        {
+          "k": "具体剂量计型号细节",
+          "v": "报告对临床实践中最常用的 TLD-100 与 nanoDot 剂量计给出了具体细节。",
+          "quote": "the report provides specific details for TLD-100 and nanoDotTM dosimeters because of their prevalence in clinical practice.",
+          "src": "EN-33",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "OSL等被动剂量计未详述",
+          "v": "本报告的详细建议主要针对整体光子热释光剂量计（TLD）；基于胶片、OSL、玻璃、DIS®、径迹蚀刻等其他技术的被动剂量计、四肢剂量计以及中子/贝塔场剂量计未作详细阐述，主动个人剂量计则完全未涉及。",
+          "quote": "Specific aspects of the use of passive dosemeters based on other techniques (film, OSL, glass, DIS®, track etch), extremity dosemeters and dosemeters for measuring in neutron and beta fields were not addressed in detail, and active personal dosemeters were not addressed at all.",
+          "src": "EN-37",
+          "cat": "个人防护"
+        },
+        {
+          "k": "OSLD探测限与低估案例",
+          "v": "三个被低估方向（比值 0.6、0.8、0.9）的实测剂量分别为 0.88、1.51 和 10.56 mSv，而 OSLD 剂量计的测量探测限为 0.01 mSv，说明这些实测剂量足够可靠。",
+          "quote": "the measured doses of the three underestimated directions (0.6, 0.8, and 0.9) were 0.88, 1.51, and 10.56 mSv, respectively, and the detection limit of measurements with an OSLD dosimeter is 0.01 mSv.",
+          "src": "EN-40",
+          "cat": "防护检测"
+        },
+        {
           "k": "OSLD读数换算当量",
           "v": "OSLD 读数按日本工业标准换算为自由空气照射条件下的环境剂量当量 H*(10)，再用于机房屏蔽计算的剂量评价。",
           "quote": "Quixel badges were placed on a wall and the data from the read-out of the OSLDs were converted to the ambient dose equivalent for free-air exposure conditions, H*(10), according to the original standard defined by the Japanese Industrial Standards.",
-          "src": "XT-16",
+          "src": "EN-40",
           "cat": "剂量指标"
         },
         {
@@ -12906,13 +13726,33 @@ window.KG_GRAPH = {
       "evidence": [
         {
           "type": "推荐",
-          "author": "Watanabe H, Noto K, Shohji T, Ogawa Y, Fujibuchi T, Yamaguchi I, Hiraki H, et al",
+          "author": "Kry SF, Alvarez P, Cygler JE, DeWerd LA, Howell RM, Meeks S, O'Daniel J, Reft C, Sawakuchi G, Yukihara EG, Mihailidis D",
+          "title": "AAPM Task Group 191. AAPM TG 191 Clinical Use of Luminescent Dosimeters: TLDs and OSLDs",
+          "journal": "AAPM Report No. 191 (2019)",
+          "year": 2019,
+          "cite": "Kry SF, Alvarez P, Cygler JE, DeWerd LA, Howell RM, Meeks S, O'Daniel J, Reft C, Sawakuchi G, Yukihara EG, Mihailidis D / AAPM Task Group 191. AAPM TG 191 Clinical Use of Luminescent Dosimeters: TLDs and OSLDs / AAPM Report No. 191 (2019) / 2019",
+          "grade": "推荐",
+          "ref": "EN-33"
+        },
+        {
+          "type": "推荐",
+          "author": "European Commission",
+          "title": "Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation",
+          "journal": "Radiation Protection No",
+          "year": 2007,
+          "cite": "European Commission / Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation / Radiation Protection No / 2007",
+          "grade": "推荐",
+          "ref": "EN-37"
+        },
+        {
+          "type": "建议",
+          "author": "Watanabe JW, Causer DA, McCollough CH, Zink FE, Narita Y, Ishigaki H, Akiyama Y, Satou Y",
           "title": "A new shielding calculation method for X-ray computed tomography regarding scattered radiation",
           "journal": "Radiol Phys Technol",
           "year": 2017,
-          "cite": "Watanabe H, Noto K, Shohji T, Ogawa Y, Fujibuchi T, Yamaguchi I, Hiraki H, et al / A new shielding calculation method for X-ray computed tomography regarding scattered radiation / Radiol Phys Technol / 2017",
-          "grade": "推荐",
-          "ref": "XT-16"
+          "cite": "Watanabe JW, Causer DA, McCollough CH, Zink FE, Narita Y, Ishigaki H, Akiyama Y, Satou Y / A new shielding calculation method for X-ray computed tomography regarding scattered radiation / Radiol Phys Technol / 2017",
+          "grade": "建议",
+          "ref": "EN-40"
         },
         {
           "type": "推荐",
@@ -12950,6 +13790,34 @@ window.KG_GRAPH = {
           "v": "医疗机构应确定各类放射诊疗岗位的个人剂量管理限值和管理目标值，避免额外的职业照射。",
           "quote": "确定各类放射诊疗岗位的个人剂量管理限值和管理目标值，避免额外的职业照射。",
           "src": "CN-24",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "个人剂量调查水平",
+          "v": "报告给出的调查水平示例：佩戴在铅围裙内的剂量计月读数高于约 0.5 mSv 应予调查；围裙外剂量计或手部/手指剂量计月读数高于约 5 mSv 应调查并作最优化。",
+          "quote": "monthly values higher than, say, 0.5 mSv (for the dosimeter worn under the lead apron) should be investigated. Values higher than, say, 5 mSv per month from the over-apron dosimeter or in hand or finger dosimeters should also be investigated with a view to optimization.",
+          "src": "EN-36",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "单次检查个人剂量极低",
+          "v": "使用主动个人剂量计测量，单次检查的平均个人剂量为：操作放射技师 0.07 ± 0.03 µSv、主诊临床医师 0.03 ± 0.02 µSv；最大记录值约 1 µSv，出现在唯一一次未使用集成屏蔽时。",
+          "quote": "The measurements show an average staff dose per examination of 0.07 ± 0.03 µSv for the radiology nurse operating the scanner and 0.03 ± 0.02 µSv for the primary clinician attending the examination. The maximum recorded dose of approximately 1 µSv occurred on the only occasion when the integrated radiation shielding was not employed by the staff.",
+          "src": "EN-38",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "远低于职业与公众限值",
+          "v": "研究结果表明，工作人员所受剂量远低于 20 mSv 有效剂量的职业照射限值和 1 mSv 有效剂量的公众照射限值。",
+          "quote": "The findings indicate that staff doses can be kept well below both the occupational exposure limit of 20 mSv effective dose and the public exposure limit of 1 mSv effective dose.",
+          "src": "EN-38",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "累积剂量估算阈值",
+          "v": "按本研究测量结果，临床人员须参与超过 1000 例移动头部 CT 检查，累计有效剂量才达到 0.1 mSv；若不使用集成屏蔽，约 100 例检查即达到该阈值。",
+          "quote": "Indeed, based on the measurements in this study, the clinical staff would have to be involved in more than 1000 mobile head CT examinations to reach a cumulative effective dose of only 0.1 mSv. Without the use of the integrated radiation shielding, this threshold would be reached after approximately 100 examinations.",
+          "src": "EN-38",
           "cat": "剂量指标"
         },
         {
@@ -12994,6 +13862,26 @@ window.KG_GRAPH = {
         },
         {
           "type": "推荐",
+          "author": "International Atomic Energy Agency",
+          "title": "Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays",
+          "journal": "IAEA Safety Reports Series No",
+          "year": 2006,
+          "cite": "International Atomic Energy Agency / Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays / IAEA Safety Reports Series No / 2006",
+          "grade": "推荐",
+          "ref": "EN-36"
+        },
+        {
+          "type": "建议",
+          "author": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K",
+          "title": "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment",
+          "journal": "Br J Radiol",
+          "year": 2026,
+          "cite": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K / Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment / Br J Radiol / 2026",
+          "grade": "建议",
+          "ref": "EN-38"
+        },
+        {
+          "type": "推荐",
           "author": "Axakali TM, Kouri MA, Georgakis P, Bournaki E, Tanou V, Kounadi E, et al",
           "title": "Real-time occupational radiation dosimetry in anesthesiology personnel during fluoroscopy-guided interventions: a single-center descriptive and exploratory study",
           "journal": "Front Public Health",
@@ -13033,6 +13921,13 @@ window.KG_GRAPH = {
       "attrs": [],
       "details": [
         {
+          "k": "非均匀场需加戴剂量计",
+          "v": "在高度非均匀的辐射场中，应加戴身体和四肢剂量计（例如戴在手指、脚踝、膝盖或头部）。",
+          "quote": "In highly non-uniform radiation fields, additional body and extremity dosemeters should be worn (for example, on the fingers, ankles, knees or head).",
+          "src": "EN-37",
+          "cat": "个人防护"
+        },
+        {
           "k": "主动式个人剂量计量程",
           "v": "ALMAR 主动式个人剂量计在 X/γ 配置下剂量量程 0.65 µSv–10 Sv、剂量率量程 1 µSv/h–10 Sv/h，重 25 g，电池寿命约 14 天。",
           "quote": "For the X-ray/gamma configuration used in the present study, the manufacturer reports a dose measurement range of 0.65 μSv—10 Sv and a dose-rate measurement range of 1 μSv/h—10 Sv/h. The device weights 25 g and has a battery life of approximately 14 days.",
@@ -13062,6 +13957,16 @@ window.KG_GRAPH = {
         }
       ],
       "evidence": [
+        {
+          "type": "推荐",
+          "author": "European Commission",
+          "title": "Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation",
+          "journal": "Radiation Protection No",
+          "year": 2007,
+          "cite": "European Commission / Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation / Radiation Protection No / 2007",
+          "grade": "推荐",
+          "ref": "EN-37"
+        },
         {
           "type": "推荐",
           "author": "Axakali TM, Kouri MA, Georgakis P, Bournaki E, Tanou V, Kounadi E, et al",
@@ -13314,6 +14219,55 @@ window.KG_GRAPH = {
           "cat": "防护检测"
         },
         {
+          "k": "技师质控项目依据",
+          "v": "放射技师的常规质控项目至少应以制造商的推荐为基础。",
+          "quote": "The technologist's QC program should at minimum be based on the manufacturer's recommendations.",
+          "src": "EN-30",
+          "cat": "质量保证"
+        },
+        {
+          "k": "质控方案参考TG-151",
+          "v": "AAPM 建议医学物理师参考 TG-151，以获得实施常规数字放射摄影质控方案的进一步指导。",
+          "quote": "Medical physicists are urged to consult TG-151 for additional guidance on implementing a routine digital radiography QA program.",
+          "src": "EN-30",
+          "cat": "质量保证"
+        },
+        {
+          "k": "CT性能评价需更新方法",
+          "v": "报告指出：CT 技术快速发展与应用增加，需要以辐射剂量和对比剂剂量为前提做基于证据的图像质量优化，因此 CT 系统性能评价方法需要更新。",
+          "quote": "The rapid development and complexity of new x-ray computed tomography (CT) technologies, the increased utilization of CT, and the need for evidence-based optimization of image quality with respect to radiation and contrast media dose call for an updated approach to evaluating the performance of CT systems.",
+          "src": "EN-31",
+          "cat": "质量保证"
+        },
+        {
+          "k": "辐射输出性能测试项",
+          "v": "半值层测试用于测量 CT 系统 X 射线源的半值层，并确认其在法规限值之内。",
+          "quote": "Half-value layer: To measure the half-value layer of the CT system's x-ray source and ensure that it is within regulatory limits",
+          "src": "EN-31",
+          "cat": "设备防护性能"
+        },
+        {
+          "k": "厂家质控不可替代",
+          "v": "制造商的质控方案是 CT 性能的重要组成部分，按 IEC 要求针对各机型软硬件设计；未按厂家推荐的质控流程、程序和频次维护系统，可能导致保修失效并违反采购或维保协议，替代性测试只能补充、不能取代厂家的质控。",
+          "quote": "In addition, failure to maintain the system using the QC protocols, procedures, and frequencies recommended by the manufacturer may result in voiding of warranties and may be in violation of a site's purchase or service agreement. Alternative testing should be used in addition to, not in place of, manufacturer-provided QC.",
+          "src": "EN-31",
+          "cat": "质量保证"
+        },
+        {
+          "k": "物理师自定评价组合",
+          "v": "对某一台 CT，究竟用哪一项性能测试方法评价哪一项性能指标，由物理师自行决定；本报告只对其他资料已定义的测试方法作摘要。",
+          "quote": "As far as this report is concerned, for a given CT system, exactly what attribute of the CT performance should be characterized with what testing method is up to the discretion of the physicist. In this section, the aim of this report is only to provide a summary of existing tests defined by other resources.",
+          "src": "EN-31",
+          "cat": "质量保证"
+        },
+        {
+          "k": "维护纳入质控方案",
+          "v": "所有维护程序都应纳入质控方案，执行频次由设备制造商和相关专业学会推荐。",
+          "quote": "All maintenance procedures should be included in the QA programme at a frequency recommended by the manufacturer of the equipment and the relevant professional body.",
+          "src": "EN-36",
+          "cat": "管理要求"
+        },
+        {
           "k": "方舱CT质控检测要求",
           "v": "方舱CT的质量控制检测参照WS 519所设置的检测指标和方法进行，头颅等部位专用CT的加权CT剂量指数（CTDIW）检测可不要求。",
           "quote": "质量控制检测参照WS 519所设置的检测指标和方法进行，头颅等部位专用CT的加权CT剂量指数（CTDIW）检测可不要求。",
@@ -13414,6 +14368,36 @@ window.KG_GRAPH = {
         },
         {
           "type": "推荐",
+          "author": "Gauntt DM, Ranger NT, Willis CE, et al",
+          "title": "Acceptance Testing and Quality Control of Digital Radiographic Imaging Systems: The Report of AAPM Task Group 150",
+          "journal": "AAPM Report No",
+          "year": 2024,
+          "cite": "Gauntt DM, Ranger NT, Willis CE, et al / Acceptance Testing and Quality Control of Digital Radiographic Imaging Systems: The Report of AAPM Task Group 150 / AAPM Report No / 2024",
+          "grade": "推荐",
+          "ref": "EN-30"
+        },
+        {
+          "type": "推荐",
+          "author": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J",
+          "title": "Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233",
+          "journal": "AAPM Report No",
+          "year": 2019,
+          "cite": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J / Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233 / AAPM Report No / 2019",
+          "grade": "推荐",
+          "ref": "EN-31"
+        },
+        {
+          "type": "推荐",
+          "author": "International Atomic Energy Agency",
+          "title": "Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays",
+          "journal": "IAEA Safety Reports Series No",
+          "year": 2006,
+          "cite": "International Atomic Energy Agency / Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays / IAEA Safety Reports Series No / 2006",
+          "grade": "推荐",
+          "ref": "EN-36"
+        },
+        {
+          "type": "推荐",
           "author": "中国卫生监督协会",
           "title": "《CT方舱放射防护要求》团体标准解读",
           "journal": "中国卫生监督协会",
@@ -13479,6 +14463,55 @@ window.KG_GRAPH = {
           "quote": "5.1.2.4.2\n设备安全专用要求应符合：\na)\n诊疗床头施加50 kg负载，断电后诊疗床头沉降应小于5 mm；\nb)\n辐射输出的预备状态和加载状态指示灯显示不同颜色，按下停止辐射按键可中断辐射输出，连\n锁装置可中断辐射输出。",
           "src": "CN-18",
           "cat": "设备防护性能"
+        },
+        {
+          "k": "标准适用对象",
+          "v": "IEC 60601-2-44:2009 适用于 CT 扫描仪的基本安全和基本性能。",
+          "quote": "IEC 60601-2-44:2009 applies to the basic safety and essential performance of CT scanners.",
+          "src": "EN-35",
+          "cat": "设备防护性能"
+        },
+        {
+          "k": "适用设备范围界定",
+          "v": "适用范围限于同时可用于头部和身体的 CT 扫描仪，其特征是 X 射线源与成像探测器位于同一环形（toroid）公共防护罩内。",
+          "quote": "The scope of IEC 60601-2-44:2009 is limited to CT scanners intended to be used for both head and body characterised by an enclosure of the X-ray source(s) and imaging detector(s) in a common protective cover in the shape of a toroid.",
+          "src": "EN-35",
+          "cat": "设备防护性能"
+        },
+        {
+          "k": "涵盖X线发生装置要求",
+          "v": "标准包含 CT 扫描仪所用 X 射线发生器的安全要求，包括高压发生器与 X 射线管组件一体化的情况。",
+          "quote": "It includes safety requirements for the X-ray generators used in CT scanners, including those where high-voltage generators are integrated with an X-ray tube assembly.",
+          "src": "EN-35",
+          "cat": "设备防护性能"
+        },
+        {
+          "k": "第三版修订重点",
+          "v": "第三版取消并替代 2001 年发布的第二版及其 2002 年第 1 号修改单；本次修订主要针对辐射防护与辐射控制。",
+          "quote": "This third edition cancels and replaces the second edition published in 2001 and its Amendment 1 (2002). This edition constitutes a technical revision primarily related to radiation protection and control.",
+          "src": "EN-35",
+          "cat": "设备防护性能"
+        },
+        {
+          "k": "2010年勘误已并入",
+          "v": "该版已并入 2010 年五月发布的勘误内容。",
+          "quote": "The contents of the corrigendum of May 2010 have been included in this copy.",
+          "src": "EN-35",
+          "cat": "管理要求"
+        },
+        {
+          "k": "版本与稳定日期",
+          "v": "该版为 3.0 版，发布日期 2009-02-25，ICS 11.040.50，稳定日期 2026，ISBN 9782889102242，共 90 页。",
+          "quote": "Publication date 2009-02-25 Edition 3.0 ICS 11.040.50 Stability date 2026 ISBN number 9782889102242 Pages 90",
+          "src": "EN-35",
+          "cat": "管理要求"
+        },
+        {
+          "k": "归口技术委员会",
+          "v": "该标准由 IEC TC 62/SC 62B（医学成像设备、软件与系统）归口制定。",
+          "quote": "Technical committee TC 62/SC 62B Medical imaging equipment, software, and systems",
+          "src": "EN-35",
+          "cat": "管理要求"
         }
       ],
       "evidence": [
@@ -13501,6 +14534,16 @@ window.KG_GRAPH = {
           "cite": "国家卫生健康委员会 / WS/T 837—2024《正电子发射及X射线计算机断层成像（PET/CT）系统性能保障技术指南》 / 中华人民共和国卫生行业标准（推荐性） / 2024",
           "grade": "指南与共识",
           "ref": "CN-18"
+        },
+        {
+          "type": "标准",
+          "author": "International Electrotechnical Commission",
+          "title": "Medical electrical equipment - Part 2-44: Particular requirements for the basic safety and essential performance of X-ray equipment for computed tomography",
+          "journal": "IEC 60601-2-44:2009",
+          "year": 2009,
+          "cite": "International Electrotechnical Commission / Medical electrical equipment - Part 2-44: Particular requirements for the basic safety and essential performance of X-ray equipment for computed tomography / IEC 60601-2-44:2009 / 2009",
+          "grade": "标准",
+          "ref": "EN-35"
         }
       ]
     },
@@ -14373,6 +15416,48 @@ window.KG_GRAPH = {
           "cat": "管理要求"
         },
         {
+          "k": "Hp(10)对应有效剂量",
+          "v": "在欧盟基本安全标准（BSS）框架下，Hp(10) 这一操作量用于评估有效剂量。",
+          "quote": "The operational quantity Hp(10) is used for the assessment of effective dose;",
+          "src": "EN-37",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "Hp(0.07)皮肤剂量",
+          "v": "对光子与电子，Hp(0.07) 操作量用于评估局部皮肤当量剂量（以 1 cm² 面积上皮肤当量剂量最大值计）。",
+          "quote": "The operational quantity Hp(0.07) for photons and electrons is used for the assessment of equivalent dose to local skin (maximum value of equivalent doses to the skin, averaged over 1 cm2).",
+          "src": "EN-37",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "四肢剂量评估量",
+          "v": "四肢当量剂量取四肢局部皮肤当量剂量之和；对光子和电子通常用 Hp(0.07) 评估，对中子用 Hp(10)。",
+          "quote": "The equivalent dose to the extremities should be taken as equal to the equivalent dose to local skin on the extremities summed for all components and should normally be assessed in terms of the operational quantity Hp(0.07) for photons and electrons, and Hp(10) for neutrons.",
+          "src": "EN-37",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "穿防护用品时的监测要求",
+          "v": "EC 技术建议要求：按 ICRP 推荐用工作场所监测信息由实测 Hp(10) 更好估计有效剂量；穿戴防护用品时同时使用四肢剂量计与全身剂量计；并评估眼晶状体剂量。",
+          "quote": "(i) monitoring procedures in line with the recommendations of ICRP, on the use of workplace monitoring information in order to better estimate E from the measured Hp(10) value; (ii) the use of extremity dosemeters and whole body dosemeters when protective equipment is worn; (iii) assessment of dose to the lens of the eye.",
+          "src": "EN-37",
+          "cat": "个人防护"
+        },
+        {
+          "k": "剂量计须覆盖事故剂量",
+          "v": "为避免另用专门的事故剂量计，常规个人剂量计应能给出光子与电子吸收剂量信息直至数 Gy；但胶片剂量计在部分能量下无法达到这一要求。",
+          "quote": "In order to avoid the use of a special additional accident dosemeter, the routine personal dosemeter should be capable of providing information on absorbed doses from photons and electrons up to several Gy. However, it is recognized that certain dosemeters, such as film dosemeters, may not be capable of achieving this at all energies.",
+          "src": "EN-37",
+          "cat": "个人防护"
+        },
+        {
+          "k": "监测周期的推荐取值",
+          "v": "除暴露极不均匀的情形外，一周至一个月的监测周期通常较方便；除暴露很低或很均匀外，超过 1 个月的发放周期一般不宜采用，因为间隔越久越难确定受照原因。",
+          "quote": "Except in situations where people are being exposed at a very non-uniform rate, a monitoring period of between a week and a month is likely to be convenient. Unless exposures are particularly low or uniform, an issue period of more than 1 month is generally undesirable, since the longer the time which has elapsed, the more difficult it becomes to establish the reason for the exposure.",
+          "src": "EN-37",
+          "cat": "剂量指标"
+        },
+        {
           "k": "放射工作人员个人剂量监测",
           "v": "放射工作人员应按要求完成放射防护安全知识和法规培训、个人职业健康检查和个人剂量监测。",
           "quote": "影像检查操作人员：放射工作人员应按要求完成放射防护安全知识和法规培训、个人职业健康检查和个人剂量监测。",
@@ -14438,6 +15523,16 @@ window.KG_GRAPH = {
           "cite": "江苏省市场监督管理局 / DB32/T 3907—2020《放射诊疗工作场所外照射在线监测系统设置规范》 / 江苏省地方标准 / 2020",
           "grade": "推荐",
           "ref": "CN-32"
+        },
+        {
+          "type": "推荐",
+          "author": "European Commission",
+          "title": "Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation",
+          "journal": "Radiation Protection No",
+          "year": 2007,
+          "cite": "European Commission / Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation / Radiation Protection No / 2007",
+          "grade": "推荐",
+          "ref": "EN-37"
         },
         {
           "type": "推荐",
@@ -14718,6 +15813,13 @@ window.KG_GRAPH = {
           "quote": "——增加了透视防护区检测平面上周围剂量当量率检测（见4.7和附录I）；",
           "src": "CN-25",
           "cat": "防护检测"
+        },
+        {
+          "k": "体外剂量实测定安全距离",
+          "v": "基于辐射防护安全考虑，应在方舱 CT 外设置路障以维持足够的安全距离；方舱 CT 工作时可用手持仪器测量其外部辐射剂量，以确定符合安装所在国家或地区法规要求的安全距离。",
+          "quote": "Based on radiation protection safety considerations, roadblocks should be set up outside the container CT to maintain a sufficiently safe distance. When the container CT is working, we can measure the radiation dose outside the container CT with a handheld instrument to determine a safe distance to comply with the laws of the country or region where the container CT is installed.",
+          "src": "EN-42",
+          "cat": "防护检测"
         }
       ],
       "evidence": [
@@ -14760,6 +15862,16 @@ window.KG_GRAPH = {
           "cite": "国家卫生健康委员会 / WS 76—2020《医用X射线诊断设备质量控制检测规范》 / 中华人民共和国卫生行业标准（强制性） / 2020",
           "grade": "标准",
           "ref": "CN-25"
+        },
+        {
+          "type": "建议",
+          "author": "Huang Z, Zhao S, Leng Q, Hu S, Li Z, Song B",
+          "title": "Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic",
+          "journal": "Diagn Interv Radiol",
+          "year": 2021,
+          "cite": "Huang Z, Zhao S, Leng Q, Hu S, Li Z, Song B / Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic / Diagn Interv Radiol / 2021",
+          "grade": "建议",
+          "ref": "EN-42"
         }
       ]
     },
@@ -18903,6 +20015,13 @@ window.KG_GRAPH = {
           "quote": "应穿着正面不少于0.25 mmPb 的铅衣。",
           "src": "CN-31",
           "cat": "个人防护"
+        },
+        {
+          "k": "铅衣铅手套最小铅当量",
+          "v": "铅衣或铅当量防护衣与手套的铅当量应不低于 0.25 mmPb，并应随时备于检查室，供职业受照人员或患儿家长在曝光期间使用。",
+          "quote": "Lead or Lead equivalent protective aprons and gloves of at least 0.25 mm Pb (Reference 12) should be readily available for the protection of occupationally exposed personnel or parents of children in the procedure room during exposures.",
+          "src": "EN-29",
+          "cat": "个人防护"
         }
       ],
       "evidence": [
@@ -18925,6 +20044,16 @@ window.KG_GRAPH = {
           "cite": "贵州省市场监督管理局 / DB52/T 1781—2024《介入诊疗医务人员辐射防护规范》 / 贵州省地方标准 / 2024",
           "grade": "推荐",
           "ref": "CN-31"
+        },
+        {
+          "type": "推荐",
+          "author": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL",
+          "title": "AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment",
+          "journal": "AAPM Report No",
+          "year": 1988,
+          "cite": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL / AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment / AAPM Report No / 1988",
+          "grade": "推荐",
+          "ref": "EN-29"
         }
       ]
     },
@@ -22828,6 +23957,622 @@ window.KG_GRAPH = {
       ]
     },
     {
+      "id": "EN-29",
+      "graph": "radiation",
+      "type": "Reference",
+      "name": "AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment",
+      "tags": [
+        "文献",
+        "推荐"
+      ],
+      "aliases": [
+        "AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment"
+      ],
+      "summary": "",
+      "attrs": [
+        {
+          "k": "文献类型",
+          "v": "推荐"
+        },
+        {
+          "k": "年份",
+          "v": "1988"
+        },
+        {
+          "k": "核验标识",
+          "v": ""
+        },
+        {
+          "k": "证据等级",
+          "v": "推荐"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL",
+          "title": "AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment",
+          "journal": "AAPM Report No",
+          "year": 1988,
+          "cite": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL / AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment / AAPM Report No / 1988",
+          "grade": "推荐",
+          "ref": "EN-29"
+        }
+      ]
+    },
+    {
+      "id": "EN-30",
+      "graph": "radiation",
+      "type": "Reference",
+      "name": "Acceptance Testing and Quality Control of Digital Radiographic Imaging Systems: The Report of AAPM Task Group 150",
+      "tags": [
+        "文献",
+        "推荐"
+      ],
+      "aliases": [
+        "Acceptance Testing and Quality Control of Digital Radiographic Imaging Systems: The Report of AAPM Task Group 150"
+      ],
+      "summary": "",
+      "attrs": [
+        {
+          "k": "文献类型",
+          "v": "推荐"
+        },
+        {
+          "k": "年份",
+          "v": "2024"
+        },
+        {
+          "k": "核验标识",
+          "v": ""
+        },
+        {
+          "k": "证据等级",
+          "v": "推荐"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "Gauntt DM, Ranger NT, Willis CE, et al",
+          "title": "Acceptance Testing and Quality Control of Digital Radiographic Imaging Systems: The Report of AAPM Task Group 150",
+          "journal": "AAPM Report No",
+          "year": 2024,
+          "cite": "Gauntt DM, Ranger NT, Willis CE, et al / Acceptance Testing and Quality Control of Digital Radiographic Imaging Systems: The Report of AAPM Task Group 150 / AAPM Report No / 2024",
+          "grade": "推荐",
+          "ref": "EN-30"
+        }
+      ]
+    },
+    {
+      "id": "EN-31",
+      "graph": "radiation",
+      "type": "Reference",
+      "name": "Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233",
+      "tags": [
+        "文献",
+        "推荐"
+      ],
+      "aliases": [
+        "Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233"
+      ],
+      "summary": "",
+      "attrs": [
+        {
+          "k": "文献类型",
+          "v": "推荐"
+        },
+        {
+          "k": "年份",
+          "v": "2019"
+        },
+        {
+          "k": "核验标识",
+          "v": ""
+        },
+        {
+          "k": "证据等级",
+          "v": "推荐"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J",
+          "title": "Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233",
+          "journal": "AAPM Report No",
+          "year": 2019,
+          "cite": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J / Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233 / AAPM Report No / 2019",
+          "grade": "推荐",
+          "ref": "EN-31"
+        }
+      ]
+    },
+    {
+      "id": "EN-32",
+      "graph": "radiation",
+      "type": "Reference",
+      "name": "AAPM Nuclear Medicine Subcommittee Task Group 108. AAPM Task Group 108: PET and PET/CT Shielding Requirements",
+      "tags": [
+        "文献",
+        "推荐"
+      ],
+      "aliases": [
+        "AAPM Nuclear Medicine Subcommittee Task Group 108. AAPM Task Group 108: PET and PET/CT Shielding Requirements"
+      ],
+      "summary": "",
+      "attrs": [
+        {
+          "k": "文献类型",
+          "v": "推荐"
+        },
+        {
+          "k": "年份",
+          "v": "2006"
+        },
+        {
+          "k": "核验标识",
+          "v": "10.1118/1.2135911（PMID · PMID 16485403"
+        },
+        {
+          "k": "证据等级",
+          "v": "推荐"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "Madsen MT, Anderson JA, Halama JR, Kleck J, Simpkin DJ, Votaw JR, Wendt RE III, Williams LE, Yester MV",
+          "title": "AAPM Nuclear Medicine Subcommittee Task Group 108. AAPM Task Group 108: PET and PET/CT Shielding Requirements",
+          "journal": "AAPM Report No",
+          "year": 2006,
+          "cite": "Madsen MT, Anderson JA, Halama JR, Kleck J, Simpkin DJ, Votaw JR, Wendt RE III, Williams LE, Yester MV / AAPM Nuclear Medicine Subcommittee Task Group 108. AAPM Task Group 108: PET and PET/CT Shielding Requirements / AAPM Report No / 2006",
+          "grade": "推荐",
+          "ref": "EN-32"
+        }
+      ]
+    },
+    {
+      "id": "EN-33",
+      "graph": "radiation",
+      "type": "Reference",
+      "name": "AAPM Task Group 191. AAPM TG 191 Clinical Use of Luminescent Dosimeters: TLDs and OSLDs",
+      "tags": [
+        "文献",
+        "推荐"
+      ],
+      "aliases": [
+        "AAPM Task Group 191. AAPM TG 191 Clinical Use of Luminescent Dosimeters: TLDs and OSLDs"
+      ],
+      "summary": "",
+      "attrs": [
+        {
+          "k": "文献类型",
+          "v": "推荐"
+        },
+        {
+          "k": "年份",
+          "v": "2019"
+        },
+        {
+          "k": "核验标识",
+          "v": "10.1002/mp.13839（PMID · PMID 31574174"
+        },
+        {
+          "k": "证据等级",
+          "v": "推荐"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "Kry SF, Alvarez P, Cygler JE, DeWerd LA, Howell RM, Meeks S, O'Daniel J, Reft C, Sawakuchi G, Yukihara EG, Mihailidis D",
+          "title": "AAPM Task Group 191. AAPM TG 191 Clinical Use of Luminescent Dosimeters: TLDs and OSLDs",
+          "journal": "AAPM Report No. 191 (2019)",
+          "year": 2019,
+          "cite": "Kry SF, Alvarez P, Cygler JE, DeWerd LA, Howell RM, Meeks S, O'Daniel J, Reft C, Sawakuchi G, Yukihara EG, Mihailidis D / AAPM Task Group 191. AAPM TG 191 Clinical Use of Luminescent Dosimeters: TLDs and OSLDs / AAPM Report No. 191 (2019) / 2019",
+          "grade": "推荐",
+          "ref": "EN-33"
+        }
+      ]
+    },
+    {
+      "id": "EN-34",
+      "graph": "radiation",
+      "type": "Reference",
+      "name": "Structural Shielding Design for Medical X-Ray Imaging Facilities",
+      "tags": [
+        "文献",
+        "推荐"
+      ],
+      "aliases": [
+        "Structural Shielding Design for Medical X-Ray Imaging Facilities"
+      ],
+      "summary": "",
+      "attrs": [
+        {
+          "k": "文献类型",
+          "v": "推荐"
+        },
+        {
+          "k": "年份",
+          "v": "2004"
+        },
+        {
+          "k": "核验标识",
+          "v": ""
+        },
+        {
+          "k": "证据等级",
+          "v": "推荐"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "National Council on Radiation Protection and Measurements",
+          "title": "Structural Shielding Design for Medical X-Ray Imaging Facilities",
+          "journal": "NCRP Report No",
+          "year": 2004,
+          "cite": "National Council on Radiation Protection and Measurements / Structural Shielding Design for Medical X-Ray Imaging Facilities / NCRP Report No / 2004",
+          "grade": "推荐",
+          "ref": "EN-34"
+        }
+      ]
+    },
+    {
+      "id": "EN-35",
+      "graph": "radiation",
+      "type": "Reference",
+      "name": "Medical electrical equipment - Part 2-44: Particular requirements for the basic safety and essential performance of X-ray equipment for computed tomography",
+      "tags": [
+        "文献",
+        "标准"
+      ],
+      "aliases": [
+        "Medical electrical equipment - Part 2-44: Particular requirements for the basic safety and essential performance of X-ray equipment for computed tomography"
+      ],
+      "summary": "",
+      "attrs": [
+        {
+          "k": "文献类型",
+          "v": "标准"
+        },
+        {
+          "k": "年份",
+          "v": "2009"
+        },
+        {
+          "k": "核验标识",
+          "v": ""
+        },
+        {
+          "k": "证据等级",
+          "v": "标准"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "标准",
+          "author": "International Electrotechnical Commission",
+          "title": "Medical electrical equipment - Part 2-44: Particular requirements for the basic safety and essential performance of X-ray equipment for computed tomography",
+          "journal": "IEC 60601-2-44:2009",
+          "year": 2009,
+          "cite": "International Electrotechnical Commission / Medical electrical equipment - Part 2-44: Particular requirements for the basic safety and essential performance of X-ray equipment for computed tomography / IEC 60601-2-44:2009 / 2009",
+          "grade": "标准",
+          "ref": "EN-35"
+        }
+      ]
+    },
+    {
+      "id": "EN-36",
+      "graph": "radiation",
+      "type": "Reference",
+      "name": "Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays",
+      "tags": [
+        "文献",
+        "推荐"
+      ],
+      "aliases": [
+        "Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays"
+      ],
+      "summary": "",
+      "attrs": [
+        {
+          "k": "文献类型",
+          "v": "推荐"
+        },
+        {
+          "k": "年份",
+          "v": "2006"
+        },
+        {
+          "k": "核验标识",
+          "v": ""
+        },
+        {
+          "k": "证据等级",
+          "v": "推荐"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "International Atomic Energy Agency",
+          "title": "Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays",
+          "journal": "IAEA Safety Reports Series No",
+          "year": 2006,
+          "cite": "International Atomic Energy Agency / Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays / IAEA Safety Reports Series No / 2006",
+          "grade": "推荐",
+          "ref": "EN-36"
+        }
+      ]
+    },
+    {
+      "id": "EN-37",
+      "graph": "radiation",
+      "type": "Reference",
+      "name": "Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation",
+      "tags": [
+        "文献",
+        "推荐"
+      ],
+      "aliases": [
+        "Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation"
+      ],
+      "summary": "",
+      "attrs": [
+        {
+          "k": "文献类型",
+          "v": "推荐"
+        },
+        {
+          "k": "年份",
+          "v": "2007"
+        },
+        {
+          "k": "核验标识",
+          "v": "10.2768/19817"
+        },
+        {
+          "k": "证据等级",
+          "v": "推荐"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "European Commission",
+          "title": "Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation",
+          "journal": "Radiation Protection No",
+          "year": 2007,
+          "cite": "European Commission / Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation / Radiation Protection No / 2007",
+          "grade": "推荐",
+          "ref": "EN-37"
+        }
+      ]
+    },
+    {
+      "id": "EN-38",
+      "graph": "radiation",
+      "type": "Reference",
+      "name": "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment",
+      "tags": [
+        "文献",
+        "建议"
+      ],
+      "aliases": [
+        "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment"
+      ],
+      "summary": "",
+      "attrs": [
+        {
+          "k": "文献类型",
+          "v": "建议"
+        },
+        {
+          "k": "年份",
+          "v": "2026"
+        },
+        {
+          "k": "核验标识",
+          "v": "10.1093/bjr/tqag079（PMID · PMID 41968788"
+        },
+        {
+          "k": "证据等级",
+          "v": "建议"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "建议",
+          "author": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K",
+          "title": "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment",
+          "journal": "Br J Radiol",
+          "year": 2026,
+          "cite": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K / Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment / Br J Radiol / 2026",
+          "grade": "建议",
+          "ref": "EN-38"
+        }
+      ]
+    },
+    {
+      "id": "EN-39",
+      "graph": "radiation",
+      "type": "Reference",
+      "name": "Application of a low-cost Geiger-Müller monitoring system for clinical radiation environments",
+      "tags": [
+        "文献",
+        "建议"
+      ],
+      "aliases": [
+        "Application of a low-cost Geiger-Müller monitoring system for clinical radiation environments"
+      ],
+      "summary": "",
+      "attrs": [
+        {
+          "k": "文献类型",
+          "v": "建议"
+        },
+        {
+          "k": "年份",
+          "v": "2026"
+        },
+        {
+          "k": "核验标识",
+          "v": "10.1002/acm2.70744（PMID · PMID 42596075"
+        },
+        {
+          "k": "证据等级",
+          "v": "建议"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "建议",
+          "author": "Choi J, Rim CH, Kim H, Lee W",
+          "title": "Application of a low-cost Geiger-Müller monitoring system for clinical radiation environments",
+          "journal": "J Appl Clin Med Phys",
+          "year": 2026,
+          "cite": "Choi J, Rim CH, Kim H, Lee W / Application of a low-cost Geiger-Müller monitoring system for clinical radiation environments / J Appl Clin Med Phys / 2026",
+          "grade": "建议",
+          "ref": "EN-39"
+        }
+      ]
+    },
+    {
+      "id": "EN-40",
+      "graph": "radiation",
+      "type": "Reference",
+      "name": "A new shielding calculation method for X-ray computed tomography regarding scattered radiation",
+      "tags": [
+        "文献",
+        "建议"
+      ],
+      "aliases": [
+        "A new shielding calculation method for X-ray computed tomography regarding scattered radiation"
+      ],
+      "summary": "",
+      "attrs": [
+        {
+          "k": "文献类型",
+          "v": "建议"
+        },
+        {
+          "k": "年份",
+          "v": "2017"
+        },
+        {
+          "k": "核验标识",
+          "v": "10.1007/s12194-016-0387-9（PMID · PMID 28025782"
+        },
+        {
+          "k": "证据等级",
+          "v": "建议"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "建议",
+          "author": "Watanabe JW, Causer DA, McCollough CH, Zink FE, Narita Y, Ishigaki H, Akiyama Y, Satou Y",
+          "title": "A new shielding calculation method for X-ray computed tomography regarding scattered radiation",
+          "journal": "Radiol Phys Technol",
+          "year": 2017,
+          "cite": "Watanabe JW, Causer DA, McCollough CH, Zink FE, Narita Y, Ishigaki H, Akiyama Y, Satou Y / A new shielding calculation method for X-ray computed tomography regarding scattered radiation / Radiol Phys Technol / 2017",
+          "grade": "建议",
+          "ref": "EN-40"
+        }
+      ]
+    },
+    {
+      "id": "EN-41",
+      "graph": "radiation",
+      "type": "Reference",
+      "name": "Bismuth Shielding in Head Computed Tomography—Still Necessary? J Clin Med",
+      "tags": [
+        "文献",
+        "建议"
+      ],
+      "aliases": [
+        "Bismuth Shielding in Head Computed Tomography—Still Necessary? J Clin Med"
+      ],
+      "summary": "",
+      "attrs": [
+        {
+          "k": "文献类型",
+          "v": "建议"
+        },
+        {
+          "k": "年份",
+          "v": "2023"
+        },
+        {
+          "k": "核验标识",
+          "v": "10.3390/jcm13010025（PMID · PMID 38202032"
+        },
+        {
+          "k": "证据等级",
+          "v": "建议"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "建议",
+          "author": "Di Rosso E, Weissensteiner S, Hasenburger G, Riccabona M, Kubo T, Wang J, Duan X, Christner JA",
+          "title": "Bismuth Shielding in Head Computed Tomography—Still Necessary? J Clin Med",
+          "journal": "2023;13(1):1043",
+          "year": 2023,
+          "cite": "Di Rosso E, Weissensteiner S, Hasenburger G, Riccabona M, Kubo T, Wang J, Duan X, Christner JA / Bismuth Shielding in Head Computed Tomography—Still Necessary? J Clin Med / 2023;13(1):1043 / 2023",
+          "grade": "建议",
+          "ref": "EN-41"
+        }
+      ]
+    },
+    {
+      "id": "EN-42",
+      "graph": "radiation",
+      "type": "Reference",
+      "name": "Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic",
+      "tags": [
+        "文献",
+        "建议"
+      ],
+      "aliases": [
+        "Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic"
+      ],
+      "summary": "",
+      "attrs": [
+        {
+          "k": "文献类型",
+          "v": "建议"
+        },
+        {
+          "k": "年份",
+          "v": "2021"
+        },
+        {
+          "k": "核验标识",
+          "v": "10.5152/dir.2021.20740（PMID · PMID 33650498"
+        },
+        {
+          "k": "证据等级",
+          "v": "建议"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "建议",
+          "author": "Huang Z, Zhao S, Leng Q, Hu S, Li Z, Song B",
+          "title": "Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic",
+          "journal": "Diagn Interv Radiol",
+          "year": 2021,
+          "cite": "Huang Z, Zhao S, Leng Q, Hu S, Li Z, Song B / Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic / Diagn Interv Radiol / 2021",
+          "grade": "建议",
+          "ref": "EN-42"
+        }
+      ]
+    },
+    {
       "id": "SR-11",
       "graph": "radiation",
       "type": "Reference",
@@ -23704,50 +25449,6 @@ window.KG_GRAPH = {
           "cite": "牛延涛, 张永县, 卓维海, 邓君, 徐辉, 孙全富 / 加强放射诊断辐射剂量管理的必要性及应对策略 / 中华放射医学与防护杂志 / 2023",
           "grade": "建议",
           "ref": "XT-15"
-        }
-      ]
-    },
-    {
-      "id": "XT-16",
-      "graph": "radiation",
-      "type": "Reference",
-      "name": "A new shielding calculation method for X-ray computed tomography regarding scattered radiation",
-      "tags": [
-        "文献",
-        "推荐"
-      ],
-      "aliases": [
-        "A new shielding calculation method for X-ray computed tomography regarding scattered radiation"
-      ],
-      "summary": "",
-      "attrs": [
-        {
-          "k": "文献类型",
-          "v": "推荐"
-        },
-        {
-          "k": "年份",
-          "v": "2017"
-        },
-        {
-          "k": "核验标识",
-          "v": "10.1007/s12194-016-0387-9"
-        },
-        {
-          "k": "证据等级",
-          "v": "推荐"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "Watanabe H, Noto K, Shohji T, Ogawa Y, Fujibuchi T, Yamaguchi I, Hiraki H, et al",
-          "title": "A new shielding calculation method for X-ray computed tomography regarding scattered radiation",
-          "journal": "Radiol Phys Technol",
-          "year": 2017,
-          "cite": "Watanabe H, Noto K, Shohji T, Ogawa Y, Fujibuchi T, Yamaguchi I, Hiraki H, et al / A new shielding calculation method for X-ray computed tomography regarding scattered radiation / Radiol Phys Technol / 2017",
-          "grade": "推荐",
-          "ref": "XT-16"
         }
       ]
     },
@@ -24883,6 +26584,16 @@ window.KG_GRAPH = {
           "ref": "SR-20"
         },
         {
+          "type": "推荐",
+          "author": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J",
+          "title": "Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233",
+          "journal": "AAPM Report No",
+          "year": 2019,
+          "cite": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J / Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233 / AAPM Report No / 2019",
+          "grade": "推荐",
+          "ref": "EN-31"
+        },
+        {
           "type": "Meta分析",
           "author": "Zhang S, Zhu Z, Yu Z, et al",
           "title": "Effectiveness of AI for Enhancing Computed Tomography Image Quality and Radiation Protection in Radiology: Systematic Review and Meta-Analysis",
@@ -25145,6 +26856,16 @@ window.KG_GRAPH = {
           "ref": "XT-31"
         },
         {
+          "type": "推荐",
+          "author": "International Atomic Energy Agency",
+          "title": "Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays",
+          "journal": "IAEA Safety Reports Series No",
+          "year": 2006,
+          "cite": "International Atomic Energy Agency / Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays / IAEA Safety Reports Series No / 2006",
+          "grade": "推荐",
+          "ref": "EN-36"
+        },
+        {
           "type": "系统评价",
           "author": "Samara ET, Saltybaeva N, Sans Merce M, et al",
           "title": "Systematic literature review on the benefit of patient protection shielding during medical X-ray imaging: Towards a discontinuation of the current practice",
@@ -25296,6 +27017,16 @@ window.KG_GRAPH = {
         },
         {
           "type": "推荐",
+          "author": "Madsen MT, Anderson JA, Halama JR, Kleck J, Simpkin DJ, Votaw JR, Wendt RE III, Williams LE, Yester MV",
+          "title": "AAPM Nuclear Medicine Subcommittee Task Group 108. AAPM Task Group 108: PET and PET/CT Shielding Requirements",
+          "journal": "AAPM Report No",
+          "year": 2006,
+          "cite": "Madsen MT, Anderson JA, Halama JR, Kleck J, Simpkin DJ, Votaw JR, Wendt RE III, Williams LE, Yester MV / AAPM Nuclear Medicine Subcommittee Task Group 108. AAPM Task Group 108: PET and PET/CT Shielding Requirements / AAPM Report No / 2006",
+          "grade": "推荐",
+          "ref": "EN-32"
+        },
+        {
+          "type": "推荐",
           "author": "中华人民共和国卫生部",
           "title": "GBZ/T 147—2002《X射线防护材料衰减性能的测定》",
           "journal": "中华人民共和国国家职业卫生标准",
@@ -25345,6 +27076,16 @@ window.KG_GRAPH = {
           "ref": "XT-29"
         },
         {
+          "type": "建议",
+          "author": "Di Rosso E, Weissensteiner S, Hasenburger G, Riccabona M, Kubo T, Wang J, Duan X, Christner JA",
+          "title": "Bismuth Shielding in Head Computed Tomography—Still Necessary? J Clin Med",
+          "journal": "2023;13(1):1043",
+          "year": 2023,
+          "cite": "Di Rosso E, Weissensteiner S, Hasenburger G, Riccabona M, Kubo T, Wang J, Duan X, Christner JA / Bismuth Shielding in Head Computed Tomography—Still Necessary? J Clin Med / 2023;13(1):1043 / 2023",
+          "grade": "建议",
+          "ref": "EN-41"
+        },
+        {
           "type": "推荐",
           "author": "文大光, 宋婷妮, 张晓咏, 彭晶, 宋建安, 叶硕奇, 田毅, 李真林, 夏春潮",
           "title": "铅单巾放置位置对自动管电流调制技术CT胸部扫描辐射剂量及性腺辐射剂量影响的体模研究",
@@ -25356,13 +27097,43 @@ window.KG_GRAPH = {
         },
         {
           "type": "推荐",
-          "author": "Watanabe H, Noto K, Shohji T, Ogawa Y, Fujibuchi T, Yamaguchi I, Hiraki H, et al",
+          "author": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL",
+          "title": "AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment",
+          "journal": "AAPM Report No",
+          "year": 1988,
+          "cite": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL / AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment / AAPM Report No / 1988",
+          "grade": "推荐",
+          "ref": "EN-29"
+        },
+        {
+          "type": "推荐",
+          "author": "National Council on Radiation Protection and Measurements",
+          "title": "Structural Shielding Design for Medical X-Ray Imaging Facilities",
+          "journal": "NCRP Report No",
+          "year": 2004,
+          "cite": "National Council on Radiation Protection and Measurements / Structural Shielding Design for Medical X-Ray Imaging Facilities / NCRP Report No / 2004",
+          "grade": "推荐",
+          "ref": "EN-34"
+        },
+        {
+          "type": "建议",
+          "author": "Watanabe JW, Causer DA, McCollough CH, Zink FE, Narita Y, Ishigaki H, Akiyama Y, Satou Y",
           "title": "A new shielding calculation method for X-ray computed tomography regarding scattered radiation",
           "journal": "Radiol Phys Technol",
           "year": 2017,
-          "cite": "Watanabe H, Noto K, Shohji T, Ogawa Y, Fujibuchi T, Yamaguchi I, Hiraki H, et al / A new shielding calculation method for X-ray computed tomography regarding scattered radiation / Radiol Phys Technol / 2017",
-          "grade": "推荐",
-          "ref": "XT-16"
+          "cite": "Watanabe JW, Causer DA, McCollough CH, Zink FE, Narita Y, Ishigaki H, Akiyama Y, Satou Y / A new shielding calculation method for X-ray computed tomography regarding scattered radiation / Radiol Phys Technol / 2017",
+          "grade": "建议",
+          "ref": "EN-40"
+        },
+        {
+          "type": "建议",
+          "author": "Huang Z, Zhao S, Leng Q, Hu S, Li Z, Song B",
+          "title": "Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic",
+          "journal": "Diagn Interv Radiol",
+          "year": 2021,
+          "cite": "Huang Z, Zhao S, Leng Q, Hu S, Li Z, Song B / Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic / Diagn Interv Radiol / 2021",
+          "grade": "建议",
+          "ref": "EN-42"
         },
         {
           "type": "推荐",
@@ -25867,6 +27638,16 @@ window.KG_GRAPH = {
           "ref": "XT-32"
         },
         {
+          "type": "建议",
+          "author": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K",
+          "title": "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment",
+          "journal": "Br J Radiol",
+          "year": 2026,
+          "cite": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K / Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment / Br J Radiol / 2026",
+          "grade": "建议",
+          "ref": "EN-38"
+        },
+        {
           "type": "指南",
           "author": "European Commission",
           "title": "Radiation Protection No. 185: European Guidelines on Diagnostic Reference Levels for Paediatric Imaging",
@@ -25975,6 +27756,16 @@ window.KG_GRAPH = {
           "cite": "上海市市场监督管理局 / 移动式X射线计算机体层摄影设备质量控制监测规范 / DB31/T 1679-2026 / 2026",
           "grade": "规范",
           "ref": "XT-05"
+        },
+        {
+          "type": "推荐",
+          "author": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL",
+          "title": "AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment",
+          "journal": "AAPM Report No",
+          "year": 1988,
+          "cite": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL / AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment / AAPM Report No / 1988",
+          "grade": "推荐",
+          "ref": "EN-29"
         },
         {
           "type": "系统评价",
@@ -26137,6 +27928,16 @@ window.KG_GRAPH = {
           "ref": "CN-28"
         },
         {
+          "type": "建议",
+          "author": "Huang Z, Zhao S, Leng Q, Hu S, Li Z, Song B",
+          "title": "Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic",
+          "journal": "Diagn Interv Radiol",
+          "year": 2021,
+          "cite": "Huang Z, Zhao S, Leng Q, Hu S, Li Z, Song B / Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic / Diagn Interv Radiol / 2021",
+          "grade": "建议",
+          "ref": "EN-42"
+        },
+        {
           "type": "推荐",
           "author": "刘丹丹, 张永县, 马梓轩, 刘毅安, 赵彤, 张童心, 徐辉, 孙全富, 牛延涛",
           "title": "放射诊断检查受检者接触屏蔽的研究现状与展望",
@@ -26145,6 +27946,16 @@ window.KG_GRAPH = {
           "cite": "刘丹丹, 张永县, 马梓轩, 刘毅安, 赵彤, 张童心, 徐辉, 孙全富, 牛延涛 / 放射诊断检查受检者接触屏蔽的研究现状与展望 / 中华放射医学与防护杂志 / 2025",
           "grade": "推荐",
           "ref": "XT-29"
+        },
+        {
+          "type": "推荐",
+          "author": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J",
+          "title": "Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233",
+          "journal": "AAPM Report No",
+          "year": 2019,
+          "cite": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J / Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233 / AAPM Report No / 2019",
+          "grade": "推荐",
+          "ref": "EN-31"
         },
         {
           "type": "共识",
@@ -26168,6 +27979,16 @@ window.KG_GRAPH = {
         },
         {
           "type": "推荐",
+          "author": "International Atomic Energy Agency",
+          "title": "Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays",
+          "journal": "IAEA Safety Reports Series No",
+          "year": 2006,
+          "cite": "International Atomic Energy Agency / Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays / IAEA Safety Reports Series No / 2006",
+          "grade": "推荐",
+          "ref": "EN-36"
+        },
+        {
+          "type": "推荐",
           "author": "Axakali TM, Kouri MA, Georgakis P, Bournaki E, Tanou V, Kounadi E, et al",
           "title": "Real-time occupational radiation dosimetry in anesthesiology personnel during fluoroscopy-guided interventions: a single-center descriptive and exploratory study",
           "journal": "Front Public Health",
@@ -26185,6 +28006,16 @@ window.KG_GRAPH = {
           "cite": "Qureshi F, Ramprasad A, Derylo B / Radiation Monitoring Using Personal Dosimeter Devices in Terms of Long-Term Compliance and Creating a Culture of Safety / Cureus / 2022",
           "grade": "推荐",
           "ref": "XT-20"
+        },
+        {
+          "type": "推荐",
+          "author": "European Commission",
+          "title": "Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation",
+          "journal": "Radiation Protection No",
+          "year": 2007,
+          "cite": "European Commission / Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation / Radiation Protection No / 2007",
+          "grade": "推荐",
+          "ref": "EN-37"
         },
         {
           "type": "推荐",
@@ -26339,6 +28170,16 @@ window.KG_GRAPH = {
           "ref": "CN-24"
         },
         {
+          "type": "推荐",
+          "author": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL",
+          "title": "AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment",
+          "journal": "AAPM Report No",
+          "year": 1988,
+          "cite": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL / AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment / AAPM Report No / 1988",
+          "grade": "推荐",
+          "ref": "EN-29"
+        },
+        {
           "type": "指南",
           "author": "Dixon RL, Anderson JA, Bakalyar DM, Boedeker K, Boone JM, Cody DD, et al.",
           "title": "AAPM Task Group 111: The Future of CT Dosimetry. Comprehensive Methodology for the Evaluation of Radiation Dose in X-Ray Computed Tomography: A New Measurement Paradigm Based on a Unified Theory for Axial, Helical, Fan-Beam, and Cone-Beam Scanning With or Without Longitudinal Translation of the Patient Table",
@@ -26439,6 +28280,16 @@ window.KG_GRAPH = {
           "ref": "XT-24"
         },
         {
+          "type": "推荐",
+          "author": "Gauntt DM, Ranger NT, Willis CE, et al",
+          "title": "Acceptance Testing and Quality Control of Digital Radiographic Imaging Systems: The Report of AAPM Task Group 150",
+          "journal": "AAPM Report No",
+          "year": 2024,
+          "cite": "Gauntt DM, Ranger NT, Willis CE, et al / Acceptance Testing and Quality Control of Digital Radiographic Imaging Systems: The Report of AAPM Task Group 150 / AAPM Report No / 2024",
+          "grade": "推荐",
+          "ref": "EN-30"
+        },
+        {
           "type": "标准",
           "author": "国家卫生健康委员会",
           "title": "WS 519—2019《X射线计算机体层摄影装置质量控制检测规范》",
@@ -26459,6 +28310,26 @@ window.KG_GRAPH = {
           "ref": "XT-35"
         },
         {
+          "type": "建议",
+          "author": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K",
+          "title": "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment",
+          "journal": "Br J Radiol",
+          "year": 2026,
+          "cite": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K / Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment / Br J Radiol / 2026",
+          "grade": "建议",
+          "ref": "EN-38"
+        },
+        {
+          "type": "建议",
+          "author": "Choi J, Rim CH, Kim H, Lee W",
+          "title": "Application of a low-cost Geiger-Müller monitoring system for clinical radiation environments",
+          "journal": "J Appl Clin Med Phys",
+          "year": 2026,
+          "cite": "Choi J, Rim CH, Kim H, Lee W / Application of a low-cost Geiger-Müller monitoring system for clinical radiation environments / J Appl Clin Med Phys / 2026",
+          "grade": "建议",
+          "ref": "EN-39"
+        },
+        {
           "type": "推荐",
           "author": "中国卫生监督协会",
           "title": "《CT方舱放射防护要求》团体标准解读",
@@ -26469,14 +28340,14 @@ window.KG_GRAPH = {
           "ref": "XT-08"
         },
         {
-          "type": "推荐",
-          "author": "Watanabe H, Noto K, Shohji T, Ogawa Y, Fujibuchi T, Yamaguchi I, Hiraki H, et al",
+          "type": "建议",
+          "author": "Watanabe JW, Causer DA, McCollough CH, Zink FE, Narita Y, Ishigaki H, Akiyama Y, Satou Y",
           "title": "A new shielding calculation method for X-ray computed tomography regarding scattered radiation",
           "journal": "Radiol Phys Technol",
           "year": 2017,
-          "cite": "Watanabe H, Noto K, Shohji T, Ogawa Y, Fujibuchi T, Yamaguchi I, Hiraki H, et al / A new shielding calculation method for X-ray computed tomography regarding scattered radiation / Radiol Phys Technol / 2017",
-          "grade": "推荐",
-          "ref": "XT-16"
+          "cite": "Watanabe JW, Causer DA, McCollough CH, Zink FE, Narita Y, Ishigaki H, Akiyama Y, Satou Y / A new shielding calculation method for X-ray computed tomography regarding scattered radiation / Radiol Phys Technol / 2017",
+          "grade": "建议",
+          "ref": "EN-40"
         },
         {
           "type": "推荐",
@@ -26557,6 +28428,46 @@ window.KG_GRAPH = {
           "cite": "天津市市场监督管理委员会 / DB12/T 1005—2020《数字减影血管造影机X射线设备质量控制检测规范》 / 天津市地方标准 / 2020",
           "grade": "推荐",
           "ref": "CN-29"
+        },
+        {
+          "type": "推荐",
+          "author": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J",
+          "title": "Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233",
+          "journal": "AAPM Report No",
+          "year": 2019,
+          "cite": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J / Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233 / AAPM Report No / 2019",
+          "grade": "推荐",
+          "ref": "EN-31"
+        },
+        {
+          "type": "推荐",
+          "author": "International Atomic Energy Agency",
+          "title": "Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays",
+          "journal": "IAEA Safety Reports Series No",
+          "year": 2006,
+          "cite": "International Atomic Energy Agency / Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays / IAEA Safety Reports Series No / 2006",
+          "grade": "推荐",
+          "ref": "EN-36"
+        },
+        {
+          "type": "标准",
+          "author": "International Electrotechnical Commission",
+          "title": "Medical electrical equipment - Part 2-44: Particular requirements for the basic safety and essential performance of X-ray equipment for computed tomography",
+          "journal": "IEC 60601-2-44:2009",
+          "year": 2009,
+          "cite": "International Electrotechnical Commission / Medical electrical equipment - Part 2-44: Particular requirements for the basic safety and essential performance of X-ray equipment for computed tomography / IEC 60601-2-44:2009 / 2009",
+          "grade": "标准",
+          "ref": "EN-35"
+        },
+        {
+          "type": "建议",
+          "author": "Huang Z, Zhao S, Leng Q, Hu S, Li Z, Song B",
+          "title": "Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic",
+          "journal": "Diagn Interv Radiol",
+          "year": 2021,
+          "cite": "Huang Z, Zhao S, Leng Q, Hu S, Li Z, Song B / Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic / Diagn Interv Radiol / 2021",
+          "grade": "建议",
+          "ref": "EN-42"
         }
       ],
       "graph": "radiation"
@@ -27001,6 +28912,16 @@ window.KG_GRAPH = {
           "ref": "XT-34"
         },
         {
+          "type": "建议",
+          "author": "Di Rosso E, Weissensteiner S, Hasenburger G, Riccabona M, Kubo T, Wang J, Duan X, Christner JA",
+          "title": "Bismuth Shielding in Head Computed Tomography—Still Necessary? J Clin Med",
+          "journal": "2023;13(1):1043",
+          "year": 2023,
+          "cite": "Di Rosso E, Weissensteiner S, Hasenburger G, Riccabona M, Kubo T, Wang J, Duan X, Christner JA / Bismuth Shielding in Head Computed Tomography—Still Necessary? J Clin Med / 2023;13(1):1043 / 2023",
+          "grade": "建议",
+          "ref": "EN-41"
+        },
+        {
           "type": "Meta分析",
           "author": "Altintas Mese C, Mese I",
           "title": "Radiation dose and objective image quality of photon-counting detector computed tomography in pediatric imaging: a systematic review and meta-analysis",
@@ -27171,6 +29092,16 @@ window.KG_GRAPH = {
           "cite": "赵彤, 马梓轩, 刘丹丹, 冯泽臣, 张永县, 牛延涛 / 第三代双源CT能谱纯化技术结合不同屏蔽方式对儿童辐射剂量影响的模体研究 / 中华放射医学与防护杂志 / 2026",
           "grade": "推荐",
           "ref": "XT-34"
+        },
+        {
+          "type": "推荐",
+          "author": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J",
+          "title": "Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233",
+          "journal": "AAPM Report No",
+          "year": 2019,
+          "cite": "Samei E, Bakalyar D, Boedeker KL, Brady S, Fan J, Leng S, Myers KJ, Popescu LM, Ramirez Giraldo JC, Ranallo F, Solomon J, Vaishnav J, Wang J / Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233 / AAPM Report No / 2019",
+          "grade": "推荐",
+          "ref": "EN-31"
         },
         {
           "type": "系统评价",
@@ -27474,13 +29405,43 @@ window.KG_GRAPH = {
         },
         {
           "type": "推荐",
-          "author": "Watanabe H, Noto K, Shohji T, Ogawa Y, Fujibuchi T, Yamaguchi I, Hiraki H, et al",
+          "author": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL",
+          "title": "AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment",
+          "journal": "AAPM Report No",
+          "year": 1988,
+          "cite": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL / AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment / AAPM Report No / 1988",
+          "grade": "推荐",
+          "ref": "EN-29"
+        },
+        {
+          "type": "推荐",
+          "author": "Kry SF, Alvarez P, Cygler JE, DeWerd LA, Howell RM, Meeks S, O'Daniel J, Reft C, Sawakuchi G, Yukihara EG, Mihailidis D",
+          "title": "AAPM Task Group 191. AAPM TG 191 Clinical Use of Luminescent Dosimeters: TLDs and OSLDs",
+          "journal": "AAPM Report No. 191 (2019)",
+          "year": 2019,
+          "cite": "Kry SF, Alvarez P, Cygler JE, DeWerd LA, Howell RM, Meeks S, O'Daniel J, Reft C, Sawakuchi G, Yukihara EG, Mihailidis D / AAPM Task Group 191. AAPM TG 191 Clinical Use of Luminescent Dosimeters: TLDs and OSLDs / AAPM Report No. 191 (2019) / 2019",
+          "grade": "推荐",
+          "ref": "EN-33"
+        },
+        {
+          "type": "推荐",
+          "author": "European Commission",
+          "title": "Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation",
+          "journal": "Radiation Protection No",
+          "year": 2007,
+          "cite": "European Commission / Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation / Radiation Protection No / 2007",
+          "grade": "推荐",
+          "ref": "EN-37"
+        },
+        {
+          "type": "建议",
+          "author": "Watanabe JW, Causer DA, McCollough CH, Zink FE, Narita Y, Ishigaki H, Akiyama Y, Satou Y",
           "title": "A new shielding calculation method for X-ray computed tomography regarding scattered radiation",
           "journal": "Radiol Phys Technol",
           "year": 2017,
-          "cite": "Watanabe H, Noto K, Shohji T, Ogawa Y, Fujibuchi T, Yamaguchi I, Hiraki H, et al / A new shielding calculation method for X-ray computed tomography regarding scattered radiation / Radiol Phys Technol / 2017",
-          "grade": "推荐",
-          "ref": "XT-16"
+          "cite": "Watanabe JW, Causer DA, McCollough CH, Zink FE, Narita Y, Ishigaki H, Akiyama Y, Satou Y / A new shielding calculation method for X-ray computed tomography regarding scattered radiation / Radiol Phys Technol / 2017",
+          "grade": "建议",
+          "ref": "EN-40"
         },
         {
           "type": "推荐",
@@ -33970,6 +35931,246 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
+      "source": "ST_ScatterDose",
+      "target": "EN-29",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "DM_Phantom",
+      "target": "EN-29",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "SM_ShieldDesign",
+      "target": "EN-29",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "ST_Accept",
+      "target": "EN-29",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "SM_PPE_Apron",
+      "target": "EN-29",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "PP_Mobile",
+      "target": "EN-29",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "ST_Cycle",
+      "target": "EN-29",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "ST_ScatterDose",
+      "target": "EN-30",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "ST_Accept",
+      "target": "EN-30",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "ST_QC",
+      "target": "EN-30",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "ST_QC",
+      "target": "EN-31",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "PP_ImageQuality",
+      "target": "EN-31",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "SP_DLIR",
+      "target": "EN-31",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "DM_CTDIvol",
+      "target": "EN-31",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "SM_ShieldDesign",
+      "target": "EN-32",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "SM_LeadEquiv",
+      "target": "EN-32",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "DM_OSLD",
+      "target": "EN-33",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "SM_ShieldDesign",
+      "target": "EN-34",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "NN_EquipShield",
+      "target": "EN-35",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "SM_ShieldDesign",
+      "target": "EN-36",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "SM_Room",
+      "target": "EN-36",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "SM_WarningSign",
+      "target": "EN-36",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "SM_PPE",
+      "target": "EN-36",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "PP_OccLimit",
+      "target": "EN-36",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "ST_QC",
+      "target": "EN-36",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "GBZ_Monitor",
+      "target": "EN-37",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "PP_DoseWearing",
+      "target": "EN-37",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "DM_OSLD",
+      "target": "EN-37",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "PP_Mobile",
+      "target": "EN-38",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "ST_ScatterDose",
+      "target": "EN-38",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "PP_OccLimit",
+      "target": "EN-38",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "PP_Operator",
+      "target": "EN-38",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "ST_ScatterDose",
+      "target": "EN-39",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "SM_ShieldDesign",
+      "target": "EN-40",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "DM_OSLD",
+      "target": "EN-40",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "EX_Pediatric",
+      "target": "EN-41",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "SM_ShieldEvidence",
+      "target": "EN-41",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "SM_ShieldDesign",
+      "target": "EN-42",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "PP_ProjectEval",
+      "target": "EN-42",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "GBZ_RoomDose",
+      "target": "EN-42",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
       "source": "EX_Urography",
       "target": "SR-11",
       "type": "SUPPORTED_BY",
@@ -34306,20 +36507,8 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
-      "source": "SM_ShieldDesign",
-      "target": "XT-16",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
       "source": "ST_ScatterDose",
-      "target": "XT-16",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "DM_OSLD",
-      "target": "XT-16",
+      "target": "EN-40",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -36491,6 +38680,12 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ScanParameter",
+      "target": "EN-31",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ScanParameter",
       "target": "SR-19",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -36635,6 +38830,12 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ShieldingMeasure",
+      "target": "EN-36",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ShieldingMeasure",
       "target": "SR-18",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -36725,6 +38926,12 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ShieldingMeasure",
+      "target": "EN-32",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ShieldingMeasure",
       "target": "XT-11",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -36755,13 +38962,37 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ShieldingMeasure",
+      "target": "EN-41",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ShieldingMeasure",
       "target": "XT-33",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
     {
       "source": "FW_ShieldingMeasure",
-      "target": "XT-16",
+      "target": "EN-29",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ShieldingMeasure",
+      "target": "EN-34",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ShieldingMeasure",
+      "target": "EN-40",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ShieldingMeasure",
+      "target": "EN-42",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -37055,6 +39286,12 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ProtectionPrinciple",
+      "target": "EN-38",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ProtectionPrinciple",
       "target": "EN-04",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -37116,6 +39353,12 @@ window.KG_GRAPH = {
     {
       "source": "FW_ProtectionPrinciple",
       "target": "XT-05",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ProtectionPrinciple",
+      "target": "EN-29",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -37217,7 +39460,19 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ProtectionPrinciple",
+      "target": "EN-42",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ProtectionPrinciple",
       "target": "XT-29",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ProtectionPrinciple",
+      "target": "EN-31",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -37235,6 +39490,12 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ProtectionPrinciple",
+      "target": "EN-36",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ProtectionPrinciple",
       "target": "XT-19",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -37242,6 +39503,12 @@ window.KG_GRAPH = {
     {
       "source": "FW_ProtectionPrinciple",
       "target": "XT-20",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ProtectionPrinciple",
+      "target": "EN-37",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -37325,6 +39592,12 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ShieldingTest",
+      "target": "EN-29",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ShieldingTest",
       "target": "EN-02",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -37385,6 +39658,12 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ShieldingTest",
+      "target": "EN-30",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ShieldingTest",
       "target": "CN-10",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -37397,13 +39676,25 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ShieldingTest",
+      "target": "EN-38",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ShieldingTest",
+      "target": "EN-39",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ShieldingTest",
       "target": "XT-08",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
     {
       "source": "FW_ShieldingTest",
-      "target": "XT-16",
+      "target": "EN-40",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -37452,6 +39743,30 @@ window.KG_GRAPH = {
     {
       "source": "FW_ShieldingTest",
       "target": "CN-29",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ShieldingTest",
+      "target": "EN-31",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ShieldingTest",
+      "target": "EN-36",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ShieldingTest",
+      "target": "EN-35",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ShieldingTest",
+      "target": "EN-42",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -37643,6 +39958,12 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_PedsExam",
+      "target": "EN-41",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_PedsExam",
       "target": "SR-14",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -37728,6 +40049,12 @@ window.KG_GRAPH = {
     {
       "source": "FW_DoseIndex",
       "target": "XT-34",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_DoseIndex",
+      "target": "EN-31",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -37913,7 +40240,25 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_DoseIndex",
-      "target": "XT-16",
+      "target": "EN-29",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_DoseIndex",
+      "target": "EN-33",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_DoseIndex",
+      "target": "EN-37",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_DoseIndex",
+      "target": "EN-40",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
