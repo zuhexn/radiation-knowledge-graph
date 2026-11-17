@@ -37,12 +37,12 @@ DL_Chest,DRLLevel,胸部 CT 的诊断参考水平,胸部：25% 位数 CTDIvol 6 
 DL_Abdomen,DRLLevel,腹部 CT 的诊断参考水平,腹部：25% 位数 CTDIvol 10 mGy、DLP 330 mGy·cm；50% 位数 CTDIvol 15 mGy、DLP 500 mGy·cm；75% 位数 CTDIvol 20 mGy、DLP 790 mGy·cm。,剂量参考水平 腹部,2
 DL_Pelvis,DRLLevel,盆腔 CT 的诊断参考水平,盆腔：25% 位数 CTDIvol 10 mGy、DLP 320 mGy·cm；50% 位数 CTDIvol 15 mGy、DLP 480 mGy·cm；75% 位数 CTDIvol 20 mGy、DLP 700 mGy·cm。,剂量参考水平 盆腔,2
 DL_Lumbar,DRLLevel,腰椎 CT 的诊断参考水平,腰椎：25% 位数 CTDIvol 15 mGy、DLP 70 mGy·cm；50% 位数 CTDIvol 25 mGy、DLP 130 mGy·cm；75% 位数 CTDIvol 35 mGy、DLP 200 mGy·cm；逐层扫描扫描：25% 位数 CTDIvol 12 mGy、DLP 290 mGy·cm；50% 位数 15 mGy、410 mGy·cm；75% 位数 25 mGy、580 mGy·cm。,剂量参考水平 腰椎,3
-SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,医疗机构应当为受检者配备必要的放射防护用品；儿童检查时，远离扫描部位的辐射敏感器官采用铅制围裙、眼镜、围脖等防护用具遮盖并尽可能予以包裹，扫描区域内不使用铋制防护用品。,个人防护,21
+SM_PPE,ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,医疗机构应当为受检者配备必要的放射防护用品；儿童检查时，远离扫描部位的辐射敏感器官采用铅制围裙、眼镜、围脖等防护用具遮盖并尽可能予以包裹，扫描区域内不使用铋制防护用品。,个人防护,20
 SM_PatientShield,ShieldingMeasure,CT 受检者的包裹式屏蔽,建议在 CT 扫描中对受检者采用包裹式屏蔽防护措施，并对邻近照射野的敏感器官或组织采取必要的屏蔽防护措施。,个人防护 CT,5
 SM_Room,ShieldingMeasure,机房防护设施,应合理设置 X 射线设备与机房的门、窗和管线口位置，尽量避免有用线束直接照射门、窗、管线口和工作人员操作位；机房设置应充分考虑邻室（含楼上和楼下）及周围场所的人员防护与安全；CT 机（不含头颅移动 CT）的机房内最小有效使用面积 30 m²、最小单边长度 4.5 m。,机房防护,9
 SM_LeadEquiv,ShieldingMeasure,屏蔽材料与铅当量,常用屏蔽物质的密度：铅 11.3 g/cm³、混凝土 2.35 g/cm³、铁 7.4 g/cm³、石膏板 0.705 g/cm³、砖 1.65 g/cm³；不同屏蔽物质的铅当量按 NCRP 147 号报告给出的拟合值与屏蔽透射因子计算。,机房防护,7
 PP_ALARA,ProtectionPrinciple,尽可能低的剂量原则（ALARA）,"应遵循尽可能低的剂量(as low as reasonably achievable, ALARA)原则设置扫描参数；CT 辐射防护参见 GBZ 130。",防护最优化,16
-PP_Justification,ProtectionPrinciple,医疗照射的正当性（净利益原则）,医疗照射应有足够的净利益；在能取得相同净利益的情况下应尽可能采用非医疗照射的替代方法；无替代方法时也应权衡利弊，判断医疗照射带来的利益大于可能引起的辐射危害时才是正当的。,正当性,15
+PP_Justification,ProtectionPrinciple,医疗照射的正当性（净利益原则）,医疗照射应有足够的净利益；在能取得相同净利益的情况下应尽可能采用非医疗照射的替代方法；无替代方法时也应权衡利弊，判断医疗照射带来的利益大于可能引起的辐射危害时才是正当的。,正当性,14
 PP_NonXRay,ProtectionPrinciple,优先选用非 X 射线检查方法,采用 X 射线检查应经过正当性判断，优先选用非 X 射线的检查方法；对不符合正当性原则的，不应进行 X 射线检查。,正当性,4
 PP_Beam,ProtectionPrinciple,严格控制照射野范围,施行 X 射线诊断检查时应严格控制照射野范围，避免邻近照射野的敏感器官或组织（性腺、眼晶状体、乳腺和甲状腺）受到有用线束的直接照射。,防护最优化 扫描范围,9
 PP_Pregnancy,ProtectionPrinciple,孕妇与可能怀孕妇女的照射正当性,应加强对孕妇和可能怀孕妇女的诊断性医疗照射进行正当性判断，特别是腹部和骨盆检查；只有在临床上有充分理由要求，才能进行会引起腹部或骨盆受照的放射学检查，否则应避免此类照射。,特殊人群 正当性,2
@@ -50,9 +50,9 @@ PP_Embryo,ProtectionPrinciple,胚胎与胎儿的照射防护,要特别注意对�
 PP_Child,ProtectionPrinciple,儿童检查的正当性判断,应严格对儿童的诊断性医疗照射进行正当性判断，儿科非正当性影像学检查举例参见 GBZ 130 附录 A；儿童 CT 的正当性判断应比成人更加谨慎，临床适应症更严格，逐例评估收益-风险比。,特殊人群 正当性,6
 PP_ChildMode,ProtectionPrinciple,儿童检查模式与参数优化,设备具有儿童检查模式可选项时，对儿童实施检查应使用该模式；如无儿童检查模式，应适当调整照射参数（如管电压、管电流、照射时间等）并严格限制照射野。,特殊人群 防护最优化,10
 PP_Others,ProtectionPrinciple,无关人员不得滞留机房,施行 X 射线诊断检查时，除受检者以外其他人员不应滞留在机房内；当受检者需要人员协助时，应对陪检者采取必要的防护措施。,操作防护,1
-PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求,工作人员应在有屏蔽的防护设施内进行曝光操作，并应通过观察窗等密切观察受检者状态；曝光时应关闭与机房相通的门、窗；病例示教时不应随意增加曝光时间和曝光次数。,操作防护,3
-PP_Management,ProtectionPrinciple,放射防护管理责任与制度,医疗机构应对放射工作人员、受检者以及公众的防护与安全负责：配置诊断设备、检测仪器及防护设施；制定并落实放射防护管理制度与放射防护质量保证大纲；制定放射事件应急计划并定期演练；受检者出现放射损伤应及时报告卫生行政部门。,管理要求,18
-PP_Mobile,ProtectionPrinciple,移动式与便携式 X 射线设备的使用限制,移动式和便携式 X 射线设备不应用于常规检查；只有在不能实现或在医学上不允许把受检者送到固定设备进行检查的情况下，并在采取严格的相应防护措施后，才能在床旁操作实施医学影像检查。,正当性 操作防护,5
+PP_Operator,ProtectionPrinciple,X 射线设备操作的防护安全要求,工作人员应在有屏蔽的防护设施内进行曝光操作，并应通过观察窗等密切观察受检者状态；曝光时应关闭与机房相通的门、窗；病例示教时不应随意增加曝光时间和曝光次数。,操作防护,2
+PP_Management,ProtectionPrinciple,放射防护管理责任与制度,医疗机构应对放射工作人员、受检者以及公众的防护与安全负责：配置诊断设备、检测仪器及防护设施；制定并落实放射防护管理制度与放射防护质量保证大纲；制定放射事件应急计划并定期演练；受检者出现放射损伤应及时报告卫生行政部门。,管理要求,17
+PP_Mobile,ProtectionPrinciple,移动式与便携式 X 射线设备的使用限制,移动式和便携式 X 射线设备不应用于常规检查；只有在不能实现或在医学上不允许把受检者送到固定设备进行检查的情况下，并在采取严格的相应防护措施后，才能在床旁操作实施医学影像检查。,正当性 操作防护,2
 PP_Evidence,ProtectionPrinciple,辐射防护证据的判读口径与外推限制,辐射防护的结论多来自单中心或异质性较大的队列：各研究的 RR/IRR/ERR 不能直接合并，每多一次 CT 的风险增量是研究特定的、不可外推到其他机构；比较不同方案的降幅必须按临床适应证分层，跨适应证比降幅没有意义。,质量保证 防护最优化,17
 ST_Room,ShieldingTest,机房防护检测的关注点,机房防护检测应在巡测的基础上，对关注点的局部屏蔽和缝隙进行重点检测；关注点应包括四面墙体、地板、顶棚、机房门、操作室门、观察窗、采光窗/窗体、传片箱、管线洞口、工作人员操作位等，点位选取应具有代表性。,防护检测,5
 ST_Cycle,ShieldingTest,机房防护设施的检测周期,X 射线设备机房放射防护安全设施应进行竣工验收，在使用过程中应进行定期检查和检测，定期检测的周期为一年。,防护检测,5
@@ -85,9 +85,9 @@ PP_Obese,ProtectionPrinciple,体型与肥胖受检者的剂量优化,在放射�
 SP_ScanLength,ScanParameter,扫描长度与扫描范围,制定 CT 协议时应考虑总扫描长度、过度扫描与过度射束等技术因子，并通过自动曝光控制系统优化；辐射剂量与纵向扫描长度成正比，扫描范围应恰当裁剪、只包含所需解剖结构；DLP 就是「剂量」乘以「沿人体长轴的扫描长度」。,扫描参数 剂量,1
 SM_WarningSign,ShieldingMeasure,电离辐射警告标志与候诊告知,机房门外应有电离辐射警告标志；机房门上方应有醒目的工作状态指示灯，灯箱上应设置如「射线有害、灯亮勿入」的可视警示语句；候诊区应设置放射防护注意事项告知栏；机房出入门宜处于散射辐射相对低的位置。,机房防护 管理要求,2
 SM_ShieldDesign,ShieldingMeasure,机房屏蔽的设计与预评估,新装 X 射线设备前必须做辐射安全预评估，确保工作人员和公众所受剂量低于国际安全要求的剂量约束；结构屏蔽要在土建阶段一次设计安装到位，建成后返工代价高昂。NCRP 报告 147 给出了摄影与透视机房的屏蔽设计指南；医用物理师按计算结果把所需铅厚向上取整到最接近的预制铅板，铅板厚度增量为 0.079 cm。,机房防护,10
-ST_ScatterDose,ShieldingTest,机房散射剂量测量,散射分布在机房内呈「三叶草」形，大体型患者散射更强；多数区域散射强度随距等中心距离平方反比下降，但机架控制台阴影侧散射极低且几乎不随高度变化。屏蔽检测的核心是定位并评价屏蔽屏障上的辐射热点；屏蔽门底部「穿线孔」是热点高发部位（门外约 1.4 m 处孔关闭时空气比释动能率 0.11 μSv/h）。仅凭目视判断二维 X 线机分布图，未必能准确选出动空气比释动能率或屏障厚度的最大点，需用逐点迭代计算。,防护检测 机房防护,10
+ST_ScatterDose,ShieldingTest,机房散射剂量测量,散射分布在机房内呈「三叶草」形，大体型患者散射更强；多数区域散射强度随距等中心距离平方反比下降，但机架控制台阴影侧散射极低且几乎不随高度变化。屏蔽检测的核心是定位并评价屏蔽屏障上的辐射热点；屏蔽门底部「穿线孔」是热点高发部位（门外约 1.4 m 处孔关闭时空气比释动能率 0.11 μSv/h）。仅凭目视判断二维 X 线机分布图，未必能准确选出动空气比释动能率或屏障厚度的最大点，需用逐点迭代计算。,防护检测 机房防护,9
 DM_OSLD,DoseIndex,OSLD 个人与环境剂量监测,用 288 枚 OSLD 贴在临床 CT 检查室的墙面上、距地 1 m 高度处连续测一周以取得散射剂量；OSLD 含塑料、铝、铜三种滤过片和开放窗，既用于职业照射测量也用于环境剂量。OSLD 读数按日本工业标准换算为自由空气照射条件下的环境剂量当量 H*(10)，再用于机房屏蔽计算的剂量评价。,剂量指标 防护检测,4
-PP_OccLimit,ProtectionPrinciple,职业照射的剂量限值,"NCRP 规定医疗从业人员的职业外照射年限值为 50 mSv（5,000 mrem），其中眼晶状体 150 mSv（15,000 mrem）、皮肤与四肢 500 mSv（50,000 mrem）；计划照射情形下职业照射的眼晶状体年平均当量剂量限值由 150 mSv 大幅度调低至 20 mSv。ICRP 规定职业照射年有效剂量 20 mSv、按 5 年期间平均，且任一单年不得超过 50 mSv。",管理要求 个人防护,5
+PP_OccLimit,ProtectionPrinciple,职业照射的剂量限值,"NCRP 规定医疗从业人员的职业外照射年限值为 50 mSv（5,000 mrem），其中眼晶状体 150 mSv（15,000 mrem）、皮肤与四肢 500 mSv（50,000 mrem）；计划照射情形下职业照射的眼晶状体年平均当量剂量限值由 150 mSv 大幅度调低至 20 mSv。ICRP 规定职业照射年有效剂量 20 mSv、按 5 年期间平均，且任一单年不得超过 50 mSv。",管理要求 个人防护,4
 PP_DoseWearing,ProtectionPrinciple,个人剂量计的配发与佩戴,ALMAR 主动式个人剂量计在 X/γ 配置下剂量量程 0.65 μSv–10 Sv、剂量率量程 1 μSv/h–10 Sv/h，重 25 g，电池寿命约 14 天。97.1%（99/102 人）获配个人剂量监测装置，81.8%（81/99）每月监测，但仅 53.5%（53/99）始终佩戴，只有 33.3%（32/96）总能拿到剂量读数；取消「超剂量即处罚」的制度并改为每月宣教后，自述「始终佩戴」剂量计的医师比例升至三家医院的 83.9%、90.2%、93.8%。,管理要求 个人防护,4
 PP_Referral,ProtectionPrinciple,申请单与病史质量,64.8%（81 人）的检查申请单缺乏充分临床病史，49.2%（60 人）的放射技师要靠自行评估检查部位来补充；转诊不完整（31.3%，36 人）或申请与病史不符（32.8%，38 人）。ICRP 防护三原则为正当性、最优化与剂量限值；最优化分两级，一级针对设备与设施的设计、选择和建造，二级针对放射技师的日常操作；剂量限值管职业与公众照射，不适用于受检患者的医疗照射。,正当性 管理要求,1
 ST_QC,ShieldingTest,CT 装置的质量控制检测,CT 新安装及重大维修后应进行验收检测，使用中的 CT 应每年进行状态检测，并定期进行稳定性检测；验收检测和状态检测应委托有资质的技术服务机构进行，稳定性检测应由医疗机构自行实施或者委托有能力的技术机构进行；采用头部扫描条件进行质控检测时，每次扫描的剂量 CTDIw 应不大于 50 mGy。,防护检测 质量保证,12
@@ -147,7 +147,7 @@ DL_DRG,DRLLevel,常规 X 射线摄影的诊断参考水平,WS/T 908—2026《放
 DL_Mammo,DRLLevel,乳腺 X 射线摄影的诊断参考水平,WS/T 908—2026《放射诊断实践中放射防护与辐射剂量管理标准》的相关条款要点。,剂量参考水平,1
 SM_PPE_Apron,ShieldingMeasure,防护围裙与介入防护手套,GBZ 130—2020《放射诊断放射防护要求》的相关条款要点。,个人防护,2
 SM_PPE_Gonad,ShieldingMeasure,甲状腺与性腺的防护用品,GBZ 130—2020《放射诊断放射防护要求》的相关条款要点。,个人防护,3
-SM_PPE_Screen,ShieldingMeasure,移动铅防护屏风,GBZ 130—2020《放射诊断放射防护要求》的相关条款要点。,个人防护,2
+SM_PPE_Screen,ShieldingMeasure,移动铅防护屏风,GBZ 130—2020《放射诊断放射防护要求》的相关条款要点。,个人防护,1
 SM_PPE_Child,ShieldingMeasure,儿童受检者的防护用品,GBZ 130—2020《放射诊断放射防护要求》的相关条款要点。,个人防护,1
 SM_Observe,ShieldingMeasure,观察窗与视频对讲装置,GBZ 130—2020《放射诊断放射防护要求》的相关条款要点。,机房防护,1
 SM_Door,ShieldingMeasure,防护门与自动闭门装置,GBZ 130—2020《放射诊断放射防护要求》的相关条款要点。,机房防护,1
@@ -186,7 +186,6 @@ XT-01,Reference,妊娠期应用辐射性影像学检查的专家建议,,文献 �
 XT-02,Reference,X射线计算机体层摄影设备（CT）临床使用规范,,文献 规范,1
 XT-03,Reference,双层探测器CT能量成像技术临床操作及质量控制规范,,文献 规范,1
 XT-04,Reference,医用X射线诊断辐射环境监测规范,,文献 规范,1
-XT-05,Reference,移动式X射线计算机体层摄影设备质量控制监测规范,,文献 规范,1
 XT-06,Reference,医用X射线诊断机房卫生防护与检测评价规范,,文献 规范,1
 GBZ130-2020,Reference,GBZ 130—2020《放射诊断放射防护要求》,,文献 标准,1
 CN-10,Reference,WS 519—2019《X射线计算机体层摄影装置质量控制检测规范》,,文献 标准,1
@@ -211,7 +210,6 @@ CN-28,Reference,DB22/T 3050—2019《放射诊疗建设项目放射性职业病�
 CN-32,Reference,DB32/T 3907—2020《放射诊疗工作场所外照射在线监测系统设置规范》,,文献 推荐,1
 CN-33,Reference,DB4401/T 260—2024《放射卫生技术服务管理规范》,,文献 推荐,1
 CN-34,Reference,DB11/T 1930—2021《放射工作人员健康检查染色体畸变和微核检测质量控制规范》,,文献 推荐,1
-CN-35,Reference,DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》,,文献 推荐,1
 CN-36,Reference,DB45/T 2701—2023《放射性同位素与射线装置安全和防护状况年度评估报告编制指南》,,文献 推荐,1
 CN-37,Reference,粤港澳大湾区数字X射线骨关节摄影检查技术与防护规范专家共识,,文献 共识,1
 EN-13,Reference,AAPM/ACR/HPS Joint Statement on Proper Use of Radiation Dose Metric Tracking for Patients Undergoing Medical Imaging Exams,,文献 声明,1
@@ -245,7 +243,6 @@ EN-34,Reference,Structural Shielding Design for Medical X-Ray Imaging Facilities
 EN-35,Reference,Medical electrical equipment - Part 2-44: Particular requirements for the basic safety and essential performance of X-ray equipment for computed tomography,,文献 标准,1
 EN-36,Reference,Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays,,文献 推荐,1
 EN-37,Reference,Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation,,文献 推荐,1
-EN-38,Reference,Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment,,文献 建议,1
 EN-39,Reference,Application of a low-cost Geiger-Müller monitoring system for clinical radiation environments,,文献 建议,1
 EN-40,Reference,A new shielding calculation method for X-ray computed tomography regarding scattered radiation,,文献 建议,1
 EN-41,Reference,Bismuth Shielding in Head Computed Tomography—Still Necessary? J Clin Med,,文献 建议,1
@@ -287,9 +284,9 @@ SR-10,Reference,Screening for Lung Cancer With Low-Dose Computed Tomography: Upd
 WS391-2024,Reference,WS/T 391—2024《CT 检查操作规程》,,文献 推荐,1
 WS637-2018,Reference,WS/T 637—2018《X 射线计算机断层摄影成年人诊断参考水平》,,文献 推荐,1
 FW_ScanParameter,ScanParameter,扫描参数,本题的一级框架。收录影响辐射剂量的扫描参数 —— 管电压、管电流（mAs）、层厚与层间距、螺距、探测器排数、曝光时间、重建算法与准直器/显示野。要点来自 WS/T 391—2024、AAPM TG-111 与 ACR 实践参数。,知识框架 一级框架,35
-FW_ShieldingMeasure,ShieldingMeasure,辐射防护措施,本题的一级框架。收录把人和机房挡在辐射外面的具体办法 —— 个人防护用品（铅衣、铅围脖、铅帽）、CT 受检者的包裹式屏蔽、机房防护设施（防护墙、防护门、观察窗），以及屏蔽材料的铅当量。要点来自 GBZ 130—2020 与胸部 CT 接触屏蔽共识。,知识框架 一级框架,44
-FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,本题的一级框架。收录放射防护的原则与硬性要求 —— 医疗照射的正当性（净利益原则）、优先选用非 X 射线方法、严格控制照射野范围、孕妇与儿童等特殊人群、胚胎与胎儿防护、机房人员的处置、X 射线设备操作的防护安全要求，以及医疗机构的防护管理责任。要点来自 GB 18871、GBZ 130—2020、WS/T 908—2026 与 ICRP/ACR 文件。,知识框架 一级框架,77
-FW_ShieldingTest,ShieldingTest,防护检测,本题的一级框架。收录防护做得好不好的验证办法 —— 机房防护检测的关注点与周期、设备防护性能检测、每日检查指示灯与闭门装置、CT 剂量信息的定期核查与儿童剂量管理。要点来自 GBZ 130—2020、AAPM TG-111 与 WS/T 908—2026。,知识框架 一级框架,37
+FW_ShieldingMeasure,ShieldingMeasure,辐射防护措施,本题的一级框架。收录把人和机房挡在辐射外面的具体办法 —— 个人防护用品（铅衣、铅围脖、铅帽）、CT 受检者的包裹式屏蔽、机房防护设施（防护墙、防护门、观察窗），以及屏蔽材料的铅当量。要点来自 GBZ 130—2020 与胸部 CT 接触屏蔽共识。,知识框架 一级框架,43
+FW_ProtectionPrinciple,ProtectionPrinciple,防护原则与要求,本题的一级框架。收录放射防护的原则与硬性要求 —— 医疗照射的正当性（净利益原则）、优先选用非 X 射线方法、严格控制照射野范围、孕妇与儿童等特殊人群、胚胎与胎儿防护、机房人员的处置、X 射线设备操作的防护安全要求，以及医疗机构的防护管理责任。要点来自 GB 18871、GBZ 130—2020、WS/T 908—2026 与 ICRP/ACR 文件。,知识框架 一级框架,74
+FW_ShieldingTest,ShieldingTest,防护检测,本题的一级框架。收录防护做得好不好的验证办法 —— 机房防护检测的关注点与周期、设备防护性能检测、每日检查指示灯与闭门装置、CT 剂量信息的定期核查与儿童剂量管理。要点来自 GBZ 130—2020、AAPM TG-111 与 WS/T 908—2026。,知识框架 一级框架,36
 FW_HeadExam,HeadExam,头部与五官检查,收录头面部的 CT 检查规程 —— 颅脑（听眦线基线，120 kV～130 kV）、眼眶与视神经管（薄层 0.6 mm～0.7 mm）、耳部（140 kV）、鼻窦颌面及颅底。,知识框架 一级框架,4
 FW_NeckExam,NeckExam,颈部与咽喉检查,收录颈部 CT 检查规程 —— 咽喉（眼眶上缘至舌骨）、颈（颅底至胸骨上切迹）、颈部 CT 动脉血管成像，以及分部位的管电流量设定。,知识框架 一级框架,3
 FW_ChestExam,ChestExam,胸部与肺部检查,收录胸部的 CT 检查规程 —— 肺部常规平扫、胸部低剂量 CT（20 mAs～50 mAs）。低剂量 CT 的适应证与参数是筛查场景的核心。,知识框架 一级框架,8

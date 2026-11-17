@@ -594,7 +594,6 @@ ProtectionPrinciple,放射防护管理责任与制度,出处,Reference,双层探
 ScanParameter,重建算法与重建层厚,出处,Reference,双层探测器CT能量成像技术临床操作及质量控制规范
 ShieldingTest,儿童 CT 的剂量管理与机构内参考水平,出处,Reference,双层探测器CT能量成像技术临床操作及质量控制规范
 ShieldingTest,机房防护检测的关注点,出处,Reference,医用X射线诊断辐射环境监测规范
-ProtectionPrinciple,移动式与便携式 X 射线设备的使用限制,出处,Reference,移动式X射线计算机体层摄影设备质量控制监测规范
 ShieldingMeasure,机房防护设施,出处,Reference,医用X射线诊断机房卫生防护与检测评价规范
 ShieldingTest,机房防护检测的关注点,出处,Reference,医用X射线诊断机房卫生防护与检测评价规范
 ProtectionPrinciple,放射防护管理责任与制度,出处,Reference,GBZ 130—2020《放射诊断放射防护要求》
@@ -734,11 +733,6 @@ ProtectionPrinciple,个人剂量监测要求,出处,Reference,DB32/T 3907—2020
 ProtectionPrinciple,放射卫生技术服务与机构管理,出处,Reference,DB4401/T 260—2024《放射卫生技术服务管理规范》
 ProtectionPrinciple,放射工作人员的培训与岗位要求,出处,Reference,DB4401/T 260—2024《放射卫生技术服务管理规范》
 DoseIndex,放射工作人员的生物剂量学监测,出处,Reference,DB11/T 1930—2021《放射工作人员健康检查染色体畸变和微核检测质量控制规范》
-ProtectionPrinciple,移动式与便携式 X 射线设备的使用限制,出处,Reference,DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》
-ProtectionPrinciple,医疗照射的正当性（净利益原则）,出处,Reference,DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》
-ShieldingMeasure,移动铅防护屏风,出处,Reference,DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》
-ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,出处,Reference,DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》
-ProtectionPrinciple,放射防护管理责任与制度,出处,Reference,DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》
 ProtectionPrinciple,放射卫生技术服务与机构管理,出处,Reference,DB45/T 2701—2023《放射性同位素与射线装置安全和防护状况年度评估报告编制指南》
 DoseIndex,CT 剂量信息的定期核查,出处,Reference,DB45/T 2701—2023《放射性同位素与射线装置安全和防护状况年度评估报告编制指南》
 ShieldingTest,场所外照射在线监测,出处,Reference,DB45/T 2701—2023《放射性同位素与射线装置安全和防护状况年度评估报告编制指南》
@@ -864,10 +858,6 @@ ShieldingTest,CT 装置的质量控制检测,出处,Reference,Applying Radiation
 ProtectionPrinciple,个人剂量监测要求,出处,Reference,Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation
 ProtectionPrinciple,个人剂量计的配发与佩戴,出处,Reference,Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation
 DoseIndex,OSLD 个人与环境剂量监测,出处,Reference,Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation
-ProtectionPrinciple,移动式与便携式 X 射线设备的使用限制,出处,Reference,Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment
-ShieldingTest,机房散射剂量测量,出处,Reference,Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment
-ProtectionPrinciple,职业照射的剂量限值,出处,Reference,Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment
-ProtectionPrinciple,X 射线设备操作的防护安全要求,出处,Reference,Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment
 ShieldingTest,机房散射剂量测量,出处,Reference,Application of a low-cost Geiger-Müller monitoring system for clinical radiation environments
 ShieldingMeasure,机房屏蔽的设计与预评估,出处,Reference,A new shielding calculation method for X-ray computed tomography regarding scattered radiation
 DoseIndex,OSLD 个人与环境剂量监测,出处,Reference,A new shielding calculation method for X-ray computed tomography regarding scattered radiation
@@ -1232,7 +1222,6 @@ ShieldingMeasure,辐射防护措施,出处,Reference,肺癌筛查低剂量CT检�
 ShieldingMeasure,辐射防护措施,出处,Reference,WS/T 874—2025《乡镇卫生院和社区卫生服务中心CT常见检查操作标准》
 ShieldingMeasure,辐射防护措施,出处,Reference,DB32/T 4659.7—2024《医院公共卫生工作规范 第7部分：放射防护》
 ShieldingMeasure,辐射防护措施,出处,Reference,DB22/T 2063—2014《放射诊疗工作人员职业病危害控制指南》
-ShieldingMeasure,辐射防护措施,出处,Reference,DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》
 ShieldingMeasure,辐射防护措施,出处,Reference,European consensus on patient contact shielding
 ShieldingMeasure,辐射防护措施,出处,Reference,新型冠状病毒肺炎CT方舱剂量检测与防护分析
 ShieldingMeasure,辐射防护措施,出处,Reference,X射线铅防护服检测方法研究进展
@@ -1289,7 +1278,6 @@ ProtectionPrinciple,防护原则与要求,出处,Reference,低剂量螺旋CT肺�
 ProtectionPrinciple,防护原则与要求,出处,Reference,"AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT"
 ProtectionPrinciple,防护原则与要求,出处,Reference,妊娠期应用辐射性影像学检查的专家建议
 ProtectionPrinciple,防护原则与要求,出处,Reference,X射线计算机体层摄影设备（CT）临床使用规范
-ProtectionPrinciple,防护原则与要求,出处,Reference,DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》
 ProtectionPrinciple,防护原则与要求,出处,Reference,AAPM/ACR/HPS Joint Statement on Proper Use of Radiation Dose Metric Tracking for Patients Undergoing Medical Imaging Exams
 ProtectionPrinciple,防护原则与要求,出处,Reference,Joint Position Statement and Call for Action for Strengthening Radiation Protection of Patients Undergoing Recurrent Radiological Imaging Procedures
 ProtectionPrinciple,防护原则与要求,出处,Reference,低剂量螺旋CT应用于高危人群早期肺癌筛查的荟萃分析
@@ -1308,7 +1296,6 @@ ProtectionPrinciple,防护原则与要求,出处,Reference,DB22/T 3166—2020《
 ProtectionPrinciple,防护原则与要求,出处,Reference,《X射线计算机体层成像儿童诊断参考水平标准》解读
 ProtectionPrinciple,防护原则与要求,出处,Reference,Paediatric computed tomography diagnostic reference levels in Africa: A systematic review
 ProtectionPrinciple,防护原则与要求,出处,Reference,Systematic Review and Meta-Analysis of Radiation Dose Reduction Studies in Pediatric Head CT
-ProtectionPrinciple,防护原则与要求,出处,Reference,Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment
 ProtectionPrinciple,防护原则与要求,出处,Reference,Radiation Protection No. 185: European Guidelines on Diagnostic Reference Levels for Paediatric Imaging
 ProtectionPrinciple,防护原则与要求,出处,Reference,on behalf of ICRP. Diagnostic reference levels in medical imaging
 ProtectionPrinciple,防护原则与要求,出处,Reference,双层探测器CT能量成像技术临床操作及质量控制规范
@@ -1316,7 +1303,6 @@ ProtectionPrinciple,防护原则与要求,出处,Reference,DB32/T 4659.7—2024�
 ProtectionPrinciple,防护原则与要求,出处,Reference,DB22/T 2063—2014《放射诊疗工作人员职业病危害控制指南》
 ProtectionPrinciple,防护原则与要求,出处,Reference,DB45/T 2701—2023《放射性同位素与射线装置安全和防护状况年度评估报告编制指南》
 ProtectionPrinciple,防护原则与要求,出处,Reference,White paper on radiation protection by the European Society of Radiology
-ProtectionPrinciple,防护原则与要求,出处,Reference,移动式X射线计算机体层摄影设备质量控制监测规范
 ProtectionPrinciple,防护原则与要求,出处,Reference,AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment
 ProtectionPrinciple,防护原则与要求,出处,Reference,Clinical indication-based diagnostic reference levels in CT: a systematic review
 ProtectionPrinciple,防护原则与要求,出处,Reference,Systematic literature review on the benefit of patient protection shielding during medical X-ray imaging: Towards a discontinuation of the current practice
@@ -1366,7 +1352,6 @@ ShieldingTest,防护检测,出处,Reference,医用CT诊断装置射线防护工�
 ShieldingTest,防护检测,出处,Reference,Acceptance Testing and Quality Control of Digital Radiographic Imaging Systems: The Report of AAPM Task Group 150
 ShieldingTest,防护检测,出处,Reference,WS 519—2019《X射线计算机体层摄影装置质量控制检测规范》
 ShieldingTest,防护检测,出处,Reference,WS/T 831—2024《医用电离辐射放射防护名词术语标准》
-ShieldingTest,防护检测,出处,Reference,Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment
 ShieldingTest,防护检测,出处,Reference,Application of a low-cost Geiger-Müller monitoring system for clinical radiation environments
 ShieldingTest,防护检测,出处,Reference,《CT方舱放射防护要求》团体标准解读
 ShieldingTest,防护检测,出处,Reference,A new shielding calculation method for X-ray computed tomography regarding scattered radiation

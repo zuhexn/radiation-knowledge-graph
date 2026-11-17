@@ -5646,20 +5646,6 @@ window.KG_GRAPH = {
           "cat": "个人防护"
         },
         {
-          "k": "个人防护用具",
-          "v": "应为操作人员和受检者提供必要的个人防护用具，铅当量要求对成人≥0.25mmPb。",
-          "quote": "应为操作人员和受检者提供必要的个人防护用具（包括铅橡胶围裙、铅橡胶方巾、铅橡胶防护围领等，铅当量要求对成人≥0.25mmPb",
-          "src": "CN-35",
-          "cat": "个人防护"
-        },
-        {
-          "k": "检测人员个人防护",
-          "v": "检测工作应在具备屏蔽防护条件的场所内进行，检测人员应使用可移动铅屏风、穿着防护服并按 GBZ 128 佩戴个人剂量计。",
-          "quote": "检测工作应在具备屏蔽防护条件的场所内进行，检测人员应使用可移动铅屏风（铅当量≥2.0mmPb），穿着防护服（铅当量≥0.25mmPb），并按GBZ128中关于个人剂量计佩戴要求佩戴个人剂量计。",
-          "src": "CN-35",
-          "cat": "防护检测"
-        },
-        {
           "k": "CT 中眼晶体屏蔽",
           "v": "欧洲共识：在 CT 情形下，近期多数研究提示剂量降低策略比眼晶体屏蔽更有效。",
           "quote": "However, in the case of CT, most recent studies suggest that dose reduction strategies are more effective than eye shielding",
@@ -5876,16 +5862,6 @@ window.KG_GRAPH = {
           "cite": "吉林省市场监督管理厅 / DB22/T 2063—2014《放射诊疗工作人员职业病危害控制指南》 / 吉林省地方标准 / 2063",
           "grade": "推荐",
           "ref": "CN-26"
-        },
-        {
-          "type": "推荐",
-          "author": "天津市市场和质量监督管理委员会",
-          "title": "DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》",
-          "journal": "天津市地方标准",
-          "year": 2018,
-          "cite": "天津市市场和质量监督管理委员会 / DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》 / 天津市地方标准 / 2018",
-          "grade": "推荐",
-          "ref": "CN-35"
         },
         {
           "type": "共识",
@@ -6974,13 +6950,6 @@ window.KG_GRAPH = {
           "cat": "正当性"
         },
         {
-          "k": "处方正当性判断",
-          "v": "开具床旁检查处方和实施医疗照射时应进行正当性判断，并将这类检查所致患者剂量控制在可合理达到的尽可能低的水平。",
-          "quote": "在开具移动式X 射线机床旁操作的检查处方和实施医疗照射时，应进行正当性判断。对确有正当理由需要进行这类检查的，应在保证获取所需诊断信息的同时，将这类检查所致患者的剂量控制在可以合理达到的尽可能低的水平",
-          "src": "CN-35",
-          "cat": "正当性"
-        },
-        {
           "k": "决策依据是临床而非既往剂量",
           "v": "AAPM、ACR、HPS 三方联合声明：是否开展医学影像检查，应依据临床依据（含可获得的既往影像结果），而不是依据既往影像检查带来的辐射剂量。",
           "quote": "It is the position of the American Association of Physicists in Medicine (AAPM), the American College of Radiology (ACR), and the Health Physics Society (HPS) that the decision to perform a medical imaging exam should be based on clinical grounds, including the information available from prior imaging results, and not on the dose from prior imaging-related radiation exposures.",
@@ -7127,16 +7096,6 @@ window.KG_GRAPH = {
           "cite": "国家卫生健康委员会 / GBZ 130—2020《放射诊断放射防护要求》 / 中华人民共和国国家职业卫生标准 / 2020",
           "grade": "标准",
           "ref": "GBZ130-2020"
-        },
-        {
-          "type": "推荐",
-          "author": "天津市市场和质量监督管理委员会",
-          "title": "DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》",
-          "journal": "天津市地方标准",
-          "year": 2018,
-          "cite": "天津市市场和质量监督管理委员会 / DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》 / 天津市地方标准 / 2018",
-          "grade": "推荐",
-          "ref": "CN-35"
         },
         {
           "type": "声明",
@@ -8074,13 +8033,6 @@ window.KG_GRAPH = {
           "quote": "曝光条件：按照摄影部位的厚度与密度选择曝光条件，采用手动曝光，或自动曝光控制(AEC)",
           "src": "CN-37",
           "cat": "扫描参数"
-        },
-        {
-          "k": "操作者站位与培训要求",
-          "v": "报告强调操作移动 CT 的临床人员须接受辐射安全培训，内容包括正确就位前方铅帘、固定后方屏蔽盖，以及重申时间、距离、屏蔽三项基本防护原则。",
-          "quote": "This training should include proper techniques for positioning the frontal lead curtain on the patient, securing the back cover, and reiterating the essential radiation protection principles of time, distance, and shielding.",
-          "src": "EN-38",
-          "cat": "操作防护"
         }
       ],
       "evidence": [
@@ -8103,16 +8055,6 @@ window.KG_GRAPH = {
           "cite": "粤港澳大湾区影像技术联盟, 广东省医师协会医学影像技师分会 / 粤港澳大湾区数字X射线骨关节摄影检查技术与防护规范专家共识 / 中华放射医学与防护杂志 / 2024",
           "grade": "指南与共识",
           "ref": "CN-37"
-        },
-        {
-          "type": "建议",
-          "author": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K",
-          "title": "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment",
-          "journal": "Br J Radiol",
-          "year": 2026,
-          "cite": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K / Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment / Br J Radiol / 2026",
-          "grade": "建议",
-          "ref": "EN-38"
         }
       ]
     },
@@ -8266,13 +8208,6 @@ window.KG_GRAPH = {
           "v": "医疗机构应配备专（兼）职管理人员，负责放射诊疗工作的质量保证和安全防护。",
           "quote": "医疗机构应当配备专（兼）职的管理人员，负责放射诊疗工作的质量保证和安全防护。",
           "src": "CN-26",
-          "cat": "管理要求"
-        },
-        {
-          "k": "安全使用管理制度",
-          "v": "应制定移动式X射线机及其床旁操作的安全使用管理制度和操作规程，并满足 GBZ 179 关于程序性的要求。",
-          "quote": "应制定移动式X 射线机及其床旁操作的安全使用管理制度和操作规程，并满足GBZ179 中关于程序性的要求，同时确保安全使用操作规程的执行。",
-          "src": "CN-35",
           "cat": "管理要求"
         },
         {
@@ -8444,16 +8379,6 @@ window.KG_GRAPH = {
         },
         {
           "type": "推荐",
-          "author": "天津市市场和质量监督管理委员会",
-          "title": "DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》",
-          "journal": "天津市地方标准",
-          "year": 2018,
-          "cite": "天津市市场和质量监督管理委员会 / DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》 / 天津市地方标准 / 2018",
-          "grade": "推荐",
-          "ref": "CN-35"
-        },
-        {
-          "type": "推荐",
           "author": "广西壮族自治区市场监督管理局",
           "title": "DB45/T 2701—2023《放射性同位素与射线装置安全和防护状况年度评估报告编制指南》",
           "journal": "广西壮族自治区地方标准",
@@ -8514,34 +8439,6 @@ window.KG_GRAPH = {
       "attrs": [],
       "details": [
         {
-          "k": "移动式CT质控监测的内容与适用范围",
-          "v": "本文件规定了移动式 CT 质量控制基本要求、监测项目与方法、监测结果评价及处理；适用于移动式 CT 的质量控制监测，车载式 CT 可参照执行。",
-          "quote": "本文件规定了移动式X射线计算机体层摄影设备（以下简称“移动式CT”）质量控制基本要求、监测项目与方法、监测结果评价及处理。本文件适用于移动式CT的质量控制监测，车载式CT质量控制监测可参照本文件执行。",
-          "src": "XT-05",
-          "cat": "质量保证"
-        },
-        {
-          "k": "标准的编号、发布与实施时点",
-          "v": "标准号 DB31/T 1679-2026，2026-02-14 发布，2026-06-01 实施，制定（首次发布）。",
-          "quote": "标准号： DB31/T 1679-2026 中国标准分类号： C43 发布日期： 2026-02-14 国际标准分类号： 11.040.50 实施日期： 2026-06-01",
-          "src": "XT-05",
-          "cat": "质量保证"
-        },
-        {
-          "k": "标准的归口、主管部门与起草单位",
-          "v": "技术归口为上海市职业卫生标准化技术委员会，主管部门为上海市市场监督管理局；起草单位为复旦大学放射医学研究所、上海市疾病预防控制中心、上海市卫生健康委员会监督所、上海市肺科医院。",
-          "quote": "技术归口： 上海市职业卫生标准化技术委员会 代替标准： 主管部门： 上海市市场监督管理局 标准分类： 医药卫生技术 医疗设备 射线照相设备 卫生和社会工作 上海市 内容简介 地方标准《移动式X射线计算机体层摄影设备质量控制监测规范》，主管部门为上海市市场监督管理局。本文件规定了移动式X射线计算机体层摄影设备（以下简称“移动式CT”）质量控制基本要求、监测项目与方法、监测结果评价及处理。本文件适用于移动式CT的质量控制监测，车载式CT质量控制监测可参照本文件执行。 起草单位 复旦大学放射医学研究所、上海市疾病预防控制中心、上海市卫生健康委员会监督所、上海市肺科医院",
-          "src": "XT-05",
-          "cat": "防护检测"
-        },
-        {
-          "k": "标准的分类号与标准类别",
-          "v": "中国标准分类号 C43，国际标准分类号 11.040.50，标准分类为医药卫生技术/医疗设备/射线照相设备。",
-          "quote": "中国标准分类号： C43 发布日期： 2026-02-14 国际标准分类号： 11.040.50 实施日期： 2026-06-01 技术归口： 上海市职业卫生标准化技术委员会 代替标准： 主管部门： 上海市市场监督管理局 标准分类： 医药卫生技术 医疗设备 射线照相设备",
-          "src": "XT-05",
-          "cat": "防护检测"
-        },
-        {
           "k": "移动式与便携式 X 射线设备的使用限制 · 4.2.9",
           "v": "移动式与便携式 X 射线设备的使用限制：移动式和便携式X 射线设备不应用于常规检查。只有在不能实现或在医学上不允许把受检者送到固定设备进行检查的情况下，并在采取严格的相应防护措施后，才能使用移动式或便携式X射线设备在床旁操作，实施医学影像检查。",
           "quote": "移动式和便携式X 射线设备不应用于常规检查。只有在不能实现或在医学上不允许把受检者送到固定设备进行检查的情况下，并在采取严格的相应防护措施后，才能使用移动式或便携式X射线设备在床旁操作，实施医学影像检查。",
@@ -8556,66 +8453,14 @@ window.KG_GRAPH = {
           "cat": "正当性"
         },
         {
-          "k": "床旁检查前提",
-          "v": "只有不能实现或在医学上不允许把受检者送到固定设备检查时，并在采取严格防护措施后，才能实施床旁检查。",
-          "quote": "只准许在不能实现或在医学上不允许把受检者送到固定设备进行检查的情况下，并在采取严格的相应防护措施后，才能使用移动式X 射线机的床旁操作，来实施医学影像检查。",
-          "src": "CN-35",
-          "cat": "正当性"
-        },
-        {
-          "k": "防护性能确认",
-          "v": "移动式X射线机防护性能应符合 GB 9706.12 和 GBZ 130 的相关要求，只有在防护性能确认合格后方可投入使用。",
-          "quote": "移动式X 射线机防护性能应符合GB 9706.12 和GBZ 130 的相关要求，只有在其防护性能确认合格后方可投入使用。",
-          "src": "CN-35",
-          "cat": "防护检测"
-        },
-        {
-          "k": "透视机焦皮距",
-          "v": "移动式X射线透视机的焦皮距应≥30cm，透视曝光开关应为常断式开关并配有透视限时装置。",
-          "quote": "移动式X 射线透视机的焦皮距应≥30cm。",
-          "src": "CN-35",
-          "cat": "操作防护"
-        },
-        {
           "k": "移动X线机操作距离",
           "v": "对移动式或便携式 X 线机，放射技师在曝光时必须能站在距 X 线管/射线束至少 6 英尺处，以尽量减少到达其身上的散射辐射；通常靠给曝光开关接至少 6 英尺长的软线来实现。",
           "quote": "For a mobile/portable x-ray unit, the radiographer must be able to stand at least 6 feet away from the x-ray tube/beam during the actual exposure to minimize any scattered radiation reaching him/her. This normally is accomplished by attaching the exposure switch to the unit with at least a six foot long cord.",
           "src": "EN-29",
           "cat": "操作防护"
-        },
-        {
-          "k": "移动CT自带屏蔽配置",
-          "v": "移动式头部 CT（SOMATOM On.site）标配两项关键辐射防护特性：覆盖机架开口前方的可折叠 0.5 mm 铅帘，以及覆盖机架后方的可拆卸 1 mm 铅屏蔽。",
-          "quote": "Two key radiation protection features are included as standard with the On.site scanner. These are a foldable 0.5-mm lead curtain designed to cover the front of the gantry opening during scanning and a detachable 1-mm lead shield that covers its back",
-          "src": "EN-38",
-          "cat": "机房防护"
-        },
-        {
-          "k": "屏蔽件检验标准",
-          "v": "上述前后屏蔽件由 MAVIG GmbH 制造，并按国际电工委员会标准 IEC 61331-1 进行检验。",
-          "quote": "Both components are manufactured by MAVIG GmbH and have been tested in accordance with the International Electrotechnical Commission (IEC) standard 61331-1.",
-          "src": "EN-38",
-          "cat": "设备防护性能"
-        },
-        {
-          "k": "可免穿个人防护用品",
-          "v": "研究认为：使用覆盖机架开口的集成屏蔽后，在一定条件下 NICU 内的头部 CT 检查可不使用铅衣等个人防护用品。",
-          "quote": "The low exposure measured with the integrated radiation shielding covering the gantry opening suggests that, under certain conditions, head CT examinations in the NICU can be performed without requiring personal protective equipment such as aprons.",
-          "src": "EN-38",
-          "cat": "个人防护"
         }
       ],
       "evidence": [
-        {
-          "type": "规范",
-          "author": "上海市市场监督管理局",
-          "title": "移动式X射线计算机体层摄影设备质量控制监测规范",
-          "journal": "DB31/T 1679-2026",
-          "year": 2026,
-          "cite": "上海市市场监督管理局 / 移动式X射线计算机体层摄影设备质量控制监测规范 / DB31/T 1679-2026 / 2026",
-          "grade": "规范",
-          "ref": "XT-05"
-        },
         {
           "type": "标准",
           "author": "国家卫生健康委员会",
@@ -8628,16 +8473,6 @@ window.KG_GRAPH = {
         },
         {
           "type": "推荐",
-          "author": "天津市市场和质量监督管理委员会",
-          "title": "DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》",
-          "journal": "天津市地方标准",
-          "year": 2018,
-          "cite": "天津市市场和质量监督管理委员会 / DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》 / 天津市地方标准 / 2018",
-          "grade": "推荐",
-          "ref": "CN-35"
-        },
-        {
-          "type": "推荐",
           "author": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL",
           "title": "AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment",
           "journal": "AAPM Report No",
@@ -8645,16 +8480,6 @@ window.KG_GRAPH = {
           "cite": "Lin P-JP, Strauss KJ, Conway BJ, Fisher JR, Kriz RJ, Moore ME, Dean D, Hubbard LB, Miller KL / AAPM Diagnostic X-ray Imaging Committee Task Group. Protocols for the Radiation Safety Surveys of Diagnostic Radiological Equipment / AAPM Report No / 1988",
           "grade": "推荐",
           "ref": "EN-29"
-        },
-        {
-          "type": "建议",
-          "author": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K",
-          "title": "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment",
-          "journal": "Br J Radiol",
-          "year": 2026,
-          "cite": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K / Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment / Br J Radiol / 2026",
-          "grade": "建议",
-          "ref": "EN-38"
         }
       ]
     },
@@ -12176,13 +12001,6 @@ window.KG_GRAPH = {
           "cat": "防护检测"
         },
         {
-          "k": "环境剂量低于探测限",
-          "v": "NICU 内布设的环境剂量计（OSL 面积剂量计，最低可探测水平 0.05 mSv）无一超限，即环境剂量当量低于 0.05 mSv；佩戴在防护眼镜上的眼晶状体 TLD 也均低于其 0.1 mSv 最低可探测水平。",
-          "quote": "None of the area dosimeters installed in the NICU registered doses that exceeded their minimum detectable level, meaning that the ambient dose equivalent remained below 0.05 mSv. The eye lens dosimeters worn by the staff showed a similar result, as none of the measured doses exceeded the minimum detectable level of 0.1 mSv.",
-          "src": "EN-38",
-          "cat": "防护检测"
-        },
-        {
           "k": "巡测仪的普及困难",
           "v": "研究指出：商用巡测仪虽便携、实用、便于定期校准而被广泛用于漏射监测与日常安全检查，但在科研、教学与资源受限场景中难以广泛部署——其成本高、可扩展性有限、自动数据记录能力受限，妨碍在同一时段多临床点位反复测量的应用。",
           "quote": "Survey meters are widely used for leakage monitoring and routine safety checks because they are portable, practical, and suitable for periodic calibration.",
@@ -12346,16 +12164,6 @@ window.KG_GRAPH = {
           "cite": "Gauntt DM, Ranger NT, Willis CE, et al / Acceptance Testing and Quality Control of Digital Radiographic Imaging Systems: The Report of AAPM Task Group 150 / AAPM Report No / 2024",
           "grade": "推荐",
           "ref": "EN-30"
-        },
-        {
-          "type": "建议",
-          "author": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K",
-          "title": "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment",
-          "journal": "Br J Radiol",
-          "year": 2026,
-          "cite": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K / Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment / Br J Radiol / 2026",
-          "grade": "建议",
-          "ref": "EN-38"
         },
         {
           "type": "建议",
@@ -12585,27 +12393,6 @@ window.KG_GRAPH = {
           "cat": "剂量指标"
         },
         {
-          "k": "单次检查个人剂量极低",
-          "v": "使用主动个人剂量计测量，单次检查的平均个人剂量为：操作放射技师 0.07 ± 0.03 µSv、主诊临床医师 0.03 ± 0.02 µSv；最大记录值约 1 µSv，出现在唯一一次未使用集成屏蔽时。",
-          "quote": "The measurements show an average staff dose per examination of 0.07 ± 0.03 µSv for the radiology nurse operating the scanner and 0.03 ± 0.02 µSv for the primary clinician attending the examination. The maximum recorded dose of approximately 1 µSv occurred on the only occasion when the integrated radiation shielding was not employed by the staff.",
-          "src": "EN-38",
-          "cat": "剂量指标"
-        },
-        {
-          "k": "远低于职业与公众限值",
-          "v": "研究结果表明，工作人员所受剂量远低于 20 mSv 有效剂量的职业照射限值和 1 mSv 有效剂量的公众照射限值。",
-          "quote": "The findings indicate that staff doses can be kept well below both the occupational exposure limit of 20 mSv effective dose and the public exposure limit of 1 mSv effective dose.",
-          "src": "EN-38",
-          "cat": "剂量指标"
-        },
-        {
-          "k": "累积剂量估算阈值",
-          "v": "按本研究测量结果，临床人员须参与超过 1000 例移动头部 CT 检查，累计有效剂量才达到 0.1 mSv；若不使用集成屏蔽，约 100 例检查即达到该阈值。",
-          "quote": "Indeed, based on the measurements in this study, the clinical staff would have to be involved in more than 1000 mobile head CT examinations to reach a cumulative effective dose of only 0.1 mSv. Without the use of the integrated radiation shielding, this threshold would be reached after approximately 100 examinations.",
-          "src": "EN-38",
-          "cat": "剂量指标"
-        },
-        {
           "k": "体外Hp(10)手术剂量",
           "v": "防护服外胸前实时个人剂量监测显示，每台透视引导手术的个人剂量当量为 0.010±0.009 ~ 0.025±0.011 mSv；介入心内科最高（0.025±0.011 mSv），其次血管内介入（0.022±0.012 mSv）与神经介入（0.019±0.013 mSv）。",
           "quote": "The mean occupational doses recorded using the HERADO real-time dosimetry system ranged from 0.010 ± 0.009 mSv to 0.025 ± 0.011 mSv per procedure. The highest mean occupational dose was observed during interventional cardiology procedures (0.025 ± 0.011 mSv), followed by endovascular interventions (0.022 ± 0.012 mSv) and neurointerventional procedures (0.019 ± 0.013 mSv).",
@@ -12654,16 +12441,6 @@ window.KG_GRAPH = {
           "cite": "International Atomic Energy Agency / Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays / IAEA Safety Reports Series No / 2006",
           "grade": "推荐",
           "ref": "EN-36"
-        },
-        {
-          "type": "建议",
-          "author": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K",
-          "title": "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment",
-          "journal": "Br J Radiol",
-          "year": 2026,
-          "cite": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K / Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment / Br J Radiol / 2026",
-          "grade": "建议",
-          "ref": "EN-38"
         },
         {
           "type": "推荐",
@@ -17218,13 +16995,6 @@ window.KG_GRAPH = {
           "quote": "对于移动式X 射线设备使用频繁的场所（如：重症监护、危重病人救治、骨科复位等场所），应配备足够数量的移动铅防护屏风。表4 个人防护用品和辅助防护设施配置要求放射检查类型工作人员受检者个人防护用品辅助防护设施个人防护用品辅助防护设施放射诊断学用X射线设备隔室透视、摄影a— —铅橡胶性腺防护围裙（方形）或方巾、铅橡胶颈套选配：铅橡胶帽子可调节防护窗口的立位防护屏；选配：固定特殊受检者体位的各种设备放射诊断学用X射线设备同室透视、摄影a铅橡胶围裙选配：铅橡胶帽子、铅橡胶颈套、铅橡胶手套、铅防护眼镜移动铅防护屏风铅橡胶性腺防护围裙（方形）或方巾、铅橡胶颈套选配：铅橡胶帽子可调节防护窗口的立位防护屏；选配：固定特殊受检者体位的各种设备口内牙片摄影 — — 大领铅橡胶颈套 —牙科全景体层摄影，口腔CBCT— —大领铅橡胶颈套选配：铅橡胶帽子—CT体层扫描（隔室）— —铅橡胶性腺防护围裙（方形）或方巾、",
           "src": "GBZ130-2020",
           "cat": "个人防护"
-        },
-        {
-          "k": "铅屏风配置",
-          "v": "移动式X射线机使用频繁的场所应配备足够数量的可移动防护铅屏风，铅当量≥2.0mmPb，宽度≥1000mm、高度≥1800mm。",
-          "quote": "对于移动式X 射线机使用频繁的场所（如：重症监护、危重病人救治、骨科复位等场所），应配备足够数量的可移动防护铅屏风（铅当量≥2.0mmPb）。铅屏风的宽度应≥1000mm，高度≥1800mm。",
-          "src": "CN-35",
-          "cat": "个人防护"
         }
       ],
       "evidence": [
@@ -17237,16 +17007,6 @@ window.KG_GRAPH = {
           "cite": "国家卫生健康委员会 / GBZ 130—2020《放射诊断放射防护要求》 / 中华人民共和国国家职业卫生标准 / 2020",
           "grade": "标准",
           "ref": "GBZ130-2020"
-        },
-        {
-          "type": "推荐",
-          "author": "天津市市场和质量监督管理委员会",
-          "title": "DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》",
-          "journal": "天津市地方标准",
-          "year": 2018,
-          "cite": "天津市市场和质量监督管理委员会 / DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》 / 天津市地方标准 / 2018",
-          "grade": "推荐",
-          "ref": "CN-35"
         }
       ]
     },
@@ -19451,50 +19211,6 @@ window.KG_GRAPH = {
       ]
     },
     {
-      "id": "XT-05",
-      "graph": "radiation",
-      "type": "Reference",
-      "name": "移动式X射线计算机体层摄影设备质量控制监测规范",
-      "tags": [
-        "文献",
-        "规范"
-      ],
-      "aliases": [
-        "移动式X射线计算机体层摄影设备质量控制监测规范"
-      ],
-      "summary": "",
-      "attrs": [
-        {
-          "k": "文献类型",
-          "v": "规范"
-        },
-        {
-          "k": "年份",
-          "v": "2026"
-        },
-        {
-          "k": "核验标识",
-          "v": ""
-        },
-        {
-          "k": "证据等级",
-          "v": "规范"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "规范",
-          "author": "上海市市场监督管理局",
-          "title": "移动式X射线计算机体层摄影设备质量控制监测规范",
-          "journal": "DB31/T 1679-2026",
-          "year": 2026,
-          "cite": "上海市市场监督管理局 / 移动式X射线计算机体层摄影设备质量控制监测规范 / DB31/T 1679-2026 / 2026",
-          "grade": "规范",
-          "ref": "XT-05"
-        }
-      ]
-    },
-    {
       "id": "XT-06",
       "graph": "radiation",
       "type": "Reference",
@@ -20547,50 +20263,6 @@ window.KG_GRAPH = {
           "cite": "北京市市场监督管理局 / DB11/T 1930—2021《放射工作人员健康检查染色体畸变和微核检测质量控制规范》 / 北京市地方标准 / 1930",
           "grade": "推荐",
           "ref": "CN-34"
-        }
-      ]
-    },
-    {
-      "id": "CN-35",
-      "graph": "radiation",
-      "type": "Reference",
-      "name": "DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》",
-      "tags": [
-        "文献",
-        "推荐"
-      ],
-      "aliases": [
-        "DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》"
-      ],
-      "summary": "",
-      "attrs": [
-        {
-          "k": "文献类型",
-          "v": "推荐"
-        },
-        {
-          "k": "年份",
-          "v": "2018"
-        },
-        {
-          "k": "核验标识",
-          "v": ""
-        },
-        {
-          "k": "证据等级",
-          "v": "推荐"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "推荐",
-          "author": "天津市市场和质量监督管理委员会",
-          "title": "DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》",
-          "journal": "天津市地方标准",
-          "year": 2018,
-          "cite": "天津市市场和质量监督管理委员会 / DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》 / 天津市地方标准 / 2018",
-          "grade": "推荐",
-          "ref": "CN-35"
         }
       ]
     },
@@ -22043,50 +21715,6 @@ window.KG_GRAPH = {
           "cite": "European Commission / Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation / Radiation Protection No / 2007",
           "grade": "推荐",
           "ref": "EN-37"
-        }
-      ]
-    },
-    {
-      "id": "EN-38",
-      "graph": "radiation",
-      "type": "Reference",
-      "name": "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment",
-      "tags": [
-        "文献",
-        "建议"
-      ],
-      "aliases": [
-        "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment"
-      ],
-      "summary": "",
-      "attrs": [
-        {
-          "k": "文献类型",
-          "v": "建议"
-        },
-        {
-          "k": "年份",
-          "v": "2026"
-        },
-        {
-          "k": "核验标识",
-          "v": "10.1093/bjr/tqag079（PMID · PMID 41968788"
-        },
-        {
-          "k": "证据等级",
-          "v": "建议"
-        }
-      ],
-      "evidence": [
-        {
-          "type": "建议",
-          "author": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K",
-          "title": "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment",
-          "journal": "Br J Radiol",
-          "year": 2026,
-          "cite": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K / Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment / Br J Radiol / 2026",
-          "grade": "建议",
-          "ref": "EN-38"
         }
       ]
     },
@@ -24332,16 +23960,6 @@ window.KG_GRAPH = {
           "ref": "CN-26"
         },
         {
-          "type": "推荐",
-          "author": "天津市市场和质量监督管理委员会",
-          "title": "DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》",
-          "journal": "天津市地方标准",
-          "year": 2018,
-          "cite": "天津市市场和质量监督管理委员会 / DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》 / 天津市地方标准 / 2018",
-          "grade": "推荐",
-          "ref": "CN-35"
-        },
-        {
           "type": "共识",
           "author": "Hiles P, Gilligan P, Damilakis J, Briers E, Candela-Juan C, Faj D, Foley S, Frija G, Granata C, de Las Heras Gala H, Pauwels R, Sans Merce M, Simantirakis G, Vano E",
           "title": "European consensus on patient contact shielding",
@@ -24924,16 +24542,6 @@ window.KG_GRAPH = {
           "ref": "XT-02"
         },
         {
-          "type": "推荐",
-          "author": "天津市市场和质量监督管理委员会",
-          "title": "DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》",
-          "journal": "天津市地方标准",
-          "year": 2018,
-          "cite": "天津市市场和质量监督管理委员会 / DB12/T 802—2018《医用移动式X射线机床旁操作的放射防护要求》 / 天津市地方标准 / 2018",
-          "grade": "推荐",
-          "ref": "CN-35"
-        },
-        {
           "type": "声明",
           "author": "American Association of Physicists in Medicine (AAPM), American College of Radiology (ACR), Health Physics Society (HPS)",
           "title": "AAPM/ACR/HPS Joint Statement on Proper Use of Radiation Dose Metric Tracking for Patients Undergoing Medical Imaging Exams",
@@ -25114,16 +24722,6 @@ window.KG_GRAPH = {
           "ref": "SR-05"
         },
         {
-          "type": "建议",
-          "author": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K",
-          "title": "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment",
-          "journal": "Br J Radiol",
-          "year": 2026,
-          "cite": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K / Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment / Br J Radiol / 2026",
-          "grade": "建议",
-          "ref": "EN-38"
-        },
-        {
           "type": "指南",
           "author": "European Commission",
           "title": "Radiation Protection No. 185: European Guidelines on Diagnostic Reference Levels for Paediatric Imaging",
@@ -25192,16 +24790,6 @@ window.KG_GRAPH = {
           "cite": "European Society of Radiology (ESR) / White paper on radiation protection by the European Society of Radiology / Insights into Imaging / 2011",
           "grade": "推荐",
           "ref": "EN-23"
-        },
-        {
-          "type": "规范",
-          "author": "上海市市场监督管理局",
-          "title": "移动式X射线计算机体层摄影设备质量控制监测规范",
-          "journal": "DB31/T 1679-2026",
-          "year": 2026,
-          "cite": "上海市市场监督管理局 / 移动式X射线计算机体层摄影设备质量控制监测规范 / DB31/T 1679-2026 / 2026",
-          "grade": "规范",
-          "ref": "XT-05"
         },
         {
           "type": "推荐",
@@ -25714,16 +25302,6 @@ window.KG_GRAPH = {
           "cite": "国家卫生健康委员会 / WS/T 831—2024《医用电离辐射放射防护名词术语标准》 / 中华人民共和国卫生行业标准（推荐性） / 2024",
           "grade": "推荐",
           "ref": "XT-35"
-        },
-        {
-          "type": "建议",
-          "author": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K",
-          "title": "Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment",
-          "journal": "Br J Radiol",
-          "year": 2026,
-          "cite": "Hillergren P, Piper I, Dearden N, Miller J, Papson JP, Russell KL, Taylor DM, Peace K / Mobile head CT with integrated radiation shielding reduces the need for additional personal protective equipment / Br J Radiol / 2026",
-          "grade": "建议",
-          "ref": "EN-38"
         },
         {
           "type": "建议",
@@ -30707,12 +30285,6 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
-      "source": "PP_Mobile",
-      "target": "XT-05",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
       "source": "SM_Room",
       "target": "XT-06",
       "type": "SUPPORTED_BY",
@@ -31547,36 +31119,6 @@ window.KG_GRAPH = {
       "label": "出处"
     },
     {
-      "source": "PP_Mobile",
-      "target": "CN-35",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "PP_Justification",
-      "target": "CN-35",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "SM_PPE_Screen",
-      "target": "CN-35",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "SM_PPE",
-      "target": "CN-35",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "PP_Management",
-      "target": "CN-35",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
       "source": "PP_ServiceOrg",
       "target": "CN-36",
       "type": "SUPPORTED_BY",
@@ -32323,30 +31865,6 @@ window.KG_GRAPH = {
     {
       "source": "DM_OSLD",
       "target": "EN-37",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "PP_Mobile",
-      "target": "EN-38",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "ST_ScatterDose",
-      "target": "EN-38",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "PP_OccLimit",
-      "target": "EN-38",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "PP_Operator",
-      "target": "EN-38",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -34710,12 +34228,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ShieldingMeasure",
-      "target": "CN-35",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ShieldingMeasure",
       "target": "EN-18",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -35052,12 +34564,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ProtectionPrinciple",
-      "target": "CN-35",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ProtectionPrinciple",
       "target": "EN-13",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -35166,12 +34672,6 @@ window.KG_GRAPH = {
     },
     {
       "source": "FW_ProtectionPrinciple",
-      "target": "EN-38",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ProtectionPrinciple",
       "target": "EN-04",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -35209,12 +34709,6 @@ window.KG_GRAPH = {
     {
       "source": "FW_ProtectionPrinciple",
       "target": "EN-23",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ProtectionPrinciple",
-      "target": "XT-05",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -35509,12 +35003,6 @@ window.KG_GRAPH = {
     {
       "source": "FW_ShieldingTest",
       "target": "XT-35",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ShieldingTest",
-      "target": "EN-38",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
