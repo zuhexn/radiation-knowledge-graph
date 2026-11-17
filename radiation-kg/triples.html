@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>三元组表 · 知识图谱</title>
+<style>
+  :root{
+    --bg:#eaf2fb; --panel:#ffffff; --panel-2:#f2f7fd; --line:#c7d9ee;
+    --text:#12233a; --text-dim:#5b7595; --accent:#a86404; --accent-2:#1d5fb0;
+  }
+  *{box-sizing:border-box;}
+  html,body{height:100%;margin:0;}
+  body{
+    background:var(--bg);color:var(--text);
+    font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB","Source Han Sans SC",sans-serif;
+    line-height:1.7;-webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:1180px;margin:0 auto;padding:26px 16px 60px;}
+  h1{font-size:23px;margin:0 0 6px;}
+  .lead{color:var(--text-dim);font-size:15px;margin:0 0 18px;}
+  .bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 14px;}
+  input[type=search]{
+    flex:1 1 260px;min-width:0;height:42px;border-radius:10px;border:1px solid var(--line);
+    background:var(--panel);color:var(--text);padding:0 13px;font-size:16px;font-family:inherit;
+  }
+  input[type=search]:focus{outline:none;border-color:var(--accent-2);}
+  .btn{
+    height:42px;padding:0 15px;border-radius:10px;border:1px solid var(--line);
+    background:var(--panel-2);color:var(--text);font-size:15px;font-family:inherit;cursor:pointer;
+    text-decoration:none;display:inline-flex;align-items:center;
+  }
+  .btn:hover{border-color:var(--accent-2);color:var(--accent-2);}
+  .meta{color:var(--text-dim);font-size:13.5px;margin:0 0 12px;}
+  /* schema 对照行 —— 客户一眼认出「就是我说的那五列」*/
+  .schema{
+    margin:0 0 10px;font-size:12.5px;color:var(--text-dim);line-height:1.9;
+  }
+  .schema code{
+    font-family:Consolas,"SF Mono",Menlo,monospace;font-size:12px;
+    background:var(--panel-2);border:1px solid var(--line);border-radius:5px;padding:1px 5px;
+    color:var(--accent-2);
+  }
+  select.sel{
+    height:42px;border-radius:10px;border:1px solid var(--line);background:var(--panel);
+    color:var(--text);padding:0 10px;font-size:15px;font-family:inherit;max-width:180px;
+  }
+  select.sel:focus{outline:none;border-color:var(--accent-2);}
+  .tblwrap{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:auto;}
+  table{border-collapse:collapse;width:100%;font-size:14.5px;}
+  th,td{
+    text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);
+    white-space:nowrap;vertical-align:top;
+  }
+  th{
+    position:sticky;top:0;background:var(--panel-2);color:var(--text);font-weight:700;
+    font-size:14px;z-index:1;
+  }
+  td.type{color:var(--text-dim);font-size:13.5px;}
+  td.rel{color:var(--accent-2);font-weight:600;}
+  tbody tr:hover{background:#f7fbff;}
+  .note{
+    margin-top:18px;background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:14px 16px;font-size:13.5px;color:var(--text-dim);
+  }
+  .note b{color:var(--text);}
+  .empty{padding:24px;text-align:center;color:var(--text-dim);}
+  .only-mobile{display:none;}
+  @media (max-width:640px){ .only-mobile{display:block;} }
+
+  /* ---------- 窄屏（手机）：表格改成每行平铺 ----------
+     五列横排要横着滑才看得到「关系」列 —— 手机上等于读不了。
+     ⇒ 窄屏把一行摊成一条：类型作浅色小标签，主体 / 关系 / 客体顺排。 */
+  @media (max-width:640px){
+    thead{display:none;}
+    table,tbody,tr{display:block;width:100%;}
+    tr{
+      display:flex;flex-wrap:wrap;align-items:baseline;gap:5px;
+      padding:9px 12px;border-bottom:1px solid var(--line);
+    }
+    td{display:inline;border:none;padding:0;white-space:normal;}
+    td.type{
+      font-size:11.5px;line-height:1.6;color:var(--text-dim);
+      background:var(--panel-2);border-radius:5px;padding:1px 5px;
+    }
+    td.rel{font-size:13.5px;}
+    .tblwrap{border-radius:10px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>三元组表</h1>
+  <p class="lead">图谱里每一条关联关系，在这里摊开成一行：<b>主体 · 关系 · 客体</b>。可以直接搜，也可以下 CSV。</p>
+
+  <div class="bar">
+    <input type="search" id="q" placeholder="搜索主体、客体或关系，例如：外渗 / 属于 / 麻醉">
+    <select id="rel" class="sel" aria-label="按关系类型筛选"><option value="">全部关系类型</option></select>
+    <a class="btn" id="dl" href="./data/radiation-triples.csv" download>下载 CSV</a>
+    <a class="btn" href="./index.html">回到图谱页</a>
+  </div>
+  <p class="schema">列名对应：<code>sub_type</code> 主体类型 · <code>sub_name</code> 主体 · <code>rel_name</code> 关系 · <code>obj_type</code> 客体类型 · <code>obj_name</code> 客体</p>
+  <p class="meta" id="meta"></p>
+  <p class="meta only-mobile" style="margin:-6px 0 12px">每行依次是：<b>主体类型 · 主体 · 关系 · 客体类型 · 客体</b>（灰色小标签 = 类型）</p>
+
+  <div class="tblwrap">
+    <table>
+      <thead>
+        <tr>
+          <th>主体类型</th><th>主体</th><th>关系</th><th>客体类型</th><th>客体</th>
+        </tr>
+      </thead>
+      <tbody id="tb"></tbody>
+    </table>
+  </div>
+  <div class="empty" id="empty">正在加载表…</div>
+
+  <div class="note">
+    <p style="margin:0 0 6px"><b>五列怎么读：</b>「<b>主体类型</b> · <b>主体</b> · <b>关系</b> · <b>客体类型</b> · <b>客体</b>」——
+      例如 <b>症状体征 · 荨麻疹 · 属于 · 症状体征 · 皮疹</b>，意思是「荨麻疹属于皮疹」这一类关系。</p>
+    <p style="margin:0 0 6px"><b>关系名</b>只用规范里给定的那套词表，<b>类型</b>也只落在规范划定的范围内 ——
+      所以这张表读起来是通的，不是自造的。</p>
+    <p style="margin:0"><b>类型列</b>显示的是中文名（鼠标悬停可看到对应的英文标识）；
+      下载的 CSV 与图谱数据完全一致，是同一份 5 列表。</p>
+  </div>
+</div>
+
+<script src="./data/radiation-triples.js"></script>
+<script>
+(function () {
+  var DATA = window.KG_TRIPLES || { rows: [], labels: {}, stats: {} };
+  var ROWS = DATA.rows || [];
+  var LABELS = DATA.labels || {};
+  var ST = DATA.stats || {};
+
+  /* 规模数字从数据现算 —— 不写死在页面上（数据变了数字跟着变）*/
+  var ENTITIES = (function () {
+    var s = {};
+    ROWS.forEach(function (r) { s[r[0] + "|" + r[1]] = 1; s[r[3] + "|" + r[4]] = 1; });
+    return Object.keys(s).length;
+  })();
+  var RELS = (function () {
+    var s = {};
+    ROWS.forEach(function (r) { s[r[2]] = 1; });
+    return Object.keys(s);
+  })();
+
+  var tb = document.getElementById("tb");
+  var meta = document.getElementById("meta");
+  var empty = document.getElementById("empty");
+  var q = document.getElementById("q");
+  var relSel = document.getElementById("rel");
+
+  /* 关系类型下拉 —— 10 种关系，各自多少条一行就写清楚（数据现算，不写死）*/
+  (function () {
+    var cnt = {};
+    ROWS.forEach(function (r) { cnt[r[2]] = (cnt[r[2]] || 0) + 1; });
+    Object.keys(cnt).sort(function (a, b) { return cnt[b] - cnt[a]; }).forEach(function (k) {
+      var o = document.createElement("option");
+      o.value = k;
+      o.textContent = k + "（" + cnt[k] + "）";
+      relSel.appendChild(o);
+    });
+  })();
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
+      return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c];
+    });
+  }
+
+  /* 类型列：显示中文标签，英文 key 留在 title 里（要核对原始形态时可悬停看） */
+  function typeCell(key) {
+    var zh = LABELS[key] || key;
+    return '<td class="type" title="' + esc(key) + '">' + esc(zh) + "</td>";
+  }
+
+  function draw() {
+    var kw = (q.value || "").trim().toLowerCase();
+    var rel = relSel.value;
+    var rows = ROWS;
+    if (rel) {
+      rows = rows.filter(function (r) { return r[2] === rel; });
+    }
+    if (kw) {
+      rows = rows.filter(function (r) {
+        return (r[0] + " " + r[1] + " " + r[2] + " " + r[3] + " " + r[4])
+          .toLowerCase().indexOf(kw) >= 0;
+      });
+    }
+    var LIMIT = 5000;
+    var shown = rows.slice(0, LIMIT);
+    var html = shown.map(function (r) {
+      return "<tr>" +
+        typeCell(r[0]) +
+        "<td>" + esc(r[1]) + "</td>" +
+        '<td class="rel">' + esc(r[2]) + "</td>" +
+        typeCell(r[3]) +
+        "<td>" + esc(r[4]) + "</td></tr>";
+    }).join("");
+    tb.innerHTML = html;
+    empty.textContent = rows.length ? "" : "没有匹配的行";
+    empty.style.display = rows.length ? "none" : "block";
+    /* 规模数字 —— **口径固定成互不重叠、可相加**的一组（构建时从数据现算）：
+       节点总数 = 知识实体 + 文献节点；症状类是知识实体的**子集**（单列，不相加）。
+       ⚠️ 别再把两个互相包含的数一起报给客户 —— 客户会自己加起来。 */
+    meta.textContent = "共 " + ROWS.length + " 行 · " +
+      (ST.nodes || ENTITIES) + " 个节点（" + (ST.knowledge || 0) + " 个知识实体 + "
+      + (ST.references || 0) + " 篇文献）· " + RELS.length + " 种关系类型" +
+      (ST.symptoms ? " · 其中 " + ST.symptoms + " 个是症状类节点" : "") +
+      (rel ? "，关系「" + rel + "」" + rows.length + " 行" : "") +
+      (kw ? "，匹配 " + rows.length + " 行" : "") +
+      (rows.length > LIMIT ? "（页面先显示前 " + LIMIT + " 行，完整表请下载 CSV）" : "");
+  }
+
+  q.addEventListener("input", draw);
+  relSel.addEventListener("change", draw);
+  draw();
+})();
+</script>
+</body>
+</html>

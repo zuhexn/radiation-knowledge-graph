@@ -1,0 +1,31 @@
+{
+  "_说明": "分题允许的节点类型组 —— 判据「只用本主题允许的类型组」的对照表（数据文件，不是代码）。",
+  "_来源": "推导自 ① 客户 2026-11-15 下发的检索词全表（见 search-terms.json · 需求基线 §7.2）② 三篇必读标准的内容骨架 ③ 采来的 29 篇补充文献",
+  "_用途": "build.py 与 make-site.py 都从数据读它 —— 代码里不出现任何题目标识",
+  "_推导依据": [
+    "「CT扫描 / 操作规程 / 头颈 / 胸部 / 腹部 / 四肢关节 / 肺部」→ 检查规程按部位分节（WS/T 391 §5.2-5.5）⇒ 检查项目",
+    "「辐射剂量」→ CTDIvol / DLP / 有效剂量 / 诊断参考水平（WS/T 637 表 1）⇒ 剂量指标与参考水平",
+    "「辐射屏蔽」→ 个人防护（铅衣/围脖/帽）+ 机房屏蔽 + 铅当量（GBZ 130 §6 · 附录 C）⇒ 防护措施",
+    "「放射防护」→ 时间-距离-屏蔽原则 + 操作防护安全要求（GBZ 130 §7）+ 特殊人群 ⇒ 防护原则与要求",
+    "GBZ 130 §8「机房防护检测」+ §5「设备防护性能」⇒ 防护检测"
+  ],
+  "groups": {
+    "radiation": [
+      "CTExam",
+      "HeadExam",
+      "NeckExam",
+      "ChestExam",
+      "AbdoExam",
+      "LimbExam",
+      "PedsExam",
+      "ScanParameter",
+      "DoseMetric",
+      "DoseIndex",
+      "DRLLevel",
+      "ShieldingMeasure",
+      "ProtectionPrinciple",
+      "ShieldingTest",
+      "Reference"
+    ]
+  }
+}

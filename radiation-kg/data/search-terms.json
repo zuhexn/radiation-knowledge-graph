@@ -1,0 +1,475 @@
+{
+  "version": "2026-11-16",
+  "source": "客户 2026-11-15 晚 ~ 11-16 早 微信下发（群昵称「大可不心」· 截图两帧 · 已逐字提取）—— 原文见 design/2026-11-16-需求基线（之前说的意思）.md §7.2",
+  "purpose": "校验规则第 5 条（客户检索词覆盖）的机器可读测试夹具 —— 客户部与研发部共用同一份；⛔ 检索词全表 = 数据边界（客户的词一条不改、不自行补）",
+  "counts": {
+    "zh_domain": 10,
+    "zh_evidenceType": 9,
+    "zh_total": 19,
+    "en_domain": 10,
+    "en_evidenceType": 3,
+    "en_total": 13,
+    "customerTerms_total": 32
+  },
+  "evidenceTypeDomain": {
+    "zh": [
+      "指南",
+      "共识",
+      "标准",
+      "建议",
+      "推荐",
+      "规范",
+      "声明",
+      "系统评价",
+      "Meta分析"
+    ],
+    "enToZh": {
+      "guidelines": "指南",
+      "systematic reviews": "系统评价",
+      "meta analysis": "Meta分析"
+    },
+    "note": "⭐ 客户给的**中文 9 类 + 英文 3 类**，与论文的检索词范式一致（领域词 + 文献类型词）。⛔ **英文侧只有 3 类**（缺 consensus / standard / recommendation / specification / statement）—— 按客户全表来，不自行补；⛔ 英文类型词经 enToZh 归一到中文类型。⚠️ 中文侧 9 类是客户本图的口径，与论文（书籍 / 最佳证据 / 推荐实践）不完全一致 —— 那是**检索策略**的差别，不是数据边界的差别"
+  },
+  "matching": {
+    "nodeText": "trim + 大小写不敏感 + 子串双向匹配（节点名 / aliases / tags / summary）",
+    "evidenceType": "走 evidence.type 过滤，不走节点名匹配；英文类型词经 enToZh 归一到中文类型",
+    "domainWords": "领域词走 name / alias / tag / summary 通道 —— 部位词（头颈/胸部/腹部/四肢关节/肺部）与部位类节点名必须能对上"
+  },
+  "terms": [
+    {
+      "term": "CT扫描",
+      "raw": "CT扫描",
+      "lang": "zh",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias"
+      ],
+      "expectTypes": [
+        "CTExam",
+        "HeadExam",
+        "NeckExam",
+        "ChestExam",
+        "AbdoExam",
+        "LimbExam",
+        "PedsExam"
+      ]
+    },
+    {
+      "term": "操作规程",
+      "raw": "操作规程",
+      "lang": "zh",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "CTExam",
+        "HeadExam",
+        "NeckExam",
+        "ChestExam",
+        "AbdoExam",
+        "LimbExam",
+        "PedsExam"
+      ]
+    },
+    {
+      "term": "头颈",
+      "raw": "头颈",
+      "lang": "zh",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "HeadExam",
+        "NeckExam"
+      ]
+    },
+    {
+      "term": "胸部",
+      "raw": "胸部",
+      "lang": "zh",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "ChestExam"
+      ]
+    },
+    {
+      "term": "腹部",
+      "raw": "腹部",
+      "lang": "zh",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "AbdoExam"
+      ]
+    },
+    {
+      "term": "四肢关节",
+      "raw": "四肢关节",
+      "lang": "zh",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "LimbExam"
+      ]
+    },
+    {
+      "term": "肺部",
+      "raw": "肺部",
+      "lang": "zh",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "ChestExam"
+      ]
+    },
+    {
+      "term": "辐射剂量",
+      "raw": "辐射剂量",
+      "lang": "zh",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "DoseMetric",
+        "DoseIndex",
+        "DRLLevel"
+      ]
+    },
+    {
+      "term": "辐射屏蔽",
+      "raw": "辐射屏蔽",
+      "lang": "zh",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "ShieldingMeasure"
+      ]
+    },
+    {
+      "term": "放射防护",
+      "raw": "放射防护",
+      "lang": "zh",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "ShieldingMeasure",
+        "ProtectionPrinciple",
+        "ShieldingTest"
+      ]
+    },
+    {
+      "term": "指南",
+      "raw": "指南",
+      "lang": "zh",
+      "topic": "both",
+      "channels": [
+        "evidenceType"
+      ],
+      "expectTypes": []
+    },
+    {
+      "term": "共识",
+      "raw": "共识",
+      "lang": "zh",
+      "topic": "both",
+      "channels": [
+        "evidenceType"
+      ],
+      "expectTypes": []
+    },
+    {
+      "term": "标准",
+      "raw": "标准",
+      "lang": "zh",
+      "topic": "both",
+      "channels": [
+        "evidenceType"
+      ],
+      "expectTypes": []
+    },
+    {
+      "term": "建议",
+      "raw": "建议",
+      "lang": "zh",
+      "topic": "both",
+      "channels": [
+        "evidenceType"
+      ],
+      "expectTypes": []
+    },
+    {
+      "term": "推荐",
+      "raw": "推荐",
+      "lang": "zh",
+      "topic": "both",
+      "channels": [
+        "evidenceType"
+      ],
+      "expectTypes": []
+    },
+    {
+      "term": "规范",
+      "raw": "规范",
+      "lang": "zh",
+      "topic": "both",
+      "channels": [
+        "evidenceType"
+      ],
+      "expectTypes": []
+    },
+    {
+      "term": "声明",
+      "raw": "声明",
+      "lang": "zh",
+      "topic": "both",
+      "channels": [
+        "evidenceType"
+      ],
+      "expectTypes": []
+    },
+    {
+      "term": "系统评价",
+      "raw": "系统评价",
+      "lang": "zh",
+      "topic": "both",
+      "channels": [
+        "evidenceType"
+      ],
+      "expectTypes": []
+    },
+    {
+      "term": "Meta分析",
+      "raw": "Meta分析",
+      "lang": "zh",
+      "topic": "both",
+      "channels": [
+        "evidenceType"
+      ],
+      "expectTypes": []
+    },
+    {
+      "term": "CT scan",
+      "raw": "CT scan",
+      "lang": "en",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias"
+      ],
+      "expectTypes": [
+        "CTExam",
+        "HeadExam",
+        "NeckExam",
+        "ChestExam",
+        "AbdoExam",
+        "LimbExam",
+        "PedsExam"
+      ]
+    },
+    {
+      "term": "operating procedures",
+      "raw": "operating procedures",
+      "lang": "en",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "CTExam",
+        "HeadExam",
+        "NeckExam",
+        "ChestExam",
+        "AbdoExam",
+        "LimbExam",
+        "PedsExam"
+      ]
+    },
+    {
+      "term": "head and neck",
+      "raw": "head and neck",
+      "lang": "en",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "HeadExam",
+        "NeckExam"
+      ]
+    },
+    {
+      "term": "chest",
+      "raw": "chest",
+      "lang": "en",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "ChestExam"
+      ]
+    },
+    {
+      "term": "abdomen",
+      "raw": "abdomen",
+      "lang": "en",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "AbdoExam"
+      ]
+    },
+    {
+      "term": "limb joints",
+      "raw": "limb joints",
+      "lang": "en",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "LimbExam"
+      ]
+    },
+    {
+      "term": "lungs",
+      "raw": "lungs",
+      "lang": "en",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "ChestExam"
+      ]
+    },
+    {
+      "term": "radiation dose",
+      "raw": "radiation dose",
+      "lang": "en",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "DoseMetric",
+        "DoseIndex",
+        "DRLLevel"
+      ]
+    },
+    {
+      "term": "radiation protection",
+      "raw": "radiation protection",
+      "lang": "en",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "ShieldingMeasure",
+        "ProtectionPrinciple",
+        "ShieldingTest"
+      ]
+    },
+    {
+      "term": "radiation shielding",
+      "raw": "radiation shielding",
+      "lang": "en",
+      "topic": "radiation",
+      "channels": [
+        "name",
+        "alias",
+        "tag"
+      ],
+      "expectTypes": [
+        "ShieldingMeasure"
+      ]
+    },
+    {
+      "term": "guidelines",
+      "raw": "guidelines",
+      "lang": "en",
+      "topic": "both",
+      "channels": [
+        "evidenceType"
+      ],
+      "expectTypes": []
+    },
+    {
+      "term": "systematic reviews",
+      "raw": "systematic reviews",
+      "lang": "en",
+      "topic": "both",
+      "channels": [
+        "evidenceType"
+      ],
+      "expectTypes": []
+    },
+    {
+      "term": "meta analysis",
+      "raw": "meta analysis",
+      "lang": "en",
+      "topic": "both",
+      "channels": [
+        "evidenceType"
+      ],
+      "expectTypes": []
+    }
+  ],
+  "已补齐的缺口": {
+    "声明": "2026-11-17 补齐：① AAPM / ACR / HPS 三方联合声明（不得用既往剂量做医疗决策）；② IAEA 与 EFOMP、ESR、DITTA、HERCA、Image Gently、IOMP、ISNM 等联合声明（正当性与最优化的国际共识）；③ ESR 与 EFRS《患者放射防护》联合文件；④ 儿童心血管 CT 立场声明（Position Statement）。⇒ 客户检索词的 9 类文献**全部有成员**。"
+  }
+}
