@@ -321,6 +321,8 @@ ShieldingTest,验收检测,依据,ProtectionPrinciple,放射防护管理责任�
 ShieldingTest,状态检测,依据,ProtectionPrinciple,放射防护管理责任与制度
 ProtectionPrinciple,放射工作人员的职业健康检查,依据,ProtectionPrinciple,个人剂量监测要求
 ShieldingTest,场所外照射在线监测,依据,ProtectionPrinciple,放射防护管理责任与制度
+ProtectionPrinciple,个人年剂量与剂量限值,依据,ProtectionPrinciple,放射防护管理责任与制度
+ProtectionPrinciple,个人年剂量与剂量限值,依据,ProtectionPrinciple,职业照射的剂量限值
 ProtectionPrinciple,放射卫生技术服务与机构管理,依据,ProtectionPrinciple,放射防护管理责任与制度
 ProtectionPrinciple,放射诊疗项目的职业病危害评价,依据,ProtectionPrinciple,放射防护管理责任与制度
 ShieldingTest,X 射线防护用品的检测方法,依据,ProtectionPrinciple,X 射线设备操作的防护安全要求
@@ -532,7 +534,7 @@ ScanParameter,管电压（kV）设定,出处,Reference,"AAPM Task Group 23: CT D
 ProtectionPrinciple,剂量与图像质量的平衡,出处,Reference,"AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT"
 ScanParameter,准直器宽度与显示野,出处,Reference,"AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT"
 DRLLevel,诊断参考水平（DRL）,出处,Reference,"AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT"
-ProtectionPrinciple,医疗照射的正当性（净利益原则）,出处,Reference,"AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT"
+ProtectionPrinciple,个人年剂量与剂量限值,出处,Reference,"AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT"
 DoseIndex,CTDIw（加权 CT 剂量指数）,出处,Reference,"AAPM Task Group 111: The Future of CT Dosimetry. Comprehensive Methodology for the Evaluation of Radiation Dose in X-Ray Computed Tomography: A New Measurement Paradigm Based on a Unified Theory for Axial, Helical, Fan-Beam, and Cone-Beam Scanning With or Without Longitudinal Translation of the Patient Table"
 DoseIndex,剂量测量模体与规格,出处,Reference,"AAPM Task Group 111: The Future of CT Dosimetry. Comprehensive Methodology for the Evaluation of Radiation Dose in X-Ray Computed Tomography: A New Measurement Paradigm Based on a Unified Theory for Axial, Helical, Fan-Beam, and Cone-Beam Scanning With or Without Longitudinal Translation of the Patient Table"
 ShieldingTest,儿童 CT 的剂量管理与机构内参考水平,出处,Reference,"AAPM Task Group 111: The Future of CT Dosimetry. Comprehensive Methodology for the Evaluation of Radiation Dose in X-Ray Computed Tomography: A New Measurement Paradigm Based on a Unified Theory for Axial, Helical, Fan-Beam, and Cone-Beam Scanning With or Without Longitudinal Translation of the Patient Table"
@@ -755,7 +757,7 @@ DRLLevel,诊断参考水平（DRL）,出处,Reference,Patient Safety in Medical 
 DRLLevel,全国、地方与机构三级诊断参考水平,出处,Reference,Patient Safety in Medical Imaging: a joint paper of the European Society of Radiology (ESR) and the European Federation of Radiographer Societies (EFRS)
 DoseIndex,CT 剂量信息的定期核查,出处,Reference,European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement
 DRLLevel,全国、地方与机构三级诊断参考水平,出处,Reference,European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement
-DRLLevel,诊断参考水平的应用,出处,Reference,European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement
+ProtectionPrinciple,个人年剂量与剂量限值,出处,Reference,European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement
 ShieldingMeasure,接触屏蔽的适用与争议,出处,Reference,European consensus on patient contact shielding
 ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,出处,Reference,European consensus on patient contact shielding
 ProtectionPrinciple,胚胎与胎儿的照射防护,出处,Reference,European consensus on patient contact shielding
@@ -898,6 +900,7 @@ ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,出处,Refe
 ShieldingTest,CT 装置的质量控制检测,出处,Reference,《CT方舱放射防护要求》团体标准解读
 ProtectionPrinciple,个人剂量监测要求,出处,Reference,GBZ 128—2019《职业性外照射个人监测规范》
 DoseIndex,CT 剂量信息的定期核查,出处,Reference,GBZ 128—2019《职业性外照射个人监测规范》
+ProtectionPrinciple,个人年剂量与剂量限值,出处,Reference,GBZ 128—2019《职业性外照射个人监测规范》
 HeadExam,颅脑 CT 检查,出处,Reference,CT检查技术专家共识
 PedsExam,儿童 CT 检查,出处,Reference,CT检查技术专家共识
 ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,出处,Reference,CT检查技术专家共识
@@ -927,6 +930,9 @@ ShieldingMeasure,个人防护用品（铅衣、铅围脖、铅帽）,出处,Refe
 ProtectionPrinciple,个人剂量计的配发与佩戴,出处,Reference,"Diagnostic Radiographers' Application of the Radiation Protection Principles of Justification, Optimisation and Dose Limits in Mpumalanga Province, South Africa"
 ProtectionPrinciple,尽可能低的剂量原则（ALARA）,出处,Reference,"Diagnostic Radiographers' Application of the Radiation Protection Principles of Justification, Optimisation and Dose Limits in Mpumalanga Province, South Africa"
 ShieldingTest,机房散射剂量测量,出处,Reference,Seeing radiation: Applications of an imaging survey meter in radiation oncology
+ProtectionPrinciple,尽可能低的剂量原则（ALARA）,出处,Reference,ICRP Publication 103: The 2007 Recommendations of the International Commission on Radiological Protection
+ProtectionPrinciple,个人年剂量与剂量限值,出处,Reference,ICRP Publication 103: The 2007 Recommendations of the International Commission on Radiological Protection
+ProtectionPrinciple,个人年剂量与剂量限值,出处,Reference,ICRPaedia（ICRP 官方教育百科）
 ProtectionPrinciple,儿童检查的正当性判断,出处,Reference,儿童CT扫描致白血病和脑瘤风险的队列研究meta分析
 ProtectionPrinciple,儿童检查模式与参数优化,出处,Reference,儿童CT扫描致白血病和脑瘤风险的队列研究meta分析
 ShieldingTest,儿童 CT 的剂量管理与机构内参考水平,出处,Reference,儿童CT扫描致白血病和脑瘤风险的队列研究meta分析
@@ -1062,6 +1068,7 @@ ProtectionPrinciple,放射卫生技术服务与机构管理,属于,ProtectionPri
 ProtectionPrinciple,放射诊疗项目的职业病危害评价,属于,ProtectionPrinciple,防护原则与要求
 ProtectionPrinciple,剂量与图像质量的平衡,属于,ProtectionPrinciple,防护原则与要求
 ProtectionPrinciple,体型与肥胖受检者的剂量优化,属于,ProtectionPrinciple,防护原则与要求
+ProtectionPrinciple,个人年剂量与剂量限值,属于,ProtectionPrinciple,防护原则与要求
 ProtectionPrinciple,职业照射的剂量限值,属于,ProtectionPrinciple,防护原则与要求
 ProtectionPrinciple,个人剂量计的配发与佩戴,属于,ProtectionPrinciple,防护原则与要求
 ProtectionPrinciple,申请单与病史质量,属于,ProtectionPrinciple,防护原则与要求
@@ -1270,12 +1277,12 @@ ProtectionPrinciple,防护原则与要求,出处,Reference,Patient Safety in Med
 ProtectionPrinciple,防护原则与要求,出处,Reference,"Assessment of image quality and radiation dose in low-dose, low-contrast computed tomography coronary angiogram: a systematic review and meta-analysis"
 ProtectionPrinciple,防护原则与要求,出处,Reference,本院CT辐射剂量参考水平与警示值的建立及其在胸部CT剂量优化中的运用尝试
 ProtectionPrinciple,防护原则与要求,出处,Reference,"Diagnostic Radiographers' Application of the Radiation Protection Principles of Justification, Optimisation and Dose Limits in Mpumalanga Province, South Africa"
+ProtectionPrinciple,防护原则与要求,出处,Reference,ICRP Publication 103: The 2007 Recommendations of the International Commission on Radiological Protection
 ProtectionPrinciple,防护原则与要求,出处,Reference,儿童CT扫描致白血病和脑瘤风险的队列研究meta分析
 ProtectionPrinciple,防护原则与要求,出处,Reference,Deep-learning CT reconstruction in clinical scans of the abdomen: a systematic review and meta-analysis
 ProtectionPrinciple,防护原则与要求,出处,Reference,GB 18871—2002《电离辐射防护与辐射源安全基本标准》
 ProtectionPrinciple,防护原则与要求,出处,Reference,心血管CT成像辐射剂量优化中国专家共识
 ProtectionPrinciple,防护原则与要求,出处,Reference,低剂量螺旋CT肺癌筛查专家共识
-ProtectionPrinciple,防护原则与要求,出处,Reference,"AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT"
 ProtectionPrinciple,防护原则与要求,出处,Reference,妊娠期应用辐射性影像学检查的专家建议
 ProtectionPrinciple,防护原则与要求,出处,Reference,X射线计算机体层摄影设备（CT）临床使用规范
 ProtectionPrinciple,防护原则与要求,出处,Reference,AAPM/ACR/HPS Joint Statement on Proper Use of Radiation Dose Metric Tracking for Patients Undergoing Medical Imaging Exams
@@ -1319,15 +1326,18 @@ ProtectionPrinciple,防护原则与要求,出处,Reference,WS 76—2020《医用
 ProtectionPrinciple,防护原则与要求,出处,Reference,DB4401/T 260—2024《放射卫生技术服务管理规范》
 ProtectionPrinciple,防护原则与要求,出处,Reference,DB22/T 3050—2019《放射诊疗建设项目放射性职业病危害评价规范》
 ProtectionPrinciple,防护原则与要求,出处,Reference,Container CT scanner: a solution for modular emergency radiology department during the COVID-19 pandemic
+ProtectionPrinciple,防护原则与要求,出处,Reference,"AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT"
 ProtectionPrinciple,防护原则与要求,出处,Reference,放射诊断检查受检者接触屏蔽的研究现状与展望
 ProtectionPrinciple,防护原则与要求,出处,Reference,Performance Evaluation of Computed Tomography Systems: The Report of AAPM Task Group 233
 ProtectionPrinciple,防护原则与要求,出处,Reference,肺癌筛查低剂量CT检查技术规范——专家共识
+ProtectionPrinciple,防护原则与要求,出处,Reference,European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement
+ProtectionPrinciple,防护原则与要求,出处,Reference,GBZ 128—2019《职业性外照射个人监测规范》
+ProtectionPrinciple,防护原则与要求,出处,Reference,ICRPaedia（ICRP 官方教育百科）
 ProtectionPrinciple,防护原则与要求,出处,Reference,Applying Radiation Safety Standards in Diagnostic Radiology and Interventional Procedures Using X Rays
 ProtectionPrinciple,防护原则与要求,出处,Reference,Real-time occupational radiation dosimetry in anesthesiology personnel during fluoroscopy-guided interventions: a single-center descriptive and exploratory study
 ProtectionPrinciple,防护原则与要求,出处,Reference,Radiation Monitoring Using Personal Dosimeter Devices in Terms of Long-Term Compliance and Creating a Culture of Safety
 ProtectionPrinciple,防护原则与要求,出处,Reference,Technical Recommendations for Monitoring Individuals Occupationally Exposed to External Radiation
 ProtectionPrinciple,防护原则与要求,出处,Reference,DB32/T 3907—2020《放射诊疗工作场所外照射在线监测系统设置规范》
-ProtectionPrinciple,防护原则与要求,出处,Reference,GBZ 128—2019《职业性外照射个人监测规范》
 ProtectionPrinciple,防护原则与要求,出处,Reference,加强放射诊断辐射剂量管理的必要性及应对策略
 ProtectionPrinciple,防护原则与要求,出处,Reference,Automatic patient centering in computed tomography: a systematic review and meta-analysis
 ShieldingTest,防护检测,出处,Reference,医用X射线诊断辐射环境监测规范
@@ -1468,8 +1478,8 @@ DRLLevel,诊断参考水平,出处,Reference,医学放射成像诊断参考水�
 DRLLevel,诊断参考水平,出处,Reference,《X射线计算机体层成像儿童诊断参考水平标准》解读
 DRLLevel,诊断参考水平,出处,Reference,"Official Journal of the European Union, OJ L, 2026/403, 25.2.2026 (C/2026/1015)"
 DRLLevel,诊断参考水平,出处,Reference,我国CT检查成年人辐射剂量诊断参考水平的建立历程及解读
-DRLLevel,诊断参考水平,出处,Reference,European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement
 DRLLevel,诊断参考水平,出处,Reference,WS/T 874—2025《乡镇卫生院和社区卫生服务中心CT常见检查操作标准》
+DRLLevel,诊断参考水平,出处,Reference,European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement
 DRLLevel,诊断参考水平,出处,Reference,Radiation Protection No. 195: European Study on Clinical Diagnostic Reference Levels for X-ray Medical Imaging
 DRLLevel,诊断参考水平,出处,Reference,Clinical indication-based diagnostic reference levels in CT: a systematic review
 DRLLevel,诊断参考水平,出处,Reference,推进基于医学影像云平台的辐射剂量管理

@@ -6670,6 +6670,13 @@
           "cat": "防护最优化"
         },
         {
+          "k": "最优化原则：剂量与人数都压到尽可能低",
+          "v": "最优化原则：发生照射的可能性、受照射的人数以及个人受照剂量的大小，都应考虑经济与社会因素后保持在合理可达到的尽量低水平。",
+          "quote": "The Principle of Optimisation of Protection: The likelihood of incurring exposure, the number of people exposed, and the magnitude of their individual doses should all be kept as low as reasonably achievable, taking into account economic and societal factors. \u0002 The Principle of Application of Dose Limits: The total dose to any individual from regulated sources in planned exposure situations other than medical exposur",
+          "src": "ICRP-103",
+          "cat": "防护最优化"
+        },
+        {
           "k": "总原则：不损害诊断价值前提下尽可能降低剂量",
           "v": "论文结论句即操作口径：在不损害图像临床诊断价值的前提下应尽可能降低儿童辐射剂量，倡导儿童 CT 扫描的正当化和最优化。",
           "quote": "儿童CT扫描的辐射暴露可增加其患白血病和脑部肿瘤的风险，因此，在不损害图像临床诊断价值的前提下应尽可能降低儿童辐射剂量，倡导儿童CT扫描的正当化和最优化至关重要。",
@@ -6826,6 +6833,16 @@
           "ref": "XT-21"
         },
         {
+          "type": "推荐",
+          "author": "International Commission on Radiological Protection",
+          "title": "ICRP Publication 103: The 2007 Recommendations of the International Commission on Radiological Protection",
+          "journal": "Annals of the ICRP",
+          "year": 2007,
+          "cite": "International Commission on Radiological Protection / ICRP Publication 103: The 2007 Recommendations of the International Commission on Radiological Protection / Annals of the ICRP / 2007",
+          "grade": "推荐",
+          "ref": "ICRP-103"
+        },
+        {
           "type": "Meta分析",
           "author": "牛亚婷, 苏垠平, 牛延涛, 孙全富",
           "title": "儿童CT扫描致白血病和脑瘤风险的队列研究meta分析",
@@ -6891,13 +6908,6 @@
           "v": "国内高危人群建议定义为：年龄 50~75 岁，且至少合并以下一项危险因素：①吸烟≥20 包/年（含曾吸烟但戒烟不足15年者）；②被动吸烟者；③有职业暴露史（石棉、铍、铀、氡等接触者）；④有恶性肿瘤病史或肺癌家族史；⑤有COPD或弥漫性肺纤维化病史。",
           "quote": "建议将高危人群定义为：(1)年龄50~ 75岁;(2)至少合并以下一项危险因素：①吸烟≥ 20包/年，其中也包括曾经吸烟，但戒烟时间不足15年者；②被动吸烟者；③有职业暴露史（石棉、铍、铀、氡等接触者）；④有恶性肿瘤病史或肺癌家族史；⑤有COPD或弥漫性肺纤维化病史。",
           "src": "CN-07",
-          "cat": "正当性"
-        },
-        {
-          "k": "患者剂量无「限值」，靠正当性 + ALARA + 医师判断",
-          "v": "美国对 CT 患者检查没有剂量限值，「可接受的患者剂量」由负责该检查的医师专业判断决定；因此影像方案必须持续复核以符合 ALARA，最好由诊断医学物理师协助。预期获益低于相应风险时不应当做该检查。",
-          "quote": "In the United States there are no dose limits for patients undergoing CT examinations35,74. What is deemed to be an acceptable patient dose relies on the professional judgment of the physi-cian in charge of the diagnostic procedure. To this end, it is important to ensure that imaging protocols are continually reviewed such that the choice of radiographic techniques is consistent with ALARA principles. This is best accomplished with the assistance of a diagnostic medical physicist.",
-          "src": "EN-01",
           "cat": "正当性"
         },
         {
@@ -7046,16 +7056,6 @@
           "cite": "中华医学会放射学分会心胸学组 / 低剂量螺旋CT肺癌筛查专家共识 / 中华放射学杂志 / 2015",
           "grade": "指南与共识",
           "ref": "CN-07"
-        },
-        {
-          "type": "指南",
-          "author": "McCollough C, Cody D, Edyvean S, Geise R, Gould B, Keat N, Huda W, et al.",
-          "title": "AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT",
-          "journal": "AAPM Report No. 96, February 2008 (ISBN 978-1-888340-73-0, ISSN 0271-7344)",
-          "year": 2008,
-          "cite": "McCollough C, Cody D, Edyvean S, Geise R, Gould B, Keat N, Huda W, et al. / AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT / AAPM Report No. 96, February 2008 (ISBN 978-1-888340-73-0, ISSN 0271-7344) / 2008",
-          "grade": "指南与共识",
-          "ref": "EN-01"
         },
         {
           "type": "指南",
@@ -12360,6 +12360,185 @@
       ]
     },
     {
+      "id": "PP_AnnualDose",
+      "name": "个人年剂量与剂量限值",
+      "type": "ProtectionPrinciple",
+      "graph": "radiation",
+      "tags": [
+        "剂量指标",
+        "管理要求"
+      ],
+      "aliases": [
+        "个人年剂量",
+        "年剂量",
+        "剂量限值",
+        "年有效剂量",
+        "个人剂量",
+        "调查水平"
+      ],
+      "summary": "个人（职业工作人员）的年剂量按 GB 18871 规定用年有效剂量评价：年个人剂量当量小于 20 mSv 时，一般只需把个人剂量当量 Hp(10) 视为有效剂量；超过相应限值时须估算有效剂量，并同时给出眼晶状体、皮肤和四肢的年当量剂量。个人监测结果超过调查水平（年有效剂量 5 mSv）时应作进一步调查。受检患者的医疗照射没有剂量限值 —— 靠正当性、最优化与临床判断把关。",
+      "attrs": [],
+      "details": [
+        {
+          "k": "患者剂量无「限值」，靠正当性 + ALARA + 医师判断",
+          "v": "美国对 CT 患者检查没有剂量限值，「可接受的患者剂量」由负责该检查的医师专业判断决定；因此影像方案必须持续复核以符合 ALARA，最好由诊断医学物理师协助。预期获益低于相应风险时不应当做该检查。",
+          "quote": "In the United States there are no dose limits for patients undergoing CT examinations35,74. What is deemed to be an acceptable patient dose relies on the professional judgment of the physi-cian in charge of the diagnostic procedure. To this end, it is important to ensure that imaging protocols are continually reviewed such that the choice of radiographic techniques is consistent with ALARA principles. This is best accomplished with the assistance of a diagnostic medical physicist.",
+          "src": "EN-01",
+          "cat": "正当性"
+        },
+        {
+          "k": "DRL 不等于正常剂量",
+          "v": "声明强调：DRL 不应被解读为正常剂量值，因为远低于 DRL 的水平同样可能获得可接受的图像质量。",
+          "quote": "It should be emphasised that DRLs should not be interpreted as normal dose values since an acceptable image quality can be achieved at levels much lower than DRLs.",
+          "src": "EN-17",
+          "cat": "剂量参考"
+        },
+        {
+          "k": "职业照射用年有效剂量评价",
+          "v": "6.1.1按照GB18871的规定，对职业照射用年有效剂量评价。",
+          "quote": "6.1.1按照GB18871的规定，对职业照射用年有效剂量评价。",
+          "src": "XT-09",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "年个人剂量当量小于20mSv时的评价口径",
+          "v": "6.1.3当放射工作人员的年个人剂量当量小于20mSv时，一般只需将个人剂量当量Hp(10)视为有效剂量进行评价，否则，估算人员的有效剂量；当人员的眼晶状体、皮肤和四肢的剂量有可能超过相应的年当量剂量限值时，给出年有效剂量的同时估算其年当量剂量。",
+          "quote": "6.1.3当放射工作人员的年个人剂量当量小于20mSv时，一般只需将个人剂量当量Hp(10)视为有效剂量进行评价，否则，估算人员的有效剂量；当人员的眼晶状体、皮肤和四肢的剂量有可能超过相应的年当量剂量限值时，给出年有效剂量的同时估算其年当量剂量。",
+          "src": "XT-09",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "职业性外照射个人监测的剂量评价量",
+          "v": "6.2.1职业性外照射个人监测，一般依据测得的个人剂量当量Hp(d)进行个人剂量评价。",
+          "quote": "6.2.1职业性外照射个人监测，一般依据测得的个人剂量当量Hp(d)进行个人剂量评价。",
+          "src": "XT-09",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "低于限值时Hp(10)可直接视为有效剂量",
+          "v": "6.2.2当放射工作人员的年受照剂量低于相应限值时，职业性外照射个人监测得到的个人剂量当量Hp(10)可直接视为有效剂量。",
+          "quote": "6.2.2当放射工作人员的年受照剂量低于相应限值时，职业性外照射个人监测得到的个人剂量当量Hp(10)可直接视为有效剂量。",
+          "src": "XT-09",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "剂量限值原则：不适用于受检患者的医疗照射",
+          "v": "剂量限值原则：在计划照射情形下，任何个人从受控源所受总剂量，除受检患者的医疗照射外，不应超过委员会规定的相应限值。",
+          "quote": "The Principle of Application of Dose Limits: The total dose to any individual from regulated sources in planned exposure situations other than medical exposure of patients should not exceed the appropriate limits speciﬁed by the Commission. The Commission continues to distinguish amongst three categories of exposure: occupational exposures, public exposures, and medical exposures of patients (and comforters, carers,",
+          "src": "ICRP-103",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "辐射防护的三项基本原则",
+          "v": "辐射防护的三项基本原则：正当性、最优化、剂量限值的应用 —— ICRP 在 2007 年建议书中重申并明确其对源与个人的适用方式。",
+          "quote": "They maintain the Commission’s three fundamental principles of radiological protection, namely justification, optimisation, and the application of dose limits, clarifying how they apply to radiation sources delivering exposure and to individuals receiving exposure. The Recommendations evolve from the previous process-based protection approach using practices and interventions by moving to an approach based on the exp",
+          "src": "ICRP-103",
+          "cat": "防护最优化"
+        },
+        {
+          "k": "职业照射的有效剂量限值：20 mSv/年",
+          "v": "职业照射的有效剂量限值为 20 mSv/年，按 5 年期间平均，任一年不得超过 50 mSv。",
+          "quote": "Effective Dose 20 mSv per year, averaged over defined periods of 5 years, with no single year exceeding 50 mSv After a worker declares a pregnancy, the dose to the embryo/fetus should not exceed about 1 mSv during the remainder of the pregnancy 1 mSv in a year In special circumstances, a higher value could be allowed in a single year, provided that the average over 5 years does not exceed 1 mSv per year Equivalent Dose to the Lens of the Eye 20 mSv per yea",
+          "src": "ICRP-LIMITS",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "公众照射的有效剂量限值：1 mSv/年",
+          "v": "公众照射的有效剂量限值为 1 mSv/年；特殊情况下单一年份可提高，但 5 年平均不得超过 1 mSv/年。",
+          "quote": "1 mSv in a year In special circumstances, a higher value could be allowed in a single year, provided that the average over 5 years does not exceed 1 mSv per year Equivalent Dose to the Lens of the Eye 20 mSv per year, averaged over defined periods of 5 years, with no single year exceeding 50 mSv 15 mSv in a year Equivalent Dose to the Skin Averaged over 1 cm 2 of skin regardless of the area exposed 500 mSv in a year 50 mSv in a year Equivalent Dose to the",
+          "src": "ICRP-LIMITS",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "胚胎与胎儿的剂量限值：约 1 mSv",
+          "v": "工作人员申报怀孕后，胚胎/胎儿在其妊娠期剩余时间所受剂量不应超过约 1 mSv。",
+          "quote": "After a worker declares a pregnancy, the dose to the embryo/fetus should not exceed about 1 mSv during the remainder of the pregnancy 1 mSv in a year In special circumstances, a higher value could be allowed in a single year, provided that the average over 5 years does not exceed 1 mSv per year Equivalent Dose to the Lens of the Eye 20 mSv per year, averaged over defined periods of 5 years, with no single year exceeding 50 mSv 15 mSv in a year Equivalent D",
+          "src": "ICRP-LIMITS",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "眼晶状体当量剂量限值：职业 20 mSv、公众 15 mSv",
+          "v": "眼晶状体当量剂量限值：职业照射 20 mSv/年（按 5 年平均，任一年不超过 50 mSv）；公众 15 mSv/年。",
+          "quote": "Equivalent Dose to the Lens of the Eye 20 mSv per year, averaged over defined periods of 5 years, with no single year exceeding 50 mSv 15 mSv in a year Equivalent Dose to the Skin Averaged over 1 cm 2 of skin regardless of the area exposed 500 mSv in a year 50 mSv in a year Equivalent Dose to the Hands and Feet 500 mSv in a year - Dose limits are primarily from ICRP Publication 103 Table 6. The recommendation for pregnant workers is from ICRP Publication 1",
+          "src": "ICRP-LIMITS",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "皮肤当量剂量限值：职业 500 mSv、公众 50 mSv",
+          "v": "皮肤当量剂量按 1 cm² 皮肤受照面积平均计：职业照射 500 mSv/年；公众 50 mSv/年。",
+          "quote": "Equivalent Dose to the Skin Averaged over 1 cm 2 of skin regardless of the area exposed 500 mSv in a year 50 mSv in a year Equivalent Dose to the Hands and Feet 500 mSv in a year - Dose limits are primarily from ICRP Publication 103 Table 6. The recommendation for pregnant workers is from ICRP Publication 103 Paragraph 186. The occupational limit for the lens of the eye is from Paragraph 3 of the ICRP Statement on Tissue Reactions in ICRP Publication 118 .",
+          "src": "ICRP-LIMITS",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "手足当量剂量限值：500 mSv/年",
+          "v": "手足当量剂量限值为 500 mSv/年。",
+          "quote": "Equivalent Dose to the Hands and Feet 500 mSv in a year - Dose limits are primarily from ICRP Publication 103 Table 6. The recommendation for pregnant workers is from ICRP Publication 103 Paragraph 186. The occupational limit for the lens of the eye is from Paragraph 3 of the ICRP Statement on Tissue Reactions in ICRP Publication 118 . Dose limits alone are not enough to ensure adequate protection. They function in combination with the fundamental principl",
+          "src": "ICRP-LIMITS",
+          "cat": "剂量指标"
+        },
+        {
+          "k": "剂量限值须与正当性、最优化结合",
+          "v": "剂量限值本身不足以保证充分保护，须与正当性、最优化两项基本原则结合使用；限值只适用于正常本底辐射以上的剂量，且仅用于计划照射情形。",
+          "quote": "Dose limits alone are not enough to ensure adequate protection. They function in combination with the fundamental principles of justification and optimisation. These limits apply only to doses received above the normal local natural background radiation . Limits on effective dose , combined with optimisation of protection, are designed to avoid a risk of stochastic effects that would be considered intolerable in a planned exposure situation . Limits on equ",
+          "src": "ICRP-LIMITS",
+          "cat": "剂量指标"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "指南",
+          "author": "McCollough C, Cody D, Edyvean S, Geise R, Gould B, Keat N, Huda W, et al.",
+          "title": "AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT",
+          "journal": "AAPM Report No. 96, February 2008 (ISBN 978-1-888340-73-0, ISSN 0271-7344)",
+          "year": 2008,
+          "cite": "McCollough C, Cody D, Edyvean S, Geise R, Gould B, Keat N, Huda W, et al. / AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT / AAPM Report No. 96, February 2008 (ISBN 978-1-888340-73-0, ISSN 0271-7344) / 2008",
+          "grade": "指南与共识",
+          "ref": "EN-01"
+        },
+        {
+          "type": "声明",
+          "author": "Damilakis J, Frija G, Brkljacic B, Vano E, Loose R, Paulo G, Brat H, Tsapaki V",
+          "title": "European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement",
+          "journal": "Insights into Imaging",
+          "year": 2023,
+          "cite": "Damilakis J, Frija G, Brkljacic B, Vano E, Loose R, Paulo G, Brat H, Tsapaki V / European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement / Insights into Imaging / 2023",
+          "grade": "声明",
+          "ref": "EN-17"
+        },
+        {
+          "type": "标准",
+          "author": "国家卫生健康委员会",
+          "title": "GBZ 128—2019《职业性外照射个人监测规范》",
+          "journal": "中华人民共和国国家职业卫生标准",
+          "year": 2019,
+          "cite": "国家卫生健康委员会 / GBZ 128—2019《职业性外照射个人监测规范》 / 中华人民共和国国家职业卫生标准 / 2019",
+          "grade": "标准",
+          "ref": "XT-09"
+        },
+        {
+          "type": "推荐",
+          "author": "International Commission on Radiological Protection",
+          "title": "ICRP Publication 103: The 2007 Recommendations of the International Commission on Radiological Protection",
+          "journal": "Annals of the ICRP",
+          "year": 2007,
+          "cite": "International Commission on Radiological Protection / ICRP Publication 103: The 2007 Recommendations of the International Commission on Radiological Protection / Annals of the ICRP / 2007",
+          "grade": "推荐",
+          "ref": "ICRP-103"
+        },
+        {
+          "type": "推荐",
+          "author": "Dose limits（辐射防护百科 · Dose limits）",
+          "title": "ICRPaedia（ICRP 官方教育百科）",
+          "journal": "Dose limits（辐射防护百科 · Dose limits）",
+          "year": 2026,
+          "cite": "Dose limits（辐射防护百科 · Dose limits） / ICRPaedia（ICRP 官方教育百科） / Dose limits（辐射防护百科 · Dose limits） / 2026",
+          "grade": "推荐",
+          "ref": "ICRP-LIMITS"
+        }
+      ]
+    },
+    {
       "id": "PP_OccLimit",
       "name": "职业照射的剂量限值",
       "type": "ProtectionPrinciple",
@@ -15222,13 +15401,6 @@
           "cat": "防护最优化"
         },
         {
-          "k": "DRL 不等于正常剂量",
-          "v": "声明强调：DRL 不应被解读为正常剂量值，因为远低于 DRL 的水平同样可能获得可接受的图像质量。",
-          "quote": "It should be emphasised that DRLs should not be interpreted as normal dose values since an acceptable image quality can be achieved at levels much lower than DRLs.",
-          "src": "EN-17",
-          "cat": "剂量参考"
-        },
-        {
           "k": "国家 DRL 复审周期",
           "v": "该建议指出：国家 DRL 应反映当前国家实践与相应患者剂量，并采用与影像技术及低剂量技术进步相适应的复审频率；应至少每三至五年通过全国调查核查一次，牙科检查除外。",
           "quote": "Member States should seek to ensure that national DRLs reflect current national practices and associated patient doses, and should adopt a review frequency that fits continuous advances in imaging technologies and low-dose techniques. The relevance of the DRLs should be checked regularly by national surveys, at least every three to five years, except for dental examinations, for which a lower frequency can be adopted.",
@@ -15325,16 +15497,6 @@
           "cite": "李润根, 苏蓓蓓, 马妮, 刘颖, 白皓 / 我国CT检查成年人辐射剂量诊断参考水平的建立历程及解读 / 中华放射医学与防护杂志 / 2020",
           "grade": "标准",
           "ref": "CN-23"
-        },
-        {
-          "type": "声明",
-          "author": "Damilakis J, Frija G, Brkljacic B, Vano E, Loose R, Paulo G, Brat H, Tsapaki V",
-          "title": "European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement",
-          "journal": "Insights into Imaging",
-          "year": 2023,
-          "cite": "Damilakis J, Frija G, Brkljacic B, Vano E, Loose R, Paulo G, Brat H, Tsapaki V / European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement / Insights into Imaging / 2023",
-          "grade": "声明",
-          "ref": "EN-17"
         },
         {
           "type": "推荐",
@@ -22951,6 +23113,94 @@
       ]
     },
     {
+      "id": "ICRP-103",
+      "graph": "radiation",
+      "type": "Reference",
+      "name": "ICRP Publication 103: The 2007 Recommendations of the International Commission on Radiological Protection",
+      "tags": [
+        "文献",
+        "推荐"
+      ],
+      "aliases": [
+        "ICRP Publication 103: The 2007 Recommendations of the International Commission on Radiological Protection"
+      ],
+      "summary": "",
+      "attrs": [
+        {
+          "k": "文献类型",
+          "v": "推荐"
+        },
+        {
+          "k": "年份",
+          "v": "2007"
+        },
+        {
+          "k": "核验标识",
+          "v": "10.1177/ANIB_37_2-4（ICRP"
+        },
+        {
+          "k": "证据等级",
+          "v": "推荐"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "International Commission on Radiological Protection",
+          "title": "ICRP Publication 103: The 2007 Recommendations of the International Commission on Radiological Protection",
+          "journal": "Annals of the ICRP",
+          "year": 2007,
+          "cite": "International Commission on Radiological Protection / ICRP Publication 103: The 2007 Recommendations of the International Commission on Radiological Protection / Annals of the ICRP / 2007",
+          "grade": "推荐",
+          "ref": "ICRP-103"
+        }
+      ]
+    },
+    {
+      "id": "ICRP-LIMITS",
+      "graph": "radiation",
+      "type": "Reference",
+      "name": "ICRPaedia（ICRP 官方教育百科）",
+      "tags": [
+        "文献",
+        "推荐"
+      ],
+      "aliases": [
+        "ICRPaedia（ICRP 官方教育百科）"
+      ],
+      "summary": "",
+      "attrs": [
+        {
+          "k": "文献类型",
+          "v": "推荐"
+        },
+        {
+          "k": "年份",
+          "v": "2026"
+        },
+        {
+          "k": "核验标识",
+          "v": ""
+        },
+        {
+          "k": "证据等级",
+          "v": "推荐"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "推荐",
+          "author": "Dose limits（辐射防护百科 · Dose limits）",
+          "title": "ICRPaedia（ICRP 官方教育百科）",
+          "journal": "Dose limits（辐射防护百科 · Dose limits）",
+          "year": 2026,
+          "cite": "Dose limits（辐射防护百科 · Dose limits） / ICRPaedia（ICRP 官方教育百科） / Dose limits（辐射防护百科 · Dose limits） / 2026",
+          "grade": "推荐",
+          "ref": "ICRP-LIMITS"
+        }
+      ]
+    },
+    {
       "id": "SR-01",
       "graph": "radiation",
       "type": "Reference",
@@ -24462,6 +24712,16 @@
           "ref": "XT-21"
         },
         {
+          "type": "推荐",
+          "author": "International Commission on Radiological Protection",
+          "title": "ICRP Publication 103: The 2007 Recommendations of the International Commission on Radiological Protection",
+          "journal": "Annals of the ICRP",
+          "year": 2007,
+          "cite": "International Commission on Radiological Protection / ICRP Publication 103: The 2007 Recommendations of the International Commission on Radiological Protection / Annals of the ICRP / 2007",
+          "grade": "推荐",
+          "ref": "ICRP-103"
+        },
+        {
           "type": "Meta分析",
           "author": "牛亚婷, 苏垠平, 牛延涛, 孙全富",
           "title": "儿童CT扫描致白血病和脑瘤风险的队列研究meta分析",
@@ -24510,16 +24770,6 @@
           "cite": "中华医学会放射学分会心胸学组 / 低剂量螺旋CT肺癌筛查专家共识 / 中华放射学杂志 / 2015",
           "grade": "指南与共识",
           "ref": "CN-07"
-        },
-        {
-          "type": "指南",
-          "author": "McCollough C, Cody D, Edyvean S, Geise R, Gould B, Keat N, Huda W, et al.",
-          "title": "AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT",
-          "journal": "AAPM Report No. 96, February 2008 (ISBN 978-1-888340-73-0, ISSN 0271-7344)",
-          "year": 2008,
-          "cite": "McCollough C, Cody D, Edyvean S, Geise R, Gould B, Keat N, Huda W, et al. / AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT / AAPM Report No. 96, February 2008 (ISBN 978-1-888340-73-0, ISSN 0271-7344) / 2008",
-          "grade": "指南与共识",
-          "ref": "EN-01"
         },
         {
           "type": "建议",
@@ -24952,6 +25202,16 @@
           "ref": "EN-42"
         },
         {
+          "type": "指南",
+          "author": "McCollough C, Cody D, Edyvean S, Geise R, Gould B, Keat N, Huda W, et al.",
+          "title": "AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT",
+          "journal": "AAPM Report No. 96, February 2008 (ISBN 978-1-888340-73-0, ISSN 0271-7344)",
+          "year": 2008,
+          "cite": "McCollough C, Cody D, Edyvean S, Geise R, Gould B, Keat N, Huda W, et al. / AAPM Task Group 23: CT Dosimetry. The Measurement, Reporting, and Management of Radiation Dose in CT / AAPM Report No. 96, February 2008 (ISBN 978-1-888340-73-0, ISSN 0271-7344) / 2008",
+          "grade": "指南与共识",
+          "ref": "EN-01"
+        },
+        {
           "type": "推荐",
           "author": "刘丹丹, 张永县, 马梓轩, 刘毅安, 赵彤, 张童心, 徐辉, 孙全富, 牛延涛",
           "title": "放射诊断检查受检者接触屏蔽的研究现状与展望",
@@ -24980,6 +25240,36 @@
           "cite": "中华医学会影像技术分会专家组（康承欣, 付彬洁, 吕发金, 李真林, 余建明, 雷子乔, 付海鸿, 马新武, 赵雁鸣, 刘杰, 周高峰, 牛延涛, 康庄, 暴云锋, 路青, 尹建东） / 肺癌筛查低剂量CT检查技术规范——专家共识 / 重庆医科大学学报 / 2024",
           "grade": "指南与共识",
           "ref": "CN-15"
+        },
+        {
+          "type": "声明",
+          "author": "Damilakis J, Frija G, Brkljacic B, Vano E, Loose R, Paulo G, Brat H, Tsapaki V",
+          "title": "European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement",
+          "journal": "Insights into Imaging",
+          "year": 2023,
+          "cite": "Damilakis J, Frija G, Brkljacic B, Vano E, Loose R, Paulo G, Brat H, Tsapaki V / European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement / Insights into Imaging / 2023",
+          "grade": "声明",
+          "ref": "EN-17"
+        },
+        {
+          "type": "标准",
+          "author": "国家卫生健康委员会",
+          "title": "GBZ 128—2019《职业性外照射个人监测规范》",
+          "journal": "中华人民共和国国家职业卫生标准",
+          "year": 2019,
+          "cite": "国家卫生健康委员会 / GBZ 128—2019《职业性外照射个人监测规范》 / 中华人民共和国国家职业卫生标准 / 2019",
+          "grade": "标准",
+          "ref": "XT-09"
+        },
+        {
+          "type": "推荐",
+          "author": "Dose limits（辐射防护百科 · Dose limits）",
+          "title": "ICRPaedia（ICRP 官方教育百科）",
+          "journal": "Dose limits（辐射防护百科 · Dose limits）",
+          "year": 2026,
+          "cite": "Dose limits（辐射防护百科 · Dose limits） / ICRPaedia（ICRP 官方教育百科） / Dose limits（辐射防护百科 · Dose limits） / 2026",
+          "grade": "推荐",
+          "ref": "ICRP-LIMITS"
         },
         {
           "type": "推荐",
@@ -25030,16 +25320,6 @@
           "cite": "江苏省市场监督管理局 / DB32/T 3907—2020《放射诊疗工作场所外照射在线监测系统设置规范》 / 江苏省地方标准 / 2020",
           "grade": "推荐",
           "ref": "CN-32"
-        },
-        {
-          "type": "标准",
-          "author": "国家卫生健康委员会",
-          "title": "GBZ 128—2019《职业性外照射个人监测规范》",
-          "journal": "中华人民共和国国家职业卫生标准",
-          "year": 2019,
-          "cite": "国家卫生健康委员会 / GBZ 128—2019《职业性外照射个人监测规范》 / 中华人民共和国国家职业卫生标准 / 2019",
-          "grade": "标准",
-          "ref": "XT-09"
         },
         {
           "type": "建议",
@@ -26640,16 +26920,6 @@
           "ref": "CN-23"
         },
         {
-          "type": "声明",
-          "author": "Damilakis J, Frija G, Brkljacic B, Vano E, Loose R, Paulo G, Brat H, Tsapaki V",
-          "title": "European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement",
-          "journal": "Insights into Imaging",
-          "year": 2023,
-          "cite": "Damilakis J, Frija G, Brkljacic B, Vano E, Loose R, Paulo G, Brat H, Tsapaki V / European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement / Insights into Imaging / 2023",
-          "grade": "声明",
-          "ref": "EN-17"
-        },
-        {
           "type": "推荐",
           "author": "国家卫生健康委员会",
           "title": "WS/T 874—2025《乡镇卫生院和社区卫生服务中心CT常见检查操作标准》",
@@ -26658,6 +26928,16 @@
           "cite": "国家卫生健康委员会 / WS/T 874—2025《乡镇卫生院和社区卫生服务中心CT常见检查操作标准》 / 中华人民共和国卫生行业标准（推荐性） / 2025",
           "grade": "推荐",
           "ref": "CN-17"
+        },
+        {
+          "type": "声明",
+          "author": "Damilakis J, Frija G, Brkljacic B, Vano E, Loose R, Paulo G, Brat H, Tsapaki V",
+          "title": "European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement",
+          "journal": "Insights into Imaging",
+          "year": 2023,
+          "cite": "Damilakis J, Frija G, Brkljacic B, Vano E, Loose R, Paulo G, Brat H, Tsapaki V / European Society of Radiology. How to establish and use local diagnostic reference levels: an ESR EuroSafe Imaging expert statement / Insights into Imaging / 2023",
+          "grade": "声明",
+          "ref": "EN-17"
         },
         {
           "type": "推荐",
@@ -28647,6 +28927,18 @@
       "label": "依据"
     },
     {
+      "source": "PP_AnnualDose",
+      "target": "PP_Management",
+      "type": "GOVERNED_BY",
+      "label": "依据"
+    },
+    {
+      "source": "PP_AnnualDose",
+      "target": "PP_OccLimit",
+      "type": "GOVERNED_BY",
+      "label": "依据"
+    },
+    {
       "source": "PP_ServiceOrg",
       "target": "PP_Management",
       "type": "GOVERNED_BY",
@@ -29913,7 +30205,7 @@
       "label": "出处"
     },
     {
-      "source": "PP_Justification",
+      "source": "PP_AnnualDose",
       "target": "EN-01",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -31251,7 +31543,7 @@
       "label": "出处"
     },
     {
-      "source": "DRL_Apply",
+      "source": "PP_AnnualDose",
       "target": "EN-17",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -32109,6 +32401,12 @@
       "label": "出处"
     },
     {
+      "source": "PP_AnnualDose",
+      "target": "XT-09",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
       "source": "EX_Brain",
       "target": "XT-10",
       "type": "SUPPORTED_BY",
@@ -32279,6 +32577,24 @@
     {
       "source": "ST_ScatterDose",
       "target": "XT-22",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "PP_ALARA",
+      "target": "ICRP-103",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "PP_AnnualDose",
+      "target": "ICRP-103",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "PP_AnnualDose",
+      "target": "ICRP-LIMITS",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -33145,6 +33461,13 @@
     },
     {
       "source": "PP_Obese",
+      "target": "FW_ProtectionPrinciple",
+      "type": "BELONGS_TO",
+      "label": "属于",
+      "role": "framework"
+    },
+    {
+      "source": "PP_AnnualDose",
       "target": "FW_ProtectionPrinciple",
       "type": "BELONGS_TO",
       "label": "属于",
@@ -34516,6 +34839,12 @@
     },
     {
       "source": "FW_ProtectionPrinciple",
+      "target": "ICRP-103",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ProtectionPrinciple",
       "target": "SR-01",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -34541,12 +34870,6 @@
     {
       "source": "FW_ProtectionPrinciple",
       "target": "CN-07",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ProtectionPrinciple",
-      "target": "EN-01",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -34810,6 +35133,12 @@
     },
     {
       "source": "FW_ProtectionPrinciple",
+      "target": "EN-01",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ProtectionPrinciple",
       "target": "XT-29",
       "type": "SUPPORTED_BY",
       "label": "出处"
@@ -34823,6 +35152,24 @@
     {
       "source": "FW_ProtectionPrinciple",
       "target": "CN-15",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ProtectionPrinciple",
+      "target": "EN-17",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ProtectionPrinciple",
+      "target": "XT-09",
+      "type": "SUPPORTED_BY",
+      "label": "出处"
+    },
+    {
+      "source": "FW_ProtectionPrinciple",
+      "target": "ICRP-LIMITS",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -34853,12 +35200,6 @@
     {
       "source": "FW_ProtectionPrinciple",
       "target": "CN-32",
-      "type": "SUPPORTED_BY",
-      "label": "出处"
-    },
-    {
-      "source": "FW_ProtectionPrinciple",
-      "target": "XT-09",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
@@ -35704,13 +36045,13 @@
     },
     {
       "source": "FW_DRLLevel",
-      "target": "EN-17",
+      "target": "CN-17",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
     {
       "source": "FW_DRLLevel",
-      "target": "CN-17",
+      "target": "EN-17",
       "type": "SUPPORTED_BY",
       "label": "出处"
     },
