@@ -655,6 +655,18 @@
   .pt .src{display:inline-block;margin-top:5px;font-size:14px;color:var(--accent-2);cursor:pointer;}
   /* 客户实践要点的出处：**不可点**（没有文献节点可跳）⇒ 用琥珀色 + 无手型 */
   .pt .src.client{color:#5c5c5c;background:rgba(0,0,0,0.08);padding:2px 8px;border-radius:9px;cursor:default;}
+  /* 要点一级目录（客户 2026-11-26）：先只列标题，点进去看具体做法与文献原文 */
+  .pt-dir{display:flex;flex-direction:column;gap:8px;}
+  .pt-row{
+    display:flex;align-items:center;gap:10px;width:100%;text-align:left;
+    background:var(--panel-2);border:1px solid var(--line);border-radius:11px;
+    padding:12px;font-family:inherit;font-size:15.5px;font-weight:600;
+    color:var(--text);cursor:pointer;-webkit-tap-highlight-color:transparent;transition:.15s;
+  }
+  .pt-row:active{transform:translateY(1px);}
+  .pt-row-k{flex:1 1 auto;line-height:1.45;word-break:break-word;}
+  .pt-row-arrow{margin-left:auto;flex-shrink:0;font-size:22px;line-height:1;color:var(--accent-2);font-weight:400;}
+  .pt-detail{margin-top:2px;}
 
   /* ---------- 关系上的说明（note）---------- */
   .obj .onote{display:block;font-size:14px;color:var(--text-dim);line-height:1.5;margin-top:2px;}
@@ -1377,6 +1389,10 @@
      再关一次才退出面板 —— 客户 2026-11-26 反馈「一次退两级」。 */
   var infoParentGuide = null;
   var infoBackScroll = 0;
+  /* 要点「一级目录 → 点进去看详情」：记下所属节点与节点页滚动位置，
+     返回时回到原节点页原位（与图文 / 视频的返回体验一致）。 */
+  var detailNodeId = null;
+  var detailBackScroll = 0;
   function closeInfoMode() {
     var panel = document.getElementById("panel");
     if (panel) panel.classList.remove("info-mode");
@@ -1401,6 +1417,8 @@
   function openGuide(id) {
     var g = guideById(id);
     if (!g) return;
+    detailNodeId = null;
+    detailBackScroll = 0;
     infoParentGuide = null;
     infoBackScroll = 0;
     var blocks = guideBlocks(id);
@@ -1435,6 +1453,8 @@
   function openMedia(key, kind) {
     var media = MEDIA_REG[key];
     if (!media) return;
+    detailNodeId = null;
+    detailBackScroll = 0;
     var isImg = (kind === "img");
     var g = media.guide ? guideById(media.guide) : null;
     /* 记住从哪个入口点进来、入口页当时滚到哪里 —— 关闭时原路退回 */
@@ -1451,6 +1471,37 @@
     html += isImg ? imgGallery(media) : videoGallery(media);
     openInfoPanel(isImg ? "相关科普图文" : "相关科普视频", html);
   }
+  /* 要点目录点进来：同一个面板承载单条要点的详细信息。
+     记下所属节点与节点页滚动位置，返回时原路退回。 */
+  function openPointDetail(nodeId, idx) {
+    var n = NODE[nodeId];
+    if (!n || !n.details || !n.details[idx]) return;
+    var d = n.details[idx];
+    var panel = document.getElementById("panel");
+    detailBackScroll = panel ? panel.scrollTop : 0;
+    var html = '<div class="g-back-row">' +
+      '<button type="button" class="g-back" data-back-node="' + esc(n.id) + '">‹ 返回</button>' +
+      '<span class="g-back-title">' + esc(n.name) + '</span>' +
+      '</div>' + pointDetailHTML(d);
+    openInfoPanel(d.k || "要点", html);
+    detailNodeId = n.id;
+  }
+  function returnToNode(id) {
+    var n = NODE[id];
+    if (!n) return;
+    var y = detailBackScroll;
+    detailNodeId = null;
+    detailBackScroll = 0;
+    closeInfoMode();
+    state.selected = id;
+    renderPanel(n);
+    var panel = document.getElementById("panel");
+    if (panel) panel.classList.add("open");
+    document.body.classList.add("panel-open");
+    showScrim(isNarrow());
+    document.getElementById("suggest").style.display = "none";
+    if (y && panel) panel.scrollTop = y;
+  }
   /* 回到分类入口页：恢复入口页原来的滚动位置（图文 / 视频入口在页面底部） */
   function returnToGuide(id) {
     var y = infoBackScroll;
@@ -1461,7 +1512,13 @@
      返回 true 表示已回到入口页（面板仍打开）。 */
   function infoBackOneLevel() {
     var panel = document.getElementById("panel");
-    if (!infoParentGuide || !panel || !panel.classList.contains("open")) return false;
+    if (!panel || !panel.classList.contains("open")) return false;
+    /* 要点详情 → 先回节点页；图文 / 视频页 → 先回入口页 */
+    if (detailNodeId) {
+      returnToNode(detailNodeId);
+      return true;
+    }
+    if (!infoParentGuide) return false;
     returnToGuide(infoParentGuide);
     return true;
   }
@@ -2967,6 +3024,39 @@
     });
   }
 
+  /* 要点目录的一级标题：优先用数据里的 k；没有 k 就取 v 的前 30 字（去掉 ** 标记）。
+     详情页不再重复标题（面板头部就是它），只放具体做法 + 引文 + 出处。 */
+  function pointTitle(d, i) {
+    if (d && d.k) return d.k;
+    var s = String((d && d.v) || "").replace(/\*\*/g, "").replace(/\s+/g, " ");
+    if (s.length > 30) s = s.slice(0, 30) + "…";
+    return s || ("要点 " + (i + 1));
+  }
+  function pointDetailHTML(d) {
+    var srcName = "";
+    var srcId = d.src || "";
+    if (srcId && NODE[srcId]) srcName = NODE[srcId].name;
+    var quote = "";
+    if (d.quote) {
+      var isLong = d.quote.length > 320;
+      quote = '<div class="quote' + (isLong ? " long" : "") + '">' + esc(d.quote) + '</div>';
+      if (isLong) {
+        quote += '<span class="quoteToggle" data-toggle="1">展开全文（' +
+                 d.quote.length + ' 字）</span>';
+      }
+    }
+    /* 客户实践要点没有文献出处 ⇒ 不给「出处」链接，明写「客户做法 · 文献待核」 */
+    var srcBtn = "";
+    if (srcId === CLIENT_SRC) {
+      srcBtn = '<span class="src client">出处：客户提供的临床做法 · 文献待核</span>';
+    } else if (srcId && NODE[srcId]) {
+      srcBtn = '<span class="src" data-id="' + esc(srcId) + '">出处：' + esc(srcName) + ' ›</span>';
+    }
+    return '<div class="pt pt-detail">' +
+      '<div class="pt-v">' + mdBold(d.v || "") + '</div>' +
+      quote + srcBtn + '</div>';
+  }
+
   function renderPanel(n) {
     var t = typeOf(n);
     document.getElementById("p-name").textContent = n.name || "";
@@ -3001,38 +3091,17 @@
     var body = document.getElementById("panel-body");
     var html = "";
 
-    /* --- 要点：这条知识**具体怎么做 / 具体是什么**（来自文献原文的逐条提取） ---
-       摘要只说「这是什么」，要点才说「怎么办、是多少、什么时候」——
-       每条都挂着自己的出处（可点回文献节点）。 */
+    /* --- 要点：先做成一级目录（客户 2026-11-26「检索出来的要点做成一级目录，
+       详细信息点进去查看」）—— 只列每条标题，点进去再看具体做法与文献原文。 */
     if (n.details && n.details.length) {
       html += '<div class="sec"><h3 class="sec-title">要点<span class="n">' + n.details.length + ' 条</span></h3>' +
-        '<div class="sec-hint">每条都来自文献原文 · 点出处可跳到该文献</div>' +
-        n.details.map(function (d) {
-          var srcName = "";
-          var srcId = d.src || "";
-          if (srcId && NODE[srcId]) srcName = NODE[srcId].name;
-          var quote = "";
-          if (d.quote) {
-            var isLong = d.quote.length > 320;
-            quote = '<div class="quote' + (isLong ? " long" : "") + '">' + esc(d.quote) + '</div>';
-            if (isLong) {
-              quote += '<span class="quoteToggle" data-toggle="1">展开全文（' +
-                       d.quote.length + ' 字）</span>';
-            }
-          }
-          /* 客户实践要点没有文献出处 ⇒ 不给「出处」链接（点了会跳到不存在的节点），
-             改成明写「客户做法 · 文献待核」—— 让读者知道这条**不是**文献支撑的。 */
-          var srcBtn;
-          if (srcId === CLIENT_SRC) {
-            srcBtn = '<span class="src client">出处：客户提供的临床做法 · 文献待核</span>';
-          } else if (srcId && NODE[srcId]) {
-            srcBtn = '<span class="src" data-id="' + esc(srcId) + '">出处：' + esc(srcName) + ' ›</span>';
-          }
-          return '<div class="pt">' +
-            '<div class="pt-k">' + esc(d.k || "") + '</div>' +
-            '<div class="pt-v">' + mdBold(d.v || "") + '</div>' +
-            quote + srcBtn + '</div>';
-        }).join("") + '</div>';
+        '<div class="sec-hint">点每一条查看具体做法与文献原文</div>' +
+        '<div class="pt-dir">' +
+        n.details.map(function (d, i) {
+          return '<button type="button" class="pt-row" data-pt="' + i + '">' +
+            '<span class="pt-row-k">' + esc(pointTitle(d, i)) + '</span>' +
+            '<span class="pt-row-arrow">›</span></button>';
+        }).join("") + '</div></div>';
     }
 
     /* --- 属性 --- */
@@ -3106,6 +3175,11 @@
     var panelEl = document.getElementById("panel");
     if (panelEl) panelEl.scrollTop = 0;
     body.scrollTop = 0;
+    body.querySelectorAll(".pt-row").forEach(function (el) {
+      el.addEventListener("click", function () {
+        openPointDetail(n.id, parseInt(el.getAttribute("data-pt"), 10));
+      });
+    });
     body.querySelectorAll(".obj").forEach(function (el) {
       el.addEventListener("click", function () { pick(el.dataset.id); });
     });
@@ -3181,6 +3255,8 @@
   function pick(id, opts) {
     var n = NODE[id];
     if (!n) return;
+    detailNodeId = null;
+    detailBackScroll = 0;
     /* 从「按情况查看 / 图文视频」切到节点详情：恢复头部按钮，别把节点卡也藏了 */
     closeInfoMode();
     revealNode(id);                    /* 检索命中的节点可能还没展开出来 —— 先放上画布 */
@@ -3456,6 +3532,12 @@
   /* 详情面板里的「返回 / 图文视频 / 相关知识」——
      内容由 openGuide / openMedia 动态写入，用事件委托绑在容器上。 */
   document.getElementById("panel-body").addEventListener("click", function (ev) {
+    var backNode = ev.target.closest("[data-back-node]");
+    if (backNode) {
+      ev.preventDefault();
+      returnToNode(backNode.getAttribute("data-back-node"));
+      return;
+    }
     var back = ev.target.closest("[data-back-guide]");
     if (back) {
       ev.preventDefault();
@@ -3472,6 +3554,23 @@
     if (open) {
       ev.preventDefault();
       pick(open.getAttribute("data-open"));
+      return;
+    }
+    /* 要点详情里的「出处：XXX ›」与长引文展开（节点页有各自的事件，详情页走委托） */
+    var srcLink = ev.target.closest(".src[data-id]");
+    if (srcLink) {
+      ev.preventDefault();
+      pick(srcLink.getAttribute("data-id"));
+      return;
+    }
+    var qt = ev.target.closest(".quoteToggle");
+    if (qt) {
+      ev.preventDefault();
+      var q = qt.parentNode.querySelector(".quote");
+      if (q) {
+        var expanded = q.classList.toggle("long") === false;
+        qt.textContent = expanded ? "收起" : ("展开全文（" + (q.textContent || "").length + " 字）");
+      }
       return;
     }
   });
