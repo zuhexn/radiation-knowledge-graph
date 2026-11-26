@@ -613,10 +613,16 @@
   }
   .g-entry:active{transform:translateY(1px);}
   .g-entry .g-arrow{margin-left:auto;flex-shrink:0;font-size:22px;line-height:1;color:var(--accent-2);font-weight:400;}
+  /* 返回入口：客户 2026-11-26「加粗 / 有色框，不然人家不知道点那个返回」——
+     做成明确的按钮，不再是一条容易被忽略的文字链接。 */
   .g-back{
-    display:inline-flex;align-items:center;gap:4px;background:none;border:none;
-    padding:0 0 12px;font-family:inherit;font-size:15px;color:var(--accent-2);cursor:pointer;
+    display:inline-flex;align-items:center;gap:5px;
+    margin:0 0 14px;padding:8px 14px;
+    background:var(--panel-2);border:1.5px solid var(--accent-2);border-radius:10px;
+    font-family:inherit;font-size:15px;font-weight:700;color:var(--accent-2);
+    cursor:pointer;-webkit-tap-highlight-color:transparent;
   }
+  .g-back:active{transform:translateY(1px);}
   .triage-lead{font-size:16px;color:var(--text);line-height:1.6;margin:0 0 8px;}
 
   /* ---------- 节点「要点」（来自文献原文的逐条提取） ---------- */
@@ -1359,9 +1365,16 @@
 
   /* 同一个面板承载三种内容：按情况知识 / 图文 / 视频。
      info-mode 把节点详情那套头部按钮藏起来，只留标题和关闭。 */
+  /* 从分类入口打开的图文 / 视频页记下入口 id + 入口页滚动位置：
+     点 × / 点遮罩关闭时先退回入口页（回到离开时的位置），
+     再关一次才退出面板 —— 客户 2026-11-26 反馈「一次退两级」。 */
+  var infoParentGuide = null;
+  var infoBackScroll = 0;
   function closeInfoMode() {
     var panel = document.getElementById("panel");
     if (panel) panel.classList.remove("info-mode");
+    infoParentGuide = null;
+    infoBackScroll = 0;
   }
   function openInfoPanel(title, html) {
     var panel = document.getElementById("panel");
@@ -1381,6 +1394,8 @@
   function openGuide(id) {
     var g = guideById(id);
     if (!g) return;
+    infoParentGuide = null;
+    infoBackScroll = 0;
     var blocks = guideBlocks(id);
     var media = collectGuideMedia(blocks);
     var key = "guide:" + id;
@@ -1414,16 +1429,31 @@
     var media = MEDIA_REG[key];
     if (!media) return;
     var isImg = (kind === "img");
+    var g = media.guide ? guideById(media.guide) : null;
+    /* 记住从哪个入口点进来、入口页当时滚到哪里 —— 关闭时原路退回 */
+    infoParentGuide = g ? g.id : null;
+    infoBackScroll = document.getElementById("panel").scrollTop;
     var html = "";
-    if (media.guide) {
-      var g = guideById(media.guide);
-      if (g) {
-        html += '<button type="button" class="g-back" data-back-guide="' + esc(g.id) + '">' +
-          '‹ 返回 ' + esc(g.title) + '</button>';
-      }
+    if (g) {
+      html += '<button type="button" class="g-back" data-back-guide="' + esc(g.id) + '">' +
+        '‹ 返回 ' + esc(g.title) + '</button>';
     }
     html += isImg ? imgGallery(media) : videoGallery(media);
     openInfoPanel(isImg ? "相关科普图文" : "相关科普视频", html);
+  }
+  /* 回到分类入口页：恢复入口页原来的滚动位置（图文 / 视频入口在页面底部） */
+  function returnToGuide(id) {
+    var y = infoBackScroll;
+    openGuide(id);
+    if (y) document.getElementById("panel").scrollTop = y;
+  }
+  /* 关闭面板前先退一层：当前若是科普图文 / 视频页，先回入口页。
+     返回 true 表示已回到入口页（面板仍打开）。 */
+  function infoBackOneLevel() {
+    var panel = document.getElementById("panel");
+    if (!infoParentGuide || !panel || !panel.classList.contains("open")) return false;
+    returnToGuide(infoParentGuide);
+    return true;
   }
 
   /* ============ 列表视图（卡片流为主 · 画布降级为可选的一层） ============ */
@@ -3419,7 +3449,7 @@
     var back = ev.target.closest("[data-back-guide]");
     if (back) {
       ev.preventDefault();
-      openGuide(back.getAttribute("data-back-guide"));
+      returnToGuide(back.getAttribute("data-back-guide"));
       return;
     }
     var media = ev.target.closest("[data-media]");
@@ -3436,6 +3466,8 @@
     }
   });
   document.getElementById("panel-close").addEventListener("click", function () {
+    /* 科普图文 / 视频页的 × = 返回入口页；入口页的 × 才退出面板 */
+    if (infoBackOneLevel()) return;
     closeInfoMode();
     document.getElementById("panel").classList.remove("open");
     document.getElementById("scrim").classList.remove("show");
@@ -3472,6 +3504,9 @@
   document.getElementById("scrim").addEventListener("click", function () {
     /* 触摸抬起后的合成 click 不算「点外部关闭」—— 见 showScrim 上方注释 */
     if (Date.now() - scrimArmedAt < 400) return;
+    /* 图例开着时点遮罩 = 关图例；否则科普页先退回入口页，再关一次才退出 */
+    var legendOpen = document.getElementById("legend").classList.contains("open");
+    if (!legendOpen && infoBackOneLevel()) return;
     closeInfoMode();
     document.getElementById("legend").classList.remove("open");
     document.getElementById("btnLegend").classList.remove("on");
