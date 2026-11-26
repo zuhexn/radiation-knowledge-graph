@@ -401,6 +401,11 @@
   #viewGraph{position:absolute;top:0;left:0;right:0;bottom:0;visibility:hidden;pointer-events:none;}
   #viewGraph.on{visibility:visible;pointer-events:auto;}
 
+  /* 红框置顶后，导语/免责声明下沉到患者内容之后（2026-11-26）。
+     只在「有 guides」的页面由 JS 把 #lgIntro 移到 #lgUrgent 后面，
+     所以相邻选择器刚好只在那种页面生效；没有 guides 的项目维持原顺序。 */
+  #lgUrgent + #lgIntro{margin-top:22px;}
+  #lgUrgent{display:flex;flex-direction:column;gap:10px;}
   .lg-lead{font-size:15.5px;line-height:1.8;color:#2a2a2a;margin:0 0 8px;}
   .lg-disc{
     font-size:14.5px;line-height:1.7;color:#6e6e6e;margin:0 0 4px;
@@ -534,36 +539,11 @@
   /* 须知是**正常流程**，不是急症 ⇒ 不用红色的「!」 */
   .lg-urgent.aftercare .lg-uh{color:#1d6b46;}
   .lg-urgent.aftercare .lg-uh::before{content:"✓";background:#2f7a5b;}
-  /* 第二个板块：恶心呕吐的安抚（2026-11-06 客户要求）
-     样式**与另外两块一致**（客户原话：「而且样式和他俩一致」）——
-     ⇒ 用**绿卡（须知）那一套**：它属于「照着做 / 别担心」类内容，不是危险告警。
-        页面上于是只有两种卡片：绿 = 须知与安抚，红 = 危险告警（颜色只有一个含义，
-        病人一眼能分清「哪张要照做，哪张要马上叫人」）。
-  /* 第二个板块：恶心呕吐的安抚（2026-11-06 客户要求）
-     样式**与另外两块一致**（客户原话：「而且样式和他俩一致」）——
-     ⇒ 用**绿卡（须知）那一套**：它属于「照着做 / 别担心」类内容，不是危险告警。
-        页面上于是只有两种卡片：绿 = 须知与安抚，红 = 危险告警（颜色只有一个含义，
-        病人一眼能分清「哪张要照做，哪张要马上叫人」）。
-  /* 第二个板块：恶心呕吐的安抚（2026-11-06 客户要求）
-     样式**与另外两块一致**（客户原话：「而且样式和他俩一致」）——
-     ⇒ 用**绿卡（须知）那一套**：它属于「照着做 / 别担心」类内容，不是危险告警。
-        页面上于是只有两种卡片：绿 = 须知与安抚，红 = 危险告警（颜色只有一个含义，
-        病人一眼能分清「哪张要照做，哪张要马上叫人」）。
-  /* 第二个板块：恶心呕吐的安抚（2026-11-06 客户要求）
-     样式**与另外两块一致**（客户原话：「而且样式和他俩一致」）——
-     ⇒ 用**绿卡（须知）那一套**：它属于「照着做 / 别担心」类内容，不是危险告警。
-        页面上于是只有两种卡片：绿 = 须知与安抚，红 = 危险告警（颜色只有一个含义，
-        病人一眼能分清「哪张要照做，哪张要马上叫人」）。
-  /* 第二个板块：恶心呕吐的安抚（2026-11-06 客户要求）
-     样式**与另外两块一致**（客户原话：「而且样式和他俩一致」）——
-     ⇒ 用**绿卡（须知）那一套**：它属于「照着做 / 别担心」类内容，不是危险告警。
-        页面上于是只有两种卡片：绿 = 须知与安抚，红 = 危险告警（颜色只有一个含义，
-        病人一眼能分清「哪张要照做，哪张要马上叫人」）。
-  /* 第二个板块：恶心呕吐的安抚（2026-11-06 客户要求）
-     样式**与另外两块一致**（客户原话：「而且样式和他俩一致」）——
-     ⇒ 用**绿卡（须知）那一套**：它属于「照着做 / 别担心」类内容，不是危险告警。
-        页面上于是只有两种卡片：绿 = 须知与安抚，红 = 危险告警（颜色只有一个含义，
-        病人一眼能分清「哪张要照做，哪张要马上叫人」）。
+  /* 第二个板块（2026-11-06 客户要求）：恶心呕吐的安抚 ——
+     位置在「做完增强检查后，请这样做」与「如果您有以下症状」之间。
+     样式与另外两块一致（客户原话：「而且样式和他俩一致」）——
+     ⇒ 用**绿卡（须知）那一套**：它属于「照着做 / 别担心」类内容，不是危险告警；
+     颜色只有一个含义：绿 = 须知与安抚，红 = 危险告警。 */
   .ac-list{display:flex;flex-direction:column;gap:9px;}
   .ac-item{
     border:1px solid var(--line);border-radius:11px;background:var(--panel);
@@ -587,6 +567,56 @@
   .ac-video video{display:block;width:100%;height:auto;background:var(--panel);}
   .ac-video-cap{display:block;font-size:13.5px;line-height:1.5;color:var(--text-dim);padding:7px 9px;}
   .ac-video-note{font-size:13.5px;line-height:1.5;color:var(--text-dim);margin-top:2px;}
+
+  /* ---------- 按情况查看（患者层入口 · 2026-11-26 客户要求） ----------
+     内容不直接摆在外面：先给一行可点开的入口，右侧带箭头；点开后在
+     同一个详情面板里看知识、相关知识和图文/视频入口。 */
+  .u-item.static{cursor:default;background:var(--panel);}
+  .u-item.static:active{border-color:var(--line);transform:none;}
+  .g-list{display:flex;flex-direction:column;gap:8px;margin:0 0 6px;}
+  .g-item{
+    display:flex;align-items:center;gap:10px;width:100%;text-align:left;
+    background:var(--panel);border:1px solid #e0a49a;border-radius:11px;
+    padding:13px 12px;font-family:inherit;font-size:16px;font-weight:600;
+    color:#8c2a1d;line-height:1.45;cursor:pointer;
+    -webkit-tap-highlight-color:transparent;transition:.15s;
+  }
+  .g-item:active{background:var(--panel-2);transform:translateY(1px);}
+  .g-item .g-arrow{margin-left:auto;flex-shrink:0;font-size:22px;line-height:1;color:#b03a26;font-weight:400;}
+
+  /* 详情面板里的「按情况查看」内容 */
+  #panel.info-mode #p-crumbs,
+  #panel.info-mode #p-meta,
+  #panel.info-mode #p-summary,
+  #panel.info-mode .p-actions,
+  #panel.info-mode #pEgo{display:none;}
+  #panel.info-mode #panel-head{padding-bottom:0;}
+  #panel.info-mode #p-name{margin-bottom:0;}
+  #panel.info-mode .ac-imgs{grid-template-columns:1fr;}
+  .g-block{
+    border:1px solid var(--line);border-radius:11px;background:var(--panel);
+    padding:11px 12px;margin:0 0 9px;display:flex;flex-direction:column;gap:5px;
+  }
+  .g-block.urgent{border-left:3px solid #c0392b;}
+  .g-related{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 4px;padding-top:12px;border-top:1px solid var(--line);}
+  .g-label{flex:0 0 100%;font-size:14px;font-weight:700;color:var(--text-dim);letter-spacing:.5px;margin:0 0 2px;}
+  .g-related .u-link{
+    display:inline-block;padding:5px 9px;border:1px solid var(--line);
+    border-radius:999px;background:var(--panel-2);
+  }
+  .g-media{display:flex;flex-direction:column;gap:8px;margin:14px 0 0;}
+  .g-entry{
+    display:flex;align-items:center;gap:10px;width:100%;text-align:left;
+    background:var(--panel-2);border:1px solid var(--line);border-radius:11px;
+    padding:13px 12px;font-family:inherit;font-size:16px;font-weight:600;
+    color:var(--text);cursor:pointer;-webkit-tap-highlight-color:transparent;transition:.15s;
+  }
+  .g-entry:active{transform:translateY(1px);}
+  .g-entry .g-arrow{margin-left:auto;flex-shrink:0;font-size:22px;line-height:1;color:var(--accent-2);font-weight:400;}
+  .g-back{
+    display:inline-flex;align-items:center;gap:4px;background:none;border:none;
+    padding:0 0 12px;font-family:inherit;font-size:15px;color:var(--accent-2);cursor:pointer;
+  }
   .triage-lead{font-size:16px;color:var(--text);line-height:1.6;margin:0 0 8px;}
 
   /* ---------- 节点「要点」（来自文献原文的逐条提取） ---------- */
@@ -1255,6 +1285,147 @@
     return html;
   }
 
+  /* ============ 按情况查看（患者层 · 2026-11-26 客户要求） ============
+     数据里的 guides 只给「情况 → 标题」；具体知识仍挂在原来的 urgent /
+     advice 条目上（同一条事实只维护一处），这里只做视图聚合：
+       点入口 → 面板显示这一类知识 + 相关知识 + 图文/视频入口
+       点图文/视频入口 → 同一个面板里看大图 / 播放视频
+     ⛔ 不在 data 里复制一份知识正文，避免两处说法漂移。 */
+  var MEDIA_REG = {};          /* key → {imgs, videos, imgNote, videoNote, guide} */
+
+  function guideById(id) {
+    var gs = (PG && PG.guides) || [];
+    for (var i = 0; i < gs.length; i++) {
+      if (gs[i] && gs[i].id === id) return gs[i];
+    }
+    return null;
+  }
+  function guideBlocks(id) {
+    var out = [];
+    ((PG && PG.advice) || []).forEach(function (a) {
+      if (a && a.guide === id) out.push({ kind: "advice", data: a });
+    });
+    ((PG && PG.urgent) || []).forEach(function (u) {
+      if (u && u.guide === id) out.push({ kind: "urgent", data: u });
+    });
+    return out;
+  }
+  function collectGuideMedia(blocks) {
+    var imgs = [], vids = [], imgNotes = [], videoNotes = [];
+    (blocks || []).forEach(function (b) {
+      var a = b.data || {};
+      (a.imgs || []).forEach(function (im) { if (im && im.src) imgs.push(im); });
+      (a.videos || []).forEach(function (v) { if (v && v.src) vids.push(v); });
+      if (a.imgNote) imgNotes.push(a.imgNote);
+      if (a.videoNote) videoNotes.push(a.videoNote);
+    });
+    function uniqBySrc(list) {
+      var seen = {}, out = [];
+      list.forEach(function (x) {
+        if (!seen[x.src]) { seen[x.src] = 1; out.push(x); }
+      });
+      return out;
+    }
+    function uniqText(list) {
+      var seen = {}, out = [];
+      list.forEach(function (x) {
+        if (!seen[x]) { seen[x] = 1; out.push(x); }
+      });
+      return out;
+    }
+    return {
+      imgs: uniqBySrc(imgs),
+      videos: uniqBySrc(vids),
+      imgNote: uniqText(imgNotes).join(" "),
+      videoNote: uniqText(videoNotes).join(" ")
+    };
+  }
+  /* 图文 / 视频入口：一行「相关科普图文 ›」——内容不直接铺在页面上 */
+  function mediaEntries(key, media) {
+    var imgs = (media && media.imgs) || [];
+    var vids = (media && media.videos) || [];
+    if (!imgs.length && !vids.length) return "";
+    var html = "";
+    if (imgs.length) {
+      html += '<button type="button" class="g-entry" data-media="' + esc(key) + '" data-kind="img">' +
+        '<span>相关科普图文</span><span class="g-arrow">›</span></button>';
+    }
+    if (vids.length) {
+      html += '<button type="button" class="g-entry" data-media="' + esc(key) + '" data-kind="vid">' +
+        '<span>相关科普视频</span><span class="g-arrow">›</span></button>';
+    }
+    return '<div class="g-media">' + html + '</div>';
+  }
+
+  /* 同一个面板承载三种内容：按情况知识 / 图文 / 视频。
+     info-mode 把节点详情那套头部按钮藏起来，只留标题和关闭。 */
+  function closeInfoMode() {
+    var panel = document.getElementById("panel");
+    if (panel) panel.classList.remove("info-mode");
+  }
+  function openInfoPanel(title, html) {
+    var panel = document.getElementById("panel");
+    if (!panel) return;
+    panel.classList.add("info-mode");
+    document.getElementById("p-crumbs").innerHTML = "";
+    document.getElementById("p-name").textContent = title || "";
+    document.getElementById("p-meta").innerHTML = "";
+    document.getElementById("p-summary").innerHTML = "";
+    document.getElementById("panel-body").innerHTML = html || "";
+    panel.classList.add("open");
+    document.body.classList.add("panel-open");
+    showScrim(isNarrow());
+    document.getElementById("suggest").style.display = "none";
+    panel.scrollTop = 0;
+  }
+  function openGuide(id) {
+    var g = guideById(id);
+    if (!g) return;
+    var blocks = guideBlocks(id);
+    var media = collectGuideMedia(blocks);
+    var key = "guide:" + id;
+    media.guide = id;
+    MEDIA_REG[key] = media;
+
+    var html = "";
+    blocks.forEach(function (b) {
+      var a = b.data || {};
+      html += '<div class="g-block' + (b.kind === "urgent" ? " urgent" : "") + '">' +
+        '<div class="ac-plain">' + mdBold(a.plain) + '</div>' +
+        (a.action ? '<div class="ac-act">' + mdBold(a.action) + '</div>' : '') +
+        '</div>';
+    });
+    /* 相关知识：同一节点只列一次（孕妇的备孕与怀孕两条都挂 PP_Pregnancy） */
+    var seen = {}, links = [];
+    blocks.forEach(function (b) {
+      var n = NODE[(b.data || {}).nodeId];
+      if (n && !seen[n.id]) { seen[n.id] = 1; links.push(n); }
+    });
+    if (links.length) {
+      html += '<div class="g-related"><div class="g-label">相关知识</div>' +
+        links.map(function (n) {
+          return '<span class="u-link" data-open="' + esc(n.id) + '">' + esc(n.name) + ' ›</span>';
+        }).join("") + '</div>';
+    }
+    html += mediaEntries(key, media);
+    openInfoPanel(g.title, html);
+  }
+  function openMedia(key, kind) {
+    var media = MEDIA_REG[key];
+    if (!media) return;
+    var isImg = (kind === "img");
+    var html = "";
+    if (media.guide) {
+      var g = guideById(media.guide);
+      if (g) {
+        html += '<button type="button" class="g-back" data-back-guide="' + esc(g.id) + '">' +
+          '‹ 返回 ' + esc(g.title) + '</button>';
+      }
+    }
+    html += isImg ? imgGallery(media) : videoGallery(media);
+    openInfoPanel(isImg ? "相关科普图文" : "相关科普视频", html);
+  }
+
   /* ============ 列表视图（卡片流为主 · 画布降级为可选的一层） ============ */
   var lgIntro   = document.getElementById("lgIntro");
   var lgUrgent  = document.getElementById("lgUrgent");
@@ -1465,6 +1636,19 @@
     renderTriageBox((PG && PG.extrav) || [], "extravResult");
   }
   lgUrgent.addEventListener("click", function (ev) {
+    /* 按情况查看入口 / 图文视频入口（2026-11-26） */
+    var guide = ev.target.closest("[data-guide]");
+    if (guide) {
+      ev.preventDefault();
+      openGuide(guide.getAttribute("data-guide"));
+      return;
+    }
+    var media = ev.target.closest("[data-media]");
+    if (media) {
+      ev.preventDefault();
+      openMedia(media.getAttribute("data-media"), media.getAttribute("data-kind"));
+      return;
+    }
     var open = ev.target.closest("[data-open]");
     if (open) {
       ev.preventDefault(); ev.stopPropagation();
@@ -1511,25 +1695,79 @@
         + '查看三元组表（全部关联关系逐条列出）→</a>';
     }
 
-    /* 就医警示 —— 患者第一屏走「分诊」：逐条点选 → 直接给行动。
-       静态列表只回答「有哪些危险」，分诊回答「我现在该怎么」。 */
+    /* 就医警示 —— 有 guides 的项目（2026-11-26 客户要求）：
+       红框放最上面，第一条保留，其余情况收进四个可点开的入口；
+       知识正文仍挂在原 urgent / advice 条目上，不在数据里复制。
+       没有 guides 的项目维持原分诊逻辑（逐条点选 → 直接给行动）。 */
     var urgent = (PG && PG.urgent) || [];
+    var guides = (PG && PG.guides) || [];
+    var guideMode = guides.length > 0;
+    /* 红框置顶（2026-11-26 客户要求）：有 guides 的页面把红框所在的
+       #lgUrgent 提到导语之前，导语/免责声明下沉到患者内容之后。
+       没有 guides 的项目保持「导语 → 须知」的原顺序。 */
+    var lgInner = document.getElementById("lgInner");
+    if (lgInner && lgIntro && lgUrgent) {
+      if (guideMode) {
+        if (lgIntro.nextElementSibling === lgUrgent) {
+          lgInner.insertBefore(lgIntro, lgUrgent.nextSibling);
+        }
+      } else if (lgUrgent.nextElementSibling === lgIntro) {
+        lgInner.insertBefore(lgIntro, lgUrgent);
+      }
+    }
+    function visible(list) {
+      return guideMode ? list.filter(function (a) { return !a.guide; }) : list;
+    }
+    /* 图文 / 视频：guideMode 下不直接铺在卡片里，改成带箭头的入口。
+       入口的媒体登记在 MEDIA_REG，点开后在同一个详情面板里看。 */
+    function mediaBlock(a, key) {
+      if (!guideMode) return videoGallery(a) + imgGallery(a);
+      var imgs = (a && a.imgs) || [], vids = (a && a.videos) || [];
+      if (!imgs.length && !vids.length) return "";
+      MEDIA_REG[key] = {
+        imgs: imgs, videos: vids,
+        imgNote: (a && a.imgNote) || "", videoNote: (a && a.videoNote) || ""
+      };
+      return mediaEntries(key, MEDIA_REG[key]);
+    }
+    function guideBoxHTML() {
+      var top = urgent.filter(function (u) { return !u.guide; });
+      if (!top.length && !guides.length) return "";
+      var html = '<div class="lg-urgent guide-box"><h3 class="lg-uh">' +
+        esc((PG && PG.urgentTitle) || "这些情况，做检查前一定要告诉医生") + '</h3>';
+      html += top.map(function (u, ui) {
+        var num = NUM_CIRCLED[ui] || (ui + 1);
+        return '<div class="u-item static"><span class="u-body">' +
+          '<span class="u-plain"><span class="u-num">' + num + '</span>' + mdBold(u.plain) + '</span>' +
+          '<span class="u-act">' + mdBold(u.action) + '</span>' +
+          '</span></div>';
+      }).join("");
+      /* 顶部只留「第一条 + 四个入口」：不再放「按情况查看：是什么情况，就点哪一种」
+         这类重复说明，也不在顶部挂「相关知识」链接 —— 按客户 2026-11-26 红圈
+         标注，相关知识收进对应子条目（在子条目面板里给）。 */
+      if (guides.length) {
+        html += '<div class="g-list">' + guides.map(function (g) {
+          return '<button type="button" class="g-item" data-guide="' + esc(g.id) + '">' +
+            '<span>' + esc(g.title) + '</span><span class="g-arrow">›</span></button>';
+        }).join("") + '</div>';
+      }
+      return html + '</div>';
+    }
     /* 检查中的配合（可选板块）：吸气、屏气等检查过程中的配合要点。
        键名 prep / prepTitle 来自患者层数据文件（数据自带，不是代码写死的），
        排在检查后须知之前 —— 患者实际经历的顺序就是「检查中 → 检查后」。 */
-    var prep = (PG && PG.prep) || [];
-    var htmlU = "";
+    var prep = visible((PG && PG.prep) || []);
+    var htmlU = guideMode ? guideBoxHTML() : "";
     if (prep.length) {
       htmlU +=
         '<div class="lg-urgent aftercare"><h3 class="lg-uh">' +
         esc((PG && PG.prepTitle) || "做检查时，请这样配合") + '</h3>' +
-        '<div class="ac-list">' + prep.map(function (a) {
+        '<div class="ac-list">' + prep.map(function (a, ai) {
           var n = NODE[a.nodeId];
           return '<div class="ac-item">' +
             '<div class="ac-plain">' + mdBold(a.plain) + '</div>' +
             (a.action ? '<div class="ac-act">' + mdBold(a.action) + '</div>' : '') +
-            videoGallery(a) +
-            imgGallery(a) +
+            mediaBlock(a, "prep:" + ai) +
             (n ? '<span class="u-link" data-open="' + esc(n.id) + '">相关知识：' + esc(n.name) + ' ›</span>' : '') +
             '</div>';
         }).join("") + '</div></div>';
@@ -1537,18 +1775,17 @@
     /* 检查后须知（正常流程）—— 客户口径的三段式：
        ① 做完检查后该怎样（留观多久、什么时候拔针）→ ② 留观期间可以做的（多喝水）
        → ③ 出现这些症状怎么办（分诊）。这是患者扫码后真正要照着做的事。 */
-    var after = (PG && PG.aftercare) || [];
+    var after = visible((PG && PG.aftercare) || []);
     if (after.length) {
       htmlU +=
         '<div class="lg-urgent aftercare"><h3 class="lg-uh">' +
         esc((PG && PG.aftercareTitle) || "做完检查后，请这样做") + '</h3>' +
-        '<div class="ac-list">' + after.map(function (a) {
+        '<div class="ac-list">' + after.map(function (a, ai) {
           var n = NODE[a.nodeId];
           return '<div class="ac-item">' +
             '<div class="ac-plain">' + mdBold(a.plain) + '</div>' +
             (a.action ? '<div class="ac-act">' + mdBold(a.action) + '</div>' : '') +
-            videoGallery(a) +
-            imgGallery(a) +
+            mediaBlock(a, "after:" + ai) +
             (n ? '<span class="u-link" data-open="' + esc(n.id) + '">相关知识：' + esc(n.name) + ' ›</span>' : '') +
             '</div>';
         }).join("") + '</div></div>';
@@ -1556,19 +1793,18 @@
     /* 第二个板块（2026-11-06 客户要求）：恶心呕吐的安抚 ——
        位置在「做完增强检查后，请这样做」与「如果您有以下症状」之间。
        键名 advice / adviceTitle 来自患者层数据文件（数据自带，不是代码写死的）。 */
-    var advice = (PG && PG.advice) || [];
+    var advice = visible((PG && PG.advice) || []);
     if (advice.length) {
       htmlU +=
         /* class 与绿卡相同（aftercare）—— 客户要求「样式和他俩一致」⇒ 用同一套样式 */
         '<div class="lg-urgent aftercare"><h3 class="lg-uh">' +
         esc((PG && PG.adviceTitle) || "如果您有恶心、呕吐") + '</h3>' +
-        '<div class="ac-list">' + advice.map(function (a) {
+        '<div class="ac-list">' + advice.map(function (a, ai) {
           var n = NODE[a.nodeId];
           return '<div class="ac-item">' +
             '<div class="ac-plain">' + mdBold(a.plain) + '</div>' +
             (a.action ? '<div class="ac-act">' + mdBold(a.action) + '</div>' : '') +
-            videoGallery(a) +
-            imgGallery(a) +
+            mediaBlock(a, "advice:" + ai) +
             (n ? '<span class="u-link" data-open="' + esc(n.id) + '">相关知识：' + esc(n.name) + ' ›</span>' : '') +
             '</div>';
         }).join("") + '</div></div>';
@@ -1601,16 +1837,18 @@
         '</div>';
     }
     var extrav = (PG && PG.extrav) || [];
-    htmlU += triageBox(urgent, (PG && PG.urgentTitle) || "出现这些情况，请及时就医",
-                        "逐条点选符合你现在的情况；如果都没有，点下面的「这些都没有」。",
-                        "triageResult", "triageNone", "triage");
+    if (!guideMode) {
+      htmlU += triageBox(urgent, (PG && PG.urgentTitle) || "出现这些情况，请及时就医",
+                          "逐条点选符合你现在的情况；如果都没有，点下面的「这些都没有」。",
+                          "triageResult", "triageNone", "triage");
+    }
     if (extrav.length) {
       htmlU += triageBox(extrav, (PG && PG.extravTitle) || "造影剂外渗的处理",
                           "逐条点选符合你现在的情况；如果都没有，点下面的「这些都没有」。",
                           "extravResult", "extravNone", "triage extrav");
     }
     lgUrgent.innerHTML = htmlU;
-    if (urgent.length) renderTriageResult();
+    if (!guideMode && urgent.length) renderTriageResult();
     if (extrav.length) renderExtravResult();
 
     /* 知识框架树 —— 论文的骨架：一级框架 → 二级框架 → 条目。
@@ -2901,6 +3139,8 @@
   function pick(id, opts) {
     var n = NODE[id];
     if (!n) return;
+    /* 从「按情况查看 / 图文视频」切到节点详情：恢复头部按钮，别把节点卡也藏了 */
+    closeInfoMode();
     revealNode(id);                    /* 检索命中的节点可能还没展开出来 —— 先放上画布 */
     /* 邻域模式下点开一个被截掉的邻居 → 临时放进这一圈，让它在图上看得见 */
     if (state.ego && state.egoSet && !state.egoSet[id]) {
@@ -3171,7 +3411,30 @@
     if (state.selected) enterEgo(state.selected);
   });
   document.getElementById("egoExit").addEventListener("click", function () { exitEgo(); });
+  /* 详情面板里的「返回 / 图文视频 / 相关知识」——
+     内容由 openGuide / openMedia 动态写入，用事件委托绑在容器上。 */
+  document.getElementById("panel-body").addEventListener("click", function (ev) {
+    var back = ev.target.closest("[data-back-guide]");
+    if (back) {
+      ev.preventDefault();
+      openGuide(back.getAttribute("data-back-guide"));
+      return;
+    }
+    var media = ev.target.closest("[data-media]");
+    if (media) {
+      ev.preventDefault();
+      openMedia(media.getAttribute("data-media"), media.getAttribute("data-kind"));
+      return;
+    }
+    var open = ev.target.closest("[data-open]");
+    if (open) {
+      ev.preventDefault();
+      pick(open.getAttribute("data-open"));
+      return;
+    }
+  });
   document.getElementById("panel-close").addEventListener("click", function () {
+    closeInfoMode();
     document.getElementById("panel").classList.remove("open");
     document.getElementById("scrim").classList.remove("show");
     document.body.classList.remove("panel-open");
@@ -3207,6 +3470,7 @@
   document.getElementById("scrim").addEventListener("click", function () {
     /* 触摸抬起后的合成 click 不算「点外部关闭」—— 见 showScrim 上方注释 */
     if (Date.now() - scrimArmedAt < 400) return;
+    closeInfoMode();
     document.getElementById("legend").classList.remove("open");
     document.getElementById("btnLegend").classList.remove("on");
     document.getElementById("panel").classList.remove("open");
