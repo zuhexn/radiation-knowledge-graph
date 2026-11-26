@@ -1087,9 +1087,109 @@ def write_triples_js(csv_path, dst_path, type_labels=None, stats=None):
 #    —— 这一条从机制上保证「患者层不会出现没有出处的医学断言」。
 
 PATIENT_REQUIRED_FIELDS = ("intro", "disclaimer")
+PATIENT_VIDEO_EXTS = (".mp4", ".webm", ".ogv", ".m4v")
 
 
-def check_patient_data(pdata, data, topic_key):
+def _check_patient_images(pdata, assets_dir):
+    """校验患者层插图（可选件 imgs）—— 返回问题清单（空 = 通过）
+
+    判据 P6：每张插图必须有 src，且文件真实存在于图谱 JSON 旁边的 assets/ 下。
+    ⛔ 只认 assets/ 内的相对路径 —— 患者层是公开站，不许引外链或逃出目录。
+    """
+    problems = []
+    for sec in ("aftercare", "advice", "urgent", "extrav"):
+        entries = pdata.get(sec) or []
+        if not isinstance(entries, list):
+            continue
+        for i, u in enumerate(entries, 1):
+            if not isinstance(u, dict):
+                continue
+            imgs = u.get("imgs") or []
+            if not isinstance(imgs, list):
+                problems.append("P6 %s 第 %d 条的 imgs 不是数组" % (sec, i))
+                continue
+            for j, im in enumerate(imgs, 1):
+                if not isinstance(im, dict):
+                    problems.append("P6 %s 第 %d 条插图 %d 不是一个对象" % (sec, i, j))
+                    continue
+                src = str(im.get("src") or "").strip()
+                if not src:
+                    problems.append("P6 %s 第 %d 条插图 %d 缺 src" % (sec, i, j))
+                    continue
+                norm = src.replace("\\", "/")
+                parts = norm.split("/")
+                if norm.startswith("/") or ".." in parts or ":" in parts[0]:
+                    problems.append("P6 %s 第 %d 条插图 %d 的 src 必须是 assets/ 下的相对路径：%r"
+                                    % (sec, i, j, src))
+                    continue
+                if parts[0] != "assets" or len(parts) < 2:
+                    problems.append("P6 %s 第 %d 条插图 %d 的 src 必须以 assets/ 开头：%r"
+                                    % (sec, i, j, src))
+                    continue
+                if not assets_dir:
+                    problems.append("P6 %s 第 %d 条插图 %d 找不到 assets 目录（应在图谱 JSON 旁边）：%r"
+                                    % (sec, i, j, src))
+                    continue
+                if not os.path.isfile(os.path.join(assets_dir, *parts[1:])):
+                    problems.append("P6 %s 第 %d 条插图 %d 的文件不存在：%r"
+                                    % (sec, i, j, src))
+    return problems
+
+
+def _check_patient_videos(pdata, assets_dir):
+    """校验患者层视频（可选件 videos）—— 返回问题清单（空 = 通过）
+
+    判据 P7：每个视频必须有 src，可选 poster；两者都必须是 assets/ 下的
+    相对路径且文件真实存在。⛔ 患者层是公开站：不许引外链或逃出目录。
+    ⛔ src 必须是网页可直接播放的格式（mp4/webm/ogv/m4v），否则线上打不开。
+    """
+    problems = []
+    for sec in ("aftercare", "advice", "urgent", "extrav"):
+        entries = pdata.get(sec) or []
+        if not isinstance(entries, list):
+            continue
+        for i, u in enumerate(entries, 1):
+            if not isinstance(u, dict):
+                continue
+            vids = u.get("videos") or []
+            if not isinstance(vids, list):
+                problems.append("P7 %s 第 %d 条的 videos 不是数组" % (sec, i))
+                continue
+            for j, v in enumerate(vids, 1):
+                if not isinstance(v, dict):
+                    problems.append("P7 %s 第 %d 条视频 %d 不是一个对象" % (sec, i, j))
+                    continue
+                for field, required in (("src", True), ("poster", False)):
+                    val = str(v.get(field) or "").strip()
+                    if not val:
+                        if required:
+                            problems.append("P7 %s 第 %d 条视频 %d 缺 src" % (sec, i, j))
+                        continue
+                    norm = val.replace("\\", "/")
+                    parts = norm.split("/")
+                    if norm.startswith("/") or ".." in parts or ":" in parts[0]:
+                        problems.append("P7 %s 第 %d 条视频 %d 的 %s 必须是 assets/ 下的相对路径：%r"
+                                        % (sec, i, j, field, val))
+                        continue
+                    if parts[0] != "assets" or len(parts) < 2:
+                        problems.append("P7 %s 第 %d 条视频 %d 的 %s 必须以 assets/ 开头：%r"
+                                        % (sec, i, j, field, val))
+                        continue
+                    if not assets_dir:
+                        problems.append("P7 %s 第 %d 条视频 %d 找不到 assets 目录（应在图谱 JSON 旁边）：%r"
+                                        % (sec, i, j, val))
+                        continue
+                    if not os.path.isfile(os.path.join(assets_dir, *parts[1:])):
+                        problems.append("P7 %s 第 %d 条视频 %d 的 %s 文件不存在：%r"
+                                        % (sec, i, j, field, val))
+                        continue
+                    if field == "src" and not norm.lower().endswith(PATIENT_VIDEO_EXTS):
+                        problems.append("P7 %s 第 %d 条视频 %d 的 src 不是网页可播格式（mp4/webm/ogv/m4v）：%r"
+                                        % (sec, i, j, val))
+    return problems
+
+
+def check_patient_data(pdata, data, topic_key, assets_dir=None):
     """校验患者层数据 —— 返回问题清单（空 = 通过）"""
     problems = []
     if not isinstance(pdata, dict):
@@ -1128,6 +1228,8 @@ def check_patient_data(pdata, data, topic_key):
         if not (nodes[nid].get("evidence") or []):
             problems.append("P4 urgent 第 %d 条（%s）对应的节点没有文献出处 —— "
                             "没有出处的医学断言不许出现在患者层" % (i, nid))
+    problems.extend(_check_patient_images(pdata, assets_dir))
+    problems.extend(_check_patient_videos(pdata, assets_dir))
     return problems
 
 
@@ -1275,7 +1377,9 @@ def build_one(topic_key, data, src_path, out_root, rep, terms_source, theme=None
                 pdata = json.load(f)
         except Exception as e:
             raise StructureGateError("患者层文件解析失败：%s（%s）" % (patient_src, e))
-        pproblems = check_patient_data(pdata, data, topic_key)
+        pproblems = check_patient_data(
+            pdata, data, topic_key,
+            assets_dir=os.path.join(os.path.dirname(os.path.abspath(src_path)), "assets"))
         if pproblems:
             raise StructureGateError(
                 "患者层校验不通过 —— **已中止构建**\n"
@@ -1293,6 +1397,19 @@ def build_one(topic_key, data, src_path, out_root, rep, terms_source, theme=None
     else:
         rep.add("附P", "患者层校验（就医警示挂在有出处的节点上）", True,
                 "本题目没有 <topicKey>-patient.json —— 患者层不出现（页面用通用免责口径）")
+
+    # 3d-2 · 患者层插图（可选件）：图谱 JSON 旁边的 assets/ 随包带走
+    #        —— 患者层 imgs[].src 是相对页面根的路径（assets/...）；
+    #           不复制的话交付包（以及 file:// 直开）全是裂图。
+    #        ⛔ 每次重建先清空再复制：源里删掉的图不能在交付里留残。
+    assets_src = os.path.join(os.path.dirname(os.path.abspath(src_path)), "assets")
+    if os.path.isdir(assets_src):
+        assets_dst = os.path.join(out_dir, "assets")
+        if os.path.isdir(assets_dst):
+            shutil.rmtree(assets_dst)
+        shutil.copytree(assets_src, assets_dst)
+        n_assets = sum(len(fs) for _, _, fs in os.walk(assets_dst))
+        rep.add("附V", "患者层插图随包", True, "%d 个文件 → assets/" % n_assets)
 
     # 4 · 图形库
     copy_if_different(ECHARTS_SRC, os.path.join(lib_dir, "echarts.min.js"))
