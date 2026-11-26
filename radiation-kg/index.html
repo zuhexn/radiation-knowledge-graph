@@ -613,12 +613,13 @@
   }
   .g-entry:active{transform:translateY(1px);}
   .g-entry .g-arrow{margin-left:auto;flex-shrink:0;font-size:22px;line-height:1;color:var(--accent-2);font-weight:400;}
-  /* 返回入口：客户 2026-11-26「加粗 / 有色框，不然人家不知道点那个返回」——
-     做成明确的按钮，不再是一条容易被忽略的文字链接。 */
+  /* 返回入口：客户 2026-11-26「加粗 / 有色框，不然人家不知道点那个返回」，
+     随后又要求「返回再加一个框，好看、容易区分」——
+     做成**实心灰底 + 深色描边**的按钮（不只是描边），在白面板上一眼能认出是可点的框。 */
   .g-back{
     display:inline-flex;align-items:center;gap:5px;
-    margin:0 0 14px;padding:8px 14px;
-    background:var(--panel-2);border:1.5px solid var(--accent-2);border-radius:10px;
+    margin:0 0 14px;padding:9px 16px;
+    background:var(--line);border:1.5px solid var(--accent-2);border-radius:10px;
     font-family:inherit;font-size:15px;font-weight:700;color:var(--accent-2);
     cursor:pointer;-webkit-tap-highlight-color:transparent;
   }
