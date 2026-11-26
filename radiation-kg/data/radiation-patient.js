@@ -257,7 +257,7 @@ window.KG_PATIENT = {
       "guide": "adult"
     }
   ],
-  "urgentTitle": "这些情况，做检查前一定要告诉医生",
+  "urgentTitle": "检查前注意事项",
   "urgent": [
     {
       "nodeId": "PP_Pregnancy",

@@ -1735,10 +1735,12 @@
       if (!top.length && !guides.length) return "";
       var html = '<div class="lg-urgent guide-box"><h3 class="lg-uh">' +
         esc((PG && PG.urgentTitle) || "这些情况，做检查前一定要告诉医生") + '</h3>';
-      html += top.map(function (u, ui) {
-        var num = NUM_CIRCLED[ui] || (ui + 1);
+      html += top.map(function (u) {
+        /* 顶部不再带 ① 序号（客户 2026-11-26：「那个 1 不要」）——
+           红框里只有一条提醒 + 四个入口，不是编号清单；序号只在下方的
+           完整三分类列表里用。 */
         return '<div class="u-item static"><span class="u-body">' +
-          '<span class="u-plain"><span class="u-num">' + num + '</span>' + mdBold(u.plain) + '</span>' +
+          '<span class="u-plain">' + mdBold(u.plain) + '</span>' +
           '<span class="u-act">' + mdBold(u.action) + '</span>' +
           '</span></div>';
       }).join("");
