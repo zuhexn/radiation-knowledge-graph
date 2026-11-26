@@ -613,17 +613,23 @@
   }
   .g-entry:active{transform:translateY(1px);}
   .g-entry .g-arrow{margin-left:auto;flex-shrink:0;font-size:22px;line-height:1;color:var(--accent-2);font-weight:400;}
-  /* 返回入口：客户 2026-11-26「加粗 / 有色框，不然人家不知道点那个返回」，
-     随后又要求「返回再加一个框，好看、容易区分」——
-     做成**实心灰底 + 深色描边**的按钮（不只是描边），在白面板上一眼能认出是可点的框。 */
+  /* 返回入口：客户 2026-11-26「返回那两个字再加一个特殊的」——
+     「‹ 返回」自己做成**实心深色按钮**；入口标题单独放一个浅框，
+     两者并排但**不在同一个框里**（客户明确要求分开）。 */
+  .g-back-row{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:0 0 14px;}
   .g-back{
-    display:inline-flex;align-items:center;gap:5px;
-    margin:0 0 14px;padding:9px 16px;
-    background:var(--line);border:1.5px solid var(--accent-2);border-radius:10px;
-    font-family:inherit;font-size:15px;font-weight:700;color:var(--accent-2);
+    display:inline-flex;align-items:center;gap:5px;flex-shrink:0;
+    padding:9px 16px;
+    background:var(--accent-2);border:1.5px solid var(--accent-2);border-radius:10px;
+    font-family:inherit;font-size:15px;font-weight:700;color:#fff;
     cursor:pointer;-webkit-tap-highlight-color:transparent;
   }
   .g-back:active{transform:translateY(1px);}
+  .g-back-title{
+    display:inline-block;padding:7px 12px;
+    background:var(--panel-2);border:1px solid var(--line);border-radius:10px;
+    font-size:14px;font-weight:600;color:var(--text-dim);line-height:1.4;
+  }
   .triage-lead{font-size:16px;color:var(--text);line-height:1.6;margin:0 0 8px;}
 
   /* ---------- 节点「要点」（来自文献原文的逐条提取） ---------- */
@@ -1436,8 +1442,11 @@
     infoBackScroll = document.getElementById("panel").scrollTop;
     var html = "";
     if (g) {
-      html += '<button type="button" class="g-back" data-back-guide="' + esc(g.id) + '">' +
-        '‹ 返回 ' + esc(g.title) + '</button>';
+      /* 「‹ 返回」是独立按钮；入口标题单独一个框，不和返回同框 */
+      html += '<div class="g-back-row">' +
+        '<button type="button" class="g-back" data-back-guide="' + esc(g.id) + '">‹ 返回</button>' +
+        '<span class="g-back-title">' + esc(g.title) + '</span>' +
+        '</div>';
     }
     html += isImg ? imgGallery(media) : videoGallery(media);
     openInfoPanel(isImg ? "相关科普图文" : "相关科普视频", html);
